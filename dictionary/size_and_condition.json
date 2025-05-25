@@ -1,0 +1,14 @@
+[
+  { "slovak": "stiesnený", "english": "cramped" },
+  { "slovak": "plne vybavený", "english": "equipped" },
+  { "slovak": "plne zariadený", "english": "furnished" },
+  { "slovak": "v dobrom stave", "english": "in good condition" },
+  { "slovak": "v zlom stave", "english": "in bad condition" },
+  { "slovak": "čiastočne zariadený", "english": "part-furnished" },
+  { "slovak": "priestorný", "english": "roomy" },
+  { "slovak": "schátralý", "english": "run-down" },
+  { "slovak": "malý", "english": "tiny" },
+  { "slovak": "nezariadený", "english": "unfurnished" },
+  { "slovak": "dobre udržiavaný", "english": "well maintained" },
+  { "slovak": "s plným komfortom", "english": "with all modern conveniences" }
+]

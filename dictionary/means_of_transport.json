@@ -1,0 +1,22 @@
+[
+  { "slovak": "lietadlo", "english": "aeroplane" },
+  { "slovak": "bicykel", "english": "bicycle" },
+  { "slovak": "loď", "english": "boat" },
+  { "slovak": "autobus", "english": "bus" },
+  { "slovak": "auto", "english": "car" },
+  { "slovak": "autobus (diaľkový)", "english": "coach" },
+  { "slovak": "poschodový autobus", "english": "double-decker" },
+  { "slovak": "trajekt", "english": "ferry" },
+  { "slovak": "zaoceánsky parník", "english": "liner" },
+  { "slovak": "nákladný automobil", "english": "lorry" },
+  { "slovak": "minibus", "english": "minibus" },
+  { "slovak": "motorka", "english": "motorbike" },
+  { "slovak": "motocykel", "english": "motorcycle" },
+  { "slovak": "pešo", "english": "on foot" },
+  { "slovak": "taxi", "english": "taxi" },
+  { "slovak": "vlak", "english": "train" },
+  { "slovak": "londýnske metro", "english": "tube" },
+  { "slovak": "metro", "english": "underground" },
+  { "slovak": "dodávka", "english": "van" },
+  { "slovak": "jachta", "english": "yacht" }
+]

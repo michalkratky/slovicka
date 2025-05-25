@@ -1,0 +1,10 @@
+[
+  { "slovak": "rozvedený", "english": "divorced" },
+  { "slovak": "rodinný stav", "english": "marital status" },
+  { "slovak": "ženatý", "english": "married" },
+  { "slovak": "oddelený", "english": "separated" },
+  { "slovak": "slobodný", "english": "single" },
+  { "slovak": "nevydatá", "english": "unmarried" },
+  { "slovak": "vdova", "english": "widow" },
+  { "slovak": "vdovec", "english": "widower" }
+]

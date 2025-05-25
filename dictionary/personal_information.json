@@ -1,0 +1,19 @@
+[
+  { "slovak": "vek", "english": "age" },
+  { "slovak": "občan", "english": "citizen" },
+  { "slovak": "občianstvo", "english": "citizenship" },
+  { "slovak": "dátum narodenia", "english": "date of birth" },
+  { "slovak": "žena", "english": "female" },
+  { "slovak": "pohlavie", "english": "gender" },
+  { "slovak": "zamestnanie", "english": "job" },
+  { "slovak": "zamestnanie", "english": "occupation" },
+  { "slovak": "muž", "english": "male" },
+  { "slovak": "muž", "english": "man" },
+  { "slovak": "národnosť", "english": "nationality" },
+  { "slovak": "ľudia", "english": "people" },
+  { "slovak": "osoba", "english": "person" },
+  { "slovak": "miesto narodenia", "english": "place of birth" },
+  { "slovak": "profesia", "english": "profession" },
+  { "slovak": "pohlavie", "english": "sex" },
+  { "slovak": "žena", "english": "woman" }
+]

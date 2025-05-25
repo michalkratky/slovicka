@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Učenie slovíčok</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.3.4/vue.global.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div id="app">
+
+    <div class="navigation">
+        <button @click="currentView = 'practice'" v-bind:class="{ active: currentView == 'practice' }">Cvičenie</button>
+        <button @click="currentView = 'settings'" v-bind:class="{ active: currentView == 'settings' }">Skupiny</button>
+        <button @click="currentView = 'direction'" v-bind:class="{ active: currentView == 'direction' }">Nastavenia</button>
+        <button @click="currentView = 'stats'" v-bind:class="{ active: currentView == 'stats' }">Štatistiky</button>
+    </div>
+
+    <div class="content">
+
+        <div v-if="loadingWords">
+            <p>Prosím čakaj, kým sa načítajú slová...</p>
+        </div>
+
+        <div v-else-if="loadError">
+            <h2>Error loading dictionary</h2>
+            <p>{{ loadError }}</p>
+        </div>
+
+        <div v-else-if="currentView == 'practice'" class="practice-view">
+            <div v-if="currentWord" class="current-word">
+                <div class="word-container">
+                    <h4>Prelož toto slovo:</h4>
+                    <h1>{{ currentWord.question }}</h1>
+                </div>
+
+                <div class="translate-container">
+                    <div class="translate-form">
+
+                        <input
+                                ref="translationInput"
+                                v-model="userInput"
+                                @keyup.enter="checkAnswer"
+                                placeholder="Zadaj preklad"
+                                class="word-input"
+                        >
+
+                        <button @click="checkAnswer" v-bind:disabled="!userInput.trim()" class="word-submit">
+                            <svg id="fi_9312239" enable-background="new 0 0 512 512" fill="white" viewBox="0 0 512 512" width="32" xmlns="http://www.w3.org/2000/svg">
+                                <g>
+                                    <g>
+                                        <path d="m398.5 281h-298c-13.81 0-25-11.19-25-25s11.19-25 25-25h298c13.81 0 25 11.19 25 25s-11.19 25-25 25z"></path>
+                                    </g>
+                                    <g>
+                                        <path d="m284.01 399.25c-6.71 0-13.41-2.69-18.34-8-9.39-10.12-8.79-25.94 1.33-35.33l107.47-99.67-110.72-99.94c-10.25-9.25-11.06-25.06-1.81-35.31s25.06-11.06 35.31-1.81l131 118.25c5.21 4.7 8.2 11.37 8.25 18.39s-2.85 13.73-8 18.5l-127.5 118.25c-4.81 4.46-10.91 6.67-16.99 6.67z"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <div v-if="lastResult">
+                        <p v-if="lastResult.correct" style="color: green;">✓ Správne! {{ lastResult.question }} = <strong>{{ lastResult.answer }}</strong></p>
+                        <p v-else style="color: red;">✗ Nesprávne - {{ lastResult.question }} = <strong>{{ lastResult.correctAnswer }}</strong></p>
+                    </div>
+                    <div v-else class="placeholder-text">
+                        <p>Napíš Tvoju odpoveď a stlač <em>Enter</em></p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div v-else>
+                <p>Žiadne slová nie sú dostupné. Zapni nejaké skupiny slov v nastaveniach.</p>
+            </div>
+
+            <div>
+                <h4>{{ sessionStats.correct }} správne, {{ sessionStats.incorrect }} nesprávne</h4>
+            </div>
+        </div>
+
+        <div v-if="currentView == 'direction'">
+            <h2>Smer prekladu</h2>
+            <div>
+                <label>
+                    <input
+                            type="checkbox"
+                            v-model="translationDirections.slovakToEnglish"
+                            @change="onDirectionChange"
+                    >
+                    Slovenčina → Angličtina
+                </label>
+            </div>
+            <div>
+                <label>
+                    <input
+                            type="checkbox"
+                            v-model="translationDirections.englishToSlovak"
+                            @change="onDirectionChange"
+                    >
+                    Angličtina → Slovenčina
+                </label>
+            </div>
+        </div>
+
+        <div v-if="currentView == 'settings'">
+            <h2>Skupiny slov</h2>
+            <div v-for="(group, key) in wordGroups" v-bind:key="key">
+                <label>
+                    <input
+                            type="checkbox"
+                            v-model="group.enabled"
+                            @change="onGroupToggle"
+                    >
+                    {{ group.name }} ({{ group.words.length }} words)
+                </label>
+            </div>
+        </div>
+
+        <div v-if="currentView == 'stats'">
+            <h2>Štatistiky</h2>
+            <div v-for="(stats, word) in wordStats" v-bind:key="word">
+                <div v-if="stats.correct > 0 || stats.incorrect > 0">
+                    <strong>{{ word.split('-')[0] }} → {{ word.split('-')[1] }}</strong>
+                    <br>
+                    Správne: {{ stats.correct }}, Nesprávne: {{ stats.incorrect }}
+                    <br>
+                    Úspešnosť: {{ getSuccessRate(stats) }}%
+                    <hr>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="src/app.js"></script>
+<link rel="stylesheet" href="src/styles.css">
+
+</body>
+</html>

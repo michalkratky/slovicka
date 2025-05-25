@@ -1,0 +1,13 @@
+[
+  { "slovak": "prestávka", "english": "break" },
+  { "slovak": "prázdniny", "english": "holidays" },
+  { "slovak": "trieda", "english": "class" },
+  { "slovak": "hodina samostatného štúdia", "english": "free period" },
+  { "slovak": "hodina", "english": "lesson" },
+  { "slovak": "obedňajšia prestávka", "english": "lunch break" },
+  { "slovak": "semester", "english": "semester" },
+  { "slovak": "polrok", "english": "term" },
+  { "slovak": "rozvrh hodín", "english": "timetable" },
+  { "slovak": "zvoní o 3 hodine", "english": "the bell goes at" },
+  { "slovak": "škola sa končí", "english": "school breaks up on" }
+]

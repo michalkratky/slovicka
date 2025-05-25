@@ -1,0 +1,19 @@
+[
+  { "slovak": "internátne ubytovanie", "english": "boarding" },
+  { "slovak": "koedukovaná škola", "english": "co-educational" },
+  { "slovak": "britská stredná škola", "english": "college" },
+  { "slovak": "všeobecná stredná škola", "english": "comprehensive" },
+  { "slovak": "základný", "english": "elementary" },
+  { "slovak": "gymnázium", "english": "grammar school" },
+  { "slovak": "nezávislý", "english": "independent" },
+  { "slovak": "zmiešaný", "english": "mixed" },
+  { "slovak": "základný", "english": "primary" },
+  { "slovak": "súkromný", "english": "private" },
+  { "slovak": "súkromná stredná škola", "english": "public school" },
+  { "slovak": "stredná škola", "english": "secondary school" },
+  { "slovak": "len pre jedno pohlavie", "english": "single-sex" },
+  { "slovak": "štátna škola", "english": "state school" },
+  { "slovak": "odborný", "english": "technical" },
+  { "slovak": "univerzita", "english": "university" },
+  { "slovak": "týkajúci sa povolania", "english": "vocational" }
+]

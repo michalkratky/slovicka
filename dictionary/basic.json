@@ -1,0 +1,10 @@
+[
+  { "slovak": "dom", "english": "house" },
+  { "slovak": "auto", "english": "car" },
+  { "slovak": "voda", "english": "water" },
+  { "slovak": "jedlo", "english": "food" },
+  { "slovak": "škola", "english": "school" },
+  { "slovak": "práca", "english": "work" },
+  { "slovak": "rodina", "english": "family" },
+  { "slovak": "priateľ", "english": "friend" }
+]

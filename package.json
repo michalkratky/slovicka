@@ -1,0 +1,17 @@
+{
+  "name": "slovak-english-learning-app",
+  "version": "1.0.0",
+  "description": "A Slovak to English learning application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {},
+  "keywords": ["learning", "language", "slovak", "english"],
+  "author": "Your Name",
+  "license": "MIT"
+}

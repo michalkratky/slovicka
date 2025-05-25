@@ -1,0 +1,19 @@
+[
+  { "slovak": "vták", "english": "bird" },
+  { "slovak": "rasa", "english": "breed" },
+  { "slovak": "mäsožravec", "english": "carnivore" },
+  { "slovak": "domáce zviera", "english": "domestic animal" },
+  { "slovak": "vyhynutý", "english": "extinct" },
+  { "slovak": "vyhynutie", "english": "extinction" },
+  { "slovak": "poľnohospodárske zviera", "english": "farm animal" },
+  { "slovak": "živiť sa", "english": "feed on" },
+  { "slovak": "ryba", "english": "fish" },
+  { "slovak": "bylinožravec", "english": "herbivore" },
+  { "slovak": "črieda", "english": "herd" },
+  { "slovak": "hmyz", "english": "insect" },
+  { "slovak": "cicavec", "english": "mammal" },
+  { "slovak": "predátor", "english": "predator" },
+  { "slovak": "korisť", "english": "prey" },
+  { "slovak": "plaz", "english": "reptile" },
+  { "slovak": "druh", "english": "species" }
+]

@@ -1,0 +1,16 @@
+[
+  { "slovak": "vrece", "english": "bag" },
+  { "slovak": "fľaša", "english": "bottle" },
+  { "slovak": "dóza", "english": "box" },
+  { "slovak": "plechovka", "english": "can" },
+  { "slovak": "papierová taška", "english": "carrier bag" },
+  { "slovak": "krabica", "english": "carton" },
+  { "slovak": "pohár", "english": "jar" },
+  { "slovak": "bochník chleba", "english": "loaf of bread" },
+  { "slovak": "balíček", "english": "packet" },
+  { "slovak": "konzerva", "english": "tin" },
+  { "slovak": "téglik", "english": "tub" },
+  { "slovak": "kilá", "english": "kilos" },
+  { "slovak": "gramov", "english": "grams" },
+  { "slovak": "liter", "english": "litre" }
+]
