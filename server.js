@@ -1,8 +1,12 @@
 // server.js - Complete Express server with enhanced database integration
+// Load environment variables first
+require('dotenv').config();
+
 const express = require('express');
 const path = require('path');
 const DatabaseService = require('./database/database');
 const { normalizeText } = require('./utils');
+const openai = require('./services/openai-service');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -67,14 +71,91 @@ app.post('/api/check-answer', async (req, res) => {
         const normalizedCorrectAnswers = correctAnswers.map(answer => normalizeText(answer));
         const isCorrect = normalizedCorrectAnswers.includes(normalizedUserAnswer);
 
+        // If answer is not correct based on exact match, we'll send back a flag
+        // indicating client should ask the user if they want to validate with AI
+        const needsValidation = !isCorrect;
+
         res.json({
             correct: isCorrect,
             correctAnswers: correctAnswers,
-            userAnswer: userAnswer
+            userAnswer: userAnswer,
+            needsValidation: needsValidation
         });
     } catch (error) {
         console.error('Error checking answer:', error.message);
         res.status(500).json({ error: 'Failed to check answer' });
+    }
+});
+
+// Endpoint to validate translation with AI and optionally add as synonym
+app.post('/api/validate-translation', async (req, res) => {
+    try {
+        const { wordId, userAnswer, targetLanguage } = req.body;
+
+        if (!wordId || !userAnswer || !targetLanguage) {
+            return res.status(400).json({ error: 'Missing required fields: wordId, userAnswer, targetLanguage' });
+        }
+
+        // Get word details for context
+        const sourceLang = targetLanguage === 'slovak' ? 'english' : 'slovak';
+        
+        // Query to get the word in both languages
+        const query = `
+            SELECT slovak, english
+            FROM words
+            WHERE id = ?
+        `;
+        
+        const word = await new Promise((resolve, reject) => {
+            db.db.get(query, [wordId], (err, row) => {
+                if (err) reject(err);
+                else resolve(row);
+            });
+        });
+
+        if (!word) {
+            return res.status(404).json({ error: 'Word not found' });
+        }
+
+        // Get existing synonyms for context
+        const existingSynonyms = await db.getSynonyms(parseInt(wordId), targetLanguage);
+        
+        // Get the source word and correct translation
+        const sourceWord = sourceLang === 'slovak' ? word.slovak : word.english;
+        const correctTranslation = targetLanguage === 'slovak' ? word.slovak : word.english;
+
+        // Validate translation with OpenAI
+        const validation = await openai.validateTranslation(
+            sourceWord,
+            targetLanguage,
+            correctTranslation, 
+            userAnswer,
+            existingSynonyms
+        );
+
+        // If OpenAI confirms this is a valid translation, add it as a synonym
+        if (validation.isValid && validation.confidence >= 0.7) {
+            await db.addSynonym(parseInt(wordId), targetLanguage, userAnswer);
+            
+            // Return updated list of correct answers
+            const updatedAnswers = await db.getCorrectAnswers(parseInt(wordId), targetLanguage);
+            
+            res.json({
+                valid: true,
+                addedAsSynonym: true,
+                explanation: validation.explanation,
+                correctAnswers: updatedAnswers
+            });
+        } else {
+            res.json({
+                valid: false,
+                addedAsSynonym: false,
+                explanation: validation.explanation
+            });
+        }
+    } catch (error) {
+        console.error('Error validating translation:', error.message);
+        res.status(500).json({ error: 'Failed to validate translation' });
     }
 });
 

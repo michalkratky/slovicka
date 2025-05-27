@@ -21,7 +21,11 @@ createApp({
             loadError: null,
             apiError: null,
             sessionStartTime: Date.now(),
-            lastAnswerTime: Date.now()
+            lastAnswerTime: Date.now(),
+            validationInProgress: false,
+            validationResult: null,
+            showValidationModal: false,
+            validationExplanation: ''
         }
     },
 
@@ -409,6 +413,7 @@ createApp({
             let correctAnswers = [this.currentWord.answer];
             const timeTaken = Date.now() - this.lastAnswerTime;
             let recordedInDatabase = false;
+            this.showValidationModal = false;
 
             // If word has an ID (from database), use API to check with synonyms
             if (this.currentWord.id) {
@@ -429,6 +434,24 @@ createApp({
                         const result = await response.json();
                         isCorrect = result.correct;
                         correctAnswers = result.correctAnswers;
+
+                        // If the answer is not correct but could be validated
+                        if (!isCorrect && result.needsValidation) {
+                            // Store this state to show validation option to user
+                            this.lastResult = {
+                                correct: false,
+                                question: this.currentWord.question,
+                                answer: userAnswer,
+                                correctAnswer: this.getDisplayAnswer(correctAnswers),
+                                needsValidation: true,
+                                wordId: this.currentWord.id,
+                                targetLanguage: this.currentWord.targetLanguage
+                            };
+                            this.validationInProgress = false;
+                            this.validationResult = null;
+                            this.showValidationModal = true;
+                            return;
+                        }
 
                         // Record the answer in the database (this updates session stats too)
                         recordedInDatabase = await this.recordAnswer(this.currentWord.id, this.currentWord.direction, isCorrect, timeTaken);
@@ -461,7 +484,8 @@ createApp({
                 correct: isCorrect,
                 question: this.currentWord.question,
                 answer: userAnswer,
-                correctAnswer: this.getDisplayAnswer(correctAnswers)
+                correctAnswer: this.getDisplayAnswer(correctAnswers),
+                needsValidation: false
             };
 
             // Only update local stats if not recorded in database (to avoid double counting)
@@ -482,7 +506,9 @@ createApp({
             }
             // Note: If recorded in database, session stats are already updated by loadSessionStats() call in recordAnswer()
 
-            await this.nextWord();
+            if (!this.lastResult?.needsValidation) {
+                await this.nextWord();
+            }
         },
 
         async recordAnswer(wordId, direction, isCorrect, timeTaken) {
@@ -621,9 +647,93 @@ createApp({
                     throw new Error(error.error || 'Failed to add word');
                 }
             } catch (error) {
-                console.error('Error adding word:', error.message);
+                console.error('Error deleting word:', error.message);
                 throw error;
             }
+        },
+
+        /**
+         * Validate a translation with AI and potentially add it as a synonym
+         */
+        async validateTranslation() {
+            if (!this.lastResult || !this.lastResult.needsValidation) return;
+            
+            try {
+                this.validationInProgress = true;
+                
+                const response = await fetch('/api/validate-translation', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        wordId: this.lastResult.wordId,
+                        userAnswer: this.lastResult.answer,
+                        targetLanguage: this.lastResult.targetLanguage
+                    })
+                });
+
+                if (response.ok) {
+                    const result = await response.json();
+                    this.validationResult = result;
+                    this.validationExplanation = result.explanation || '';
+                    
+                    if (result.valid) {
+                        // If AI considers this a valid answer, update the result
+                        this.lastResult.correct = true;
+                        this.lastResult.correctAnswer = this.getDisplayAnswer(result.correctAnswers || [this.lastResult.correctAnswer]);
+                        this.lastResult.needsValidation = false;
+                        
+                        // Update stats
+                        this.sessionStats.correct++;
+                        
+                        // Record the answer in the database
+                        await this.recordAnswer(
+                            this.lastResult.wordId, 
+                            this.currentWord.direction, 
+                            true, 
+                            0  // We don't have accurate time for this one
+                        );
+                    }
+                } else {
+                    const error = await response.json();
+                    console.error('Error validating translation:', error.error);
+                    this.validationResult = {
+                        valid: false,
+                        explanation: error.error || 'Failed to validate translation'
+                    };
+                }
+            } catch (error) {
+                console.error('Error validating translation:', error.message);
+                this.validationResult = {
+                    valid: false,
+                    explanation: error.message
+                };
+            } finally {
+                this.validationInProgress = false;
+            }
+        },
+        
+        /**
+         * Cancel validation and continue to next word
+         */
+        async skipValidation() {
+            if (this.lastResult) {
+                // Update stats for the incorrect answer
+                if (!this.lastResult.correct) {
+                    await this.recordAnswer(
+                        this.lastResult.wordId, 
+                        this.currentWord.direction, 
+                        false, 
+                        0  // We don't have accurate time for this one
+                    );
+                }
+                
+                this.lastResult.needsValidation = false;
+                this.showValidationModal = false;
+            }
+            
+            await this.nextWord();
         },
 
         async deleteWord(wordId) {

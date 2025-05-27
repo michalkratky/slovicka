@@ -122,6 +122,79 @@ class DatabaseService {
         });
     }
 
+    /**
+     * Get all synonyms for a word in a specific language
+     * @param {number} wordId - The ID of the word
+     * @param {string} language - The language of the synonyms ('slovak' or 'english')
+     * @returns {Promise<Array<string>>} List of synonyms
+     */
+    async getSynonyms(wordId, language) {
+        const query = `
+            SELECT synonym
+            FROM synonyms
+            WHERE word_id = ? AND language = ?
+        `;
+
+        return new Promise((resolve, reject) => {
+            this.db.all(query, [wordId, language], (err, rows) => {
+                if (err) {
+                    reject(err);
+                } else {
+                    const synonyms = rows.map(row => row.synonym);
+                    resolve(synonyms);
+                }
+            });
+        });
+    }
+
+    /**
+     * Add a new synonym for a word
+     * @param {number} wordId - The ID of the word
+     * @param {string} language - The language of the synonym ('slovak' or 'english')
+     * @param {string} synonym - The synonym to add
+     * @returns {Promise<boolean>} Success status
+     */
+    async addSynonym(wordId, language, synonym) {
+        // First check if this synonym already exists
+        const checkQuery = `
+            SELECT COUNT(*) as count
+            FROM synonyms
+            WHERE word_id = ? AND language = ? AND LOWER(synonym) = LOWER(?)
+        `;
+
+        return new Promise((resolve, reject) => {
+            this.db.get(checkQuery, [wordId, language, synonym], (err, row) => {
+                if (err) {
+                    reject(err);
+                    return;
+                }
+
+                // If synonym already exists, return success
+                if (row.count > 0) {
+                    console.log(`Synonym "${synonym}" already exists for word ${wordId}`);
+                    resolve(true);
+                    return;
+                }
+
+                // Add the new synonym
+                const insertQuery = `
+                    INSERT INTO synonyms (word_id, language, synonym)
+                    VALUES (?, ?, ?)
+                `;
+
+                this.db.run(insertQuery, [wordId, language, synonym.trim()], function(err) {
+                    if (err) {
+                        console.error('Error adding synonym:', err.message);
+                        reject(err);
+                    } else {
+                        console.log(`Added new synonym "${synonym}" for word ${wordId} in ${language}`);
+                        resolve(true);
+                    }
+                });
+            });
+        });
+    }
+
     // Add a new word with synonyms
     async addWord(slovak, english, category, synonyms = {}) {
         return new Promise((resolve, reject) => {

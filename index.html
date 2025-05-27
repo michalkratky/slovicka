@@ -69,6 +69,36 @@
                     <div v-else class="placeholder-text">
                         <p>Napíš Tvoju odpoveď a stlač <em>Enter</em></p>
                     </div>
+                    
+                    <!-- Validation Modal -->
+                    <div v-if="showValidationModal && lastResult && lastResult.needsValidation" class="validation-modal">
+                        <div class="validation-modal-content">
+                            <h3>Mohla by byť tvoja odpoveď správna?</h3>
+                            <p>Tvoja odpoveď <strong>"{{ lastResult.answer }}"</strong> sa nezhoduje s očakávanou odpoveďou <strong>"{{ lastResult.correctAnswer }}"</strong></p>
+                            <p>Myslíš si, že tvoja odpoveď by mohla byť prijateľným prekladom?</p>
+                            
+                            <div class="validation-buttons">
+                                <button @click="validateTranslation" :disabled="validationInProgress" class="validate-button">
+                                    <span v-if="!validationInProgress">Áno, overiť odpoveď</span>
+                                    <span v-else>Overujem...</span>
+                                </button>
+                                <button @click="skipValidation" :disabled="validationInProgress" class="skip-button">Nie, pokračovať</button>
+                            </div>
+                            
+                            <div v-if="validationResult" class="validation-result">
+                                <p v-if="validationResult.valid" style="color: green;">
+                                    ✓ Tvoja odpoveď je akceptovaná ako správna! Bola pridaná ako synonymum.
+                                </p>
+                                <p v-else style="color: red;">
+                                    ✗ Tvoja odpoveď nie je považovaná za správnu.
+                                </p>
+                                <p v-if="validationExplanation">
+                                    <strong>Vysvetlenie:</strong> {{ validationExplanation }}
+                                </p>
+                                <button @click="skipValidation" class="continue-button">Pokračovať</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
             </div>
@@ -138,6 +168,76 @@
 
 <script src="src/app.js"></script>
 <link rel="stylesheet" href="src/styles.css">
+
+<style>
+.validation-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.validation-modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.validation-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.validation-buttons button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.validate-button {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.validate-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.skip-button {
+    background-color: #f44336;
+    color: white;
+}
+
+.validation-result {
+    margin-top: 20px;
+    padding-top: 10px;
+    border-top: 1px solid #eee;
+}
+
+.continue-button {
+    background-color: #2196F3;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bold;
+}
+</style>
 
 </body>
 </html>

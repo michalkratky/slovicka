@@ -12,7 +12,9 @@
   },
   "dependencies": {
     "express": "^4.18.2",
-    "sqlite3": "^5.1.6"
+    "sqlite3": "^5.1.6",
+    "openai": "^4.0.0",
+    "dotenv": "^16.0.3"
   },
   "devDependencies": {},
   "keywords": ["learning", "language", "slovak", "english", "database", "synonyms"],
