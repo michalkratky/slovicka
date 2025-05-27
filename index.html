@@ -46,6 +46,7 @@
                                 @keyup.enter="checkAnswer"
                                 placeholder="Zadaj preklad"
                                 class="word-input"
+                                :disabled="showValidationModal"
                         >
 
                         <button @click="checkAnswer" v-bind:disabled="!userInput.trim()" class="word-submit">
@@ -71,18 +72,21 @@
                     </div>
                     
                     <!-- Validation Modal -->
-                    <div v-if="showValidationModal && lastResult && lastResult.needsValidation" class="validation-modal">
+                    <div v-if="showValidationModal && lastResult && lastResult.needsValidation" class="validation-modal" @keyup.enter="validateTranslation" @keyup.esc="skipValidation">
                         <div class="validation-modal-content">
+                            <!-- Hidden input to receive focus for keyboard events -->
+                            <input ref="validationInput" type="text" v-model="validationInput" class="hidden-input" @keyup.enter="validateTranslation" @keyup.esc="skipValidation" autofocus>
+                            
                             <h3>Mohla by byť tvoja odpoveď správna?</h3>
                             <p>Tvoja odpoveď <strong>"{{ lastResult.answer }}"</strong> sa nezhoduje s očakávanou odpoveďou <strong>"{{ lastResult.correctAnswer }}"</strong></p>
-                            <p>Myslíš si, že tvoja odpoveď by mohla byť prijateľným prekladom?</p>
+                            <p>Myslíš si, že tvoja odpoveď by mohla byť prijateľným prekladom? (Stlač <strong>Enter</strong> pre Áno, <strong>Esc</strong> pre Nie)</p>
                             
                             <div class="validation-buttons">
                                 <button @click="validateTranslation" :disabled="validationInProgress" class="validate-button">
-                                    <span v-if="!validationInProgress">Áno, overiť odpoveď</span>
+                                    <span v-if="!validationInProgress">Áno, overiť odpoveď (Enter)</span>
                                     <span v-else>Overujem...</span>
                                 </button>
-                                <button @click="skipValidation" :disabled="validationInProgress" class="skip-button">Nie, pokračovať</button>
+                                <button @click="skipValidation" :disabled="validationInProgress" class="skip-button">Nie, pokračovať (Esc)</button>
                             </div>
                             
                             <div v-if="validationResult" class="validation-result">
@@ -134,6 +138,22 @@
                     Angličtina → Slovenčina
                 </label>
             </div>
+            
+            <h2>AI Overovanie odpovedí</h2>
+            <div>
+                <label>
+                    <input
+                            type="checkbox"
+                            v-model="enableAIValidation"
+                            @change="onAIValidationChange"
+                    >
+                    Povoliť overovanie alternatívnych prekladov pomocou AI
+                </label>
+                <p class="setting-description">
+                    Keď je toto vypnuté, aplikácia nebude ponúkať možnosť overiť alternatívne preklady 
+                    pomocou umelej inteligencie.
+                </p>
+            </div>
         </div>
 
         <div v-if="currentView == 'settings'">
@@ -170,6 +190,13 @@
 <link rel="stylesheet" href="src/styles.css">
 
 <style>
+.setting-description {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+    margin-left: 24px;
+    max-width: 500px;
+}
 .validation-modal {
     position: fixed;
     top: 0;
@@ -190,6 +217,16 @@
     max-width: 500px;
     width: 100%;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.hidden-input {
+    position: absolute;
+    opacity: 0;
+    height: 0;
+    width: 0;
+    top: 0;
+    left: 0;
 }
 
 .validation-buttons {

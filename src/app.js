@@ -15,6 +15,7 @@ createApp({
                 slovakToEnglish: true,
                 englishToSlovak: false
             },
+            enableAIValidation: true,
             wordGroups: {},
             enabledGroups: {},
             loadingWords: true,
@@ -25,7 +26,8 @@ createApp({
             validationInProgress: false,
             validationResult: null,
             showValidationModal: false,
-            validationExplanation: ''
+            validationExplanation: '',
+            validationInput: ''
         }
     },
 
@@ -33,6 +35,9 @@ createApp({
         await this.loadUserPreferences();
         await this.loadWordGroups();
         await this.loadSessionStats();
+        
+        // Initialize AI validation preference if it's the first run
+        this.saveUserPreferences();
     },
 
     methods: {
@@ -41,10 +46,17 @@ createApp({
                 const response = await fetch('/api/preferences');
                 if (response.ok) {
                     const preferences = await response.json();
+                    console.log('Loaded preferences:', preferences);
 
                     // Load translation directions
                     if (preferences.translationDirections) {
                         this.translationDirections = preferences.translationDirections;
+                    }
+                    
+                    // Load AI validation setting
+                    if (preferences.enableAIValidation !== undefined) {
+                        this.enableAIValidation = preferences.enableAIValidation === true;
+                        console.log('AI validation set to:', this.enableAIValidation);
                     }
 
                     // Load enabled groups
@@ -72,6 +84,16 @@ createApp({
                     body: JSON.stringify({
                         key: 'translationDirections',
                         value: this.translationDirections
+                    })
+                });
+
+                // Save AI validation setting
+                await fetch('/api/preferences', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        key: 'enableAIValidation',
+                        value: this.enableAIValidation
                     })
                 });
 
@@ -133,6 +155,7 @@ createApp({
             const savedWordStats = localStorage.getItem('englishApp_wordStats');
             const savedSessionStats = localStorage.getItem('englishApp_sessionStats');
             const savedDirections = localStorage.getItem('englishApp_directions');
+            const savedAIValidation = localStorage.getItem('englishApp_enableAIValidation');
 
             if (savedWordStats) {
                 this.wordStats = JSON.parse(savedWordStats);
@@ -145,6 +168,15 @@ createApp({
             if (savedDirections) {
                 this.translationDirections = JSON.parse(savedDirections);
             }
+            
+            if (savedAIValidation) {
+                try {
+                    const value = JSON.parse(savedAIValidation);
+                    this.enableAIValidation = value === true;
+                } catch (e) {
+                    console.warn('Error parsing enableAIValidation from localStorage');
+                }
+            }
         },
 
         saveToStorage() {
@@ -155,6 +187,7 @@ createApp({
                 localStorage.setItem('englishApp_sessionStats', JSON.stringify(this.sessionStats));
             }
             localStorage.setItem('englishApp_directions', JSON.stringify(this.translationDirections));
+            localStorage.setItem('englishApp_enableAIValidation', JSON.stringify(this.enableAIValidation));
         },
 
         async loadWordGroups() {
@@ -407,13 +440,16 @@ createApp({
 
         async checkAnswer() {
             if (!this.userInput.trim()) return;
-
+            // Prevent running when validation modal is open
+            if (this.showValidationModal) return;
+            
             const userAnswer = this.userInput.trim();
             let isCorrect = false;
             let correctAnswers = [this.currentWord.answer];
             const timeTaken = Date.now() - this.lastAnswerTime;
             let recordedInDatabase = false;
             this.showValidationModal = false;
+            this.validationInput = '';
 
             // If word has an ID (from database), use API to check with synonyms
             if (this.currentWord.id) {
@@ -436,7 +472,7 @@ createApp({
                         correctAnswers = result.correctAnswers;
 
                         // If the answer is not correct but could be validated
-                        if (!isCorrect && result.needsValidation) {
+                        if (!isCorrect && result.needsValidation && this.enableAIValidation) {
                             // Store this state to show validation option to user
                             this.lastResult = {
                                 correct: false,
@@ -450,6 +486,12 @@ createApp({
                             this.validationInProgress = false;
                             this.validationResult = null;
                             this.showValidationModal = true;
+                            // Focus validation input on next tick
+                            this.$nextTick(() => {
+                                if (this.$refs.validationInput) {
+                                    this.$refs.validationInput.focus();
+                                }
+                            });
                             return;
                         }
 
@@ -572,6 +614,13 @@ createApp({
             await this.saveUserPreferences();
             await this.selectNextWord();
         },
+        
+        async onAIValidationChange() {
+            console.log('AI validation changed to:', this.enableAIValidation);
+            // Ensure the value is boolean
+            this.enableAIValidation = this.enableAIValidation === true;
+            await this.saveUserPreferences();
+        },
 
         async onGroupToggle() {
             const enabledWords = this.getEnabledWords();
@@ -658,6 +707,9 @@ createApp({
         async validateTranslation() {
             if (!this.lastResult || !this.lastResult.needsValidation) return;
             
+            // Prevent submitting multiple times
+            if (this.validationInProgress) return;
+            
             try {
                 this.validationInProgress = true;
                 
@@ -694,6 +746,10 @@ createApp({
                             true, 
                             0  // We don't have accurate time for this one
                         );
+                        
+                        // Close modal and proceed to next word
+                        this.showValidationModal = false;
+                        await this.nextWord();
                     }
                 } else {
                     const error = await response.json();
@@ -718,6 +774,9 @@ createApp({
          * Cancel validation and continue to next word
          */
         async skipValidation() {
+            // Don't allow skipping if validation is in progress
+            if (this.validationInProgress) return;
+            
             if (this.lastResult) {
                 // Update stats for the incorrect answer
                 if (!this.lastResult.correct) {
@@ -731,6 +790,7 @@ createApp({
                 
                 this.lastResult.needsValidation = false;
                 this.showValidationModal = false;
+                this.validationResult = null;
             }
             
             await this.nextWord();
