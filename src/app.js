@@ -388,6 +388,19 @@ createApp({
             }
         },
 
+        /**
+         * Normalizes text by removing diacritics and converting to lowercase
+         * @param {string} text - The text to normalize
+         * @return {string} - Normalized text
+         */
+        normalizeText(text) {
+            if (!text) return '';
+            // Convert to lowercase and trim
+            text = text.toLowerCase().trim();
+            // Remove diacritics (accent marks)
+            return text.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+        },
+
         async checkAnswer() {
             if (!this.userInput.trim()) return;
 
@@ -421,11 +434,11 @@ createApp({
                         recordedInDatabase = await this.recordAnswer(this.currentWord.id, this.currentWord.direction, isCorrect, timeTaken);
                     } else {
                         console.warn('API check failed, falling back to simple comparison');
-                        isCorrect = userAnswer.toLowerCase() === this.currentWord.answer.toLowerCase();
+                        isCorrect = this.normalizeText(userAnswer) === this.normalizeText(this.currentWord.answer);
                     }
                 } catch (error) {
                     console.warn('API check error, falling back to simple comparison:', error.message);
-                    isCorrect = userAnswer.toLowerCase() === this.currentWord.answer.toLowerCase();
+                    isCorrect = this.normalizeText(userAnswer) === this.normalizeText(this.currentWord.answer);
                 }
             } else {
                 // Fallback for JSON-based words - check synonyms if they exist
@@ -440,7 +453,7 @@ createApp({
 
                 correctAnswers = answers;
                 isCorrect = answers.some(answer =>
-                    answer.toLowerCase().trim() === userAnswer.toLowerCase().trim()
+                    this.normalizeText(answer) === this.normalizeText(userAnswer)
                 );
             }
 

@@ -2,6 +2,7 @@
 const express = require('express');
 const path = require('path');
 const DatabaseService = require('./database/database');
+const { normalizeText } = require('./utils');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -62,8 +63,9 @@ app.post('/api/check-answer', async (req, res) => {
         }
 
         const correctAnswers = await db.getCorrectAnswers(parseInt(wordId), targetLanguage);
-        const userAnswerLower = userAnswer.toLowerCase().trim();
-        const isCorrect = correctAnswers.includes(userAnswerLower);
+        const normalizedUserAnswer = normalizeText(userAnswer);
+        const normalizedCorrectAnswers = correctAnswers.map(answer => normalizeText(answer));
+        const isCorrect = normalizedCorrectAnswers.includes(normalizedUserAnswer);
 
         res.json({
             correct: isCorrect,

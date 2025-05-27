@@ -1,6 +1,7 @@
 // database/database.js
 const sqlite3 = require('sqlite3').verbose();
 const path = require('path');
+const { normalizeText } = require('../utils');
 
 class DatabaseService {
     constructor(dbPath = './database.db') {
@@ -105,9 +106,13 @@ class DatabaseService {
                     rows.forEach(row => {
                         if (row.main_answer) {
                             answers.add(row.main_answer.toLowerCase().trim());
+                            // Also add normalized version (without diacritics)
+                            answers.add(normalizeText(row.main_answer));
                         }
                         if (row.synonym) {
                             answers.add(row.synonym.toLowerCase().trim());
+                            // Also add normalized version (without diacritics)
+                            answers.add(normalizeText(row.synonym));
                         }
                     });
 
