@@ -27,7 +27,8 @@ createApp({
             validationResult: null,
             showValidationModal: false,
             validationExplanation: '',
-            validationInput: ''
+            validationInput: '',
+            validationHasResult: false
         }
     },
 
@@ -450,6 +451,9 @@ createApp({
             let recordedInDatabase = false;
             this.showValidationModal = false;
             this.validationInput = '';
+            this.validationResult = null;
+            this.validationExplanation = '';
+            this.validationHasResult = false;
 
             // If word has an ID (from database), use API to check with synonyms
             if (this.currentWord.id) {
@@ -704,6 +708,22 @@ createApp({
         /**
          * Validate a translation with AI and potentially add it as a synonym
          */
+        /**
+         * Handle Enter key in validation modal
+         * - If no validation result, start validation
+         * - If validation result exists, close modal and continue
+         */
+        handleEnterKey(event) {
+            // Prevent default to avoid form submission
+            event.preventDefault();
+            
+            if (this.validationResult || this.validationHasResult) {
+                this.skipValidation();
+            } else {
+                this.validateTranslation();
+            }
+        },
+        
         async validateTranslation() {
             if (!this.lastResult || !this.lastResult.needsValidation) return;
             
@@ -729,6 +749,7 @@ createApp({
                     const result = await response.json();
                     this.validationResult = result;
                     this.validationExplanation = result.explanation || '';
+                    this.validationHasResult = true;
                     
                     if (result.valid) {
                         // If AI considers this a valid answer, update the result
@@ -751,6 +772,13 @@ createApp({
                         this.showValidationModal = false;
                         await this.nextWord();
                     }
+                    
+                    // Refocus input after validation is complete (for keyboard navigation)
+                    this.$nextTick(() => {
+                        if (this.$refs.validationInput) {
+                            this.$refs.validationInput.focus();
+                        }
+                    });
                 } else {
                     const error = await response.json();
                     console.error('Error validating translation:', error.error);
@@ -778,8 +806,9 @@ createApp({
             if (this.validationInProgress) return;
             
             if (this.lastResult) {
-                // Update stats for the incorrect answer
-                if (!this.lastResult.correct) {
+                // Only record incorrect answer if we haven't already validated
+                // and the answer wasn't marked as correct
+                if (!this.lastResult.correct && !this.validationResult?.valid) {
                     await this.recordAnswer(
                         this.lastResult.wordId, 
                         this.currentWord.direction, 
@@ -791,6 +820,8 @@ createApp({
                 this.lastResult.needsValidation = false;
                 this.showValidationModal = false;
                 this.validationResult = null;
+                this.validationExplanation = '';
+                this.validationHasResult = false;
             }
             
             await this.nextWord();

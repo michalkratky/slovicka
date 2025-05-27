@@ -72,16 +72,16 @@
                     </div>
                     
                     <!-- Validation Modal -->
-                    <div v-if="showValidationModal && lastResult && lastResult.needsValidation" class="validation-modal" @keyup.enter="validateTranslation" @keyup.esc="skipValidation">
+                    <div v-if="showValidationModal && lastResult && lastResult.needsValidation" class="validation-modal" tabindex="-1" @keyup.esc="skipValidation">
                         <div class="validation-modal-content">
-                            <!-- Hidden input to receive focus for keyboard events -->
-                            <input ref="validationInput" type="text" v-model="validationInput" class="hidden-input" @keyup.enter="validateTranslation" @keyup.esc="skipValidation" autofocus>
+                            <!-- Hidden input for keyboard shortcuts -->
+                            <input ref="validationInput" type="text" class="hidden-input" @keydown.enter="handleEnterKey" @keyup.esc="skipValidation" autofocus>
                             
                             <h3>Mohla by byť tvoja odpoveď správna?</h3>
                             <p>Tvoja odpoveď <strong>"{{ lastResult.answer }}"</strong> sa nezhoduje s očakávanou odpoveďou <strong>"{{ lastResult.correctAnswer }}"</strong></p>
                             <p>Myslíš si, že tvoja odpoveď by mohla byť prijateľným prekladom? (Stlač <strong>Enter</strong> pre Áno, <strong>Esc</strong> pre Nie)</p>
                             
-                            <div class="validation-buttons">
+                            <div v-if="!validationResult" class="validation-buttons">
                                 <button @click="validateTranslation" :disabled="validationInProgress" class="validate-button">
                                     <span v-if="!validationInProgress">Áno, overiť odpoveď (Enter)</span>
                                     <span v-else>Overujem...</span>
@@ -99,7 +99,7 @@
                                 <p v-if="validationExplanation">
                                     <strong>Vysvetlenie:</strong> {{ validationExplanation }}
                                 </p>
-                                <button @click="skipValidation" class="continue-button">Pokračovať</button>
+                                <button @click="skipValidation" class="continue-button">Pokračovať (Enter/Esc)</button>
                             </div>
                         </div>
                     </div>
