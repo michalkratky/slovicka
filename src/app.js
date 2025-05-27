@@ -9,7 +9,6 @@ createApp({
             userInput: '',
             lastResult: null,
             sessionStats: {correct: 0, incorrect: 0},
-            wordStats: {},
             displayStats: {},
             translationDirections: {
                 slovakToEnglish: true,
@@ -153,14 +152,9 @@ createApp({
 
         loadFromStorage() {
             // Fallback method for localStorage compatibility
-            const savedWordStats = localStorage.getItem('englishApp_wordStats');
             const savedSessionStats = localStorage.getItem('englishApp_sessionStats');
             const savedDirections = localStorage.getItem('englishApp_directions');
             const savedAIValidation = localStorage.getItem('englishApp_enableAIValidation');
-
-            if (savedWordStats) {
-                this.wordStats = JSON.parse(savedWordStats);
-            }
 
             if (savedSessionStats) {
                 this.sessionStats = JSON.parse(savedSessionStats);
@@ -169,7 +163,7 @@ createApp({
             if (savedDirections) {
                 this.translationDirections = JSON.parse(savedDirections);
             }
-            
+        
             if (savedAIValidation) {
                 try {
                     const value = JSON.parse(savedAIValidation);
@@ -182,7 +176,6 @@ createApp({
 
         saveToStorage() {
             // Fallback method for localStorage compatibility
-            localStorage.setItem('englishApp_wordStats', JSON.stringify(this.wordStats));
             // Only save session stats to localStorage if we're not using database
             if (this.apiError) {
                 localStorage.setItem('englishApp_sessionStats', JSON.stringify(this.sessionStats));
@@ -230,7 +223,7 @@ createApp({
             }
 
             this.loadingWords = false;
-            this.initializeWordStats();
+            // No need to initialize word stats anymore - we're using server-side stats
             await this.selectNextWord();
         },
 
@@ -305,124 +298,50 @@ createApp({
             return key.charAt(0).toUpperCase() + key.slice(1).replace(/[_-]/g, ' ');
         },
 
-        initializeWordStats() {
-            Object.keys(this.wordGroups).forEach(groupKey => {
-                this.wordGroups[groupKey].words.forEach(word => {
-                    // Initialize stats for both directions
-                    const keySK = word.slovak + '-' + word.english + '-sk-en';
-                    const keyEN = word.slovak + '-' + word.english + '-en-sk';
+        // No longer needed as we're not tracking stats locally
 
-                    if (!this.wordStats[keySK]) {
-                        this.wordStats[keySK] = {correct: 0, incorrect: 0, lastSeen: 0};
-                    }
-                    if (!this.wordStats[keyEN]) {
-                        this.wordStats[keyEN] = {correct: 0, incorrect: 0, lastSeen: 0};
-                    }
-                });
-            });
-        },
+        // No longer needed as we're getting words from server
 
-        getEnabledWords() {
-            const enabledWords = [];
-            Object.keys(this.wordGroups).forEach(groupKey => {
-                if (this.wordGroups[groupKey].enabled) {
-                    this.wordGroups[groupKey].words.forEach(word => {
-                        if (this.translationDirections.slovakToEnglish) {
-                            enabledWords.push({
-                                id: word.id || null, // For database words
-                                question: word.slovak,
-                                answer: word.english,
-                                direction: 'sk-en',
-                                targetLanguage: 'english',
-                                originalWord: word
-                            });
-                        }
-                        if (this.translationDirections.englishToSlovak) {
-                            enabledWords.push({
-                                id: word.id || null, // For database words
-                                question: word.english,
-                                answer: word.slovak,
-                                direction: 'en-sk',
-                                targetLanguage: 'slovak',
-                                originalWord: word
-                            });
-                        }
-                    });
-                }
-            });
-            return enabledWords;
-        },
-
-        async calculateWordProbability(word) {
-            // Try to get difficulty from database if word has ID
-            if (word.id) {
-                try {
-                    const response = await fetch(`/api/word-difficulty/${word.id}/${word.direction}`);
-                    if (response.ok) {
-                        const result = await response.json();
-                        return result.difficulty;
-                    }
-                } catch (error) {
-                    console.warn('Failed to get word difficulty from database:', error.message);
-                }
-            }
-
-            // Fallback to original calculation
-            const key = word.originalWord.slovak + '-' + word.originalWord.english + '-' + word.direction;
-            const stats = this.wordStats[key];
-
-            if (!stats) return 1;
-
-            let probability = 1;
-
-            const correctReduction = Math.min(stats.correct * 0.15, 0.9);
-            probability *= (1 - correctReduction);
-
-            probability *= (1 + stats.incorrect * 0.3);
-
-            const timeSinceLastSeen = Date.now() - stats.lastSeen;
-            const daysSince = timeSinceLastSeen / (1000 * 60 * 60 * 24);
-            probability *= (1 + Math.min(daysSince * 0.1, 2));
-
-            return Math.max(probability, 0.05);
-        },
+        // No longer needed as difficulty is calculated on the server
 
         async selectNextWord() {
-            const enabledWords = this.getEnabledWords();
-
-            if (enabledWords.length === 0) {
-                this.currentWord = null;
-                return;
-            }
-
-            // Calculate probabilities for all words
-            const wordProbabilities = [];
-            for (const word of enabledWords) {
-                const probability = await this.calculateWordProbability(word);
-                wordProbabilities.push({
-                    word: word,
-                    probability: probability
+            try {
+                // Get enabled group keys
+                const enabledGroups = {};
+                Object.keys(this.wordGroups).forEach(groupKey => {
+                    enabledGroups[groupKey] = this.wordGroups[groupKey].enabled;
                 });
-            }
-
-            const totalProbability = wordProbabilities.reduce((sum, item) => sum + item.probability, 0);
-            let random = Math.random() * totalProbability;
-
-            for (const item of wordProbabilities) {
-                random -= item.probability;
-                if (random <= 0) {
-                    this.currentWord = item.word;
-                    break;
+                
+                // Make API request to get the next word
+                const response = await fetch('/api/next-word', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        enabledGroups: enabledGroups,
+                        translationDirections: this.translationDirections
+                    })
+                });
+                
+                if (!response.ok) {
+                    console.error('Failed to fetch next word from API');
+                    this.currentWord = null;
+                    return;
                 }
-            }
-
-            if (this.currentWord) {
+                
+                const data = await response.json();
+                
+                if (data.noWordsAvailable) {
+                    this.currentWord = null;
+                    return;
+                }
+                
+                this.currentWord = data.nextWord;
                 this.lastAnswerTime = Date.now();
-
-                // Update last seen in local stats (fallback)
-                const key = this.currentWord.originalWord.slovak + '-' + this.currentWord.originalWord.english + '-' + this.currentWord.direction;
-                this.wordStats[key] = this.wordStats[key] || {correct: 0, incorrect: 0, lastSeen: 0};
-                this.wordStats[key].lastSeen = Date.now();
+            } catch (error) {
+                console.error('Error fetching next word:', error);
+                this.currentWord = null;
             }
         },
 
@@ -534,21 +453,17 @@ createApp({
                 needsValidation: false
             };
 
-            // Only update local stats if not recorded in database (to avoid double counting)
+            // Only update local session stats if not recorded in database
+            // Update local session stats if not recorded in database
             if (!recordedInDatabase) {
-                // Update local stats (fallback)
-                const key = this.currentWord.originalWord.slovak + '-' + this.currentWord.originalWord.english + '-' + this.currentWord.direction;
-                this.wordStats[key] = this.wordStats[key] || {correct: 0, incorrect: 0, lastSeen: 0};
-
                 if (isCorrect) {
-                    this.wordStats[key].correct++;
                     this.sessionStats.correct++;
                 } else {
-                    this.wordStats[key].incorrect++;
                     this.sessionStats.incorrect++;
                 }
-
-                this.saveToStorage(); // Fallback save
+                
+                // Save session stats to localStorage as fallback
+                localStorage.setItem('englishApp_sessionStats', JSON.stringify(this.sessionStats));
             }
             // Note: If recorded in database, session stats are already updated by loadSessionStats() call in recordAnswer()
 
@@ -614,8 +529,10 @@ createApp({
             if (!this.translationDirections.slovakToEnglish && !this.translationDirections.englishToSlovak) {
                 this.translationDirections.slovakToEnglish = true;
             }
-
+            
             await this.saveUserPreferences();
+            // We need a new word with the updated direction
+            this.currentWord = null;
             await this.selectNextWord();
         },
         
@@ -627,18 +544,13 @@ createApp({
         },
 
         async onGroupToggle() {
-            const enabledWords = this.getEnabledWords();
-            const currentWordEnabled = enabledWords.some(word =>
-                word.originalWord.slovak === this.currentWord?.originalWord?.slovak &&
-                word.originalWord.english === this.currentWord?.originalWord?.english
-            );
-
-            if (!currentWordEnabled) {
-                await this.selectNextWord();
-            }
-
             // Save the group preferences
             await this.saveUserPreferences();
+            
+            // Always select a new word after toggling groups
+            // The server will handle filtering based on enabled groups
+            this.currentWord = null;
+            await this.selectNextWord();
         },
 
         async loadUserStats() {
@@ -647,21 +559,11 @@ createApp({
                 if (response.ok) {
                     const stats = await response.json();
 
-                    // Convert database stats to display format
-                    this.displayStats = {};
-                    stats.forEach(stat => {
-                        const key = `${stat.slovak}-${stat.english}`;
-                        const direction = stat.direction === 'sk-en' ? 'SK→EN' : 'EN→SK';
-                        const displayKey = `${key}-${direction}`;
-
-                        this.displayStats[displayKey] = {
-                            correct: stat.correct_count,
-                            incorrect: stat.incorrect_count,
-                            successRate: stat.success_rate,
-                            lastSeen: stat.last_seen,
-                            category: stat.category
-                        };
-                    });
+                    // Use stats directly from the server
+                    this.displayStats = stats;
+                    console.log('Loaded user stats from server:', stats.length, 'records');
+                } else {
+                    console.warn('Failed to load user stats: server returned', response.status);
                 }
             } catch (error) {
                 console.warn('Failed to load user stats:', error.message);

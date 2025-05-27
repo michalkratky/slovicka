@@ -87,6 +87,45 @@ app.post('/api/check-answer', async (req, res) => {
     }
 });
 
+// Get next word for practice based on difficulty
+app.post('/api/next-word', async (req, res) => {
+    try {
+        const { enabledGroups, translationDirections } = req.body;
+        
+        if (!enabledGroups || !translationDirections) {
+            return res.status(400).json({ error: 'Missing required fields: enabledGroups, translationDirections' });
+        }
+        
+        // Get enabled group keys (those with value = true)
+        const enabledGroupKeys = Object.keys(enabledGroups).filter(key => enabledGroups[key]);
+        
+        if (enabledGroupKeys.length === 0) {
+            return res.json({ noWordsAvailable: true });
+        }
+        
+        // Get enabled directions
+        const directions = [];
+        if (translationDirections.slovakToEnglish) directions.push('sk-en');
+        if (translationDirections.englishToSlovak) directions.push('en-sk');
+        
+        if (directions.length === 0) {
+            return res.json({ noWordsAvailable: true });
+        }
+        
+        // Get next word
+        const nextWord = await db.getNextWordByDifficulty(enabledGroupKeys, directions);
+        
+        if (!nextWord) {
+            return res.json({ noWordsAvailable: true });
+        }
+        
+        res.json({ nextWord });
+    } catch (error) {
+        console.error('Error getting next word:', error.message);
+        res.status(500).json({ error: 'Failed to get next word' });
+    }
+});
+
 // Endpoint to validate translation with AI and optionally add as synonym
 app.post('/api/validate-translation', async (req, res) => {
     try {

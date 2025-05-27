@@ -666,6 +666,123 @@ class DatabaseService {
             return 1.0; // Default to high probability if error
         }
     }
+    
+    /**
+     * Get next word to practice based on difficulty (probability)
+     * @param {Array<string>} enabledGroupKeys - Array of enabled group keys
+     * @param {Array<string>} enabledDirections - Array of enabled directions ('sk-en', 'en-sk')
+     * @returns {Promise<Object|null>} The next word to practice, or null if none available
+     */
+    async getNextWordByDifficulty(enabledGroupKeys, enabledDirections) {
+        try {
+            // 1. Get all words from enabled categories
+            const placeholders = enabledGroupKeys.map(() => '?').join(',');
+            const directionPlaceholders = enabledDirections.map(() => '?').join(',');
+            
+            const query = `
+                SELECT 
+                    w.id, 
+                    w.slovak, 
+                    w.english, 
+                    w.category,
+                    ? as direction
+                FROM words w
+                WHERE w.category IN (${placeholders})
+                
+                UNION
+                
+                SELECT 
+                    w.id, 
+                    w.slovak, 
+                    w.english, 
+                    w.category,
+                    ? as direction
+                FROM words w
+                WHERE w.category IN (${placeholders})
+                
+                ORDER BY id
+            `;
+            
+            // Create params array by concatenating directions and categories for each direction
+            let params = [];
+            if (enabledDirections.includes('sk-en')) {
+                params.push('sk-en', ...enabledGroupKeys);
+            }
+            if (enabledDirections.includes('en-sk')) {
+                params.push('en-sk', ...enabledGroupKeys);
+            }
+            
+            // If no directions or groups enabled, return null
+            if (params.length === 0) return null;
+            
+            // Get all potential words
+            const words = await new Promise((resolve, reject) => {
+                this.db.all(query, params, (err, rows) => {
+                    if (err) reject(err);
+                    else resolve(rows);
+                });
+            });
+            
+            if (!words || words.length === 0) return null;
+            
+            // 2. Calculate difficulty for each word
+            const wordProbabilities = [];
+            for (const word of words) {
+                const difficulty = await this.getWordDifficulty(word.id, word.direction);
+                wordProbabilities.push({
+                    word,
+                    probability: difficulty
+                });
+            }
+            
+            // 3. Select a word based on weighted probability
+            const totalProbability = wordProbabilities.reduce((sum, item) => sum + item.probability, 0);
+            let random = Math.random() * totalProbability;
+            
+            for (const item of wordProbabilities) {
+                random -= item.probability;
+                if (random <= 0) {
+                    // 4. Format word for client
+                    const nextWord = {
+                        id: item.word.id,
+                        question: item.word.direction === 'sk-en' ? item.word.slovak : item.word.english,
+                        answer: item.word.direction === 'sk-en' ? item.word.english : item.word.slovak,
+                        direction: item.word.direction,
+                        category: item.word.category,
+                        targetLanguage: item.word.direction === 'sk-en' ? 'english' : 'slovak',
+                        originalWord: {
+                            slovak: item.word.slovak,
+                            english: item.word.english
+                        }
+                    };
+                    
+                    return nextWord;
+                }
+            }
+            
+            // If we reach here for some reason, return the first word
+            if (wordProbabilities.length > 0) {
+                const fallbackWord = wordProbabilities[0].word;
+                return {
+                    id: fallbackWord.id,
+                    question: fallbackWord.direction === 'sk-en' ? fallbackWord.slovak : fallbackWord.english,
+                    answer: fallbackWord.direction === 'sk-en' ? fallbackWord.english : fallbackWord.slovak,
+                    direction: fallbackWord.direction,
+                    category: fallbackWord.category,
+                    targetLanguage: fallbackWord.direction === 'sk-en' ? 'english' : 'slovak',
+                    originalWord: {
+                        slovak: fallbackWord.slovak,
+                        english: fallbackWord.english
+                    }
+                };
+            }
+            
+            return null;
+        } catch (error) {
+            console.error('Error getting next word by difficulty:', error);
+            return null;
+        }
+    }
 
     formatGroupName(key) {
         return key.charAt(0).toUpperCase() + key.slice(1).replace(/[_-]/g, ' ');

@@ -172,15 +172,22 @@
 
         <div v-if="currentView == 'stats'">
             <h2>Štatistiky</h2>
-            <div v-for="(stats, word) in wordStats" v-bind:key="word">
-                <div v-if="stats.correct > 0 || stats.incorrect > 0">
-                    <strong>{{ word.split('-')[0] }} → {{ word.split('-')[1] }}</strong>
-                    <br>
-                    Správne: {{ stats.correct }}, Nesprávne: {{ stats.incorrect }}
-                    <br>
-                    Úspešnosť: {{ getSuccessRate(stats) }}%
-                    <hr>
+            <div v-if="displayStats && Object.keys(displayStats).length > 0">
+                <div v-for="(stats, index) in displayStats" v-bind:key="index">
+                    <div v-if="stats.correct_count > 0 || stats.incorrect_count > 0">
+                        <strong>{{ stats.word }} ({{ stats.direction === 'sk-en' ? 'SK→EN' : 'EN→SK' }})</strong>
+                        <br>
+                        Správne: {{ stats.correct_count }}, Nesprávne: {{ stats.incorrect_count }}
+                        <br>
+                        Úspešnosť: {{ getSuccessRate({correct: stats.correct_count, incorrect: stats.incorrect_count}) }}%
+                        <br>
+                        Naposledy: {{ new Date(stats.last_seen).toLocaleDateString() }}
+                        <hr>
+                    </div>
                 </div>
+            </div>
+            <div v-else>
+                <p>Zatiaľ nemáš žiadne štatistiky. Začni s cvičením na ich zozbieranie.</p>
             </div>
         </div>
     </div>
