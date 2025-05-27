@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Učenie slovíčok</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/3.3.4/vue.global.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,10 +13,18 @@
 <div id="app">
 
     <div class="navigation">
-        <button @click="currentView = 'practice'" v-bind:class="{ active: currentView == 'practice' }">Cvičenie</button>
-        <button @click="currentView = 'settings'" v-bind:class="{ active: currentView == 'settings' }">Skupiny</button>
-        <button @click="currentView = 'direction'" v-bind:class="{ active: currentView == 'direction' }">Nastavenia</button>
-        <button @click="currentView = 'stats'" v-bind:class="{ active: currentView == 'stats' }">Štatistiky</button>
+        <button @click="currentView = 'practice'" v-bind:class="{ active: currentView == 'practice' }">
+            <span class="nav-text">Cvičenie</span>
+        </button>
+        <button @click="currentView = 'settings'" v-bind:class="{ active: currentView == 'settings' }">
+            <span class="nav-text">Skupiny</span>
+        </button>
+        <button @click="currentView = 'direction'" v-bind:class="{ active: currentView == 'direction' }">
+            <span class="nav-text">Nastavenia</span>
+        </button>
+        <button @click="currentView = 'stats'" v-bind:class="{ active: currentView == 'stats' }">
+            <span class="nav-text">Štatistiky</span>
+        </button>
     </div>
 
     <div class="content">
@@ -63,7 +71,7 @@
                         </button>
                     </div>
 
-                    <div v-if="lastResult">
+                    <div v-if="lastResult" class="result-message">
                         <p v-if="lastResult.correct" style="color: green;">✓ Správne! {{ lastResult.question }} = <strong>{{ lastResult.answer }}</strong></p>
                         <p v-else style="color: red;">✗ Nesprávne - {{ lastResult.question }} = <strong>{{ lastResult.correctAnswer }}</strong></p>
                     </div>
@@ -72,21 +80,21 @@
                     </div>
                     
                     <!-- Validation Modal -->
-                    <div v-if="showValidationModal && lastResult && lastResult.needsValidation" class="validation-modal" tabindex="-1" @keyup.esc="skipValidation">
+                    <div v-if="showValidationModal && lastResult && lastResult.needsValidation" class="validation-modal" tabindex="-1" @keyup.enter="validationResult ? skipValidation : validateTranslation" @keyup.esc="skipValidation">
                         <div class="validation-modal-content">
-                            <!-- Hidden input for keyboard shortcuts -->
-                            <input ref="validationInput" type="text" class="hidden-input" @keydown.enter="handleEnterKey" @keyup.esc="skipValidation" autofocus>
-                            
+                            <!-- Hidden input to receive focus for keyboard events -->
+                            <input ref="validationInput" type="text" v-model="validationInput" class="hidden-input" @keyup.enter="validationResult ? skipValidation() : validateTranslation()" @keyup.esc="skipValidation()" autofocus>
+            
                             <h3>Mohla by byť tvoja odpoveď správna?</h3>
                             <p>Tvoja odpoveď <strong>"{{ lastResult.answer }}"</strong> sa nezhoduje s očakávanou odpoveďou <strong>"{{ lastResult.correctAnswer }}"</strong></p>
-                            <p>Myslíš si, že tvoja odpoveď by mohla byť prijateľným prekladom? (Stlač <strong>Enter</strong> pre Áno, <strong>Esc</strong> pre Nie)</p>
-                            
+                            <p class="keyboard-hint">Myslíš si, že tvoja odpoveď by mohla byť prijateľným prekladom? (Stlač <strong>Enter</strong> pre Áno, <strong>Esc</strong> pre Nie)</p>
+            
                             <div v-if="!validationResult" class="validation-buttons">
                                 <button @click="validateTranslation" :disabled="validationInProgress" class="validate-button">
-                                    <span v-if="!validationInProgress">Áno, overiť odpoveď (Enter)</span>
+                                    <span v-if="!validationInProgress">Áno, overiť</span>
                                     <span v-else>Overujem...</span>
                                 </button>
-                                <button @click="skipValidation" :disabled="validationInProgress" class="skip-button">Nie, pokračovať (Esc)</button>
+                                <button @click="skipValidation" :disabled="validationInProgress" class="skip-button">Nie, pokračovať</button>
                             </div>
                             
                             <div v-if="validationResult" class="validation-result">
@@ -96,10 +104,10 @@
                                 <p v-else style="color: red;">
                                     ✗ Tvoja odpoveď nie je považovaná za správnu.
                                 </p>
-                                <p v-if="validationExplanation">
+                                <p v-if="validationExplanation" class="explanation-text">
                                     <strong>Vysvetlenie:</strong> {{ validationExplanation }}
                                 </p>
-                                <button @click="skipValidation" class="continue-button">Pokračovať (Enter/Esc)</button>
+                                <button @click="skipValidation" class="continue-button">Pokračovať</button>
                             </div>
                         </div>
                     </div>
@@ -116,77 +124,92 @@
             </div>
         </div>
 
-        <div v-if="currentView == 'direction'">
-            <h2>Smer prekladu</h2>
-            <div>
-                <label>
-                    <input
-                            type="checkbox"
-                            v-model="translationDirections.slovakToEnglish"
-                            @change="onDirectionChange"
-                    >
-                    Slovenčina → Angličtina
-                </label>
-            </div>
-            <div>
-                <label>
-                    <input
-                            type="checkbox"
-                            v-model="translationDirections.englishToSlovak"
-                            @change="onDirectionChange"
-                    >
-                    Angličtina → Slovenčina
-                </label>
+        <div v-if="currentView == 'direction'" class="settings-container">
+            <div class="settings-section">
+                <h2>Smer prekladu</h2>
+                <div class="option-item">
+                    <label>
+                        <input
+                                type="checkbox"
+                                v-model="translationDirections.slovakToEnglish"
+                                @change="onDirectionChange"
+                        >
+                        <span>Slovenčina → Angličtina</span>
+                    </label>
+                </div>
+                <div class="option-item">
+                    <label>
+                        <input
+                                type="checkbox"
+                                v-model="translationDirections.englishToSlovak"
+                                @change="onDirectionChange"
+                        >
+                        <span>Angličtina → Slovenčina</span>
+                    </label>
+                </div>
             </div>
             
-            <h2>AI Overovanie odpovedí</h2>
-            <div>
-                <label>
-                    <input
-                            type="checkbox"
-                            v-model="enableAIValidation"
-                            @change="onAIValidationChange"
-                    >
-                    Povoliť overovanie alternatívnych prekladov pomocou AI
-                </label>
-                <p class="setting-description">
-                    Keď je toto vypnuté, aplikácia nebude ponúkať možnosť overiť alternatívne preklady 
-                    pomocou umelej inteligencie.
-                </p>
+            <div class="settings-section">
+                <h2>AI Overovanie odpovedí</h2>
+                <div class="option-item">
+                    <label>
+                        <input
+                                type="checkbox"
+                                v-model="enableAIValidation"
+                                @change="onAIValidationChange"
+                        >
+                        <span>Povoliť overovanie alternatívnych prekladov pomocou AI</span>
+                    </label>
+                    <p class="setting-description">
+                        Keď je toto vypnuté, aplikácia nebude ponúkať možnosť overiť alternatívne preklady 
+                        pomocou umelej inteligencie.
+                    </p>
+                </div>
             </div>
         </div>
 
-        <div v-if="currentView == 'settings'">
+        <div v-if="currentView == 'settings'" class="settings-container">
             <h2>Skupiny slov</h2>
-            <div v-for="(group, key) in wordGroups" v-bind:key="key">
-                <label>
-                    <input
-                            type="checkbox"
-                            v-model="group.enabled"
-                            @change="onGroupToggle"
-                    >
-                    {{ group.name }} ({{ group.words.length }} words)
-                </label>
+            <div class="group-list">
+                <div v-for="(group, key) in wordGroups" v-bind:key="key" class="group-item">
+                    <label>
+                        <input
+                                type="checkbox"
+                                v-model="group.enabled"
+                                @change="onGroupToggle"
+                        >
+                        <span class="group-name">{{ group.name }}</span>
+                        <span class="word-count">({{ group.words.length }} words)</span>
+                    </label>
+                </div>
             </div>
         </div>
 
-        <div v-if="currentView == 'stats'">
+        <div v-if="currentView == 'stats'" class="stats-container">
             <h2>Štatistiky</h2>
-            <div v-if="displayStats && Object.keys(displayStats).length > 0">
-                <div v-for="(stats, index) in displayStats" v-bind:key="index">
+            <div v-if="displayStats && Object.keys(displayStats).length > 0" class="stats-list">
+                <div v-for="(stats, index) in displayStats" v-bind:key="index" class="stats-item">
                     <div v-if="stats.correct_count > 0 || stats.incorrect_count > 0">
-                        <strong>{{ stats.word }} ({{ stats.direction === 'sk-en' ? 'SK→EN' : 'EN→SK' }})</strong>
-                        <br>
-                        Správne: {{ stats.correct_count }}, Nesprávne: {{ stats.incorrect_count }}
-                        <br>
-                        Úspešnosť: {{ getSuccessRate({correct: stats.correct_count, incorrect: stats.incorrect_count}) }}%
-                        <br>
-                        Naposledy: {{ new Date(stats.last_seen).toLocaleDateString() }}
-                        <hr>
+                        <div class="stats-word">
+                            <strong>{{ stats.word }}</strong> 
+                            <span class="stats-direction">({{ stats.direction === 'sk-en' ? 'SK→EN' : 'EN→SK' }})</span>
+                        </div>
+                        <div class="stats-details">
+                            <div class="stats-counts">
+                                <span class="stats-correct">Správne: {{ stats.correct_count }}</span>
+                                <span class="stats-incorrect">Nesprávne: {{ stats.incorrect_count }}</span>
+                            </div>
+                            <div class="stats-rate">
+                                Úspešnosť: <strong>{{ getSuccessRate({correct: stats.correct_count, incorrect: stats.incorrect_count}) }}%</strong>
+                            </div>
+                            <div class="stats-date">
+                                Naposledy: {{ new Date(stats.last_seen).toLocaleDateString() }}
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div v-else>
+            <div v-else class="no-stats">
                 <p>Zatiaľ nemáš žiadne štatistiky. Začni s cvičením na ich zozbieranie.</p>
             </div>
         </div>
@@ -204,6 +227,168 @@
     margin-left: 24px;
     max-width: 500px;
 }
+
+.settings-container,
+.stats-container {
+    width: 100%;
+    max-width: 800px;
+    padding: 10px;
+}
+
+.settings-section {
+    margin-bottom: 30px;
+}
+
+.option-item {
+    margin: 12px 0;
+}
+
+.option-item label {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.option-item input {
+    margin-right: 10px;
+}
+
+.group-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 15px;
+}
+
+.group-item {
+    padding: 8px;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+}
+
+.group-item:hover {
+    background-color: rgba(0,0,0,0.03);
+}
+
+.group-item label {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    cursor: pointer;
+}
+
+.group-name {
+    margin-left: 8px;
+    font-weight: 500;
+}
+
+.word-count {
+    margin-left: 5px;
+    color: #999;
+    font-size: 0.9em;
+}
+
+.stats-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+
+.stats-item {
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin-bottom: 10px;
+}
+
+.stats-word {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+}
+
+.stats-direction {
+    font-size: 0.9em;
+    color: #777;
+}
+
+.stats-details {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.stats-counts {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.stats-correct {
+    color: green;
+}
+
+.stats-incorrect {
+    color: #d32f2f;
+}
+
+.stats-rate {
+    margin-top: 4px;
+}
+
+.no-stats {
+    padding: 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.result-message {
+    margin: 15px 0;
+    word-break: break-word;
+}
+
+.keyboard-hint {
+    display: block;
+    margin: 15px 0;
+}
+
+.explanation-text {
+    font-size: 0.95em;
+    line-height: 1.4;
+    margin: 12px 0;
+}
+
+@media (max-width: 480px) {
+    .keyboard-hint strong {
+        display: block;
+        margin-top: 5px;
+    }
+    
+    .stats-counts {
+        flex-direction: column;
+        gap: 4px;
+    }
+    
+    .group-item label,
+    .option-item label {
+        padding: 5px 0;
+    }
+    
+    .option-item input,
+    .group-item input {
+        min-width: 24px;
+        min-height: 24px;
+    }
+    
+    .stats-item {
+        padding: 12px;
+    }
+}
+
 .validation-modal {
     position: fixed;
     top: 0;
@@ -215,6 +400,7 @@
     justify-content: center;
     align-items: center;
     z-index: 1000;
+    padding: 15px;
 }
 
 .validation-modal-content {
@@ -225,6 +411,8 @@
     width: 100%;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     position: relative;
+    overflow-y: auto;
+    max-height: 90vh;
 }
 
 .hidden-input {
@@ -280,6 +468,38 @@
     cursor: pointer;
     margin-top: 10px;
     font-weight: bold;
+    width: 100%;
+}
+
+.nav-text {
+    display: inline-block;
+}
+
+@media (max-width: 480px) {
+    .validation-modal-content {
+        padding: 15px;
+    }
+    
+    .validation-modal-content h3 {
+        font-size: 1.2em;
+        margin-top: 0;
+    }
+    
+    .validation-buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .validation-buttons button {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+    }
+    
+    .continue-button {
+        padding: 12px;
+        font-size: 16px;
+    }
 }
 </style>
 
