@@ -1,0 +1,140 @@
+[
+  {
+    "slovak": "mimozemšťan",
+    "english": "alien"
+  },
+  {
+    "slovak": "votrelec",
+    "english": "alien"
+  },
+  {
+    "slovak": "astronaut",
+    "english": "astronaut"
+  },
+  {
+    "slovak": "kométa",
+    "english": "comet"
+  },
+  {
+    "slovak": "spätné odpočítavanie",
+    "english": "countdown"
+  },
+  {
+    "slovak": "mimozemský",
+    "english": "extraterrestrial"
+  },
+  {
+    "slovak": "vypustiť",
+    "english": "launch"
+  },
+  {
+    "slovak": "odštartovať",
+    "english": "launch"
+  },
+  {
+    "slovak": "štartovacia plocha",
+    "english": "launch pad"
+  },
+  {
+    "slovak": "meteor",
+    "english": "meteor"
+  },
+  {
+    "slovak": "meteorit",
+    "english": "meteorite"
+  },
+  {
+    "slovak": "obežná dráha",
+    "english": "orbit"
+  },
+  {
+    "slovak": "medziplanetárny priestor",
+    "english": "outer space"
+  },
+  {
+    "slovak": "kozmos",
+    "english": "outer space"
+  },
+  {
+    "slovak": "raketa",
+    "english": "rocket"
+  },
+  {
+    "slovak": "satelit",
+    "english": "satellite"
+  },
+  {
+    "slovak": "umelá družica",
+    "english": "satellite"
+  },
+  {
+    "slovak": "lietavica",
+    "english": "shooting star"
+  },
+  {
+    "slovak": "meteor",
+    "english": "shooting star"
+  },
+  {
+    "slovak": "vesmír",
+    "english": "space"
+  },
+  {
+    "slovak": "kozmos",
+    "english": "space"
+  },
+  {
+    "slovak": "raketoplán",
+    "english": "space shuttle"
+  },
+  {
+    "slovak": "vesmírna stanica",
+    "english": "space station"
+  },
+  {
+    "slovak": "kozmický let",
+    "english": "space travel"
+  },
+  {
+    "slovak": "kozmická loď",
+    "english": "spacecraft"
+  },
+  {
+    "slovak": "kozmická loď",
+    "english": "spaceship"
+  },
+  {
+    "slovak": "kozmický skafander",
+    "english": "spacesuit"
+  },
+  {
+    "slovak": "vesmír",
+    "english": "the universe"
+  },
+  {
+    "slovak": "kozmos",
+    "english": "the universe"
+  },
+  {
+    "slovak": "UFO",
+    "english": "UFO",
+    "synonyms": {
+      "english": ["unidentified flying object"]
+    }
+  },
+  {
+    "slovak": "neidentifikovateľný lietajúci objekt",
+    "english": "UFO",
+    "synonyms": {
+      "english": ["unidentified flying object"]
+    }
+  },
+  {
+    "slovak": "cesta",
+    "english": "voyage"
+  },
+  {
+    "slovak": "let lodí vo vesmíre",
+    "english": "voyage"
+  }
+]

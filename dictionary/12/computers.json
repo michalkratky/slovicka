@@ -1,0 +1,253 @@
+[
+  {
+    "slovak": "aplikácia",
+    "english": "application"
+  },
+  {
+    "slovak": "program",
+    "english": "application"
+  },
+  {
+    "slovak": "mechanika na čítanie CD",
+    "english": "CD-reader"
+  },
+  {
+    "slovak": "mechanika na čítanie CD",
+    "english": "CD-ROM"
+  },
+  {
+    "slovak": "mechanika na zápis na CD",
+    "english": "CD-writer"
+  },
+  {
+    "slovak": "klik",
+    "english": "click"
+  },
+  {
+    "slovak": "dvojklik",
+    "english": "double-click"
+  },
+  {
+    "slovak": "počítačový program",
+    "english": "computer program"
+  },
+  {
+    "slovak": "programátor",
+    "english": "computer programmer"
+  },
+  {
+    "slovak": "konfigurovať",
+    "english": "configure"
+  },
+  {
+    "slovak": "nastaviť",
+    "english": "configure"
+  },
+  {
+    "slovak": "konfigurácia",
+    "english": "configuration"
+  },
+  {
+    "slovak": "nastavenie",
+    "english": "configuration"
+  },
+  {
+    "slovak": "spadnúť",
+    "english": "crash"
+  },
+  {
+    "slovak": "zlyhať",
+    "english": "crash"
+  },
+  {
+    "slovak": "prispôsobiť",
+    "english": "customise"
+  },
+  {
+    "slovak": "údaje",
+    "english": "data"
+  },
+  {
+    "slovak": "dáta",
+    "english": "data"
+  },
+  {
+    "slovak": "databáza",
+    "english": "database"
+  },
+  {
+    "slovak": "stolný počítač",
+    "english": "desktop computer"
+  },
+  {
+    "slovak": "uložiť súbor do počítača",
+    "english": "download a file"
+  },
+  {
+    "slovak": "uložiť dáta do počítača",
+    "english": "download data"
+  },
+  {
+    "slovak": "súbor",
+    "english": "file"
+  },
+  {
+    "slovak": "disketa",
+    "english": "floppy disk"
+  },
+  {
+    "slovak": "pevný disk",
+    "english": "hard disk"
+  },
+  {
+    "slovak": "hardware",
+    "english": "hardware"
+  },
+  {
+    "slovak": "inštalovať",
+    "english": "install"
+  },
+  {
+    "slovak": "informatika",
+    "english": "IT",
+    "synonyms": {
+      "english": ["information technology"]
+    }
+  },
+  {
+    "slovak": "informačné technológie",
+    "english": "IT",
+    "synonyms": {
+      "english": ["information technology"]
+    }
+  },
+  {
+    "slovak": "kláves",
+    "english": "key"
+  },
+  {
+    "slovak": "klávesnica",
+    "english": "keyboard"
+  },
+  {
+    "slovak": "prenosný počítač",
+    "english": "laptop computer"
+  },
+  {
+    "slovak": "pamäť",
+    "english": "memory"
+  },
+  {
+    "slovak": "výber užívateľských možností",
+    "english": "menu"
+  },
+  {
+    "slovak": "monitor",
+    "english": "monitor"
+  },
+  {
+    "slovak": "myš",
+    "english": "mouse"
+  },
+  {
+    "slovak": "otvoriť program",
+    "english": "open a program"
+  },
+  {
+    "slovak": "osobný počítač",
+    "english": "PC",
+    "synonyms": {
+      "english": ["personal computer"]
+    }
+  },
+  {
+    "slovak": "prenosný",
+    "english": "portable"
+  },
+  {
+    "slovak": "tlačiareň",
+    "english": "printer"
+  },
+  {
+    "slovak": "pamäť typu RAM",
+    "english": "RAM",
+    "synonyms": {
+      "english": ["Random Access Memory"]
+    }
+  },
+  {
+    "slovak": "pamäť typu ROM",
+    "english": "ROM",
+    "synonyms": {
+      "english": ["Read-Only Memory"]
+    }
+  },
+  {
+    "slovak": "spustiť program",
+    "english": "run a program"
+  },
+  {
+    "slovak": "skener",
+    "english": "scanner"
+  },
+  {
+    "slovak": "nastavenie",
+    "english": "setup"
+  },
+  {
+    "slovak": "software",
+    "english": "software"
+  },
+  {
+    "slovak": "programové vybavenie",
+    "english": "software"
+  },
+  {
+    "slovak": "surfovať po internete",
+    "english": "surf the Internet"
+  },
+  {
+    "slovak": "surfovať po internete",
+    "english": "surf the net"
+  },
+  {
+    "slovak": "surfovať po internete",
+    "english": "surf the web"
+  },
+  {
+    "slovak": "surfovať po internete",
+    "english": "surf the World Wide Web"
+  },
+  {
+    "slovak": "panel nástrojov",
+    "english": "toolbar"
+  },
+  {
+    "slovak": "byť mimo prevádzky",
+    "english": "be out of order"
+  },
+  {
+    "slovak": "vypovedať poslušnosť",
+    "english": "be playing up"
+  },
+  {
+    "slovak": "pokaziť sa",
+    "english": "break down"
+  },
+  {
+    "slovak": "umrieť",
+    "english": "go dead"
+  },
+  {
+    "slovak": "prestať fungovať",
+    "english": "go dead"
+  },
+  {
+    "slovak": "mimo prevádzky",
+    "english": "out of order"
+  },
+  {
+    "slovak": "prestať fungovať",
+    "english": "stop working"
+  }
+]

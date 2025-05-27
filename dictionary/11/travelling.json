@@ -1,0 +1,366 @@
+[
+  {
+    "slovak": "cestovať naprieč",
+    "english": "travel across"
+  },
+  {
+    "slovak": "cestovať krížom",
+    "english": "travel across"
+  },
+  {
+    "slovak": "cestovať okolo sveta",
+    "english": "travel around the world"
+  },
+  {
+    "slovak": "doraziť",
+    "english": "arrive"
+  },
+  {
+    "slovak": "prísť",
+    "english": "arrive"
+  },
+  {
+    "slovak": "spýtať sa na cestu",
+    "english": "ask the way"
+  },
+  {
+    "slovak": "byť na ceste",
+    "english": "be on one's way"
+  },
+  {
+    "slovak": "prerušiť jazdu",
+    "english": "break the journey"
+  },
+  {
+    "slovak": "prerušiť cestu",
+    "english": "break the journey"
+  },
+  {
+    "slovak": "služobná cesta",
+    "english": "business trip"
+  },
+  {
+    "slovak": "cestovať lietadlom",
+    "english": "go by air"
+  },
+  {
+    "slovak": "cestovať vo vzduchu",
+    "english": "travel by air"
+  },
+  {
+    "slovak": "cestovať vlakom",
+    "english": "go by rail"
+  },
+  {
+    "slovak": "cestovať po železnici",
+    "english": "travel by rail"
+  },
+  {
+    "slovak": "cestovať loďou",
+    "english": "go by sea"
+  },
+  {
+    "slovak": "cestovať na mori",
+    "english": "travel by sea"
+  },
+  {
+    "slovak": "dostihnúť",
+    "english": "catch"
+  },
+  {
+    "slovak": "dostihnúť koho",
+    "english": "catch up with"
+  },
+  {
+    "slovak": "prejsť vzdialenosť",
+    "english": "cover a distance"
+  },
+  {
+    "slovak": "plavba",
+    "english": "cruise"
+  },
+  {
+    "slovak": "odchod",
+    "english": "depart"
+  },
+  {
+    "slovak": "jazda autom",
+    "english": "drive"
+  },
+  {
+    "slovak": "riadiť auto",
+    "english": "drive"
+  },
+  {
+    "slovak": "natankovať",
+    "english": "fill up with petrol"
+  },
+  {
+    "slovak": "nájsť cestu",
+    "english": "find one's way"
+  },
+  {
+    "slovak": "chytiť let",
+    "english": "take a flight"
+  },
+  {
+    "slovak": "chytiť let",
+    "english": "catch a flight"
+  },
+  {
+    "slovak": "letieť",
+    "english": "fly"
+  },
+  {
+    "slovak": "chytiť stopa",
+    "english": "get a lift"
+  },
+  {
+    "slovak": "stratiť sa",
+    "english": "get lost"
+  },
+  {
+    "slovak": "zviesť niekoho",
+    "english": "give sb a lift"
+  },
+  {
+    "slovak": "ísť vlakom",
+    "english": "go by train"
+  },
+  {
+    "slovak": "ísť lietadlom",
+    "english": "go by plane"
+  },
+  {
+    "slovak": "ísť loďou",
+    "english": "go by boat"
+  },
+  {
+    "slovak": "ísť autom",
+    "english": "go by car"
+  },
+  {
+    "slovak": "ísť pešo",
+    "english": "go on foot"
+  },
+  {
+    "slovak": "vydať sa na cestu",
+    "english": "go on a journey"
+  },
+  {
+    "slovak": "vydať sa na zájazd",
+    "english": "go on a tour"
+  },
+  {
+    "slovak": "vydať sa na výlet",
+    "english": "go on a trip"
+  },
+  {
+    "slovak": "prajem dobrú cestu",
+    "english": "have a good trip"
+  },
+  {
+    "slovak": "prajem bezpečnú cestu",
+    "english": "have a safe trip"
+  },
+  {
+    "slovak": "prajem dobrú cestu",
+    "english": "have a good journey"
+  },
+  {
+    "slovak": "prajem bezpečnú cestu",
+    "english": "have a safe journey"
+  },
+  {
+    "slovak": "mieriť niekam",
+    "english": "head for"
+  },
+  {
+    "slovak": "smerovať niekam",
+    "english": "head for"
+  },
+  {
+    "slovak": "stopovať",
+    "english": "hitchhike"
+  },
+  {
+    "slovak": "stopár",
+    "english": "hitchhiker"
+  },
+  {
+    "slovak": "autostop",
+    "english": "hitchhiking"
+  },
+  {
+    "slovak": "odísť niekam",
+    "english": "leave for"
+  },
+  {
+    "slovak": "smerovať kam",
+    "english": "make for"
+  },
+  {
+    "slovak": "stretnúť sa s niekým",
+    "english": "meet sb at the station"
+  },
+  {
+    "slovak": "prísť niekomu naproti na stanicu",
+    "english": "meet sb at the station"
+  },
+  {
+    "slovak": "prísť niekomu naproti na letisko",
+    "english": "meet sb at the airport"
+  },
+  {
+    "slovak": "zmeškať vlak",
+    "english": "miss a train"
+  },
+  {
+    "slovak": "zmeškať lietadlo",
+    "english": "miss a plane"
+  },
+  {
+    "slovak": "zmeškať let",
+    "english": "miss a flight"
+  },
+  {
+    "slovak": "diaľnica",
+    "english": "motorway"
+  },
+  {
+    "slovak": "zastaviť auto",
+    "english": "pull up"
+  },
+  {
+    "slovak": "dôjsť na miesto určenia",
+    "english": "reach one's destination"
+  },
+  {
+    "slovak": "ísť na koni",
+    "english": "ride"
+  },
+  {
+    "slovak": "ísť na bicykli",
+    "english": "ride"
+  },
+  {
+    "slovak": "ísť na bicykli",
+    "english": "ride a bike"
+  },
+  {
+    "slovak": "ísť na motorke",
+    "english": "ride a motorbike"
+  },
+  {
+    "slovak": "ísť na koni",
+    "english": "ride a horse"
+  },
+  {
+    "slovak": "ísť na ťave",
+    "english": "ride a camel"
+  },
+  {
+    "slovak": "hlavná cesta",
+    "english": "main road"
+  },
+  {
+    "slovak": "vedľajšia cesta",
+    "english": "minor road"
+  },
+  {
+    "slovak": "trasa",
+    "english": "route"
+  },
+  {
+    "slovak": "dráha",
+    "english": "route"
+  },
+  {
+    "slovak": "cesta",
+    "english": "route"
+  },
+  {
+    "slovak": "spotrebovať posledné palivo",
+    "english": "run out of petrol"
+  },
+  {
+    "slovak": "odprevadiť niekoho",
+    "english": "see sb off"
+  },
+  {
+    "slovak": "vydať sa",
+    "english": "set off"
+  },
+  {
+    "slovak": "vyraziť na cestu",
+    "english": "set off"
+  },
+  {
+    "slovak": "vyraziť na cestu niekam",
+    "english": "set out for"
+  },
+  {
+    "slovak": "ukázať niekomu cestu",
+    "english": "show sb the way"
+  },
+  {
+    "slovak": "zrýchliť",
+    "english": "speed up"
+  },
+  {
+    "slovak": "prerušiť cestu",
+    "english": "stop over"
+  },
+  {
+    "slovak": "prestupovať",
+    "english": "stop over"
+  },
+  {
+    "slovak": "uviaznuť v doprave",
+    "english": "get stuck in traffic"
+  },
+  {
+    "slovak": "vydať sa skratkou",
+    "english": "take a shortcut"
+  },
+  {
+    "slovak": "cesta",
+    "english": "tour"
+  },
+  {
+    "slovak": "zájazd",
+    "english": "tour"
+  },
+  {
+    "slovak": "doprava",
+    "english": "traffic"
+  },
+  {
+    "slovak": "dopravný ruch",
+    "english": "traffic"
+  },
+  {
+    "slovak": "byť v zápche",
+    "english": "be in a traffic jam"
+  },
+  {
+    "slovak": "cestovať",
+    "english": "travel"
+  },
+  {
+    "slovak": "cesta niekam za určitým účelom",
+    "english": "trip"
+  },
+  {
+    "slovak": "výlet",
+    "english": "trip"
+  },
+  {
+    "slovak": "plavba",
+    "english": "voyage"
+  },
+  {
+    "slovak": "chôdza",
+    "english": "walk"
+  }
+]

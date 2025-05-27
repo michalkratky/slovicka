@@ -1,0 +1,148 @@
+[
+  {
+    "slovak": "byť prepustený z práce",
+    "english": "be made redundant"
+  },
+  {
+    "slovak": "poberať podporu v nezamestnanosti",
+    "english": "be on the dole",
+    "synonyms": {
+      "slovak": ["byť na podpore"]
+    }
+  },
+  {
+    "slovak": "prepustiť",
+    "english": "dismiss",
+    "synonyms": {
+      "slovak": ["dať výpoveď"]
+    }
+  },
+  {
+    "slovak": "prepustiť",
+    "english": "fire",
+    "synonyms": {
+      "slovak": ["dať výpoveď"]
+    }
+  },
+  {
+    "slovak": "prepustiť",
+    "english": "give the sack",
+    "synonyms": {
+      "slovak": ["dať výpoveď"]
+    }
+  },
+  {
+    "slovak": "odísť zo zamestnania",
+    "english": "give up work",
+    "synonyms": {
+      "english": ["quit work"]
+    }
+  },
+  {
+    "slovak": "vstúpiť do štrajku",
+    "english": "go on strike"
+  },
+  {
+    "slovak": "bez práce",
+    "english": "jobless"
+  },
+  {
+    "slovak": "kto si hľadá prácu",
+    "english": "job seeker"
+  },
+  {
+    "slovak": "skončiť prácu",
+    "english": "knock off"
+  },
+  {
+    "slovak": "nechať niekoho ísť",
+    "english": "let go"
+  },
+  {
+    "slovak": "prepustiť niekoho z práce",
+    "english": "make redundant"
+  },
+  {
+    "slovak": "na dovolenke",
+    "english": "on holiday"
+  },
+  {
+    "slovak": "bez práce",
+    "english": "out of work",
+    "synonyms": {
+      "slovak": ["nezamestnaný"]
+    }
+  },
+  {
+    "slovak": "penzia",
+    "english": "pension"
+  },
+  {
+    "slovak": "dôchodca",
+    "english": "pensioner",
+    "synonyms": {
+      "slovak": ["penzista"]
+    }
+  },
+  {
+    "slovak": "poberať štátne dávky",
+    "english": "receive state benefits"
+  },
+  {
+    "slovak": "rezignovať",
+    "english": "resign",
+    "synonyms": {
+      "slovak": ["odstúpiť z funkcie"]
+    }
+  },
+  {
+    "slovak": "odísť do dôchodku",
+    "english": "retire"
+  },
+  {
+    "slovak": "dôchodok",
+    "english": "retirement"
+  },
+  {
+    "slovak": "pracovná dovolenka",
+    "english": "sabbatical"
+  },
+  {
+    "slovak": "vyhodiť niekoho z práce",
+    "english": "sack"
+  },
+  {
+    "slovak": "pracovná neschopnosť",
+    "english": "sick leave",
+    "synonyms": {
+      "slovak": ["neprítomnosť na pracovisku z dôvodu choroby"]
+    }
+  },
+  {
+    "slovak": "vziať si deň voľno",
+    "english": "take a day off"
+  },
+  {
+    "slovak": "vziať si voľno",
+    "english": "take time off"
+  },
+  {
+    "slovak": "vziať si voľno",
+    "english": "take a leave"
+  },
+  {
+    "slovak": "nezamestnaný",
+    "english": "unemployed"
+  },
+  {
+    "slovak": "vysoká nezamestnanosť",
+    "english": "high unemployment",
+    "synonyms": {
+      "slovak": ["nízka nezamestnanosť"]
+    }
+  },
+  {
+    "slovak": "podpora v nezamestnanosti",
+    "english": "unemployment benefit"
+  }
+]

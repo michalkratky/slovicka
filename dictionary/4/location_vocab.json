@@ -1,0 +1,120 @@
+[
+  {
+    "slovak": "hlavné mesto",
+    "english": "capital city"
+  },
+  {
+    "slovak": "veľkomesto",
+    "english": "city"
+  },
+  {
+    "slovak": "krajina",
+    "english": "countryside",
+    "synonyms": {
+      "slovak": ["okolie"]
+    }
+  },
+  {
+    "slovak": "vidiek",
+    "english": "the country"
+  },
+  {
+    "slovak": "grófstvo",
+    "english": "county"
+  },
+  {
+    "slovak": "okres",
+    "english": "district"
+  },
+  {
+    "slovak": "poľnohospodárska pôda",
+    "english": "farmland"
+  },
+  {
+    "slovak": "dedina",
+    "english": "hamlet",
+    "synonyms": {
+      "slovak": ["osada"]
+    }
+  },
+  {
+    "slovak": "rodné mesto",
+    "english": "home town",
+    "synonyms": {
+      "slovak": ["rodisko"]
+    }
+  },
+  {
+    "slovak": "priemyselná zóna",
+    "english": "industrial zone"
+  },
+  {
+    "slovak": "obyvateľ",
+    "english": "inhabitant"
+  },
+  {
+    "slovak": "na vidieku",
+    "english": "in the country"
+  },
+  {
+    "slovak": "vedľajší sused",
+    "english": "next-door neighbour"
+  },
+  {
+    "slovak": "susedstvo",
+    "english": "neighbourhood"
+  },
+  {
+    "slovak": "staré mesto",
+    "english": "old town"
+  },
+  {
+    "slovak": "predmestie",
+    "english": "outskirts",
+    "synonyms": {
+      "slovak": ["periféria"]
+    }
+  },
+  {
+    "slovak": "provinčný",
+    "english": "provincial"
+  },
+  {
+    "slovak": "vzdialený",
+    "english": "remote"
+  },
+  {
+    "slovak": "letovisko",
+    "english": "holiday resort"
+  },
+  {
+    "slovak": "vidiecky",
+    "english": "rural",
+    "synonyms": {
+      "slovak": ["poľnohospodársky", "dedinský"]
+    }
+  },
+  {
+    "slovak": "chudobná štvrť",
+    "english": "slums"
+  },
+  {
+    "slovak": "predmestie",
+    "english": "suburbs"
+  },
+  {
+    "slovak": "mesto",
+    "english": "town",
+    "synonyms": {
+      "slovak": ["centrum", "stred mesta"]
+    }
+  },
+  {
+    "slovak": "mestský",
+    "english": "urban"
+  },
+  {
+    "slovak": "dedina",
+    "english": "village"
+  }
+]

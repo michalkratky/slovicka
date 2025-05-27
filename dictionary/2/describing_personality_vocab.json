@@ -1,0 +1,636 @@
+[
+  {
+    "slovak": "dobrodružný",
+    "english": "adventurous",
+    "synonyms": {
+      "slovak": ["odvážny"]
+    }
+  },
+  {
+    "slovak": "agresívny",
+    "english": "aggressive"
+  },
+  {
+    "slovak": "ambícia",
+    "english": "ambition",
+    "synonyms": {
+      "slovak": ["ctižiadosť"]
+    }
+  },
+  {
+    "slovak": "ctižiadostivý",
+    "english": "ambitious"
+  },
+  {
+    "slovak": "zábavný",
+    "english": "amusing"
+  },
+  {
+    "slovak": "arogantný",
+    "english": "arrogant",
+    "synonyms": {
+      "slovak": ["povýšenecký"]
+    }
+  },
+  {
+    "slovak": "v zlej nálade",
+    "english": "bad-tempered"
+  },
+  {
+    "slovak": "zaujatý",
+    "english": "biased",
+    "synonyms": {
+      "slovak": ["neobjektívny"]
+    }
+  },
+  {
+    "slovak": "vystatovačný",
+    "english": "boastful"
+  },
+  {
+    "slovak": "nudný",
+    "english": "boring"
+  },
+  {
+    "slovak": "panovačný",
+    "english": "bossy"
+  },
+  {
+    "slovak": "statočný",
+    "english": "brave",
+    "synonyms": {
+      "slovak": ["odvážny"]
+    }
+  },
+  {
+    "slovak": "vnímavý",
+    "english": "bright",
+    "synonyms": {
+      "slovak": ["bystrý"]
+    }
+  },
+  {
+    "slovak": "bez predsudkov",
+    "english": "broad-minded",
+    "synonyms": {
+      "slovak": ["tolerantný"]
+    }
+  },
+  {
+    "slovak": "pokojný",
+    "english": "calm"
+  },
+  {
+    "slovak": "poctivý",
+    "english": "candid"
+  },
+  {
+    "slovak": "bezstarostný",
+    "english": "carefree"
+  },
+  {
+    "slovak": "bezohľadný",
+    "english": "careless",
+    "synonyms": {
+      "slovak": ["ľahkomyseľný"]
+    }
+  },
+  {
+    "slovak": "charakteristické vlastnosti",
+    "english": "characteristics"
+  },
+  {
+    "slovak": "okúzľujúci",
+    "english": "charming"
+  },
+  {
+    "slovak": "táraj",
+    "english": "chatterbox",
+    "synonyms": {
+      "slovak": ["ukecaný človek"]
+    }
+  },
+  {
+    "slovak": "uvravený",
+    "english": "chatty",
+    "synonyms": {
+      "slovak": ["utáraný"]
+    }
+  },
+  {
+    "slovak": "veselý",
+    "english": "cheerful"
+  },
+  {
+    "slovak": "múdry",
+    "english": "clever",
+    "synonyms": {
+      "slovak": ["šikovný"]
+    }
+  },
+  {
+    "slovak": "nafúkaný",
+    "english": "conceited",
+    "synonyms": {
+      "slovak": ["márnomyseľný"]
+    }
+  },
+  {
+    "slovak": "krutý",
+    "english": "cruel"
+  },
+  {
+    "slovak": "spoľahlivý",
+    "english": "dependable"
+  },
+  {
+    "slovak": "odhodlaný",
+    "english": "determined"
+  },
+  {
+    "slovak": "nečestný",
+    "english": "dishonest"
+  },
+  {
+    "slovak": "nelojálny",
+    "english": "disloyal",
+    "synonyms": {
+      "slovak": ["neverný"]
+    }
+  },
+  {
+    "slovak": "hlúpy",
+    "english": "dull"
+  },
+  {
+    "slovak": "bezstarostný",
+    "english": "easy-going"
+  },
+  {
+    "slovak": "egoista",
+    "english": "egoist",
+    "synonyms": {
+      "slovak": ["sebec"]
+    }
+  },
+  {
+    "slovak": "extrovertný",
+    "english": "extrovert"
+  },
+  {
+    "slovak": "čestný",
+    "english": "fair"
+  },
+  {
+    "slovak": "úprimný",
+    "english": "frank"
+  },
+  {
+    "slovak": "priateľský",
+    "english": "friendly"
+  },
+  {
+    "slovak": "komický",
+    "english": "funny",
+    "synonyms": {
+      "slovak": ["zábavný"]
+    }
+  },
+  {
+    "slovak": "štedrý",
+    "english": "generous"
+  },
+  {
+    "slovak": "jemný",
+    "english": "gentle"
+  },
+  {
+    "slovak": "dobromyseľný",
+    "english": "good-natured"
+  },
+  {
+    "slovak": "dôverčivý",
+    "english": "gullible",
+    "synonyms": {
+      "slovak": ["naivný"]
+    }
+  },
+  {
+    "slovak": "pracovitý",
+    "english": "hard-working"
+  },
+  {
+    "slovak": "prospešný",
+    "english": "helpful",
+    "synonyms": {
+      "slovak": ["nápomocný"]
+    }
+  },
+  {
+    "slovak": "čestný",
+    "english": "honest"
+  },
+  {
+    "slovak": "pokrytecký",
+    "english": "hypocritical"
+  },
+  {
+    "slovak": "nečinný",
+    "english": "idle",
+    "synonyms": {
+      "slovak": ["lenivý"]
+    }
+  },
+  {
+    "slovak": "nevychovaný",
+    "english": "ill-mannered"
+  },
+  {
+    "slovak": "nedospelý",
+    "english": "immature",
+    "synonyms": {
+      "slovak": ["nevyspelý"]
+    }
+  },
+  {
+    "slovak": "nestranný",
+    "english": "impartial"
+  },
+  {
+    "slovak": "netrpezlivý",
+    "english": "impatient"
+  },
+  {
+    "slovak": "nezdvorilý",
+    "english": "impolite"
+  },
+  {
+    "slovak": "nezávislý",
+    "english": "independent"
+  },
+  {
+    "slovak": "nespoľahlivý",
+    "english": "insecure"
+  },
+  {
+    "slovak": "inteligentný",
+    "english": "intelligent"
+  },
+  {
+    "slovak": "neznášanlivý",
+    "english": "intolerant",
+    "synonyms": {
+      "slovak": ["netolerantný"]
+    }
+  },
+  {
+    "slovak": "nezodpovedný",
+    "english": "irresponsible"
+  },
+  {
+    "slovak": "podráždený",
+    "english": "irritable"
+  },
+  {
+    "slovak": "odsudzujúci",
+    "english": "judgemental",
+    "synonyms": {
+      "slovak": ["kritický"]
+    }
+  },
+  {
+    "slovak": "spravodlivý",
+    "english": "just"
+  },
+  {
+    "slovak": "láskavý",
+    "english": "kind"
+  },
+  {
+    "slovak": "lenivý",
+    "english": "lazy"
+  },
+  {
+    "slovak": "živý",
+    "english": "lively",
+    "synonyms": {
+      "slovak": ["činorodý"]
+    }
+  },
+  {
+    "slovak": "lojálny",
+    "english": "loyal"
+  },
+  {
+    "slovak": "urobiť dojem",
+    "english": "make an impression"
+  },
+  {
+    "slovak": "dospelý",
+    "english": "mature",
+    "synonyms": {
+      "slovak": ["vyspelý"]
+    }
+  },
+  {
+    "slovak": "lakomý",
+    "english": "mean"
+  },
+  {
+    "slovak": "špinavý",
+    "english": "messy",
+    "synonyms": {
+      "slovak": ["neporiadny"]
+    }
+  },
+  {
+    "slovak": "skromný",
+    "english": "modest"
+  },
+  {
+    "slovak": "úzkoprsý",
+    "english": "narrow-minded"
+  },
+  {
+    "slovak": "škaredý",
+    "english": "nasty"
+  },
+  {
+    "slovak": "upravený",
+    "english": "neat"
+  },
+  {
+    "slovak": "príjemný",
+    "english": "nice",
+    "synonyms": {
+      "slovak": ["milý"]
+    }
+  },
+  {
+    "slovak": "poslušný",
+    "english": "obedient"
+  },
+  {
+    "slovak": "otvorený",
+    "english": "open"
+  },
+  {
+    "slovak": "otvorený",
+    "english": "outgoing",
+    "synonyms": {
+      "slovak": ["extrovertný"]
+    }
+  },
+  {
+    "slovak": "osobnosť",
+    "english": "personality"
+  },
+  {
+    "slovak": "vľúdny",
+    "english": "pleasant",
+    "synonyms": {
+      "slovak": ["príjemný"]
+    }
+  },
+  {
+    "slovak": "zdvorilý",
+    "english": "polite"
+  },
+  {
+    "slovak": "tichý",
+    "english": "quiet"
+  },
+  {
+    "slovak": "rozumný",
+    "english": "reasonable"
+  },
+  {
+    "slovak": "vzdorovitý",
+    "english": "rebellious",
+    "synonyms": {
+      "slovak": ["nepoddajný"]
+    }
+  },
+  {
+    "slovak": "uvoľnený",
+    "english": "relaxed"
+  },
+  {
+    "slovak": "spoľahlivý",
+    "english": "reliable",
+    "synonyms": {
+      "slovak": ["dôveryhodný"]
+    }
+  },
+  {
+    "slovak": "rezervovaný",
+    "english": "reserved",
+    "synonyms": {
+      "slovak": ["uzavretý"]
+    }
+  },
+  {
+    "slovak": "zodpovedný",
+    "english": "responsible"
+  },
+  {
+    "slovak": "hrubý",
+    "english": "rude",
+    "synonyms": {
+      "slovak": ["nezdvorilý"]
+    }
+  },
+  {
+    "slovak": "bezcitný",
+    "english": "ruthless",
+    "synonyms": {
+      "slovak": ["nemilosrdný", "bezohľadný"]
+    }
+  },
+  {
+    "slovak": "sebavedomý",
+    "english": "self-assured",
+    "synonyms": {
+      "slovak": ["sebaistý"]
+    }
+  },
+  {
+    "slovak": "egocentrický",
+    "english": "self-centred",
+    "synonyms": {
+      "slovak": ["egoistický"]
+    }
+  },
+  {
+    "slovak": "sebavedomý",
+    "english": "self-confident",
+    "synonyms": {
+      "slovak": ["plný sebadôvery"]
+    }
+  },
+  {
+    "slovak": "nesmelý",
+    "english": "self-conscious",
+    "synonyms": {
+      "slovak": ["rozpačitý"]
+    }
+  },
+  {
+    "slovak": "sebecký",
+    "english": "selfish"
+  },
+  {
+    "slovak": "nesebecký",
+    "english": "selfless"
+  },
+  {
+    "slovak": "zmysel pre humor",
+    "english": "sense of humour"
+  },
+  {
+    "slovak": "rozumný",
+    "english": "sensible"
+  },
+  {
+    "slovak": "prchký",
+    "english": "short-tempered",
+    "synonyms": {
+      "slovak": ["impulzívny"]
+    }
+  },
+  {
+    "slovak": "plachý",
+    "english": "shy"
+  },
+  {
+    "slovak": "spoločenský",
+    "english": "sociable"
+  },
+  {
+    "slovak": "prísny",
+    "english": "strict"
+  },
+  {
+    "slovak": "s pevnou vôľou",
+    "english": "strong-willed"
+  },
+  {
+    "slovak": "tvrdohlavý",
+    "english": "stubborn",
+    "synonyms": {
+      "slovak": ["neústupčivý"]
+    }
+  },
+  {
+    "slovak": "milý",
+    "english": "sweet",
+    "synonyms": {
+      "slovak": ["láskavý"]
+    }
+  },
+  {
+    "slovak": "súcitný",
+    "english": "sympathetic"
+  },
+  {
+    "slovak": "šetrný",
+    "english": "tactful",
+    "synonyms": {
+      "slovak": ["taktný"]
+    }
+  },
+  {
+    "slovak": "netaktný",
+    "english": "tactless"
+  },
+  {
+    "slovak": "uvravený",
+    "english": "talkative",
+    "synonyms": {
+      "slovak": ["urečnený"]
+    }
+  },
+  {
+    "slovak": "temperament",
+    "english": "temperament",
+    "synonyms": {
+      "slovak": ["povaha"]
+    }
+  },
+  {
+    "slovak": "čistotný",
+    "english": "tidy",
+    "synonyms": {
+      "slovak": ["pekný", "upravený"]
+    }
+  },
+  {
+    "slovak": "znášanlivý",
+    "english": "tolerant",
+    "synonyms": {
+      "slovak": ["tolerantný"]
+    }
+  },
+  {
+    "slovak": "rys",
+    "english": "trait",
+    "synonyms": {
+      "slovak": ["znak"]
+    }
+  },
+  {
+    "slovak": "dôveryhodný",
+    "english": "trustworthy",
+    "synonyms": {
+      "slovak": ["osvedčený", "spoľahlivý"]
+    }
+  },
+  {
+    "slovak": "neúprimný",
+    "english": "two-faced"
+  },
+  {
+    "slovak": "neláskavý",
+    "english": "unfriendly",
+    "synonyms": {
+      "slovak": ["nevľúdny"]
+    }
+  },
+  {
+    "slovak": "nepríjemný",
+    "english": "unpleasant"
+  },
+  {
+    "slovak": "nerozumný",
+    "english": "unreasonable",
+    "synonyms": {
+      "slovak": ["nezmyselný"]
+    }
+  },
+  {
+    "slovak": "nespoľahlivý",
+    "english": "unreliable"
+  },
+  {
+    "slovak": "bezohľadný",
+    "english": "unscrupulous"
+  },
+  {
+    "slovak": "nesebecký",
+    "english": "unselfish"
+  },
+  {
+    "slovak": "bezcenný",
+    "english": "vain",
+    "synonyms": {
+      "slovak": ["márnivý"]
+    }
+  },
+  {
+    "slovak": "podobať sa",
+    "english": "take after",
+    "synonyms": {
+      "slovak": ["podobať sa otcovi", "podobať sa matke", "podobať sa dedkovi"]
+    }
+  }
+]

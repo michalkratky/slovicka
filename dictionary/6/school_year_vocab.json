@@ -1,0 +1,75 @@
+[
+  {
+    "slovak": "prestávka",
+    "english": "break"
+  },
+  {
+    "slovak": "jarné prázdniny",
+    "english": "summer break",
+    "synonyms": {
+      "slovak": ["zimné prázdniny", "vianočné prázdniny", "veľkonočné prázdniny"]
+    }
+  },
+  {
+    "slovak": "trieda",
+    "english": "class",
+    "synonyms": {
+      "slovak": ["ročník"]
+    }
+  },
+  {
+    "slovak": "hodina samostatného štúdia",
+    "english": "free period"
+  },
+  {
+    "slovak": "prázdniny",
+    "english": "holidays",
+    "synonyms": {
+      "english": ["vacation"]
+    }
+  },
+  {
+    "slovak": "hodina",
+    "english": "lesson",
+    "synonyms": {
+      "english": ["period"]
+    }
+  },
+  {
+    "slovak": "obedňajšia prestávka",
+    "english": "lunch break"
+  },
+  {
+    "slovak": "prestávka",
+    "english": "recess"
+  },
+  {
+    "slovak": "semester",
+    "english": "semester",
+    "synonyms": {
+      "slovak": ["polrok"]
+    }
+  },
+  {
+    "slovak": "semester",
+    "english": "term",
+    "synonyms": {
+      "slovak": ["polrok"]
+    }
+  },
+  {
+    "slovak": "rozvrh hodín",
+    "english": "timetable",
+    "synonyms": {
+      "english": ["schedule"]
+    }
+  },
+  {
+    "slovak": "zvoní o 3 hodine",
+    "english": "the bell goes at 3 o'clock"
+  },
+  {
+    "slovak": "škola sa končí 14. júla",
+    "english": "school breaks up on 14 July"
+  }
+]

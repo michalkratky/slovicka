@@ -1,0 +1,158 @@
+[
+  {
+    "slovak": "bankový účet",
+    "english": "bank account"
+  },
+  {
+    "slovak": "čierny trh",
+    "english": "black market"
+  },
+  {
+    "slovak": "rozpočet",
+    "english": "budget"
+  },
+  {
+    "slovak": "obchod",
+    "english": "business"
+  },
+  {
+    "slovak": "drobné peniaze",
+    "english": "change",
+    "synonyms": {
+      "slovak": ["premeniť", "rozmeniť"]
+    }
+  },
+  {
+    "slovak": "mince",
+    "english": "coin"
+  },
+  {
+    "slovak": "obchod",
+    "english": "commerce"
+  },
+  {
+    "slovak": "finančne skrachovať",
+    "english": "crash",
+    "synonyms": {
+      "slovak": ["krach na burze"]
+    }
+  },
+  {
+    "slovak": "mena",
+    "english": "currency"
+  },
+  {
+    "slovak": "dlh",
+    "english": "debt"
+  },
+  {
+    "slovak": "devalvácia meny",
+    "english": "devaluation of currency"
+  },
+  {
+    "slovak": "ekonomický nárast",
+    "english": "economic growth",
+    "synonyms": {
+      "slovak": ["ekonomický úpadok"]
+    }
+  },
+  {
+    "slovak": "rastúca ekonomika",
+    "english": "growing economy",
+    "synonyms": {
+      "slovak": ["klesajúca ekonomika"]
+    }
+  },
+  {
+    "slovak": "devízový kurz",
+    "english": "exchange rate",
+    "synonyms": {
+      "slovak": ["valutový kurz"]
+    }
+  },
+  {
+    "slovak": "financovať",
+    "english": "finance",
+    "synonyms": {
+      "slovak": ["poskytovať finančné prostriedky"]
+    }
+  },
+  {
+    "slovak": "ekonomika voľného trhu",
+    "english": "free-market economy"
+  },
+  {
+    "slovak": "fond",
+    "english": "fund"
+  },
+  {
+    "slovak": "hrubý národný produkt",
+    "english": "gross national product"
+  },
+  {
+    "slovak": "príjem",
+    "english": "income"
+  },
+  {
+    "slovak": "priemysel",
+    "english": "industry"
+  },
+  {
+    "slovak": "inflácia",
+    "english": "inflation"
+  },
+  {
+    "slovak": "investovať",
+    "english": "invest"
+  },
+  {
+    "slovak": "investícia",
+    "english": "investment"
+  },
+  {
+    "slovak": "trh",
+    "english": "market"
+  },
+  {
+    "slovak": "bankovka",
+    "english": "note"
+  },
+  {
+    "slovak": "platba",
+    "english": "payment"
+  },
+  {
+    "slovak": "miera inflácie",
+    "english": "rate of inflation"
+  },
+  {
+    "slovak": "hospodársky pokles",
+    "english": "recession"
+  },
+  {
+    "slovak": "šetriť",
+    "english": "save"
+  },
+  {
+    "slovak": "utrácať",
+    "english": "spend"
+  },
+  {
+    "slovak": "daň",
+    "english": "tax"
+  },
+  {
+    "slovak": "deficit obchodnej bilancie",
+    "english": "trade deficit",
+    "synonyms": {
+      "slovak": ["obchodný deficit"]
+    }
+  },
+  {
+    "slovak": "zamestnanci",
+    "english": "workforce",
+    "synonyms": {
+      "slovak": ["obchodná sila"]
+    }
+  }
+]

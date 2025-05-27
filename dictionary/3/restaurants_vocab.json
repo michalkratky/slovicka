@@ -1,0 +1,116 @@
+[
+  {
+    "slovak": "bufetový voz",
+    "english": "buffet car"
+  },
+  {
+    "slovak": "jedáleň",
+    "english": "canteen",
+    "synonyms": {
+      "slovak": ["menza", "kantína"]
+    }
+  },
+  {
+    "slovak": "kaviareň",
+    "english": "café",
+    "synonyms": {
+      "slovak": ["lacná reštaurácia"]
+    }
+  },
+  {
+    "slovak": "kantína",
+    "english": "cafeteria",
+    "synonyms": {
+      "slovak": ["kaviareň", "reštaurácia so samoobsluhou"]
+    }
+  },
+  {
+    "slovak": "rýchle občerstvenie",
+    "english": "fast food restaurant"
+  },
+  {
+    "slovak": "krčma",
+    "english": "pub"
+  },
+  {
+    "slovak": "reštaurácia so samoobsluhou",
+    "english": "self-service restaurant"
+  },
+  {
+    "slovak": "malá reštaurácia s jednoduchými jedlami",
+    "english": "snack bar"
+  },
+  {
+    "slovak": "reštaurácia s jedlom so sebou",
+    "english": "takeaway"
+  },
+  {
+    "slovak": "nealkoholický nápoj",
+    "english": "beverage"
+  },
+  {
+    "slovak": "účet",
+    "english": "bill"
+  },
+  {
+    "slovak": "rezervovať si stôl",
+    "english": "book a table",
+    "synonyms": {
+      "english": ["reserve a table", "make a reservation"]
+    }
+  },
+  {
+    "slovak": "hlavný chod",
+    "english": "main course"
+  },
+  {
+    "slovak": "menu",
+    "english": "menu",
+    "synonyms": {
+      "slovak": ["jedálny lístok"]
+    }
+  },
+  {
+    "slovak": "objednať si",
+    "english": "order"
+  },
+  {
+    "slovak": "samoobsluha",
+    "english": "self-service"
+  },
+  {
+    "slovak": "obsluha",
+    "english": "service"
+  },
+  {
+    "slovak": "reštauračný poplatok za stolovanie",
+    "english": "service charge"
+  },
+  {
+    "slovak": "predjedlo",
+    "english": "starter"
+  },
+  {
+    "slovak": "reštauračný servis",
+    "english": "table service"
+  },
+  {
+    "slovak": "prepitné",
+    "english": "tip",
+    "synonyms": {
+      "english": ["gratuities"]
+    }
+  },
+  {
+    "slovak": "čašník",
+    "english": "waiter"
+  },
+  {
+    "slovak": "čašníčka",
+    "english": "waitress"
+  },
+  {
+    "slovak": "vínny lístok",
+    "english": "wine list"
+  }
+]

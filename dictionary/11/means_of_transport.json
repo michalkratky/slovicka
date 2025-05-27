@@ -1,0 +1,124 @@
+[
+  {
+    "slovak": "lietadlo",
+    "english": "aeroplane",
+    "synonyms": {
+      "english": ["airplane"]
+    }
+  },
+  {
+    "slovak": "lietadlo",
+    "english": "aircraft"
+  },
+  {
+    "slovak": "bicykel",
+    "english": "bicycle",
+    "synonyms": {
+      "english": ["bike"]
+    }
+  },
+  {
+    "slovak": "loď",
+    "english": "boat"
+  },
+  {
+    "slovak": "loďka",
+    "english": "boat"
+  },
+  {
+    "slovak": "autobus",
+    "english": "bus"
+  },
+  {
+    "slovak": "auto",
+    "english": "car"
+  },
+  {
+    "slovak": "autobus",
+    "english": "coach"
+  },
+  {
+    "slovak": "poschodový autobus",
+    "english": "double-decker bus"
+  },
+  {
+    "slovak": "prievoz",
+    "english": "ferry"
+  },
+  {
+    "slovak": "trajekt",
+    "english": "ferry"
+  },
+  {
+    "slovak": "linkové dopravné lietadlo",
+    "english": "liner"
+  },
+  {
+    "slovak": "pravidelný zaoceánsky parník",
+    "english": "liner"
+  },
+  {
+    "slovak": "nákladný automobil",
+    "english": "lorry",
+    "synonyms": {
+      "english": ["truck"]
+    }
+  },
+  {
+    "slovak": "minibus",
+    "english": "minibus"
+  },
+  {
+    "slovak": "motorka",
+    "english": "motorbike"
+  },
+  {
+    "slovak": "motocykel",
+    "english": "motorcycle"
+  },
+  {
+    "slovak": "pešo",
+    "english": "on foot"
+  },
+  {
+    "slovak": "taxi",
+    "english": "taxi",
+    "synonyms": {
+      "english": ["cab"]
+    }
+  },
+  {
+    "slovak": "vlak",
+    "english": "train"
+  },
+  {
+    "slovak": "metro",
+    "english": "tube"
+  },
+  {
+    "slovak": "podzemná dráha",
+    "english": "underground",
+    "synonyms": {
+      "english": ["subway"]
+    }
+  },
+  {
+    "slovak": "metro",
+    "english": "underground",
+    "synonyms": {
+      "english": ["subway"]
+    }
+  },
+  {
+    "slovak": "dodávka",
+    "english": "van"
+  },
+  {
+    "slovak": "nákladné auto",
+    "english": "van"
+  },
+  {
+    "slovak": "jachta",
+    "english": "yacht"
+  }
+]

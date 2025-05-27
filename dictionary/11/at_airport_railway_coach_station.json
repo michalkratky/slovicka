@@ -1,0 +1,252 @@
+[
+  {
+    "slovak": "letecká spoločnosť",
+    "english": "airline"
+  },
+  {
+    "slovak": "príchod",
+    "english": "arrival"
+  },
+  {
+    "slovak": "prílet",
+    "english": "arrival"
+  },
+  {
+    "slovak": "nastúpiť do lietadla",
+    "english": "board a plane"
+  },
+  {
+    "slovak": "palubný lístok",
+    "english": "boarding card"
+  },
+  {
+    "slovak": "rezervovať si lístok",
+    "english": "book a ticket"
+  },
+  {
+    "slovak": "rezervovať si sedadlo",
+    "english": "book a seat"
+  },
+  {
+    "slovak": "biznis trieda",
+    "english": "business class"
+  },
+  {
+    "slovak": "vyššia trieda",
+    "english": "business class"
+  },
+  {
+    "slovak": "posádka lietadla starajúca sa o cestujúcich",
+    "english": "cabin crew"
+  },
+  {
+    "slovak": "prestúpiť",
+    "english": "change"
+  },
+  {
+    "slovak": "presadnúť",
+    "english": "change"
+  },
+  {
+    "slovak": "špeciál",
+    "english": "charter flight"
+  },
+  {
+    "slovak": "odbaviť sa",
+    "english": "check in"
+  },
+  {
+    "slovak": "prihlásiť sa pred odletom",
+    "english": "check in"
+  },
+  {
+    "slovak": "odbavovací priestor na letisku",
+    "english": "check-in desk"
+  },
+  {
+    "slovak": "kupé vo vlaku",
+    "english": "train compartment"
+  },
+  {
+    "slovak": "odchod",
+    "english": "departure"
+  },
+  {
+    "slovak": "odlet",
+    "english": "departure"
+  },
+  {
+    "slovak": "odletová hala",
+    "english": "departure lounge"
+  },
+  {
+    "slovak": "odletový salónik",
+    "english": "departure lounge"
+  },
+  {
+    "slovak": "ekonomická trieda",
+    "english": "economy class"
+  },
+  {
+    "slovak": "turistická trieda",
+    "english": "economy class"
+  },
+  {
+    "slovak": "poplatok za batožinu s nadmernou hmotnosťou",
+    "english": "excess baggage charge"
+  },
+  {
+    "slovak": "rýchlik",
+    "english": "fast train"
+  },
+  {
+    "slovak": "jazdné",
+    "english": "fare"
+  },
+  {
+    "slovak": "východ na odbavovaciu plochu",
+    "english": "gate"
+  },
+  {
+    "slovak": "nastúpiť do vlaku",
+    "english": "get on the train"
+  },
+  {
+    "slovak": "nastúpiť do autobusu",
+    "english": "get on the bus"
+  },
+  {
+    "slovak": "vystúpiť z vlaku",
+    "english": "get off the train"
+  },
+  {
+    "slovak": "vystúpiť z autobusu",
+    "english": "get off the bus"
+  },
+  {
+    "slovak": "príručná batožina",
+    "english": "hand luggage"
+  },
+  {
+    "slovak": "pristáť",
+    "english": "land"
+  },
+  {
+    "slovak": "úschovňa batožín",
+    "english": "left-luggage office"
+  },
+  {
+    "slovak": "batožina",
+    "english": "luggage",
+    "synonyms": {
+      "english": ["baggage"]
+    }
+  },
+  {
+    "slovak": "vozík na batožinu",
+    "english": "luggage trolley"
+  },
+  {
+    "slovak": "cestujúci",
+    "english": "passenger"
+  },
+  {
+    "slovak": "osobný vlak",
+    "english": "passenger train"
+  },
+  {
+    "slovak": "nástupište",
+    "english": "railway platform"
+  },
+  {
+    "slovak": "rezervovať si lístok",
+    "english": "reserve a ticket"
+  },
+  {
+    "slovak": "rezervovať si sedadlo",
+    "english": "reserve a seat"
+  },
+  {
+    "slovak": "kruhová pristávacia dráha",
+    "english": "runway"
+  },
+  {
+    "slovak": "pravidelný let",
+    "english": "scheduled flight"
+  },
+  {
+    "slovak": "spací vozeň",
+    "english": "sleeper carriage"
+  },
+  {
+    "slovak": "spací vozeň",
+    "english": "sleeper car"
+  },
+  {
+    "slovak": "kufor",
+    "english": "suitcase"
+  },
+  {
+    "slovak": "odštartovať",
+    "english": "take off"
+  },
+  {
+    "slovak": "vzlietnuť",
+    "english": "take off"
+  },
+  {
+    "slovak": "terminál",
+    "english": "terminal"
+  },
+  {
+    "slovak": "priamy vlak",
+    "english": "through train"
+  },
+  {
+    "slovak": "lístok",
+    "english": "ticket"
+  },
+  {
+    "slovak": "letenka",
+    "english": "plane ticket"
+  },
+  {
+    "slovak": "lístok na vlak",
+    "english": "train ticket"
+  },
+  {
+    "slovak": "mesačný lístok",
+    "english": "monthly ticket"
+  },
+  {
+    "slovak": "jednosmerný lístok",
+    "english": "single ticket",
+    "synonyms": {
+      "english": ["one-way ticket"]
+    }
+  },
+  {
+    "slovak": "časový lístok",
+    "english": "period ticket"
+  },
+  {
+    "slovak": "spiatočný lístok",
+    "english": "return ticket"
+  },
+  {
+    "slovak": "sezónny lístok",
+    "english": "season ticket"
+  },
+  {
+    "slovak": "predajňa lístkov",
+    "english": "ticket office"
+  },
+  {
+    "slovak": "cestovný poriadok",
+    "english": "timetable"
+  },
+  {
+    "slovak": "letový poriadok",
+    "english": "timetable"
+  }
+]

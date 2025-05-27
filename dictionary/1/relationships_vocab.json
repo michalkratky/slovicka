@@ -1,0 +1,142 @@
+[
+  {
+    "slovak": "byť ženatý",
+    "english": "be married",
+    "synonyms": {
+      "slovak": ["byť vydatá"]
+    }
+  },
+  {
+    "slovak": "čakať bábätko",
+    "english": "be expecting",
+    "synonyms": {
+      "slovak": ["čakať dieťa"]
+    }
+  },
+  {
+    "slovak": "byť tehotná",
+    "english": "be pregnant"
+  },
+  {
+    "slovak": "byť príkladom",
+    "english": "be a role model"
+  },
+  {
+    "slovak": "byť slobodný",
+    "english": "be single"
+  },
+  {
+    "slovak": "rozísť sa",
+    "english": "break up",
+    "synonyms": {
+      "slovak": ["rozísť sa s niekým"]
+    }
+  },
+  {
+    "slovak": "okruh priateľov",
+    "english": "circle of friends"
+  },
+  {
+    "slovak": "pohádať sa",
+    "english": "fall out",
+    "synonyms": {
+      "slovak": ["rozísť sa s niekým"]
+    }
+  },
+  {
+    "slovak": "generačný problém",
+    "english": "generation gap",
+    "synonyms": {
+      "slovak": ["rozdiel medzi generáciami"]
+    }
+  },
+  {
+    "slovak": "rozviesť sa",
+    "english": "get divorced"
+  },
+  {
+    "slovak": "zasnúbiť sa",
+    "english": "get engaged"
+  },
+  {
+    "slovak": "oženiť sa",
+    "english": "get married",
+    "synonyms": {
+      "slovak": ["vydať sa"]
+    }
+  },
+  {
+    "slovak": "vychádzať dobre",
+    "english": "get on well"
+  },
+  {
+    "slovak": "chodiť s niekým",
+    "english": "go out"
+  },
+  {
+    "slovak": "pohádať sa",
+    "english": "have an argument",
+    "synonyms": {
+      "slovak": ["mať nezhodu", "mať hádku"]
+    }
+  },
+  {
+    "slovak": "mať dieťa",
+    "english": "have a child"
+  },
+  {
+    "slovak": "skončiť spor",
+    "english": "make up",
+    "synonyms": {
+      "slovak": ["skončiť hádku"]
+    }
+  },
+  {
+    "slovak": "manželia",
+    "english": "married couple",
+    "synonyms": {
+      "slovak": ["manželský pár"]
+    }
+  },
+  {
+    "slovak": "príbuzný",
+    "english": "relation",
+    "synonyms": {
+      "slovak": ["blízky príbuzný", "vzdialený príbuzný"]
+    }
+  },
+  {
+    "slovak": "vzťah",
+    "english": "relationship"
+  },
+  {
+    "slovak": "vziať si",
+    "english": "marry",
+    "synonyms": {
+      "slovak": ["vydať sa za", "oženiť sa s"]
+    }
+  },
+  {
+    "slovak": "začať vzťah",
+    "english": "start a relationship",
+    "synonyms": {
+      "slovak": ["mať vzťah", "ukončiť vzťah"]
+    }
+  },
+  {
+    "slovak": "utiecť z domu",
+    "english": "run away from home"
+  },
+  {
+    "slovak": "byť príkladom",
+    "english": "set an example"
+  },
+  {
+    "slovak": "rozísť sa s niekým",
+    "english": "split up"
+  },
+  {
+    "slovak": "založiť rodinu",
+    "english": "start a family"
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "slovak": "byť v triede",
+    "english": "be at a class",
+    "synonyms": {
+      "slovak": ["byť na hodine"]
+    }
+  },
+  {
+    "slovak": "byť v triede",
+    "english": "be in class"
+  },
+  {
+    "slovak": "zošit s predtlačenými vzormi na precvičovanie písma",
+    "english": "copybook"
+  },
+  {
+    "slovak": "učebnica",
+    "english": "coursebook"
+  },
+  {
+    "slovak": "zošit",
+    "english": "exercise book"
+  },
+  {
+    "slovak": "termín",
+    "english": "deadline"
+  },
+  {
+    "slovak": "robiť cvičenie",
+    "english": "do an exercise"
+  },
+  {
+    "slovak": "robiť úlohu",
+    "english": "do a task"
+  },
+  {
+    "slovak": "robiť činnosť",
+    "english": "do an activity",
+    "synonyms": {
+      "slovak": ["robiť cvičenie"]
+    }
+  },
+  {
+    "slovak": "urobiť všetko čo je v našich silách",
+    "english": "do one's best"
+  },
+  {
+    "slovak": "pracovať na projekte",
+    "english": "do project work"
+  },
+  {
+    "slovak": "robiť domácu úlohu",
+    "english": "do homework"
+  },
+  {
+    "slovak": "hodiny naviac",
+    "english": "extra lessons"
+  },
+  {
+    "slovak": "šanón",
+    "english": "folder"
+  },
+  {
+    "slovak": "robiť domácu úlohu",
+    "english": "do homework",
+    "synonyms": {
+      "slovak": ["dostať domácu úlohu", "zadať domácu úlohu", "odovzdať domácu úlohu"]
+    }
+  },
+  {
+    "slovak": "naučiť sa",
+    "english": "learn",
+    "synonyms": {
+      "slovak": ["dozvedieť sa o niečom"]
+    }
+  },
+  {
+    "slovak": "učiť sa naspamäť",
+    "english": "learn by heart"
+  },
+  {
+    "slovak": "robiť chyby",
+    "english": "make mistakes"
+  },
+  {
+    "slovak": "robiť si poznámky",
+    "english": "make notes"
+  },
+  {
+    "slovak": "urobiť prezentáciu",
+    "english": "make a presentation"
+  },
+  {
+    "slovak": "urobiť pokrok",
+    "english": "make progress"
+  },
+  {
+    "slovak": "známky",
+    "english": "marks"
+  },
+  {
+    "slovak": "učiť sa naspamäť",
+    "english": "memorise"
+  },
+  {
+    "slovak": "poznámkový blok",
+    "english": "notebook"
+  },
+  {
+    "slovak": "zúčastniť sa",
+    "english": "participate"
+  },
+  {
+    "slovak": "posudok",
+    "english": "report",
+    "synonyms": {
+      "slovak": ["školské vysvedčenie"]
+    }
+  },
+  {
+    "slovak": "školský výlet",
+    "english": "school trip"
+  },
+  {
+    "slovak": "zadať knihy",
+    "english": "set books"
+  },
+  {
+    "slovak": "vyriešiť problém",
+    "english": "solve a problem"
+  },
+  {
+    "slovak": "usilovne študovať",
+    "english": "study hard",
+    "synonyms": {
+      "slovak": ["usilovne sa učiť"]
+    }
+  },
+  {
+    "slovak": "urobiť si prestávku",
+    "english": "take a break"
+  },
+  {
+    "slovak": "zúčastniť sa",
+    "english": "take part"
+  },
+  {
+    "slovak": "učebnica",
+    "english": "textbook"
+  },
+  {
+    "slovak": "pracovný zošit",
+    "english": "workbook"
+  }
+]

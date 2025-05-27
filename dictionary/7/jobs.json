@@ -1,0 +1,387 @@
+[
+  {
+    "slovak": "akademický",
+    "english": "academic"
+  },
+  {
+    "slovak": "vedecký",
+    "english": "academic"
+  },
+  {
+    "slovak": "pedagóg na vysokej škole",
+    "english": "academic"
+  },
+  {
+    "slovak": "účtovník",
+    "english": "accountant"
+  },
+  {
+    "slovak": "herec",
+    "english": "actor"
+  },
+  {
+    "slovak": "herečka",
+    "english": "actress"
+  },
+  {
+    "slovak": "umelec",
+    "english": "artist"
+  },
+  {
+    "slovak": "pomocníčka v domácnosti",
+    "english": "au pair"
+  },
+  {
+    "slovak": "osoba starajúca sa o deti",
+    "english": "babysitter"
+  },
+  {
+    "slovak": "holič",
+    "english": "barber"
+  },
+  {
+    "slovak": "obhajca",
+    "english": "barrister"
+  },
+  {
+    "slovak": "právny zástupca",
+    "english": "barrister",
+    "synonyms": {
+      "english": ["attorney"]
+    }
+  },
+  {
+    "slovak": "kozmetik",
+    "english": "beautician"
+  },
+  {
+    "slovak": "kozmetička",
+    "english": "beautician"
+  },
+  {
+    "slovak": "obchodník",
+    "english": "businessman"
+  },
+  {
+    "slovak": "podnikateľ",
+    "english": "businessman"
+  },
+  {
+    "slovak": "obchodníčka",
+    "english": "businesswoman"
+  },
+  {
+    "slovak": "podnikateľka",
+    "english": "businesswoman"
+  },
+  {
+    "slovak": "automechanik",
+    "english": "car mechanic"
+  },
+  {
+    "slovak": "tesár",
+    "english": "carpenter"
+  },
+  {
+    "slovak": "pokladník",
+    "english": "cashier"
+  },
+  {
+    "slovak": "pokladníčka",
+    "english": "cashier"
+  },
+  {
+    "slovak": "vrchný kuchár",
+    "english": "chef"
+  },
+  {
+    "slovak": "laborant",
+    "english": "chemist"
+  },
+  {
+    "slovak": "lekárnik",
+    "english": "chemist"
+  },
+  {
+    "slovak": "programátor",
+    "english": "computer programmer"
+  },
+  {
+    "slovak": "sprievodca",
+    "english": "conductor"
+  },
+  {
+    "slovak": "dirigent",
+    "english": "conductor"
+  },
+  {
+    "slovak": "poradca",
+    "english": "consultant"
+  },
+  {
+    "slovak": "kuchár",
+    "english": "cook"
+  },
+  {
+    "slovak": "zubár",
+    "english": "dentist"
+  },
+  {
+    "slovak": "filmový režisér",
+    "english": "film director"
+  },
+  {
+    "slovak": "lekár",
+    "english": "doctor"
+  },
+  {
+    "slovak": "krajčír",
+    "english": "dress maker"
+  },
+  {
+    "slovak": "vodič",
+    "english": "driver"
+  },
+  {
+    "slovak": "inštruktor v autoškole",
+    "english": "driving instructor"
+  },
+  {
+    "slovak": "ekonóm",
+    "english": "economist"
+  },
+  {
+    "slovak": "elektrikár",
+    "english": "electrician"
+  },
+  {
+    "slovak": "technik",
+    "english": "engineer"
+  },
+  {
+    "slovak": "inžinier",
+    "english": "engineer"
+  },
+  {
+    "slovak": "realitný agent",
+    "english": "estate agent"
+  },
+  {
+    "slovak": "člen vedenia firmy",
+    "english": "executive"
+  },
+  {
+    "slovak": "robotník v továrni",
+    "english": "factory worker"
+  },
+  {
+    "slovak": "farmár",
+    "english": "farmer"
+  },
+  {
+    "slovak": "hasič",
+    "english": "firefighter"
+  },
+  {
+    "slovak": "letuška",
+    "english": "flight attendant"
+  },
+  {
+    "slovak": "kaderník",
+    "english": "hair dresser"
+  },
+  {
+    "slovak": "žena v domácnosti",
+    "english": "housewife"
+  },
+  {
+    "slovak": "bytový maliar",
+    "english": "interior decorator"
+  },
+  {
+    "slovak": "tlmočník",
+    "english": "interpreter"
+  },
+  {
+    "slovak": "novinár",
+    "english": "journalist"
+  },
+  {
+    "slovak": "právnik",
+    "english": "lawyer"
+  },
+  {
+    "slovak": "prednášajúci",
+    "english": "lecturer"
+  },
+  {
+    "slovak": "knihovník",
+    "english": "librarian"
+  },
+  {
+    "slovak": "manažér",
+    "english": "manager"
+  },
+  {
+    "slovak": "vedúci pracovník",
+    "english": "manager"
+  },
+  {
+    "slovak": "baník",
+    "english": "miner"
+  },
+  {
+    "slovak": "hudobník",
+    "english": "musician"
+  },
+  {
+    "slovak": "zdravotná sestra",
+    "english": "nurse"
+  },
+  {
+    "slovak": "maliar",
+    "english": "painter"
+  },
+  {
+    "slovak": "penzista",
+    "english": "pensioner"
+  },
+  {
+    "slovak": "lekárnik",
+    "english": "pharmacist"
+  },
+  {
+    "slovak": "fotograf",
+    "english": "photographer"
+  },
+  {
+    "slovak": "pilot",
+    "english": "pilot"
+  },
+  {
+    "slovak": "inštalatér",
+    "english": "plumber"
+  },
+  {
+    "slovak": "policajt",
+    "english": "police officer"
+  },
+  {
+    "slovak": "politik",
+    "english": "politician"
+  },
+  {
+    "slovak": "poštový poštár",
+    "english": "postman"
+  },
+  {
+    "slovak": "poštárka",
+    "english": "postwoman"
+  },
+  {
+    "slovak": "psychológ",
+    "english": "psychologist"
+  },
+  {
+    "slovak": "recepčný",
+    "english": "receptionist"
+  },
+  {
+    "slovak": "upratovačka",
+    "english": "road sweeper"
+  },
+  {
+    "slovak": "obchodný zástupca",
+    "english": "sales representative",
+    "synonyms": {
+      "english": ["sales rep"]
+    }
+  },
+  {
+    "slovak": "vedecký pracovník",
+    "english": "scientist"
+  },
+  {
+    "slovak": "sochár",
+    "english": "sculptor"
+  },
+  {
+    "slovak": "sekretár",
+    "english": "secretary"
+  },
+  {
+    "slovak": "sekretárka",
+    "english": "secretary"
+  },
+  {
+    "slovak": "zamestnanec bezpečnostnej služby",
+    "english": "security guard"
+  },
+  {
+    "slovak": "predavač",
+    "english": "shop assistant"
+  },
+  {
+    "slovak": "majiteľ obchodu",
+    "english": "shopkeeper"
+  },
+  {
+    "slovak": "sociálny pracovník",
+    "english": "social worker"
+  },
+  {
+    "slovak": "solicitor",
+    "english": "solicitor"
+  },
+  {
+    "slovak": "právny poradca",
+    "english": "solicitor"
+  },
+  {
+    "slovak": "burzový maklér",
+    "english": "stockbroker"
+  },
+  {
+    "slovak": "chirurg",
+    "english": "surgeon"
+  },
+  {
+    "slovak": "lekár",
+    "english": "surgeon"
+  },
+  {
+    "slovak": "krajčír",
+    "english": "tailor"
+  },
+  {
+    "slovak": "učiteľ",
+    "english": "teacher"
+  },
+  {
+    "slovak": "sprievodca",
+    "english": "ticket inspector"
+  },
+  {
+    "slovak": "revízor",
+    "english": "ticket inspector"
+  },
+  {
+    "slovak": "prekladateľ",
+    "english": "translator"
+  },
+  {
+    "slovak": "zamestnanec cestovnej kancelárie",
+    "english": "travel agent"
+  },
+  {
+    "slovak": "moderátor v televízii",
+    "english": "TV presenter"
+  },
+  {
+    "slovak": "veterinár",
+    "english": "vet",
+    "synonyms": {
+      "english": ["veterinary surgeon", "veterinary doctor"]
+    }
+  }
+]

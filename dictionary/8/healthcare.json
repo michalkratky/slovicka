@@ -1,0 +1,119 @@
+[
+  {
+    "slovak": "Pohotovosť",
+    "english": "A & E",
+    "synonyms": {
+      "english": ["Accident and Emergency", "ER", "Emergency Room"]
+    }
+  },
+  {
+    "slovak": "pohotovosť",
+    "english": "casualty"
+  },
+  {
+    "slovak": "naliehavý prípad",
+    "english": "casualty"
+  },
+  {
+    "slovak": "lekáreň",
+    "english": "chemist's"
+  },
+  {
+    "slovak": "poradca",
+    "english": "consultant"
+  },
+  {
+    "slovak": "zubár",
+    "english": "dentist"
+  },
+  {
+    "slovak": "lekár",
+    "english": "doctor"
+  },
+  {
+    "slovak": "praktický lekár",
+    "english": "GP",
+    "synonyms": {
+      "english": ["General Practitioner"]
+    }
+  },
+  {
+    "slovak": "obvodný lekár",
+    "english": "GP",
+    "synonyms": {
+      "english": ["General Practitioner"]
+    }
+  },
+  {
+    "slovak": "zdravotné stredisko",
+    "english": "healthcare centre"
+  },
+  {
+    "slovak": "zdravotná klinika",
+    "english": "health clinic"
+  },
+  {
+    "slovak": "nemocnica",
+    "english": "hospital"
+  },
+  {
+    "slovak": "vziať si zdravotnú dovolenku",
+    "english": "take medical leave"
+  },
+  {
+    "slovak": "zdravotná sestra",
+    "english": "nurse"
+  },
+  {
+    "slovak": "pacient",
+    "english": "patient"
+  },
+  {
+    "slovak": "súkromná lekárska starostlivosť",
+    "english": "private medicine"
+  },
+  {
+    "slovak": "verejné zdravotníctvo",
+    "english": "public healthcare"
+  },
+  {
+    "slovak": "špecialista",
+    "english": "specialist"
+  },
+  {
+    "slovak": "odborník",
+    "english": "specialist"
+  },
+  {
+    "slovak": "chirurg",
+    "english": "surgeon"
+  },
+  {
+    "slovak": "lekár",
+    "english": "surgeon"
+  },
+  {
+    "slovak": "operácia",
+    "english": "surgery"
+  },
+  {
+    "slovak": "chirurgický zákrok",
+    "english": "surgery"
+  },
+  {
+    "slovak": "chirurgia",
+    "english": "surgery"
+  },
+  {
+    "slovak": "operačný sál",
+    "english": "surgery"
+  },
+  {
+    "slovak": "ordinácia",
+    "english": "surgery"
+  },
+  {
+    "slovak": "oddelenie",
+    "english": "ward"
+  }
+]

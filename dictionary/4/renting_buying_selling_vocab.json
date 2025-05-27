@@ -1,0 +1,161 @@
+[
+  {
+    "slovak": "ubytovanie",
+    "english": "accommodation"
+  },
+  {
+    "slovak": "účet za elektrinu",
+    "english": "electricity bill",
+    "synonyms": {
+      "slovak": ["účet za plyn", "účet za telefón", "účet za verejné služby"]
+    }
+  },
+  {
+    "slovak": "poplatok na miestnu správu",
+    "english": "council tax"
+  },
+  {
+    "slovak": "vklad",
+    "english": "deposit"
+  },
+  {
+    "slovak": "realitný agent",
+    "english": "estate agent",
+    "synonyms": {
+      "english": ["realtor"]
+    }
+  },
+  {
+    "slovak": "spolubývajúci",
+    "english": "flatmate",
+    "synonyms": {
+      "english": ["roommate"]
+    }
+  },
+  {
+    "slovak": "na predaj",
+    "english": "for sale"
+  },
+  {
+    "slovak": "zariadený",
+    "english": "furnished"
+  },
+  {
+    "slovak": "vrátane všetkých daní a poplatkov",
+    "english": "inclusive"
+  },
+  {
+    "slovak": "úroková sadzba",
+    "english": "interest rate"
+  },
+  {
+    "slovak": "domáca",
+    "english": "landlady",
+    "synonyms": {
+      "slovak": ["majiteľka"]
+    }
+  },
+  {
+    "slovak": "domáci",
+    "english": "landlord",
+    "synonyms": {
+      "slovak": ["majiteľ"]
+    }
+  },
+  {
+    "slovak": "prenajať byt",
+    "english": "let a flat",
+    "synonyms": {
+      "slovak": ["prenajať dom"],
+      "english": ["rent out"]
+    }
+  },
+  {
+    "slovak": "podnájomník",
+    "english": "lodger"
+  },
+  {
+    "slovak": "ubytovanie v podnájme",
+    "english": "lodgings"
+  },
+  {
+    "slovak": "platiť nájom",
+    "english": "pay the rent"
+  },
+  {
+    "slovak": "za kalendárny mesiac",
+    "english": "p.c.m.",
+    "synonyms": {
+      "english": ["per calendar month"]
+    }
+  },
+  {
+    "slovak": "za mesiac",
+    "english": "p.m.",
+    "synonyms": {
+      "english": ["per month"]
+    }
+  },
+  {
+    "slovak": "za týždeň",
+    "english": "p.w.",
+    "synonyms": {
+      "english": ["per week"]
+    }
+  },
+  {
+    "slovak": "nehnuteľnosť",
+    "english": "property",
+    "synonyms": {
+      "english": ["real estate"]
+    }
+  },
+  {
+    "slovak": "nájom",
+    "english": "rent"
+  },
+  {
+    "slovak": "bývať s niekým v izbe",
+    "english": "share a room",
+    "synonyms": {
+      "slovak": ["bývať s niekým v byte"]
+    }
+  },
+  {
+    "slovak": "urobiť prehliadku niekomu po dome",
+    "english": "show someone round the house"
+  },
+  {
+    "slovak": "podpísať nájom",
+    "english": "sign a lease",
+    "synonyms": {
+      "slovak": ["podpísať zmluvu"]
+    }
+  },
+  {
+    "slovak": "vziať si hypotéku",
+    "english": "take out a mortgage"
+  },
+  {
+    "slovak": "nájomník",
+    "english": "tenant",
+    "synonyms": {
+      "slovak": ["obyvateľ"]
+    }
+  },
+  {
+    "slovak": "prenajať",
+    "english": "to let",
+    "synonyms": {
+      "english": ["to rent"]
+    }
+  },
+  {
+    "slovak": "nezariadený",
+    "english": "unfurnished"
+  },
+  {
+    "slovak": "prehliadka pri kúpe domu",
+    "english": "viewing"
+  }
+]

@@ -1,0 +1,184 @@
+[
+  {
+    "slovak": "album",
+    "english": "album"
+  },
+  {
+    "slovak": "balet",
+    "english": "ballet"
+  },
+  {
+    "slovak": "skupina",
+    "english": "band"
+  },
+  {
+    "slovak": "rytmus",
+    "english": "beat"
+  },
+  {
+    "slovak": "takt",
+    "english": "beat"
+  },
+  {
+    "slovak": "blues",
+    "english": "blues"
+  },
+  {
+    "slovak": "CD",
+    "english": "CD",
+    "synonyms": {
+      "english": ["compact disc"]
+    }
+  },
+  {
+    "slovak": "rebríček",
+    "english": "the charts"
+  },
+  {
+    "slovak": "choreografia",
+    "english": "choreography"
+  },
+  {
+    "slovak": "klasická hudba",
+    "english": "classical music"
+  },
+  {
+    "slovak": "klasický balet",
+    "english": "classical ballet"
+  },
+  {
+    "slovak": "skladať",
+    "english": "compose"
+  },
+  {
+    "slovak": "komponovať",
+    "english": "compose"
+  },
+  {
+    "slovak": "skladateľ",
+    "english": "composer"
+  },
+  {
+    "slovak": "koncert",
+    "english": "concert"
+  },
+  {
+    "slovak": "koncertná sieň",
+    "english": "concert hall"
+  },
+  {
+    "slovak": "dirigovať",
+    "english": "conduct"
+  },
+  {
+    "slovak": "dirigent",
+    "english": "conductor"
+  },
+  {
+    "slovak": "súčasná hudba",
+    "english": "contemporary music"
+  },
+  {
+    "slovak": "súčasný tanec",
+    "english": "contemporary dance"
+  },
+  {
+    "slovak": "tanec",
+    "english": "dance"
+  },
+  {
+    "slovak": "tancovať",
+    "english": "dance"
+  },
+  {
+    "slovak": "ľudový",
+    "english": "folk"
+  },
+  {
+    "slovak": "skupina",
+    "english": "group"
+  },
+  {
+    "slovak": "hit",
+    "english": "hit"
+  },
+  {
+    "slovak": "džez",
+    "english": "jazz"
+  },
+  {
+    "slovak": "text piesne",
+    "english": "lyrics"
+  },
+  {
+    "slovak": "muzikál",
+    "english": "musical"
+  },
+  {
+    "slovak": "opera",
+    "english": "opera"
+  },
+  {
+    "slovak": "orchester",
+    "english": "orchestra"
+  },
+  {
+    "slovak": "hudobný príspevok",
+    "english": "musical piece"
+  },
+  {
+    "slovak": "pop",
+    "english": "pop"
+  },
+  {
+    "slovak": "rap",
+    "english": "rap"
+  },
+  {
+    "slovak": "rhythm and blues",
+    "english": "R & B",
+    "synonyms": {
+      "english": ["rhythm and blues"]
+    }
+  },
+  {
+    "slovak": "reggae",
+    "english": "reggae"
+  },
+  {
+    "slovak": "nahrávka",
+    "english": "record"
+  },
+  {
+    "slovak": "vydať singel",
+    "english": "release a single"
+  },
+  {
+    "slovak": "vydať album",
+    "english": "release an album"
+  },
+  {
+    "slovak": "rytmus",
+    "english": "rhythm"
+  },
+  {
+    "slovak": "rock",
+    "english": "rock"
+  },
+  {
+    "slovak": "spievať",
+    "english": "sing"
+  },
+  {
+    "slovak": "spevák",
+    "english": "singer"
+  },
+  {
+    "slovak": "autor textu",
+    "english": "songwriter"
+  },
+  {
+    "slovak": "autor hudby",
+    "english": "songwriter"
+  }
+]

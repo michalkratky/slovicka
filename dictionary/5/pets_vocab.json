@@ -1,0 +1,170 @@
+[
+  {
+    "slovak": "brechať",
+    "english": "bark"
+  },
+  {
+    "slovak": "netopier",
+    "english": "bat"
+  },
+  {
+    "slovak": "misa",
+    "english": "bowl",
+    "synonyms": {
+      "slovak": ["miska"]
+    }
+  },
+  {
+    "slovak": "klietka",
+    "english": "cage"
+  },
+  {
+    "slovak": "kanárik",
+    "english": "canary"
+  },
+  {
+    "slovak": "mačacia klapka",
+    "english": "cat flap"
+  },
+  {
+    "slovak": "pazúr",
+    "english": "claw"
+  },
+  {
+    "slovak": "srsť",
+    "english": "coat",
+    "synonyms": {
+      "slovak": ["kožuch"]
+    }
+  },
+  {
+    "slovak": "obojok",
+    "english": "collar"
+  },
+  {
+    "slovak": "potrava pre mačky",
+    "english": "cat food",
+    "synonyms": {
+      "slovak": ["potrava pre psy", "potrava pre ryby"]
+    }
+  },
+  {
+    "slovak": "srsť",
+    "english": "fur"
+  },
+  {
+    "slovak": "zlatá rybka",
+    "english": "goldfish"
+  },
+  {
+    "slovak": "morča",
+    "english": "guinea pig"
+  },
+  {
+    "slovak": "škrečok",
+    "english": "hamster"
+  },
+  {
+    "slovak": "privyknutý domácemu režimu",
+    "english": "house-trained"
+  },
+  {
+    "slovak": "chovať",
+    "english": "keep",
+    "synonyms": {
+      "slovak": ["mať domáce zviera"]
+    }
+  },
+  {
+    "slovak": "psia búda",
+    "english": "kennel"
+  },
+  {
+    "slovak": "mačiatko",
+    "english": "kitten"
+  },
+  {
+    "slovak": "vodidlo",
+    "english": "lead"
+  },
+  {
+    "slovak": "remienok na psa",
+    "english": "leash"
+  },
+  {
+    "slovak": "postarať sa",
+    "english": "look after"
+  },
+  {
+    "slovak": "ňufák",
+    "english": "muzzle",
+    "synonyms": {
+      "slovak": ["rypák"]
+    }
+  },
+  {
+    "slovak": "packa",
+    "english": "paw",
+    "synonyms": {
+      "slovak": ["laba"]
+    }
+  },
+  {
+    "slovak": "čistokrvný",
+    "english": "pedigree"
+  },
+  {
+    "slovak": "obchod s domácimi zvieratami",
+    "english": "pet shop"
+  },
+  {
+    "slovak": "šteňa",
+    "english": "puppy",
+    "synonyms": {
+      "slovak": ["šteniatko"]
+    }
+  },
+  {
+    "slovak": "priasť",
+    "english": "purr"
+  },
+  {
+    "slovak": "králik",
+    "english": "rabbit"
+  },
+  {
+    "slovak": "potkan",
+    "english": "rat"
+  },
+  {
+    "slovak": "had",
+    "english": "snake"
+  },
+  {
+    "slovak": "pohladiť",
+    "english": "stroke"
+  },
+  {
+    "slovak": "morská korytnačka",
+    "english": "turtle"
+  },
+  {
+    "slovak": "veterinár",
+    "english": "vet",
+    "synonyms": {
+      "slovak": ["zverolekár"],
+      "english": ["veterinary surgeon"]
+    }
+  },
+  {
+    "slovak": "vrtieť chvostom",
+    "english": "wag a tail"
+  },
+  {
+    "slovak": "skučať",
+    "english": "whine",
+    "synonyms": {
+      "slovak": ["kňučať"]
+    }
+  }
+]

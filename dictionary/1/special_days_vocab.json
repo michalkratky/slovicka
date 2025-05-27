@@ -1,0 +1,228 @@
+[
+  {
+    "slovak": "výročie",
+    "english": "anniversary"
+  },
+  {
+    "slovak": "svedok",
+    "english": "best man",
+    "synonyms": {
+      "slovak": ["ženíchov svedok"]
+    }
+  },
+  {
+    "slovak": "narodeninová torta",
+    "english": "birthday cake"
+  },
+  {
+    "slovak": "oheň",
+    "english": "bonfire",
+    "synonyms": {
+      "slovak": ["táborák"]
+    }
+  },
+  {
+    "slovak": "ohňové slávnosti",
+    "english": "Bonfire Night",
+    "synonyms": {
+      "slovak": ["večer 5. októbra pripomínajúci pokus Guya Fawkesa o zničenie budov parlamentu"]
+    }
+  },
+  {
+    "slovak": "aranžované kvety",
+    "english": "bouquet",
+    "synonyms": {
+      "slovak": ["kytice"]
+    }
+  },
+  {
+    "slovak": "nevesta",
+    "english": "bride"
+  },
+  {
+    "slovak": "družička",
+    "english": "bridesmaid"
+  },
+  {
+    "slovak": "sviečka",
+    "english": "candle"
+  },
+  {
+    "slovak": "prianie k Vianociam",
+    "english": "Christmas card",
+    "synonyms": {
+      "slovak": ["prianie k narodeninám"]
+    }
+  },
+  {
+    "slovak": "oslavovať",
+    "english": "celebrate",
+    "synonyms": {
+      "slovak": ["sláviť narodeniny"]
+    }
+  },
+  {
+    "slovak": "oslavovať",
+    "english": "have a celebration",
+    "synonyms": {
+      "slovak": ["usporiadať oslavu"]
+    }
+  },
+  {
+    "slovak": "obrad",
+    "english": "ceremony",
+    "synonyms": {
+      "slovak": ["slávnosť"]
+    }
+  },
+  {
+    "slovak": "krst",
+    "english": "christening"
+  },
+  {
+    "slovak": "Vianoce",
+    "english": "Christmas"
+  },
+  {
+    "slovak": "Štedrý deň",
+    "english": "Christmas Eve"
+  },
+  {
+    "slovak": "kostol",
+    "english": "Church"
+  },
+  {
+    "slovak": "zdobiť",
+    "english": "decorate",
+    "synonyms": {
+      "slovak": ["zdobiť vianočný stromček"]
+    }
+  },
+  {
+    "slovak": "vystrojiť sa",
+    "english": "dress up",
+    "synonyms": {
+      "slovak": ["prezliecť sa za"]
+    }
+  },
+  {
+    "slovak": "Veľká noc",
+    "english": "Easter"
+  },
+  {
+    "slovak": "zabávať sa",
+    "english": "enjoy oneself"
+  },
+  {
+    "slovak": "rodinné stretnutie",
+    "english": "family gathering"
+  },
+  {
+    "slovak": "slávnosť",
+    "english": "festival",
+    "synonyms": {
+      "slovak": ["sviatok"]
+    }
+  },
+  {
+    "slovak": "pohreb",
+    "english": "funeral"
+  },
+  {
+    "slovak": "neformálne stretnutie",
+    "english": "get-together",
+    "synonyms": {
+      "slovak": ["schôdzka"]
+    }
+  },
+  {
+    "slovak": "ženích",
+    "english": "groom",
+    "synonyms": {
+      "slovak": ["bridegroom"]
+    }
+  },
+  {
+    "slovak": "predvečer sviatku Všetkých svätých",
+    "english": "Halloween"
+  },
+  {
+    "slovak": "dobre sa zabávať",
+    "english": "have a good time"
+  },
+  {
+    "slovak": "zabávať sa",
+    "english": "have fun"
+  },
+  {
+    "slovak": "svadobná cesta",
+    "english": "honeymoon",
+    "synonyms": {
+      "slovak": ["medové týždne"]
+    }
+  },
+  {
+    "slovak": "zapáliť",
+    "english": "light",
+    "synonyms": {
+      "slovak": ["zapáliť sviečku", "zapáliť prskavky", "zapáliť oheň"]
+    }
+  },
+  {
+    "slovak": "tešiť sa na",
+    "english": "look forward to"
+  },
+  {
+    "slovak": "hlavná družička",
+    "english": "maid of honour"
+  },
+  {
+    "slovak": "štátny sviatok",
+    "english": "National Holiday"
+  },
+  {
+    "slovak": "Nový rok",
+    "english": "New Year's Day"
+  },
+  {
+    "slovak": "Silvester",
+    "english": "New Year's Eve"
+  },
+  {
+    "slovak": "dávať darčeky",
+    "english": "give presents",
+    "synonyms": {
+      "slovak": ["dostávať darčeky"]
+    }
+  },
+  {
+    "slovak": "matričný úrad",
+    "english": "registry office",
+    "synonyms": {
+      "slovak": ["matrika"]
+    }
+  },
+  {
+    "slovak": "prskavka",
+    "english": "sparklers"
+  },
+  {
+    "slovak": "Deň vďakyvzdania",
+    "english": "Thanksgiving"
+  },
+  {
+    "slovak": "svadba",
+    "english": "wedding"
+  },
+  {
+    "slovak": "svadobná hostina",
+    "english": "wedding reception"
+  },
+  {
+    "slovak": "svedok",
+    "english": "witness",
+    "synonyms": {
+      "slovak": ["nevestin svedok", "ženíchov svedok"]
+    }
+  }
+]

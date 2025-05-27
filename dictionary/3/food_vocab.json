@@ -1,0 +1,638 @@
+[
+  {
+    "slovak": "mäso",
+    "english": "meat"
+  },
+  {
+    "slovak": "slanina",
+    "english": "bacon"
+  },
+  {
+    "slovak": "hovädzie mäso",
+    "english": "beef"
+  },
+  {
+    "slovak": "kuracie mäso",
+    "english": "chicken"
+  },
+  {
+    "slovak": "studený nárez z mäsa",
+    "english": "cold cuts"
+  },
+  {
+    "slovak": "zverina",
+    "english": "game"
+  },
+  {
+    "slovak": "šunka",
+    "english": "gammon"
+  },
+  {
+    "slovak": "šunka",
+    "english": "ham"
+  },
+  {
+    "slovak": "jahňacina",
+    "english": "lamb"
+  },
+  {
+    "slovak": "mastné mäso",
+    "english": "fatty meat",
+    "synonyms": {
+      "slovak": ["chudé mäso"]
+    }
+  },
+  {
+    "slovak": "fašírka",
+    "english": "meatball"
+  },
+  {
+    "slovak": "mleté mäso",
+    "english": "mince",
+    "synonyms": {
+      "english": ["minced meat"]
+    }
+  },
+  {
+    "slovak": "baranina",
+    "english": "mutton"
+  },
+  {
+    "slovak": "bravčovina",
+    "english": "pork"
+  },
+  {
+    "slovak": "hydinové mäso",
+    "english": "poultry"
+  },
+  {
+    "slovak": "červené mäso",
+    "english": "red meat"
+  },
+  {
+    "slovak": "saláma",
+    "english": "salami"
+  },
+  {
+    "slovak": "párok",
+    "english": "sausage",
+    "synonyms": {
+      "slovak": ["klobása"]
+    }
+  },
+  {
+    "slovak": "dobre prepečený rezeň",
+    "english": "well done steak",
+    "synonyms": {
+      "slovak": ["stredne prepečený", "málo prepečený"]
+    }
+  },
+  {
+    "slovak": "morka",
+    "english": "turkey",
+    "synonyms": {
+      "slovak": ["moriak"]
+    }
+  },
+  {
+    "slovak": "teľacie mäso",
+    "english": "veal"
+  },
+  {
+    "slovak": "zverina",
+    "english": "venison"
+  },
+  {
+    "slovak": "biele mäso",
+    "english": "white meat"
+  },
+  {
+    "slovak": "kapor",
+    "english": "carp"
+  },
+  {
+    "slovak": "sumec",
+    "english": "catfish"
+  },
+  {
+    "slovak": "treska",
+    "english": "cod"
+  },
+  {
+    "slovak": "filé",
+    "english": "fillet"
+  },
+  {
+    "slovak": "ryba s hranolčekmi",
+    "english": "fish and chips"
+  },
+  {
+    "slovak": "treska",
+    "english": "haddock"
+  },
+  {
+    "slovak": "sleď",
+    "english": "herring"
+  },
+  {
+    "slovak": "homár",
+    "english": "lobster"
+  },
+  {
+    "slovak": "makrela",
+    "english": "mackerel"
+  },
+  {
+    "slovak": "mušle",
+    "english": "mussels",
+    "synonyms": {
+      "slovak": ["lastúry"]
+    }
+  },
+  {
+    "slovak": "ustrica",
+    "english": "oyster"
+  },
+  {
+    "slovak": "šťuka",
+    "english": "pike"
+  },
+  {
+    "slovak": "ostriež",
+    "english": "perch"
+  },
+  {
+    "slovak": "garnát",
+    "english": "prawn"
+  },
+  {
+    "slovak": "losos",
+    "english": "salmon"
+  },
+  {
+    "slovak": "sardinka",
+    "english": "sardine"
+  },
+  {
+    "slovak": "plody mora",
+    "english": "seafood"
+  },
+  {
+    "slovak": "krevety",
+    "english": "scampi"
+  },
+  {
+    "slovak": "jedlý mäkkýš alebo kôrovec",
+    "english": "shellfish"
+  },
+  {
+    "slovak": "pstruh",
+    "english": "trout"
+  },
+  {
+    "slovak": "tuniak",
+    "english": "tuna"
+  },
+  {
+    "slovak": "maslo",
+    "english": "butter"
+  },
+  {
+    "slovak": "zrelý syr",
+    "english": "mature cheese",
+    "synonyms": {
+      "slovak": ["jemný syr"]
+    }
+  },
+  {
+    "slovak": "sýrová nátierka",
+    "english": "cheese spread"
+  },
+  {
+    "slovak": "tvaroh",
+    "english": "cottage cheese"
+  },
+  {
+    "slovak": "smotana",
+    "english": "cream"
+  },
+  {
+    "slovak": "smotanový syr",
+    "english": "cream cheese"
+  },
+  {
+    "slovak": "strúhaný syr",
+    "english": "grated cheese"
+  },
+  {
+    "slovak": "zmrzlina",
+    "english": "ice cream"
+  },
+  {
+    "slovak": "margarín",
+    "english": "margarine",
+    "synonyms": {
+      "slovak": ["rastlinný tuk"]
+    }
+  },
+  {
+    "slovak": "plnotučné mlieko",
+    "english": "full milk",
+    "synonyms": {
+      "slovak": ["polotučné mlieko", "nízkotučné mlieko"]
+    }
+  },
+  {
+    "slovak": "mliečny koktejl",
+    "english": "milkshake"
+  },
+  {
+    "slovak": "jogurt",
+    "english": "yogurt"
+  },
+  {
+    "slovak": "biely chlieb",
+    "english": "white bread",
+    "synonyms": {
+      "slovak": ["tmavý chlieb", "celozrnný chlieb", "čierny chlieb"]
+    }
+  },
+  {
+    "slovak": "francúzsky rožok",
+    "english": "croissant",
+    "synonyms": {
+      "slovak": ["croisant"]
+    }
+  },
+  {
+    "slovak": "bochník chleba",
+    "english": "loaf of bread",
+    "synonyms": {
+      "slovak": ["bochníky chleba"]
+    }
+  },
+  {
+    "slovak": "žemľa",
+    "english": "roll"
+  },
+  {
+    "slovak": "cestoviny",
+    "english": "pasta"
+  },
+  {
+    "slovak": "bageta",
+    "english": "pitta bread"
+  },
+  {
+    "slovak": "krájaný chlieb",
+    "english": "sliced bread",
+    "synonyms": {
+      "slovak": ["krájaný bochník"]
+    }
+  },
+  {
+    "slovak": "hrianka",
+    "english": "toast",
+    "synonyms": {
+      "slovak": ["opečený chlieb"]
+    }
+  },
+  {
+    "slovak": "narodeninová torta",
+    "english": "birthday cake"
+  },
+  {
+    "slovak": "sušienky",
+    "english": "biscuits",
+    "synonyms": {
+      "english": ["cookies"]
+    }
+  },
+  {
+    "slovak": "malý čokoládový koláčik s orieškami",
+    "english": "brownie"
+  },
+  {
+    "slovak": "torta",
+    "english": "cake",
+    "synonyms": {
+      "slovak": ["koláč"]
+    }
+  },
+  {
+    "slovak": "tvarohový koláč",
+    "english": "cheesecake"
+  },
+  {
+    "slovak": "smotana s 18% tuku",
+    "english": "single cream",
+    "synonyms": {
+      "slovak": ["smotana so 48% tuku", "šľahačka"]
+    }
+  },
+  {
+    "slovak": "jablkový ovocný múčnik",
+    "english": "apple crumble"
+  },
+  {
+    "slovak": "zákusok",
+    "english": "dessert",
+    "synonyms": {
+      "english": ["pudding"]
+    }
+  },
+  {
+    "slovak": "zmrzlina",
+    "english": "ice cream"
+  },
+  {
+    "slovak": "sladká zmes kúskov ovocia",
+    "english": "mincemeat"
+  },
+  {
+    "slovak": "jablkový koláč",
+    "english": "apple pie"
+  },
+  {
+    "slovak": "šľahačka",
+    "english": "whipped cream"
+  },
+  {
+    "slovak": "mať chuť na sladké",
+    "english": "have a sweet tooth"
+  },
+  {
+    "slovak": "bylinky",
+    "english": "herbs"
+  },
+  {
+    "slovak": "kečup",
+    "english": "ketchup"
+  },
+  {
+    "slovak": "majonéza",
+    "english": "mayonnaise"
+  },
+  {
+    "slovak": "horčica",
+    "english": "mustard"
+  },
+  {
+    "slovak": "olej",
+    "english": "oil"
+  },
+  {
+    "slovak": "paprika",
+    "english": "paprika"
+  },
+  {
+    "slovak": "petržlen",
+    "english": "parsley",
+    "synonyms": {
+      "slovak": ["petržlenová vňať"]
+    }
+  },
+  {
+    "slovak": "čierne korenie",
+    "english": "black pepper"
+  },
+  {
+    "slovak": "šalátový dresing",
+    "english": "salad dressing"
+  },
+  {
+    "slovak": "soľ",
+    "english": "salt"
+  },
+  {
+    "slovak": "korenie",
+    "english": "spices"
+  },
+  {
+    "slovak": "cukor",
+    "english": "sugar"
+  },
+  {
+    "slovak": "paradajková omáčka",
+    "english": "tomato sauce"
+  },
+  {
+    "slovak": "ocot",
+    "english": "vinegar"
+  },
+  {
+    "slovak": "jablko",
+    "english": "apple"
+  },
+  {
+    "slovak": "marhuľa",
+    "english": "apricot"
+  },
+  {
+    "slovak": "banán",
+    "english": "banana"
+  },
+  {
+    "slovak": "černica",
+    "english": "blackberry"
+  },
+  {
+    "slovak": "čučoriedka",
+    "english": "blueberry"
+  },
+  {
+    "slovak": "čerešňa",
+    "english": "sweet cherry",
+    "synonyms": {
+      "slovak": ["višňa"]
+    }
+  },
+  {
+    "slovak": "kokosový orech",
+    "english": "coconut"
+  },
+  {
+    "slovak": "čierne ríbezle",
+    "english": "black currant",
+    "synonyms": {
+      "slovak": ["červené ríbezle"]
+    }
+  },
+  {
+    "slovak": "egreš",
+    "english": "gooseberry"
+  },
+  {
+    "slovak": "hrozno",
+    "english": "grape"
+  },
+  {
+    "slovak": "grapefruit",
+    "english": "grapefruit",
+    "synonyms": {
+      "slovak": ["grep"]
+    }
+  },
+  {
+    "slovak": "kiwi",
+    "english": "kiwi"
+  },
+  {
+    "slovak": "citrón",
+    "english": "lemon"
+  },
+  {
+    "slovak": "limeta",
+    "english": "lime"
+  },
+  {
+    "slovak": "mango",
+    "english": "mango"
+  },
+  {
+    "slovak": "melón",
+    "english": "melon"
+  },
+  {
+    "slovak": "pomaranč",
+    "english": "orange"
+  },
+  {
+    "slovak": "broskyňa",
+    "english": "peach"
+  },
+  {
+    "slovak": "hruška",
+    "english": "pear"
+  },
+  {
+    "slovak": "ananás",
+    "english": "pineapple"
+  },
+  {
+    "slovak": "slivka",
+    "english": "plum"
+  },
+  {
+    "slovak": "malina",
+    "english": "raspberry"
+  },
+  {
+    "slovak": "jahoda",
+    "english": "strawberry"
+  },
+  {
+    "slovak": "vodný melón",
+    "english": "water melon"
+  },
+  {
+    "slovak": "asparágus",
+    "english": "asparagus"
+  },
+  {
+    "slovak": "ľuľok",
+    "english": "aubergine",
+    "synonyms": {
+      "slovak": ["baklažán"],
+      "english": ["eggplant"]
+    }
+  },
+  {
+    "slovak": "avokádo",
+    "english": "avocado"
+  },
+  {
+    "slovak": "zelená fazuľa",
+    "english": "green beans"
+  },
+  {
+    "slovak": "brokolica",
+    "english": "broccoli"
+  },
+  {
+    "slovak": "kapusta",
+    "english": "cabbage",
+    "synonyms": {
+      "slovak": ["kel"]
+    }
+  },
+  {
+    "slovak": "mrkva",
+    "english": "carrot"
+  },
+  {
+    "slovak": "karfiol",
+    "english": "cauliflower"
+  },
+  {
+    "slovak": "zeler",
+    "english": "celery"
+  },
+  {
+    "slovak": "cuketa",
+    "english": "courgette",
+    "synonyms": {
+      "slovak": ["cukina"],
+      "english": ["zucchini"]
+    }
+  },
+  {
+    "slovak": "uhorka",
+    "english": "cucumber"
+  },
+  {
+    "slovak": "cesnak",
+    "english": "garlic"
+  },
+  {
+    "slovak": "pór",
+    "english": "leek"
+  },
+  {
+    "slovak": "hlávkový šalát",
+    "english": "lettuce"
+  },
+  {
+    "slovak": "huba",
+    "english": "mushroom",
+    "synonyms": {
+      "slovak": ["hríb"]
+    }
+  },
+  {
+    "slovak": "cibuľa",
+    "english": "onion"
+  },
+  {
+    "slovak": "paštrnák",
+    "english": "parsnip"
+  },
+  {
+    "slovak": "paprika",
+    "english": "pepper"
+  },
+  {
+    "slovak": "zemiak",
+    "english": "potato"
+  },
+  {
+    "slovak": "redkvička",
+    "english": "radish"
+  },
+  {
+    "slovak": "ryža",
+    "english": "rice"
+  },
+  {
+    "slovak": "kukurica",
+    "english": "sweetcorn"
+  },
+  {
+    "slovak": "paradajka",
+    "english": "tomato"
+  },
+  {
+    "slovak": "biela repa",
+    "english": "turnip"
+  }
+]

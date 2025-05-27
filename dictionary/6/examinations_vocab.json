@@ -1,0 +1,128 @@
+[
+  {
+    "slovak": "ohodnotiť",
+    "english": "assess"
+  },
+  {
+    "slovak": "hodnotenie",
+    "english": "assessment"
+  },
+  {
+    "slovak": "podvádzať na skúške",
+    "english": "cheat in an exam"
+  },
+  {
+    "slovak": "zverejniť výsledky skúšky",
+    "english": "exam results come out"
+  },
+  {
+    "slovak": "robiť skúšku",
+    "english": "do an exam"
+  },
+  {
+    "slovak": "dariť sa na skúške dobre",
+    "english": "do well in an exam",
+    "synonyms": {
+      "slovak": ["dariť sa na skúške zle"]
+    }
+  },
+  {
+    "slovak": "prijímacia skúška",
+    "english": "entrance exam"
+  },
+  {
+    "slovak": "ohodnotiť",
+    "english": "evaluate"
+  },
+  {
+    "slovak": "skúška",
+    "english": "exam",
+    "synonyms": {
+      "english": ["examination"]
+    }
+  },
+  {
+    "slovak": "písomná skúška",
+    "english": "exam paper"
+  },
+  {
+    "slovak": "prepadnúť",
+    "english": "fail"
+  },
+  {
+    "slovak": "zadať test",
+    "english": "give a test"
+  },
+  {
+    "slovak": "dostať výsledky testu",
+    "english": "get the results of a test",
+    "synonyms": {
+      "slovak": ["dostať výsledky skúšky"]
+    }
+  },
+  {
+    "slovak": "známka",
+    "english": "grade"
+  },
+  {
+    "slovak": "známkovať",
+    "english": "mark",
+    "synonyms": {
+      "english": ["grade"]
+    }
+  },
+  {
+    "slovak": "známka",
+    "english": "mark"
+  },
+  {
+    "slovak": "skúška nanečisto",
+    "english": "mock exam"
+  },
+  {
+    "slovak": "prejsť",
+    "english": "pass",
+    "synonyms": {
+      "slovak": ["urobiť skúšku"]
+    }
+  },
+  {
+    "slovak": "pripravovať sa na",
+    "english": "prepare for"
+  },
+  {
+    "slovak": "opakovať skúšku",
+    "english": "resit an exam"
+  },
+  {
+    "slovak": "opakovať skúšku",
+    "english": "retake an exam"
+  },
+  {
+    "slovak": "opakovať si na skúšku",
+    "english": "revise for an exam"
+  },
+  {
+    "slovak": "záverečná skúška",
+    "english": "school-leaving exam"
+  },
+  {
+    "slovak": "dosiahnutý výsledok",
+    "english": "score"
+  },
+  {
+    "slovak": "podrobiť sa skúške",
+    "english": "sit an exam"
+  },
+  {
+    "slovak": "učiť sa na test",
+    "english": "study for a test",
+    "synonyms": {
+      "slovak": ["učiť sa na skúšku"]
+    }
+  },
+  {
+    "slovak": "robiť skúšku",
+    "english": "take an exam"
+  }
+]

@@ -1,0 +1,60 @@
+[
+  {
+    "slovak": "stiesnený",
+    "english": "cramped"
+  },
+  {
+    "slovak": "plne vybavený",
+    "english": "fully equipped"
+  },
+  {
+    "slovak": "plne zariadený",
+    "english": "fully furnished"
+  },
+  {
+    "slovak": "v dobrom stave",
+    "english": "in good condition",
+    "synonyms": {
+      "slovak": ["v zlom stave"]
+    }
+  },
+  {
+    "slovak": "čiastočne zariadený",
+    "english": "part-furnished"
+  },
+  {
+    "slovak": "priestorný",
+    "english": "roomy"
+  },
+  {
+    "slovak": "schátralý",
+    "english": "run-down",
+    "synonyms": {
+      "slovak": ["rozpadnutý"]
+    }
+  },
+  {
+    "slovak": "priestorný",
+    "english": "spacious"
+  },
+  {
+    "slovak": "malý",
+    "english": "tiny"
+  },
+  {
+    "slovak": "nezariadený",
+    "english": "unfurnished"
+  },
+  {
+    "slovak": "dobre udržiavaný",
+    "english": "well maintained"
+  },
+  {
+    "slovak": "s moderným príslušenstvom",
+    "english": "with all modern conveniences",
+    "synonyms": {
+      "slovak": ["s plným komfortom"],
+      "english": ["mod cons"]
+    }
+  }
+]

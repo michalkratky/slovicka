@@ -1,0 +1,411 @@
+[
+  {
+    "slovak": "príťažlivý",
+    "english": "attractive",
+    "synonyms": {
+      "slovak": ["atraktívny"]
+    }
+  },
+  {
+    "slovak": "krásny",
+    "english": "beautiful"
+  },
+  {
+    "slovak": "pekný",
+    "english": "good-looking"
+  },
+  {
+    "slovak": "elegantný",
+    "english": "elegant"
+  },
+  {
+    "slovak": "pekný",
+    "english": "handsome"
+  },
+  {
+    "slovak": "pekná",
+    "english": "pretty"
+  },
+  {
+    "slovak": "otrhaný",
+    "english": "scruffy",
+    "synonyms": {
+      "slovak": ["zanedbaný"]
+    }
+  },
+  {
+    "slovak": "škaredý",
+    "english": "ugly"
+  },
+  {
+    "slovak": "nepríťažlivý",
+    "english": "unattractive",
+    "synonyms": {
+      "slovak": ["nepekný"]
+    }
+  },
+  {
+    "slovak": "dospievajúci",
+    "english": "adolescent",
+    "synonyms": {
+      "slovak": ["mladistvý"]
+    }
+  },
+  {
+    "slovak": "staršia generácia",
+    "english": "elderly"
+  },
+  {
+    "slovak": "čerstvý dvadsiatnik",
+    "english": "in early twenties"
+  },
+  {
+    "slovak": "zrelý štyridsiatnik",
+    "english": "in late forties"
+  },
+  {
+    "slovak": "v Kristových rokoch",
+    "english": "in mid-thirties"
+  },
+  {
+    "slovak": "v strednom veku",
+    "english": "middle-aged"
+  },
+  {
+    "slovak": "mladý",
+    "english": "young"
+  },
+  {
+    "slovak": "priemernej výšky",
+    "english": "average height"
+  },
+  {
+    "slovak": "stredne vysoký",
+    "english": "medium height"
+  },
+  {
+    "slovak": "malej postavy",
+    "english": "short"
+  },
+  {
+    "slovak": "dlhý",
+    "english": "tall",
+    "synonyms": {
+      "slovak": ["vysoký"]
+    }
+  },
+  {
+    "slovak": "atletický",
+    "english": "athletic"
+  },
+  {
+    "slovak": "bucľatý",
+    "english": "chubby",
+    "synonyms": {
+      "slovak": ["zaoblený"]
+    }
+  },
+  {
+    "slovak": "robustný",
+    "english": "chunky"
+  },
+  {
+    "slovak": "tlstý",
+    "english": "fat",
+    "synonyms": {
+      "slovak": ["obézny"]
+    }
+  },
+  {
+    "slovak": "zdravý",
+    "english": "fit"
+  },
+  {
+    "slovak": "mať peknú postavu",
+    "english": "have a good figure"
+  },
+  {
+    "slovak": "obézny",
+    "english": "obese"
+  },
+  {
+    "slovak": "majúci nadváhu",
+    "english": "overweight"
+  },
+  {
+    "slovak": "mať pupok",
+    "english": "have a paunch"
+  },
+  {
+    "slovak": "zaoblený",
+    "english": "plump",
+    "synonyms": {
+      "slovak": ["plnoštíhly"]
+    }
+  },
+  {
+    "slovak": "chudý",
+    "english": "skinny",
+    "synonyms": {
+      "slovak": ["kostnatý"]
+    }
+  },
+  {
+    "slovak": "štíhly",
+    "english": "slim"
+  },
+  {
+    "slovak": "územčistý",
+    "english": "stocky"
+  },
+  {
+    "slovak": "chudý",
+    "english": "thin"
+  },
+  {
+    "slovak": "dobre stavaný",
+    "english": "well-built"
+  },
+  {
+    "slovak": "plešatý",
+    "english": "bald",
+    "synonyms": {
+      "slovak": ["holohlavý"]
+    }
+  },
+  {
+    "slovak": "blond",
+    "english": "blonde"
+  },
+  {
+    "slovak": "svetlé",
+    "english": "fair"
+  },
+  {
+    "slovak": "kučeravé",
+    "english": "curly"
+  },
+  {
+    "slovak": "tmavé",
+    "english": "dark"
+  },
+  {
+    "slovak": "farbené",
+    "english": "dyed"
+  },
+  {
+    "slovak": "jemné",
+    "english": "fine"
+  },
+  {
+    "slovak": "ryšavé",
+    "english": "ginger"
+  },
+  {
+    "slovak": "šedé",
+    "english": "grey",
+    "synonyms": {
+      "slovak": ["šedivé"]
+    }
+  },
+  {
+    "slovak": "ofina",
+    "english": "fringe"
+  },
+  {
+    "slovak": "nechať sa ostrihať",
+    "english": "have a hair cut"
+  },
+  {
+    "slovak": "melírované pramene vlasov",
+    "english": "highlights"
+  },
+  {
+    "slovak": "dlhé",
+    "english": "long"
+  },
+  {
+    "slovak": "strednej dĺžky",
+    "english": "medium-length"
+  },
+  {
+    "slovak": "prírodné",
+    "english": "natural",
+    "synonyms": {
+      "slovak": ["prirodzené"]
+    }
+  },
+  {
+    "slovak": "cestička",
+    "english": "parting"
+  },
+  {
+    "slovak": "červené",
+    "english": "red",
+    "synonyms": {
+      "slovak": ["hrdzavé", "ryšavé"]
+    }
+  },
+  {
+    "slovak": "vrkoče",
+    "english": "plaits"
+  },
+  {
+    "slovak": "dámsky účes pripomínajúci konský chvost",
+    "english": "ponytail"
+  },
+  {
+    "slovak": "krátke",
+    "english": "short"
+  },
+  {
+    "slovak": "po ramená",
+    "english": "shoulder length"
+  },
+  {
+    "slovak": "ostré",
+    "english": "spiky"
+  },
+  {
+    "slovak": "rovné",
+    "english": "straight"
+  },
+  {
+    "slovak": "husté",
+    "english": "thick"
+  },
+  {
+    "slovak": "riedke",
+    "english": "thin"
+  },
+  {
+    "slovak": "vlnité",
+    "english": "wavy"
+  },
+  {
+    "slovak": "biele",
+    "english": "white"
+  },
+  {
+    "slovak": "brada",
+    "english": "beard"
+  },
+  {
+    "slovak": "materské znamienko",
+    "english": "birthmark"
+  },
+  {
+    "slovak": "čierny",
+    "english": "black",
+    "synonyms": {
+      "slovak": ["černoch"]
+    }
+  },
+  {
+    "slovak": "biely",
+    "english": "white",
+    "synonyms": {
+      "slovak": ["beloch"]
+    }
+  },
+  {
+    "slovak": "husté obočie",
+    "english": "bushy eyebrows"
+  },
+  {
+    "slovak": "lícne kosti",
+    "english": "cheekbones"
+  },
+  {
+    "slovak": "hladko oholený",
+    "english": "clean-shaven"
+  },
+  {
+    "slovak": "čistá pokožka",
+    "english": "clear complexion",
+    "synonyms": {
+      "slovak": ["dobrá pokožka", "zdravá pokožka"]
+    }
+  },
+  {
+    "slovak": "tmavá koža",
+    "english": "dark skin",
+    "synonyms": {
+      "slovak": ["tmavá pleť"]
+    }
+  },
+  {
+    "slovak": "rozlišujúce znaky",
+    "english": "distinguishing features",
+    "synonyms": {
+      "slovak": ["charakteristické rysy"]
+    }
+  },
+  {
+    "slovak": "rysy tváre",
+    "english": "facial features"
+  },
+  {
+    "slovak": "svetlá koža",
+    "english": "fair skin",
+    "synonyms": {
+      "slovak": ["svetlá pleť"]
+    }
+  },
+  {
+    "slovak": "pehy",
+    "english": "freckles"
+  },
+  {
+    "slovak": "kozia briadka",
+    "english": "goatee"
+  },
+  {
+    "slovak": "fúzy",
+    "english": "moustache"
+  },
+  {
+    "slovak": "ostrý nos",
+    "english": "pointed nose",
+    "synonyms": {
+      "slovak": ["plochý nos", "tupý nos"]
+    }
+  },
+  {
+    "slovak": "bledá koža",
+    "english": "pale skin",
+    "synonyms": {
+      "slovak": ["bledá pleť"]
+    }
+  },
+  {
+    "slovak": "jazva",
+    "english": "scar"
+  },
+  {
+    "slovak": "kotlety",
+    "english": "sideburns"
+  },
+  {
+    "slovak": "opálená koža",
+    "english": "tanned skin",
+    "synonyms": {
+      "slovak": ["opálená pleť"]
+    }
+  },
+  {
+    "slovak": "tetovanie",
+    "english": "tattoo"
+  },
+  {
+    "slovak": "nosiť okuliare",
+    "english": "wear glasses",
+    "synonyms": {
+      "english": ["wear spectacles"]
+    }
+  },
+  {
+    "slovak": "vrásky",
+    "english": "wrinkles"
+  }
+]

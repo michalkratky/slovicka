@@ -1,0 +1,502 @@
+[
+  {
+    "slovak": "hrozný",
+    "english": "awful"
+  },
+  {
+    "slovak": "zlý",
+    "english": "bad"
+  },
+  {
+    "slovak": "krásny",
+    "english": "beautiful"
+  },
+  {
+    "slovak": "modrý",
+    "english": "blue"
+  },
+  {
+    "slovak": "teplo",
+    "english": "boiling"
+  },
+  {
+    "slovak": "chladný",
+    "english": "chilly",
+    "synonyms": {
+      "slovak": ["studený"]
+    }
+  },
+  {
+    "slovak": "jasná obloha",
+    "english": "clear sky"
+  },
+  {
+    "slovak": "blízky",
+    "english": "close",
+    "synonyms": {
+      "slovak": ["blízko"]
+    }
+  },
+  {
+    "slovak": "zamračený",
+    "english": "cloudy"
+  },
+  {
+    "slovak": "chladný",
+    "english": "cold"
+  },
+  {
+    "slovak": "suchý",
+    "english": "drought"
+  },
+  {
+    "slovak": "obdobie sucha",
+    "english": "dry spell"
+  },
+  {
+    "slovak": "zamračený",
+    "english": "dull",
+    "synonyms": {
+      "slovak": ["pochmúrny"]
+    }
+  },
+  {
+    "slovak": "pekný",
+    "english": "fine",
+    "synonyms": {
+      "slovak": ["slnečný"]
+    }
+  },
+  {
+    "slovak": "hmla",
+    "english": "fog"
+  },
+  {
+    "slovak": "hmlistý",
+    "english": "foggy"
+  },
+  {
+    "slovak": "nádherný",
+    "english": "gorgeous",
+    "synonyms": {
+      "slovak": ["oslnivý"]
+    }
+  },
+  {
+    "slovak": "horúčava",
+    "english": "heat",
+    "synonyms": {
+      "slovak": ["spara"]
+    }
+  },
+  {
+    "slovak": "tepelná vlna",
+    "english": "heatwave"
+  },
+  {
+    "slovak": "hrozný",
+    "english": "horrible",
+    "synonyms": {
+      "slovak": ["príšerný"]
+    }
+  },
+  {
+    "slovak": "horúci",
+    "english": "hot",
+    "synonyms": {
+      "slovak": ["vriaci"]
+    }
+  },
+  {
+    "slovak": "vlhký",
+    "english": "humid"
+  },
+  {
+    "slovak": "vlhkosť",
+    "english": "humidity"
+  },
+  {
+    "slovak": "príjemný",
+    "english": "lovely",
+    "synonyms": {
+      "slovak": ["krásny", "nádherný"]
+    }
+  },
+  {
+    "slovak": "jemná hmla",
+    "english": "mist",
+    "synonyms": {
+      "slovak": ["hmlistý opar"]
+    }
+  },
+  {
+    "slovak": "zahmlený",
+    "english": "misty",
+    "synonyms": {
+      "slovak": ["zahalený do tmy"]
+    }
+  },
+  {
+    "slovak": "pekný",
+    "english": "nice"
+  },
+  {
+    "slovak": "zatiahnutý",
+    "english": "overcast",
+    "synonyms": {
+      "slovak": ["zamračený"]
+    }
+  },
+  {
+    "slovak": "spaľujúci",
+    "english": "scorching",
+    "synonyms": {
+      "slovak": ["horúci"]
+    }
+  },
+  {
+    "slovak": "slnečný",
+    "english": "sunny"
+  },
+  {
+    "slovak": "hrozný",
+    "english": "terrible",
+    "synonyms": {
+      "slovak": ["desivý"]
+    }
+  },
+  {
+    "slovak": "teplý",
+    "english": "warm"
+  },
+  {
+    "slovak": "byť premočený",
+    "english": "be soaked"
+  },
+  {
+    "slovak": "rosa",
+    "english": "dew"
+  },
+  {
+    "slovak": "mrholenie",
+    "english": "drizzle"
+  },
+  {
+    "slovak": "záplava",
+    "english": "flood",
+    "synonyms": {
+      "slovak": ["potopa"]
+    }
+  },
+  {
+    "slovak": "krúpy",
+    "english": "hail",
+    "synonyms": {
+      "slovak": ["krupobitie"]
+    }
+  },
+  {
+    "slovak": "krúpa",
+    "english": "hailstone",
+    "synonyms": {
+      "slovak": ["ľadovec"]
+    }
+  },
+  {
+    "slovak": "blesk",
+    "english": "lightning"
+  },
+  {
+    "slovak": "kaluž",
+    "english": "puddle"
+  },
+  {
+    "slovak": "liať",
+    "english": "pour down"
+  },
+  {
+    "slovak": "silný dážď",
+    "english": "heavy rain",
+    "synonyms": {
+      "slovak": ["mierny dážď"]
+    }
+  },
+  {
+    "slovak": "dažďová kvapka",
+    "english": "raindrop"
+  },
+  {
+    "slovak": "množstvo zrážok",
+    "english": "rainfall"
+  },
+  {
+    "slovak": "daždivý",
+    "english": "rainy"
+  },
+  {
+    "slovak": "prehánka",
+    "english": "shower",
+    "synonyms": {
+      "slovak": ["spŕška"]
+    }
+  },
+  {
+    "slovak": "daždivý",
+    "english": "showery"
+  },
+  {
+    "slovak": "premočený na kožu",
+    "english": "soaking wet"
+  },
+  {
+    "slovak": "búrka",
+    "english": "storm"
+  },
+  {
+    "slovak": "hrom",
+    "english": "thunder"
+  },
+  {
+    "slovak": "mokrý",
+    "english": "wet"
+  },
+  {
+    "slovak": "viať",
+    "english": "blow",
+    "synonyms": {
+      "slovak": ["fúkať"]
+    }
+  },
+  {
+    "slovak": "vánok",
+    "english": "breeze",
+    "synonyms": {
+      "slovak": ["vetrík"]
+    }
+  },
+  {
+    "slovak": "víchrica",
+    "english": "gale"
+  },
+  {
+    "slovak": "vietor so silou víchrice",
+    "english": "gale force wind"
+  },
+  {
+    "slovak": "hurikán",
+    "english": "hurricane"
+  },
+  {
+    "slovak": "pokojný",
+    "english": "still",
+    "synonyms": {
+      "slovak": ["tichý"]
+    }
+  },
+  {
+    "slovak": "tornádo",
+    "english": "tornado"
+  },
+  {
+    "slovak": "veterný",
+    "english": "windy"
+  },
+  {
+    "slovak": "lavína",
+    "english": "avalanche"
+  },
+  {
+    "slovak": "prudká snehová búrka",
+    "english": "blizzard"
+  },
+  {
+    "slovak": "mrznúť",
+    "english": "freeze"
+  },
+  {
+    "slovak": "mrazenie",
+    "english": "freezing",
+    "synonyms": {
+      "slovak": ["zmrazovanie"]
+    }
+  },
+  {
+    "slovak": "mrazivá zima",
+    "english": "freezing cold"
+  },
+  {
+    "slovak": "mráz",
+    "english": "frost"
+  },
+  {
+    "slovak": "mrazivý",
+    "english": "frosty"
+  },
+  {
+    "slovak": "ľad",
+    "english": "ice"
+  },
+  {
+    "slovak": "ľadový",
+    "english": "icy"
+  },
+  {
+    "slovak": "odmäk",
+    "english": "melt",
+    "synonyms": {
+      "slovak": ["rozpúšťanie"]
+    }
+  },
+  {
+    "slovak": "dážď so snehom",
+    "english": "sleet",
+    "synonyms": {
+      "slovak": ["čľapkanica"]
+    }
+  },
+  {
+    "slovak": "klzký",
+    "english": "slippery",
+    "synonyms": {
+      "slovak": ["šmykľavý"]
+    }
+  },
+  {
+    "slovak": "odmäk",
+    "english": "thaw"
+  },
+  {
+    "slovak": "nad nulou",
+    "english": "above zero"
+  },
+  {
+    "slovak": "pod nulou",
+    "english": "below zero"
+  },
+  {
+    "slovak": "premenlivý",
+    "english": "changeable"
+  },
+  {
+    "slovak": "vyjasniť sa",
+    "english": "clear up"
+  },
+  {
+    "slovak": "stupne Celzia",
+    "english": "degrees Centigrade",
+    "synonyms": {
+      "slovak": ["stupne Celsius", "stupne Fahrenheita"],
+      "english": ["degrees Fahrenheit"]
+    }
+  },
+  {
+    "slovak": "teplý front",
+    "english": "warm weather front",
+    "synonyms": {
+      "slovak": ["studený front"]
+    }
+  },
+  {
+    "slovak": "meteorológia",
+    "english": "meteorology"
+  },
+  {
+    "slovak": "meteorológ",
+    "english": "meteorologist"
+  },
+  {
+    "slovak": "tlak",
+    "english": "pressure"
+  },
+  {
+    "slovak": "teplota",
+    "english": "temperature"
+  },
+  {
+    "slovak": "teplomer",
+    "english": "thermometer"
+  },
+  {
+    "slovak": "nestále",
+    "english": "unsettled"
+  },
+  {
+    "slovak": "predpoveď počasia",
+    "english": "weather forecast"
+  },
+  {
+    "slovak": "meteorologická mapa",
+    "english": "weather map"
+  },
+  {
+    "slovak": "meteorologická správa",
+    "english": "weather report"
+  },
+  {
+    "slovak": "jeseň",
+    "english": "autumn",
+    "synonyms": {
+      "english": ["fall"]
+    }
+  },
+  {
+    "slovak": "podnebie",
+    "english": "climate"
+  },
+  {
+    "slovak": "drsné podnebie",
+    "english": "harsh climate"
+  },
+  {
+    "slovak": "horúci",
+    "english": "hot"
+  },
+  {
+    "slovak": "teplý",
+    "english": "warm"
+  },
+  {
+    "slovak": "studený",
+    "english": "cold"
+  },
+  {
+    "slovak": "chladný",
+    "english": "cool"
+  },
+  {
+    "slovak": "suchý",
+    "english": "dry"
+  },
+  {
+    "slovak": "vlhký",
+    "english": "wet"
+  },
+  {
+    "slovak": "babie leto",
+    "english": "Indian summer"
+  },
+  {
+    "slovak": "mierny",
+    "english": "mild"
+  },
+  {
+    "slovak": "mierne podnebie",
+    "english": "moderate climate"
+  },
+  {
+    "slovak": "ročné obdobie",
+    "english": "season"
+  },
+  {
+    "slovak": "jar",
+    "english": "spring"
+  },
+  {
+    "slovak": "leto",
+    "english": "summer"
+  },
+  {
+    "slovak": "zima",
+    "english": "winter"
+  }
+]

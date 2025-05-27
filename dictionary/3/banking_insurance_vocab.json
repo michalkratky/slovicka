@@ -1,0 +1,110 @@
+[
+  {
+    "slovak": "bankový účet",
+    "english": "bank account"
+  },
+  {
+    "slovak": "majiteľ účtu",
+    "english": "account holder"
+  },
+  {
+    "slovak": "žiadať o pôžičku",
+    "english": "apply for a loan"
+  },
+  {
+    "slovak": "bankomat",
+    "english": "ATM",
+    "synonyms": {
+      "english": ["Automated Teller Machine"]
+    }
+  },
+  {
+    "slovak": "bankomat",
+    "english": "cash machine"
+  },
+  {
+    "slovak": "šeková knižka",
+    "english": "cheque book"
+  },
+  {
+    "slovak": "bežný účet",
+    "english": "current account"
+  },
+  {
+    "slovak": "majiteľ platobnej karty",
+    "english": "credit card holder"
+  },
+  {
+    "slovak": "platobná karta",
+    "english": "debit card"
+  },
+  {
+    "slovak": "dar",
+    "english": "grant",
+    "synonyms": {
+      "slovak": ["dotácia", "grant", "pôžička"]
+    }
+  },
+  {
+    "slovak": "poistenie",
+    "english": "insurance"
+  },
+  {
+    "slovak": "poistený",
+    "english": "insured"
+  },
+  {
+    "slovak": "investovať do cenných papierov",
+    "english": "invest in stock",
+    "synonyms": {
+      "slovak": ["investovať do akcií", "investovať do dlhopisov"]
+    }
+  },
+  {
+    "slovak": "investičné portfólio",
+    "english": "investment portfolio"
+  },
+  {
+    "slovak": "pôžička",
+    "english": "loan"
+  },
+  {
+    "slovak": "prevod peňazí",
+    "english": "money transfer"
+  },
+  {
+    "slovak": "hypotéka",
+    "english": "mortgage"
+  },
+  {
+    "slovak": "platiť úroky",
+    "english": "pay interest"
+  },
+  {
+    "slovak": "splatiť dlh",
+    "english": "pay off debt",
+    "synonyms": {
+      "slovak": ["splatiť pôžičku"]
+    }
+  },
+  {
+    "slovak": "poistná prémia",
+    "english": "insurance premium"
+  },
+  {
+    "slovak": "sporiteľný účet",
+    "english": "savings account"
+  },
+  {
+    "slovak": "burzový maklér",
+    "english": "stockbroker"
+  },
+  {
+    "slovak": "investor do cenných papierov",
+    "english": "stock market investor"
+  },
+  {
+    "slovak": "vybrať peniaze z účtu",
+    "english": "withdraw money"
+  }
+]

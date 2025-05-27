@@ -1,0 +1,274 @@
+[
+  {
+    "slovak": "nehoda",
+    "english": "accident"
+  },
+  {
+    "slovak": "závislý",
+    "english": "addicted"
+  },
+  {
+    "slovak": "závislosť",
+    "english": "addiction"
+  },
+  {
+    "slovak": "alergický",
+    "english": "allergic"
+  },
+  {
+    "slovak": "alergia",
+    "english": "allergy"
+  },
+  {
+    "slovak": "zápal slepého čreva",
+    "english": "appendicitis"
+  },
+  {
+    "slovak": "bolesť v chrbte",
+    "english": "backache"
+  },
+  {
+    "slovak": "pripútaný na posteľ",
+    "english": "bedridden"
+  },
+  {
+    "slovak": "pľuzgier",
+    "english": "blister"
+  },
+  {
+    "slovak": "krvný tlak",
+    "english": "blood pressure"
+  },
+  {
+    "slovak": "zlomená",
+    "english": "broken"
+  },
+  {
+    "slovak": "rakovina",
+    "english": "cancer"
+  },
+  {
+    "slovak": "akútny príjem",
+    "english": "casualty"
+  },
+  {
+    "slovak": "nehoda",
+    "english": "casualty"
+  },
+  {
+    "slovak": "byť nachladený",
+    "english": "have a cold"
+  },
+  {
+    "slovak": "kašeľ",
+    "english": "cough"
+  },
+  {
+    "slovak": "diabetický",
+    "english": "diabetic"
+  },
+  {
+    "slovak": "postihnutý",
+    "english": "disabled"
+  },
+  {
+    "slovak": "bolesť ucha",
+    "english": "earache"
+  },
+  {
+    "slovak": "smrteľná nehoda",
+    "english": "fatality"
+  },
+  {
+    "slovak": "nebyť vo svojej koži",
+    "english": "feel a bit off-colour"
+  },
+  {
+    "slovak": "cítiť sa pod psa",
+    "english": "feel a bit under the weather"
+  },
+  {
+    "slovak": "nebyť vo svojej koži",
+    "english": "feel a bit under the weather"
+  },
+  {
+    "slovak": "cítiť sa trochu chorý",
+    "english": "feel a bit poorly"
+  },
+  {
+    "slovak": "mať závrat",
+    "english": "feel dizzy"
+  },
+  {
+    "slovak": "cítiť sa ospalý",
+    "english": "feel drowsy"
+  },
+  {
+    "slovak": "cítiť sa zle",
+    "english": "feel sick"
+  },
+  {
+    "slovak": "cítiť sa hrozne",
+    "english": "feel terrible"
+  },
+  {
+    "slovak": "horúčka",
+    "english": "fever"
+  },
+  {
+    "slovak": "horúčkovitý",
+    "english": "feverish"
+  },
+  {
+    "slovak": "majúci horúčku",
+    "english": "feverish"
+  },
+  {
+    "slovak": "chrípka",
+    "english": "flu"
+  },
+  {
+    "slovak": "otrava jedlom",
+    "english": "food poisoning"
+  },
+  {
+    "slovak": "bolesť hlavy",
+    "english": "headache"
+  },
+  {
+    "slovak": "infarkt",
+    "english": "heart attack"
+  },
+  {
+    "slovak": "srdcový záchvat",
+    "english": "heart attack"
+  },
+  {
+    "slovak": "zraniť",
+    "english": "hurt"
+  },
+  {
+    "slovak": "bolieť",
+    "english": "hurt"
+  },
+  {
+    "slovak": "chorý",
+    "english": "ill"
+  },
+  {
+    "slovak": "choroba",
+    "english": "illness"
+  },
+  {
+    "slovak": "chorý čím",
+    "english": "ill with"
+  },
+  {
+    "slovak": "zraniť",
+    "english": "injure"
+  },
+  {
+    "slovak": "zranený",
+    "english": "injured"
+  },
+  {
+    "slovak": "zranenie",
+    "english": "injury"
+  },
+  {
+    "slovak": "nespavosť",
+    "english": "insomnia"
+  },
+  {
+    "slovak": "necítiť sa príliš dobre",
+    "english": "not feel very well"
+  },
+  {
+    "slovak": "predávkovať",
+    "english": "take an overdose"
+  },
+  {
+    "slovak": "bolesť",
+    "english": "pain"
+  },
+  {
+    "slovak": "zápal pľúc",
+    "english": "pneumonia"
+  },
+  {
+    "slovak": "vyrážka",
+    "english": "rash"
+  },
+  {
+    "slovak": "tiecť z nosa",
+    "english": "runny nose"
+  },
+  {
+    "slovak": "kýchať",
+    "english": "sneeze"
+  },
+  {
+    "slovak": "bolieť v krku",
+    "english": "have a sore throat"
+  },
+  {
+    "slovak": "vyvrtnutý",
+    "english": "sprained"
+  },
+  {
+    "slovak": "bodnutie",
+    "english": "sting"
+  },
+  {
+    "slovak": "bolesť brucha",
+    "english": "stomachache"
+  },
+  {
+    "slovak": "bolesť žalúdka",
+    "english": "stomachache"
+  },
+  {
+    "slovak": "mozgová porážka",
+    "english": "stroke"
+  },
+  {
+    "slovak": "trpieť",
+    "english": "suffer"
+  },
+  {
+    "slovak": "opuchnuté",
+    "english": "swollen"
+  },
+  {
+    "slovak": "teplota",
+    "english": "temperature"
+  },
+  {
+    "slovak": "bolesť zubov",
+    "english": "toothache"
+  },
+  {
+    "slovak": "vyvrtnutý členok",
+    "english": "a twisted ankle"
+  },
+  {
+    "slovak": "vyvrtnúť si členok",
+    "english": "twist ankle"
+  },
+  {
+    "slovak": "pokazený žalúdok",
+    "english": "upset stomach"
+  },
+  {
+    "slovak": "zvracať",
+    "english": "vomit"
+  },
+  {
+    "slovak": "zranenie",
+    "english": "wound"
+  },
+  {
+    "slovak": "zranený",
+    "english": "wounded"
+  }
+]

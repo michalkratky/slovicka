@@ -1,0 +1,145 @@
+[
+  {
+    "slovak": "ubytovanie",
+    "english": "accommodation"
+  },
+  {
+    "slovak": "nocľah s raňajkami",
+    "english": "B&B",
+    "synonyms": {
+      "english": ["bed and breakfast"]
+    }
+  },
+  {
+    "slovak": "polovičná penzia",
+    "english": "half board"
+  },
+  {
+    "slovak": "plná penzia",
+    "english": "full board"
+  },
+  {
+    "slovak": "rezervovať si izbu",
+    "english": "book a room"
+  },
+  {
+    "slovak": "rezervovaný",
+    "english": "booked up"
+  },
+  {
+    "slovak": "objednaný",
+    "english": "booked up"
+  },
+  {
+    "slovak": "chyžná",
+    "english": "chambermaid"
+  },
+  {
+    "slovak": "prihlásiť sa",
+    "english": "check in"
+  },
+  {
+    "slovak": "odhlásiť sa",
+    "english": "check out"
+  },
+  {
+    "slovak": "kúpelňa prístupná zo spálne",
+    "english": "en-suite"
+  },
+  {
+    "slovak": "kúpelňa prístupná z izby",
+    "english": "en-suite"
+  },
+  {
+    "slovak": "plne obsadený",
+    "english": "fully booked"
+  },
+  {
+    "slovak": "penzión",
+    "english": "guest house"
+  },
+  {
+    "slovak": "zahŕňať raňajky",
+    "english": "include breakfast"
+  },
+  {
+    "slovak": "živé vystúpenie",
+    "english": "live entertainment"
+  },
+  {
+    "slovak": "salónik",
+    "english": "lounge"
+  },
+  {
+    "slovak": "rezervovať si",
+    "english": "make a reservation"
+  },
+  {
+    "slovak": "urobiť rezerváciu",
+    "english": "make a reservation"
+  },
+  {
+    "slovak": "recepcia",
+    "english": "reception"
+  },
+  {
+    "slovak": "vrátnica",
+    "english": "reception"
+  },
+  {
+    "slovak": "recepčný",
+    "english": "receptionist"
+  },
+  {
+    "slovak": "vrátnik",
+    "english": "receptionist"
+  },
+  {
+    "slovak": "rezervovať si izbu",
+    "english": "reserve a room"
+  },
+  {
+    "slovak": "jednolôžková izba",
+    "english": "single room"
+  },
+  {
+    "slovak": "dvojlôžková izba",
+    "english": "double room"
+  },
+  {
+    "slovak": "dvojlôžková izba s dvoma samostatnými posteľami",
+    "english": "twin room"
+  },
+  {
+    "slovak": "obývacia izba",
+    "english": "family room"
+  },
+  {
+    "slovak": "bývať v hoteli",
+    "english": "stay at a hotel"
+  },
+  {
+    "slovak": "bývať v hoteli",
+    "english": "stay in a hotel"
+  },
+  {
+    "slovak": "apartmán v hoteli",
+    "english": "suite"
+  },
+  {
+    "slovak": "trojhviezdičkový hotel",
+    "english": "three-star hotel"
+  },
+  {
+    "slovak": "voľné miesto v hoteli",
+    "english": "vacancy"
+  },
+  {
+    "slovak": "ubytovňa",
+    "english": "youth hostel"
+  },
+  {
+    "slovak": "turistická nocľaháreň",
+    "english": "youth hostel"
+  }
+]

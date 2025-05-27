@@ -1,0 +1,355 @@
+[
+  {
+    "slovak": "obdivovať",
+    "english": "admire"
+  },
+  {
+    "slovak": "zbožňovať",
+    "english": "adore",
+    "synonyms": {
+      "slovak": ["vrúcne milovať"]
+    }
+  },
+  {
+    "slovak": "obávať sa",
+    "english": "afraid"
+  },
+  {
+    "slovak": "ohromený",
+    "english": "amazed",
+    "synonyms": {
+      "slovak": ["užasnutý"]
+    }
+  },
+  {
+    "slovak": "nahnevaný",
+    "english": "angry"
+  },
+  {
+    "slovak": "úzkostlivý",
+    "english": "anxious",
+    "synonyms": {
+      "slovak": ["znepokojený"]
+    }
+  },
+  {
+    "slovak": "udivený",
+    "english": "astonished",
+    "synonyms": {
+      "slovak": ["užasnutý"]
+    }
+  },
+  {
+    "slovak": "zlá nálada",
+    "english": "bad mood"
+  },
+  {
+    "slovak": "byť priťahovaný",
+    "english": "be attracted"
+  },
+  {
+    "slovak": "byť nadšený",
+    "english": "be enthusiastic"
+  },
+  {
+    "slovak": "mať rád",
+    "english": "be fond of"
+  },
+  {
+    "slovak": "mať veľmi rád",
+    "english": "be keen on"
+  },
+  {
+    "slovak": "zmätený",
+    "english": "bewildered",
+    "synonyms": {
+      "slovak": ["poplašený"]
+    }
+  },
+  {
+    "slovak": "trpký",
+    "english": "bitter",
+    "synonyms": {
+      "slovak": ["horký"]
+    }
+  },
+  {
+    "slovak": "znudený",
+    "english": "bored"
+  },
+  {
+    "slovak": "upokojiť sa",
+    "english": "calm down"
+  },
+  {
+    "slovak": "neznášať",
+    "english": "can't stand"
+  },
+  {
+    "slovak": "potešený",
+    "english": "delighted"
+  },
+  {
+    "slovak": "deprimovaný",
+    "english": "depressed"
+  },
+  {
+    "slovak": "pohŕdať",
+    "english": "despise"
+  },
+  {
+    "slovak": "nenávidieť",
+    "english": "detest",
+    "synonyms": {
+      "slovak": ["mať odpor"]
+    }
+  },
+  {
+    "slovak": "sklamaný",
+    "english": "disappointed"
+  },
+  {
+    "slovak": "nemať rád",
+    "english": "dislike"
+  },
+  {
+    "slovak": "citlivý",
+    "english": "emotional",
+    "synonyms": {
+      "slovak": ["emocionálny"]
+    }
+  },
+  {
+    "slovak": "vzrušený",
+    "english": "excited"
+  },
+  {
+    "slovak": "vyčerpaný",
+    "english": "exhausted"
+  },
+  {
+    "slovak": "zamilovať sa",
+    "english": "fall in love"
+  },
+  {
+    "slovak": "byť otrávený",
+    "english": "fed up"
+  },
+  {
+    "slovak": "cítiť sa skleslo",
+    "english": "feel down"
+  },
+  {
+    "slovak": "vystrašený",
+    "english": "frightened"
+  },
+  {
+    "slovak": "znechutený",
+    "english": "frustrated",
+    "synonyms": {
+      "slovak": ["otrávený"]
+    }
+  },
+  {
+    "slovak": "skleslý",
+    "english": "gloomy",
+    "synonyms": {
+      "slovak": ["skľúčený"]
+    }
+  },
+  {
+    "slovak": "dobrá nálada",
+    "english": "good mood"
+  },
+  {
+    "slovak": "šťastný",
+    "english": "happy"
+  },
+  {
+    "slovak": "neznášať",
+    "english": "hate",
+    "synonyms": {
+      "slovak": ["nenávidieť"]
+    }
+  },
+  {
+    "slovak": "skrývať svoje emócie",
+    "english": "hide one's emotions"
+  },
+  {
+    "slovak": "nepriateľský",
+    "english": "hostile"
+  },
+  {
+    "slovak": "zbožňovať",
+    "english": "idolise"
+  },
+  {
+    "slovak": "necitlivý",
+    "english": "insensitive"
+  },
+  {
+    "slovak": "mať rád",
+    "english": "like"
+  },
+  {
+    "slovak": "mať odpor",
+    "english": "loathe",
+    "synonyms": {
+      "slovak": ["mať averziu", "mať nechuť"]
+    }
+  },
+  {
+    "slovak": "osamelý",
+    "english": "lonely"
+  },
+  {
+    "slovak": "pozerať sa zvrchu",
+    "english": "look down on",
+    "synonyms": {
+      "slovak": ["pozerať sa zhora", "pozerať sa opovržlivo"]
+    }
+  },
+  {
+    "slovak": "ctiť si",
+    "english": "look up to",
+    "synonyms": {
+      "slovak": ["obdivovať"]
+    }
+  },
+  {
+    "slovak": "stratiť trpezlivosť",
+    "english": "lose one's temper"
+  },
+  {
+    "slovak": "milovať",
+    "english": "love"
+  },
+  {
+    "slovak": "melancholický",
+    "english": "melancholic"
+  },
+  {
+    "slovak": "starať sa o vlastné problémy",
+    "english": "mind one's own business",
+    "synonyms": {
+      "slovak": ["hľadieť si svojho"]
+    }
+  },
+  {
+    "slovak": "mizerný",
+    "english": "miserable",
+    "synonyms": {
+      "slovak": ["úbohý"]
+    }
+  },
+  {
+    "slovak": "náladový",
+    "english": "moody"
+  },
+  {
+    "slovak": "dojatý",
+    "english": "moved"
+  },
+  {
+    "slovak": "na vrchole",
+    "english": "on top of the world",
+    "synonyms": {
+      "slovak": ["celkom šťastný"]
+    }
+  },
+  {
+    "slovak": "nadmieru spokojný",
+    "english": "over the moon",
+    "synonyms": {
+      "slovak": ["šťastný ako blcha"]
+    }
+  },
+  {
+    "slovak": "zdrvený",
+    "english": "overwhelmed",
+    "synonyms": {
+      "slovak": ["ochromený"]
+    }
+  },
+  {
+    "slovak": "zdráhavý",
+    "english": "reluctant",
+    "synonyms": {
+      "slovak": ["neochotný"]
+    }
+  },
+  {
+    "slovak": "vážiť si",
+    "english": "respect"
+  },
+  {
+    "slovak": "rešpekt",
+    "english": "respect",
+    "synonyms": {
+      "slovak": ["úcta"]
+    }
+  },
+  {
+    "slovak": "nepokojný",
+    "english": "restless",
+    "synonyms": {
+      "slovak": ["netrpezlivý"]
+    }
+  },
+  {
+    "slovak": "vydesený",
+    "english": "scared",
+    "synonyms": {
+      "slovak": ["vyľakaný"]
+    }
+  },
+  {
+    "slovak": "citlivý",
+    "english": "sensitive"
+  },
+  {
+    "slovak": "sentimentálny",
+    "english": "sentimental"
+  },
+  {
+    "slovak": "prekvapený",
+    "english": "surprised"
+  },
+  {
+    "slovak": "vydesený",
+    "english": "terrified",
+    "synonyms": {
+      "slovak": ["vystrašený"]
+    }
+  },
+  {
+    "slovak": "radostne vzrušený",
+    "english": "thrilled"
+  },
+  {
+    "slovak": "unavený",
+    "english": "tired"
+  },
+  {
+    "slovak": "dojatý",
+    "english": "touched",
+    "synonyms": {
+      "slovak": ["pohnutý"]
+    }
+  },
+  {
+    "slovak": "vyčerpaný",
+    "english": "weary",
+    "synonyms": {
+      "slovak": ["unavený"]
+    }
+  },
+  {
+    "slovak": "ustaraný",
+    "english": "worried",
+    "synonyms": {
+      "slovak": ["utrápený"]
+    }
+  }
+]

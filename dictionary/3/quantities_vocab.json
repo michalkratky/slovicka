@@ -1,0 +1,76 @@
+[
+  {
+    "slovak": "vrece múky",
+    "english": "bag of flour"
+  },
+  {
+    "slovak": "fľaša džúsu",
+    "english": "bottle of juice",
+    "synonyms": {
+      "slovak": ["fľaša mlieka"]
+    }
+  },
+  {
+    "slovak": "dóza s cukríkmi",
+    "english": "box of chocolates"
+  },
+  {
+    "slovak": "plechovka limonády",
+    "english": "can of lemonade",
+    "synonyms": {
+      "slovak": ["plechovka koly"]
+    }
+  },
+  {
+    "slovak": "papierová taška",
+    "english": "carrier bag",
+    "synonyms": {
+      "slovak": ["vrece"]
+    }
+  },
+  {
+    "slovak": "krabica džúsu",
+    "english": "carton of juice",
+    "synonyms": {
+      "slovak": ["krabica mlieka"]
+    }
+  },
+  {
+    "slovak": "pohár džemu",
+    "english": "jar of jam",
+    "synonyms": {
+      "slovak": ["pohár medu"]
+    }
+  },
+  {
+    "slovak": "bochník chleba",
+    "english": "loaf of bread"
+  },
+  {
+    "slovak": "balíček sušienok",
+    "english": "packet of biscuits",
+    "synonyms": {
+      "slovak": ["balíček zemiakových lupienkov", "balíček cereálnych výrobkov"]
+    }
+  },
+  {
+    "slovak": "konzerva sardiniek",
+    "english": "tin of sardines"
+  },
+  {
+    "slovak": "téglik rastlinného masla",
+    "english": "tub of margarine"
+  },
+  {
+    "slovak": "3 kilá pomarančov",
+    "english": "3 kilos of potatoes"
+  },
+  {
+    "slovak": "200 gramov syra",
+    "english": "200 grams of cheese"
+  },
+  {
+    "slovak": "pol litra mlieka",
+    "english": "half a litre of milk"
+  }
+]

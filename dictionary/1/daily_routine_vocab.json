@@ -1,0 +1,271 @@
+[
+  {
+    "slovak": "strážiť deti",
+    "english": "babysit",
+    "synonyms": {
+      "slovak": ["postrážiť deti"]
+    }
+  },
+  {
+    "slovak": "vychovávať deti",
+    "english": "bring up children"
+  },
+  {
+    "slovak": "čistiť si zuby",
+    "english": "brush teeth",
+    "synonyms": {
+      "slovak": ["čistiť si zuby"]
+    }
+  },
+  {
+    "slovak": "domáce práce",
+    "english": "chores",
+    "synonyms": {
+      "slovak": ["domáce práce", "household chores"]
+    }
+  },
+  {
+    "slovak": "čistý",
+    "english": "clean"
+  },
+  {
+    "slovak": "upratať",
+    "english": "clear up",
+    "synonyms": {
+      "slovak": ["dať do poriadku"]
+    }
+  },
+  {
+    "slovak": "dochádzať",
+    "english": "commute"
+  },
+  {
+    "slovak": "robiť domáce práce",
+    "english": "do housework"
+  },
+  {
+    "slovak": "variť",
+    "english": "do the cooking"
+  },
+  {
+    "slovak": "utierať prach",
+    "english": "do the dusting"
+  },
+  {
+    "slovak": "žehliť",
+    "english": "do the ironing"
+  },
+  {
+    "slovak": "nakupovať",
+    "english": "do the shopping"
+  },
+  {
+    "slovak": "umývať riad",
+    "english": "do the washing"
+  },
+  {
+    "slovak": "prať",
+    "english": "do the washing up"
+  },
+  {
+    "slovak": "obliecť sa",
+    "english": "get dressed"
+  },
+  {
+    "slovak": "pripraviť sa",
+    "english": "get ready",
+    "synonyms": {
+      "slovak": ["prichystať sa na spanie", "prichystať sa do školy"]
+    }
+  },
+  {
+    "slovak": "vstávať",
+    "english": "get up"
+  },
+  {
+    "slovak": "ísť spať",
+    "english": "go to bed",
+    "synonyms": {
+      "slovak": ["ísť spať skoro", "ísť spať neskoro"]
+    }
+  },
+  {
+    "slovak": "ísť do školy",
+    "english": "go to school"
+  },
+  {
+    "slovak": "ísť do kancelárie",
+    "english": "go to the office"
+  },
+  {
+    "slovak": "ísť do práce",
+    "english": "go to work"
+  },
+  {
+    "slovak": "ísť von",
+    "english": "go out"
+  },
+  {
+    "slovak": "kúpať sa",
+    "english": "have a bath",
+    "synonyms": {
+      "english": ["take a bath"]
+    }
+  },
+  {
+    "slovak": "jesť",
+    "english": "have a meal",
+    "synonyms": {
+      "slovak": ["najesť sa"]
+    }
+  },
+  {
+    "slovak": "raňajkovať",
+    "english": "have breakfast"
+  },
+  {
+    "slovak": "obedovať",
+    "english": "have lunch"
+  },
+  {
+    "slovak": "jesť desiatu",
+    "english": "have tea"
+  },
+  {
+    "slovak": "večerať",
+    "english": "have dinner",
+    "synonyms": {
+      "slovak": ["večerať v spoločnosti", "slávnostne večerať"]
+    }
+  },
+  {
+    "slovak": "večerať",
+    "english": "have supper"
+  },
+  {
+    "slovak": "sprchovať sa",
+    "english": "have a shower",
+    "synonyms": {
+      "english": ["take a shower"]
+    }
+  },
+  {
+    "slovak": "odpočívať",
+    "english": "have a rest",
+    "synonyms": {
+      "slovak": ["odpočinúť si"]
+    }
+  },
+  {
+    "slovak": "ľahnúť si",
+    "english": "lie down",
+    "synonyms": {
+      "slovak": ["natiahnúť sa"]
+    }
+  },
+  {
+    "slovak": "pospať si",
+    "english": "lie in",
+    "synonyms": {
+      "slovak": ["poležať si", "zostať dlhšie v posteli"]
+    }
+  },
+  {
+    "slovak": "opatrovať",
+    "english": "look after",
+    "synonyms": {
+      "slovak": ["starať sa o deti"]
+    }
+  },
+  {
+    "slovak": "variť jedlá",
+    "english": "make meals",
+    "synonyms": {
+      "slovak": ["pripravovať jedlá"]
+    }
+  },
+  {
+    "slovak": "zdriemnuť si",
+    "english": "have a nap",
+    "synonyms": {
+      "english": ["take a nap"]
+    }
+  },
+  {
+    "slovak": "dodať",
+    "english": "provide",
+    "synonyms": {
+      "slovak": ["poskytnúť rodine"]
+    }
+  },
+  {
+    "slovak": "obliecť si",
+    "english": "put on",
+    "synonyms": {
+      "slovak": ["obliekať si šaty"]
+    }
+  },
+  {
+    "slovak": "vychovávať deti",
+    "english": "raise children"
+  },
+  {
+    "slovak": "viesť domácnosť",
+    "english": "run the home"
+  },
+  {
+    "slovak": "vydať sa na cestu",
+    "english": "set off"
+  },
+  {
+    "slovak": "deliť sa o domáce práce",
+    "english": "share the chores"
+  },
+  {
+    "slovak": "byť hore neskoro do noci",
+    "english": "stay up late"
+  },
+  {
+    "slovak": "vziať deti do školy",
+    "english": "take the children to school",
+    "synonyms": {
+      "slovak": ["vziať psa na prechádzku"]
+    }
+  },
+  {
+    "slovak": "starať sa o deti",
+    "english": "take care of children"
+  },
+  {
+    "slovak": "deliť sa o domáce práce",
+    "english": "take turns",
+    "synonyms": {
+      "slovak": ["striedať sa o domáce práce"]
+    }
+  },
+  {
+    "slovak": "cestovať do školy",
+    "english": "travel to school",
+    "synonyms": {
+      "slovak": ["cestovať do práce"]
+    }
+  },
+  {
+    "slovak": "vysávať prach",
+    "english": "vacuum",
+    "synonyms": {
+      "slovak": ["luxovať"]
+    }
+  },
+  {
+    "slovak": "prebudiť sa",
+    "english": "wake up"
+  },
+  {
+    "slovak": "ísť pešo do školy",
+    "english": "walk to school",
+    "synonyms": {
+      "slovak": ["ísť pešo do práce"]
+    }
+  }
+]

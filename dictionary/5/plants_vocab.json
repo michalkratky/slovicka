@@ -1,0 +1,142 @@
+[
+  {
+    "slovak": "konár",
+    "english": "branch"
+  },
+  {
+    "slovak": "krík",
+    "english": "bush",
+    "synonyms": {
+      "slovak": ["krovie"]
+    }
+  },
+  {
+    "slovak": "priemyselné hnojivo",
+    "english": "fertiliser"
+  },
+  {
+    "slovak": "kvet",
+    "english": "flower"
+  },
+  {
+    "slovak": "ovocie",
+    "english": "fruit"
+  },
+  {
+    "slovak": "huba",
+    "english": "fungus",
+    "synonyms": {
+      "english": ["fungi"]
+    }
+  },
+  {
+    "slovak": "záhrada",
+    "english": "garden"
+  },
+  {
+    "slovak": "tráva",
+    "english": "grass"
+  },
+  {
+    "slovak": "skleník",
+    "english": "greenhouse"
+  },
+  {
+    "slovak": "pestovať rastliny",
+    "english": "grow plants"
+  },
+  {
+    "slovak": "list",
+    "english": "leaf",
+    "synonyms": {
+      "english": ["leaves"]
+    }
+  },
+  {
+    "slovak": "mach",
+    "english": "moss",
+    "synonyms": {
+      "slovak": ["lišajník"]
+    }
+  },
+  {
+    "slovak": "pesticíd na hubenie hmyzu",
+    "english": "pesticide"
+  },
+  {
+    "slovak": "korunný lupienok kvetu",
+    "english": "petal"
+  },
+  {
+    "slovak": "izbový kvet",
+    "english": "pot plant"
+  },
+  {
+    "slovak": "prerezávať",
+    "english": "prune",
+    "synonyms": {
+      "slovak": ["prestrihávať stromy"]
+    }
+  },
+  {
+    "slovak": "koreň",
+    "english": "root"
+  },
+  {
+    "slovak": "semeno",
+    "english": "seed"
+  },
+  {
+    "slovak": "pôda",
+    "english": "soil",
+    "synonyms": {
+      "slovak": ["zemina"]
+    }
+  },
+  {
+    "slovak": "siať",
+    "english": "sow"
+  },
+  {
+    "slovak": "stonka",
+    "english": "stem"
+  },
+  {
+    "slovak": "tŕň",
+    "english": "thorn",
+    "synonyms": {
+      "slovak": ["osteň"]
+    }
+  },
+  {
+    "slovak": "strom",
+    "english": "tree"
+  },
+  {
+    "slovak": "kmeň",
+    "english": "trunk",
+    "synonyms": {
+      "slovak": ["peň"]
+    }
+  },
+  {
+    "slovak": "zelenina",
+    "english": "vegetable"
+  },
+  {
+    "slovak": "zalievať kvety",
+    "english": "water the plants"
+  },
+  {
+    "slovak": "burina",
+    "english": "weed"
+  },
+  {
+    "slovak": "herbicíd",
+    "english": "weedkiller"
+  },
+  {
+    "slovak": "divá zver",
+    "english": "wildlife"
+  }
+]

@@ -1,0 +1,85 @@
+[
+  {
+    "slovak": "vták",
+    "english": "bird"
+  },
+  {
+    "slovak": "rasa",
+    "english": "breed",
+    "synonyms": {
+      "slovak": ["plemeno", "chovať", "pestovať"]
+    }
+  },
+  {
+    "slovak": "mäsožravec",
+    "english": "carnivore"
+  },
+  {
+    "slovak": "domáce zviera",
+    "english": "domestic animal"
+  },
+  {
+    "slovak": "vyhynutý",
+    "english": "extinct",
+    "synonyms": {
+      "slovak": ["vyhubený"]
+    }
+  },
+  {
+    "slovak": "vyhynutie",
+    "english": "extinction",
+    "synonyms": {
+      "slovak": ["vymretie"]
+    }
+  },
+  {
+    "slovak": "poľnohospodárske zviera",
+    "english": "farm animal"
+  },
+  {
+    "slovak": "živiť sa",
+    "english": "feed on"
+  },
+  {
+    "slovak": "ryba",
+    "english": "fish"
+  },
+  {
+    "slovak": "bylinožravec",
+    "english": "herbivore"
+  },
+  {
+    "slovak": "črieda",
+    "english": "herd"
+  },
+  {
+    "slovak": "hmyz",
+    "english": "insect"
+  },
+  {
+    "slovak": "cicavec",
+    "english": "mammal"
+  },
+  {
+    "slovak": "predátor",
+    "english": "predator",
+    "synonyms": {
+      "slovak": ["dravec"]
+    }
+  },
+  {
+    "slovak": "korisť",
+    "english": "prey",
+    "synonyms": {
+      "slovak": ["obeť"]
+    }
+  },
+  {
+    "slovak": "plaz",
+    "english": "reptile"
+  },
+  {
+    "slovak": "druh",
+    "english": "species"
+  }
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "slovak": "anténa",
+    "english": "aerial"
+  },
+  {
+    "slovak": "spotrebič",
+    "english": "appliance"
+  },
+  {
+    "slovak": "batéria",
+    "english": "battery"
+  },
+  {
+    "slovak": "tlačidlo",
+    "english": "button"
+  },
+  {
+    "slovak": "gombík",
+    "english": "button"
+  },
+  {
+    "slovak": "kábel",
+    "english": "cable"
+  },
+  {
+    "slovak": "nabíjať",
+    "english": "charge"
+  },
+  {
+    "slovak": "nabíjačka",
+    "english": "charger"
+  },
+  {
+    "slovak": "spojenie",
+    "english": "connection"
+  },
+  {
+    "slovak": "digitálne hodinky",
+    "english": "digital watch"
+  },
+  {
+    "slovak": "elektronický",
+    "english": "electronic"
+  },
+  {
+    "slovak": "stroj",
+    "english": "engine"
+  },
+  {
+    "slovak": "malý šikovný prístroj",
+    "english": "gadget"
+  },
+  {
+    "slovak": "získať cenu",
+    "english": "get a prize"
+  },
+  {
+    "slovak": "slúchadlá",
+    "english": "headphones"
+  },
+  {
+    "slovak": "slúchadlá k rádiu",
+    "english": "headset"
+  },
+  {
+    "slovak": "slúchadlá k telefónu",
+    "english": "headset"
+  },
+  {
+    "slovak": "optická šošovka",
+    "english": "lens"
+  },
+  {
+    "slovak": "spoj",
+    "english": "link"
+  },
+  {
+    "slovak": "ručný",
+    "english": "manual"
+  },
+  {
+    "slovak": "manuál",
+    "english": "manual"
+  },
+  {
+    "slovak": "mobilný telefón",
+    "english": "mobile phone"
+  },
+  {
+    "slovak": "motor",
+    "english": "motor"
+  },
+  {
+    "slovak": "prípojka",
+    "english": "plug"
+  },
+  {
+    "slovak": "elektrická zástrčka",
+    "english": "plug"
+  },
+  {
+    "slovak": "elektrická zásuvka",
+    "english": "socket"
+  },
+  {
+    "slovak": "objímka",
+    "english": "strap"
+  },
+  {
+    "slovak": "strmeň",
+    "english": "strap"
+  },
+  {
+    "slovak": "technológia",
+    "english": "technology"
+  },
+  {
+    "slovak": "technika",
+    "english": "technology"
+  },
+  {
+    "slovak": "skúmavka",
+    "english": "test tube"
+  },
+  {
+    "slovak": "videomagnetofón",
+    "english": "VCR",
+    "synonyms": {
+      "english": ["video cassette recorder"]
+    }
+  },
+  {
+    "slovak": "drôt",
+    "english": "wire"
+  }
+]

@@ -1,0 +1,247 @@
+[
+  {
+    "slovak": "pekáreň",
+    "english": "baker's"
+  },
+  {
+    "slovak": "kníhkupectvo",
+    "english": "bookshop"
+  },
+  {
+    "slovak": "mäsiarstvo",
+    "english": "butcher's"
+  },
+  {
+    "slovak": "filiálka",
+    "english": "chain store",
+    "synonyms": {
+      "slovak": ["predajňa"]
+    }
+  },
+  {
+    "slovak": "drogéria",
+    "english": "chemist's",
+    "synonyms": {
+      "slovak": ["lekáreň"]
+    }
+  },
+  {
+    "slovak": "obchod s oblečením",
+    "english": "clothes shop"
+  },
+  {
+    "slovak": "obchod s lahôdkami",
+    "english": "delicatessen",
+    "synonyms": {
+      "english": ["deli"]
+    }
+  },
+  {
+    "slovak": "obchodný dom",
+    "english": "department store"
+  },
+  {
+    "slovak": "obchod so značkovým oblečením",
+    "english": "designer shop"
+  },
+  {
+    "slovak": "obchod s domácimi potrebami",
+    "english": "DIY store"
+  },
+  {
+    "slovak": "obchod s rybami",
+    "english": "fishmonger's"
+  },
+  {
+    "slovak": "obchod s nábytkom",
+    "english": "furniture shop"
+  },
+  {
+    "slovak": "obchod so zeleninou",
+    "english": "greengrocer's"
+  },
+  {
+    "slovak": "obchod s potravinami",
+    "english": "grocer's"
+  },
+  {
+    "slovak": "trh",
+    "english": "market"
+  },
+  {
+    "slovak": "novinový stánok",
+    "english": "newsagent's"
+  },
+  {
+    "slovak": "obchod s alkoholickými nápojmi",
+    "english": "off-licence"
+  },
+  {
+    "slovak": "obchod s obuvou",
+    "english": "shoe shop"
+  },
+  {
+    "slovak": "papiernictvo",
+    "english": "stationer's"
+  },
+  {
+    "slovak": "supermarket",
+    "english": "supermarket"
+  },
+  {
+    "slovak": "výhodný nákup",
+    "english": "bargain"
+  },
+  {
+    "slovak": "rozbitý",
+    "english": "broken"
+  },
+  {
+    "slovak": "prezerať si",
+    "english": "browse",
+    "synonyms": {
+      "slovak": ["vyberať"]
+    }
+  },
+  {
+    "slovak": "kúpiť vo výpredaji",
+    "english": "buy in the sale"
+  },
+  {
+    "slovak": "hotovosť",
+    "english": "cash"
+  },
+  {
+    "slovak": "šatňa",
+    "english": "changing room",
+    "synonyms": {
+      "slovak": ["prezliekáreň"]
+    }
+  },
+  {
+    "slovak": "pokladňa",
+    "english": "checkout"
+  },
+  {
+    "slovak": "zákazník",
+    "english": "customer"
+  },
+  {
+    "slovak": "zľava",
+    "english": "discount"
+  },
+  {
+    "slovak": "vymeniť niečo za niečo",
+    "english": "exchange"
+  },
+  {
+    "slovak": "pasovať",
+    "english": "fit",
+    "synonyms": {
+      "slovak": ["sedieť", "byť akurát"]
+    }
+  },
+  {
+    "slovak": "skúšobná kabína",
+    "english": "fitting room"
+  },
+  {
+    "slovak": "zadarmo",
+    "english": "free of charge"
+  },
+  {
+    "slovak": "dostať späť peniaze",
+    "english": "get money back"
+  },
+  {
+    "slovak": "dostať zľavu",
+    "english": "get a refund"
+  },
+  {
+    "slovak": "ísť nakupovať",
+    "english": "go shopping"
+  },
+  {
+    "slovak": "mať niečo na sklade",
+    "english": "have in stock"
+  },
+  {
+    "slovak": "hľadať",
+    "english": "look for"
+  },
+  {
+    "slovak": "ladiť",
+    "english": "match",
+    "synonyms": {
+      "slovak": ["hodiť sa k niečomu"]
+    }
+  },
+  {
+    "slovak": "vypredané",
+    "english": "out of stock"
+  },
+  {
+    "slovak": "platiť v hotovosti",
+    "english": "pay cash",
+    "synonyms": {
+      "slovak": ["platiť kreditnou kartou", "platiť šekom"]
+    }
+  },
+  {
+    "slovak": "znížená cena",
+    "english": "reduced"
+  },
+  {
+    "slovak": "vrátiť tovar do obchodu",
+    "english": "return goods to the shop"
+  },
+  {
+    "slovak": "výpredaj",
+    "english": "sale"
+  },
+  {
+    "slovak": "predavač",
+    "english": "shop assistant"
+  },
+  {
+    "slovak": "veľkosť",
+    "english": "size"
+  },
+  {
+    "slovak": "špeciálna ponuka",
+    "english": "special offer"
+  },
+  {
+    "slovak": "hodiť sa",
+    "english": "suit",
+    "synonyms": {
+      "slovak": ["pasovať"]
+    }
+  },
+  {
+    "slovak": "vozík",
+    "english": "supermarket trolley",
+    "synonyms": {
+      "slovak": ["košík"]
+    }
+  },
+  {
+    "slovak": "predajná pokladňa",
+    "english": "till"
+  },
+  {
+    "slovak": "príliš malý",
+    "english": "too small",
+    "synonyms": {
+      "slovak": ["príliš tesný", "príliš voľný"]
+    }
+  },
+  {
+    "slovak": "vyskúšať si",
+    "english": "try on"
+  },
+  {
+    "slovak": "pracovať",
+    "english": "work"
+  }
+]

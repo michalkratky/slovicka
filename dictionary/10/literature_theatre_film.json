@@ -1,0 +1,368 @@
+[
+  {
+    "slovak": "akčný dobrodružný príbeh",
+    "english": "action adventure"
+  },
+  {
+    "slovak": "akčný film",
+    "english": "action film",
+    "synonyms": {
+      "english": ["action movie"]
+    }
+  },
+  {
+    "slovak": "adaptácia",
+    "english": "adaptation"
+  },
+  {
+    "slovak": "prepracovanie",
+    "english": "adaptation"
+  },
+  {
+    "slovak": "animácia",
+    "english": "animation"
+  },
+  {
+    "slovak": "publikum",
+    "english": "audience"
+  },
+  {
+    "slovak": "bestseller",
+    "english": "bestseller"
+  },
+  {
+    "slovak": "senzácia",
+    "english": "blockbuster"
+  },
+  {
+    "slovak": "trhák",
+    "english": "blockbuster"
+  },
+  {
+    "slovak": "pokladňa",
+    "english": "box office"
+  },
+  {
+    "slovak": "animovaný film",
+    "english": "cartoon"
+  },
+  {
+    "slovak": "kreslený film",
+    "english": "cartoon"
+  },
+  {
+    "slovak": "obsadenie",
+    "english": "cast"
+  },
+  {
+    "slovak": "postava",
+    "english": "character"
+  },
+  {
+    "slovak": "kino",
+    "english": "cinema"
+  },
+  {
+    "slovak": "komédia",
+    "english": "comedy"
+  },
+  {
+    "slovak": "konflikt",
+    "english": "conflict"
+  },
+  {
+    "slovak": "stret",
+    "english": "conflict"
+  },
+  {
+    "slovak": "kritik",
+    "english": "critic"
+  },
+  {
+    "slovak": "detektívny príbeh",
+    "english": "detective story"
+  },
+  {
+    "slovak": "režírovať",
+    "english": "direct"
+  },
+  {
+    "slovak": "režisér",
+    "english": "director"
+  },
+  {
+    "slovak": "katastrofický film",
+    "english": "disaster movie"
+  },
+  {
+    "slovak": "dokumentárny film",
+    "english": "documentary"
+  },
+  {
+    "slovak": "dráma",
+    "english": "drama"
+  },
+  {
+    "slovak": "dabovať",
+    "english": "dub"
+  },
+  {
+    "slovak": "nadabovať",
+    "english": "dub"
+  },
+  {
+    "slovak": "dabing",
+    "english": "dubbing"
+  },
+  {
+    "slovak": "celovečerný film",
+    "english": "feature film"
+  },
+  {
+    "slovak": "fikcia",
+    "english": "fiction"
+  },
+  {
+    "slovak": "beletria",
+    "english": "fiction"
+  },
+  {
+    "slovak": "hrať vo filme",
+    "english": "act in a film"
+  },
+  {
+    "slovak": "hrať vo filme",
+    "english": "play in a film"
+  },
+  {
+    "slovak": "hrať vo filme",
+    "english": "star in a film"
+  },
+  {
+    "slovak": "hrať vo filme",
+    "english": "feature in a film"
+  },
+  {
+    "slovak": "film natočený podľa",
+    "english": "film based on"
+  },
+  {
+    "slovak": "prepadák",
+    "english": "flop"
+  },
+  {
+    "slovak": "fiasko",
+    "english": "flop"
+  },
+  {
+    "slovak": "horor",
+    "english": "horror"
+  },
+  {
+    "slovak": "prestávka",
+    "english": "interval"
+  },
+  {
+    "slovak": "hlavná úloha",
+    "english": "leading role"
+  },
+  {
+    "slovak": "literárny",
+    "english": "literary"
+  },
+  {
+    "slovak": "literárna kritika",
+    "english": "literary criticism"
+  },
+  {
+    "slovak": "milostný príbeh",
+    "english": "love story"
+  },
+  {
+    "slovak": "muzikál",
+    "english": "musical"
+  },
+  {
+    "slovak": "literatúra faktu",
+    "english": "non-fiction"
+  },
+  {
+    "slovak": "román",
+    "english": "novel"
+  },
+  {
+    "slovak": "románopisec",
+    "english": "novelist"
+  },
+  {
+    "slovak": "účinkujúci",
+    "english": "performer"
+  },
+  {
+    "slovak": "umelec",
+    "english": "performer"
+  },
+  {
+    "slovak": "predstaviteľ",
+    "english": "performer"
+  },
+  {
+    "slovak": "predstavenie",
+    "english": "performance"
+  },
+  {
+    "slovak": "hra",
+    "english": "play"
+  },
+  {
+    "slovak": "dramatik",
+    "english": "playwright"
+  },
+  {
+    "slovak": "dej",
+    "english": "plot"
+  },
+  {
+    "slovak": "báseň",
+    "english": "poem"
+  },
+  {
+    "slovak": "básnik",
+    "english": "poet"
+  },
+  {
+    "slovak": "poézia",
+    "english": "poetry"
+  },
+  {
+    "slovak": "protagonista",
+    "english": "protagonist"
+  },
+  {
+    "slovak": "hlavný predstaviteľ",
+    "english": "protagonist"
+  },
+  {
+    "slovak": "hlavná postava",
+    "english": "protagonist"
+  },
+  {
+    "slovak": "hlavný hrdina",
+    "english": "protagonist"
+  },
+  {
+    "slovak": "rozriešenie",
+    "english": "resolution"
+  },
+  {
+    "slovak": "kritika",
+    "english": "review"
+  },
+  {
+    "slovak": "recenzia",
+    "english": "review"
+  },
+  {
+    "slovak": "kritik",
+    "english": "reviewer"
+  },
+  {
+    "slovak": "recenzent",
+    "english": "reviewer"
+  },
+  {
+    "slovak": "romantická komédia",
+    "english": "romantic comedy"
+  },
+  {
+    "slovak": "vedeckofantastický film",
+    "english": "sci-fi film",
+    "synonyms": {
+      "english": ["science fiction film"]
+    }
+  },
+  {
+    "slovak": "filmový technický scenár",
+    "english": "screenplay"
+  },
+  {
+    "slovak": "voľné pokračovanie filmu",
+    "english": "sequel"
+  },
+  {
+    "slovak": "scéna",
+    "english": "set"
+  },
+  {
+    "slovak": "výprava",
+    "english": "set"
+  },
+  {
+    "slovak": "odohrávať sa",
+    "english": "be set"
+  },
+  {
+    "slovak": "poviedka",
+    "english": "short story"
+  },
+  {
+    "slovak": "zábavné predstavenie",
+    "english": "show"
+  },
+  {
+    "slovak": "zvukový záznam s piesňami z filmu",
+    "english": "soundtrack"
+  },
+  {
+    "slovak": "zvláštne efekty",
+    "english": "special effects"
+  },
+  {
+    "slovak": "divák",
+    "english": "spectator"
+  },
+  {
+    "slovak": "pódium",
+    "english": "stage"
+  },
+  {
+    "slovak": "javisko",
+    "english": "stage"
+  },
+  {
+    "slovak": "kaskadér",
+    "english": "stuntman"
+  },
+  {
+    "slovak": "titulky",
+    "english": "subtitles"
+  },
+  {
+    "slovak": "vedľajšia úloha",
+    "english": "supporting role"
+  },
+  {
+    "slovak": "vedľajšia postava",
+    "english": "supporting character"
+  },
+  {
+    "slovak": "vedľajší herec",
+    "english": "supporting actor"
+  },
+  {
+    "slovak": "téma",
+    "english": "theme"
+  },
+  {
+    "slovak": "napínavé dielo",
+    "english": "thriller"
+  },
+  {
+    "slovak": "western",
+    "english": "western"
+  },
+  {
+    "slovak": "kovbojka",
+    "english": "western"
+  }
+]

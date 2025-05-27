@@ -1,0 +1,110 @@
+[
+  {
+    "slovak": "výtvarná výchova",
+    "english": "Art"
+  },
+  {
+    "slovak": "biológia",
+    "english": "Biology"
+  },
+  {
+    "slovak": "obchodné podnikanie",
+    "english": "Business Studies"
+  },
+  {
+    "slovak": "chémia",
+    "english": "Chemistry"
+  },
+  {
+    "slovak": "výpočtová technika",
+    "english": "Computer Studies",
+    "synonyms": {
+      "english": ["IT", "Information Technology"]
+    }
+  },
+  {
+    "slovak": "povinný",
+    "english": "compulsory"
+  },
+  {
+    "slovak": "študijný plán",
+    "english": "curriculum",
+    "synonyms": {
+      "slovak": ["osnovy"]
+    }
+  },
+  {
+    "slovak": "mimoškolské aktivity",
+    "english": "extracurricular activities",
+    "synonyms": {
+      "slovak": ["nepovinné predmety"]
+    }
+  },
+  {
+    "slovak": "cudzie jazyky",
+    "english": "foreign languages"
+  },
+  {
+    "slovak": "zemepis",
+    "english": "Geography"
+  },
+  {
+    "slovak": "gramatika",
+    "english": "Grammar",
+    "synonyms": {
+      "english": ["Linguistics"]
+    }
+  },
+  {
+    "slovak": "humanitné predmety",
+    "english": "Humanities",
+    "synonyms": {
+      "slovak": ["humanitné vedy"]
+    }
+  },
+  {
+    "slovak": "dejepis",
+    "english": "History"
+  },
+  {
+    "slovak": "literatúra",
+    "english": "Literature"
+  },
+  {
+    "slovak": "matematika",
+    "english": "Mathematics",
+    "synonyms": {
+      "english": ["Maths"]
+    }
+  },
+  {
+    "slovak": "hudobná výchova",
+    "english": "Music"
+  },
+  {
+    "slovak": "voliteľný",
+    "english": "optional"
+  },
+  {
+    "slovak": "telesná výchova",
+    "english": "Physical Education",
+    "synonyms": {
+      "english": ["PE"]
+    }
+  },
+  {
+    "slovak": "fyzika",
+    "english": "Physics"
+  },
+  {
+    "slovak": "náboženská výchova",
+    "english": "Religious Education",
+    "synonyms": {
+      "slovak": ["morálna výchova"]
+    }
+  },
+  {
+    "slovak": "prírodné vedy",
+    "english": "Sciences"
+  }
+]

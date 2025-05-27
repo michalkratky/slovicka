@@ -1,0 +1,594 @@
+[
+  {
+    "slovak": "lukostrelec",
+    "english": "archer"
+  },
+  {
+    "slovak": "lukostreľba",
+    "english": "archery"
+  },
+  {
+    "slovak": "atlét",
+    "english": "athlete"
+  },
+  {
+    "slovak": "atletika",
+    "english": "athletics"
+  },
+  {
+    "slovak": "bejzbal",
+    "english": "baseball"
+  },
+  {
+    "slovak": "basketbal",
+    "english": "basketball"
+  },
+  {
+    "slovak": "boxer",
+    "english": "boxer"
+  },
+  {
+    "slovak": "box",
+    "english": "boxing"
+  },
+  {
+    "slovak": "beh na lyžiach",
+    "english": "cross-country skiing"
+  },
+  {
+    "slovak": "disk",
+    "english": "discus"
+  },
+  {
+    "slovak": "potápač",
+    "english": "diver"
+  },
+  {
+    "slovak": "potápanie",
+    "english": "diving"
+  },
+  {
+    "slovak": "zjazdové lyžovanie",
+    "english": "downhill skiing"
+  },
+  {
+    "slovak": "šermiar",
+    "english": "fencer"
+  },
+  {
+    "slovak": "šerm",
+    "english": "fencing"
+  },
+  {
+    "slovak": "futbal",
+    "english": "football",
+    "synonyms": {
+      "english": ["soccer"]
+    }
+  },
+  {
+    "slovak": "golf",
+    "english": "golf"
+  },
+  {
+    "slovak": "hráč golfu",
+    "english": "golfer"
+  },
+  {
+    "slovak": "gymnasta",
+    "english": "gymnast"
+  },
+  {
+    "slovak": "gymnastka",
+    "english": "gymnast"
+  },
+  {
+    "slovak": "gymnastika",
+    "english": "gymnastics"
+  },
+  {
+    "slovak": "hod kladivom",
+    "english": "hammer throw",
+    "synonyms": {
+      "english": ["hammer throwing"]
+    }
+  },
+  {
+    "slovak": "hádzaná",
+    "english": "handball"
+  },
+  {
+    "slovak": "hokej",
+    "english": "hockey"
+  },
+  {
+    "slovak": "prekážka",
+    "english": "hurdle"
+  },
+  {
+    "slovak": "halové športy",
+    "english": "indoor sports"
+  },
+  {
+    "slovak": "oštep",
+    "english": "javelin"
+  },
+  {
+    "slovak": "skok",
+    "english": "jump"
+  },
+  {
+    "slovak": "maratón",
+    "english": "marathon"
+  },
+  {
+    "slovak": "maratónec",
+    "english": "marathon runner"
+  },
+  {
+    "slovak": "skok o žrdi",
+    "english": "pole vault"
+  },
+  {
+    "slovak": "skokan o žrdi",
+    "english": "pole vaulter"
+  },
+  {
+    "slovak": "skokanúa o žrdi",
+    "english": "pole vaulter"
+  },
+  {
+    "slovak": "súťaž",
+    "english": "race"
+  },
+  {
+    "slovak": "preteky",
+    "english": "race"
+  },
+  {
+    "slovak": "jednoradové kolieskové korčule",
+    "english": "roller blades"
+  },
+  {
+    "slovak": "korčuľovanie na kolieskových korčuliach",
+    "english": "roller blading"
+  },
+  {
+    "slovak": "korčuľovanie na kolieskových korčuliach",
+    "english": "roller skating"
+  },
+  {
+    "slovak": "behať",
+    "english": "run"
+  },
+  {
+    "slovak": "beh",
+    "english": "run"
+  },
+  {
+    "slovak": "bežec",
+    "english": "runner"
+  },
+  {
+    "slovak": "vrhač gulí",
+    "english": "shot putter"
+  },
+  {
+    "slovak": "hod guľou",
+    "english": "shot put",
+    "synonyms": {
+      "english": ["shot putting"]
+    }
+  },
+  {
+    "slovak": "jazdiť na skejtborde",
+    "english": "skateboard"
+  },
+  {
+    "slovak": "jazda na skejtborde",
+    "english": "skateboarding"
+  },
+  {
+    "slovak": "korčuliar",
+    "english": "skater"
+  },
+  {
+    "slovak": "korčuliarka",
+    "english": "skater"
+  },
+  {
+    "slovak": "krasokorčuľovanie",
+    "english": "skating"
+  },
+  {
+    "slovak": "rýchlokorčuľovanie",
+    "english": "skating"
+  },
+  {
+    "slovak": "skok na lyžiach",
+    "english": "ski jump"
+  },
+  {
+    "slovak": "lyžiarsky mostík",
+    "english": "ski jump"
+  },
+  {
+    "slovak": "skokan na lyžiach",
+    "english": "ski jumper"
+  },
+  {
+    "slovak": "lyžiar",
+    "english": "skier"
+  },
+  {
+    "slovak": "lyžovanie",
+    "english": "skiing"
+  },
+  {
+    "slovak": "beh na krátku vzdialenosť",
+    "english": "sprint"
+  },
+  {
+    "slovak": "šprint",
+    "english": "sprint"
+  },
+  {
+    "slovak": "šprintér",
+    "english": "sprinter"
+  },
+  {
+    "slovak": "šprintérka",
+    "english": "sprinter"
+  },
+  {
+    "slovak": "sumo",
+    "english": "sumo wrestling"
+  },
+  {
+    "slovak": "plavec",
+    "english": "swimmer"
+  },
+  {
+    "slovak": "plávanie",
+    "english": "swimming"
+  },
+  {
+    "slovak": "stolný tenis",
+    "english": "table tennis"
+  },
+  {
+    "slovak": "tenis",
+    "english": "tennis"
+  },
+  {
+    "slovak": "volejbal",
+    "english": "volleyball"
+  },
+  {
+    "slovak": "vodné pólo",
+    "english": "water polo"
+  },
+  {
+    "slovak": "vodné športy",
+    "english": "water sports"
+  },
+  {
+    "slovak": "vzpierač",
+    "english": "weightlifter"
+  },
+  {
+    "slovak": "vzpieranie",
+    "english": "weightlifting"
+  },
+  {
+    "slovak": "surf",
+    "english": "windsurfer"
+  },
+  {
+    "slovak": "surfista",
+    "english": "windsurfer"
+  },
+  {
+    "slovak": "surfistka",
+    "english": "windsurfer"
+  },
+  {
+    "slovak": "windsurfing",
+    "english": "windsurfing"
+  },
+  {
+    "slovak": "zápasiť",
+    "english": "wrestle"
+  },
+  {
+    "slovak": "zápas",
+    "english": "wrestling"
+  },
+  {
+    "slovak": "zápasenie",
+    "english": "wrestling"
+  },
+  {
+    "slovak": "amatér",
+    "english": "amateur"
+  },
+  {
+    "slovak": "pálka",
+    "english": "bat"
+  },
+  {
+    "slovak": "majster",
+    "english": "champion"
+  },
+  {
+    "slovak": "šampión",
+    "english": "champion"
+  },
+  {
+    "slovak": "majstrovstvá",
+    "english": "championship"
+  },
+  {
+    "slovak": "tréner",
+    "english": "coach"
+  },
+  {
+    "slovak": "súťaž",
+    "english": "competition"
+  },
+  {
+    "slovak": "kurt",
+    "english": "court"
+  },
+  {
+    "slovak": "doping",
+    "english": "doping"
+  },
+  {
+    "slovak": "losovať",
+    "english": "draw"
+  },
+  {
+    "slovak": "test na drogy",
+    "english": "drug test"
+  },
+  {
+    "slovak": "fanúšik",
+    "english": "fan"
+  },
+  {
+    "slovak": "pole",
+    "english": "field"
+  },
+  {
+    "slovak": "ihrisko",
+    "english": "field"
+  },
+  {
+    "slovak": "hra",
+    "english": "game"
+  },
+  {
+    "slovak": "bránka",
+    "english": "goal"
+  },
+  {
+    "slovak": "brankár",
+    "english": "goalkeeper"
+  },
+  {
+    "slovak": "telocvičňa",
+    "english": "gym",
+    "synonyms": {
+      "english": ["gymnasium"]
+    }
+  },
+  {
+    "slovak": "korčule",
+    "english": "ice skates"
+  },
+  {
+    "slovak": "sieť",
+    "english": "net"
+  },
+  {
+    "slovak": "olympijské hry",
+    "english": "Olympic games"
+  },
+  {
+    "slovak": "ihrisko",
+    "english": "pitch"
+  },
+  {
+    "slovak": "precvičovanie",
+    "english": "practice"
+  },
+  {
+    "slovak": "cvičenie",
+    "english": "practice"
+  },
+  {
+    "slovak": "tréning",
+    "english": "practice"
+  },
+  {
+    "slovak": "cvičiť",
+    "english": "practise"
+  },
+  {
+    "slovak": "precvičovať",
+    "english": "practise"
+  },
+  {
+    "slovak": "trénovať",
+    "english": "practise"
+  },
+  {
+    "slovak": "profesionálny",
+    "english": "professional"
+  },
+  {
+    "slovak": "raketa",
+    "english": "racket"
+  },
+  {
+    "slovak": "rozhodca",
+    "english": "referee"
+  },
+  {
+    "slovak": "klzisko",
+    "english": "rink"
+  },
+  {
+    "slovak": "stav",
+    "english": "score"
+  },
+  {
+    "slovak": "lyžiarsky svah",
+    "english": "ski slope"
+  },
+  {
+    "slovak": "divák",
+    "english": "spectator"
+  },
+  {
+    "slovak": "športová výstroj",
+    "english": "sports equipment"
+  },
+  {
+    "slovak": "športovisko",
+    "english": "sports facilities"
+  },
+  {
+    "slovak": "štadión",
+    "english": "stadium"
+  },
+  {
+    "slovak": "hokejka",
+    "english": "stick"
+  },
+  {
+    "slovak": "prívrženec",
+    "english": "supporter"
+  },
+  {
+    "slovak": "priaznivec",
+    "english": "supporter"
+  },
+  {
+    "slovak": "tímový šport",
+    "english": "team sport"
+  },
+  {
+    "slovak": "turnaj",
+    "english": "tournament"
+  },
+  {
+    "slovak": "trať",
+    "english": "track"
+  },
+  {
+    "slovak": "tepláková súprava",
+    "english": "tracksuit"
+  },
+  {
+    "slovak": "trénovať",
+    "english": "train"
+  },
+  {
+    "slovak": "stať sa profesionálom",
+    "english": "turn professional"
+  },
+  {
+    "slovak": "rozhodca",
+    "english": "umpire"
+  },
+  {
+    "slovak": "rozhodovať",
+    "english": "umpire"
+  },
+  {
+    "slovak": "vyriešiť",
+    "english": "work out"
+  },
+  {
+    "slovak": "robiť aerobik",
+    "english": "do aerobics"
+  },
+  {
+    "slovak": "robiť skok do výšky",
+    "english": "do high jump"
+  },
+  {
+    "slovak": "robiť skok do diaľky",
+    "english": "do long jump"
+  },
+  {
+    "slovak": "robiť džudo",
+    "english": "do judo"
+  },
+  {
+    "slovak": "chodiť jazdiť",
+    "english": "go riding"
+  },
+  {
+    "slovak": "chodiť lyžovať",
+    "english": "go skiing"
+  },
+  {
+    "slovak": "chodiť plávať",
+    "english": "go swimming"
+  },
+  {
+    "slovak": "prehrať",
+    "english": "lose"
+  },
+  {
+    "slovak": "hrať bridž",
+    "english": "play bridge"
+  },
+  {
+    "slovak": "hrať futbal",
+    "english": "play football"
+  },
+  {
+    "slovak": "hrať tenis",
+    "english": "play tennis"
+  },
+  {
+    "slovak": "stanoviť rekord",
+    "english": "set a record"
+  },
+  {
+    "slovak": "prekonať rekord",
+    "english": "break a record"
+  },
+  {
+    "slovak": "vyrovnať rekord",
+    "english": "equal a record"
+  },
+  {
+    "slovak": "streliť gól",
+    "english": "score a goal"
+  },
+  {
+    "slovak": "získať bod",
+    "english": "score a point"
+  },
+  {
+    "slovak": "hádzať diskom",
+    "english": "throw the discus"
+  },
+  {
+    "slovak": "hádzať oštepom",
+    "english": "throw the javelin"
+  },
+  {
+    "slovak": "hádzať kladivom",
+    "english": "throw the hammer"
+  },
+  {
+    "slovak": "vyhrať",
+    "english": "win"
+  }
+]

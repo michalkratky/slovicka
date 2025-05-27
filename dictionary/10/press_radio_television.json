@@ -1,0 +1,328 @@
+[
+  {
+    "slovak": "inzeráty v novinách v špeciálnej rubrike",
+    "english": "classified advertisement",
+    "synonyms": {
+      "english": ["classified advert", "classified ad"]
+    }
+  },
+  {
+    "slovak": "článok",
+    "english": "article"
+  },
+  {
+    "slovak": "televízia",
+    "english": "the box"
+  },
+  {
+    "slovak": "telka",
+    "english": "the box"
+  },
+  {
+    "slovak": "vysielať",
+    "english": "broadcast"
+  },
+  {
+    "slovak": "noviny veľkého formátu",
+    "english": "broadsheet"
+  },
+  {
+    "slovak": "káblová televízia",
+    "english": "cable TV"
+  },
+  {
+    "slovak": "kreslený film",
+    "english": "animated cartoon"
+  },
+  {
+    "slovak": "kreslený seriál v novinách",
+    "english": "cartoon strip"
+  },
+  {
+    "slovak": "náklad",
+    "english": "circulation"
+  },
+  {
+    "slovak": "stĺpec",
+    "english": "column"
+  },
+  {
+    "slovak": "redaktor rubriky",
+    "english": "columnist"
+  },
+  {
+    "slovak": "fejtonista",
+    "english": "columnist"
+  },
+  {
+    "slovak": "humoristický seriál v novinách",
+    "english": "comic strip"
+  },
+  {
+    "slovak": "výtlačok",
+    "english": "copy"
+  },
+  {
+    "slovak": "číslo",
+    "english": "copy"
+  },
+  {
+    "slovak": "denník",
+    "english": "daily paper"
+  },
+  {
+    "slovak": "vydanie",
+    "english": "edition"
+  },
+  {
+    "slovak": "vydavateľ",
+    "english": "editor"
+  },
+  {
+    "slovak": "redaktor",
+    "english": "editor"
+  },
+  {
+    "slovak": "úvodník",
+    "english": "editorial"
+  },
+  {
+    "slovak": "komentár v novinách",
+    "english": "editorial"
+  },
+  {
+    "slovak": "epizóda",
+    "english": "episode"
+  },
+  {
+    "slovak": "diel",
+    "english": "episode"
+  },
+  {
+    "slovak": "časopis na kriedovom papieri",
+    "english": "glossy magazine"
+  },
+  {
+    "slovak": "časopis na lesklom papieri",
+    "english": "glossy magazine"
+  },
+  {
+    "slovak": "rozhovor",
+    "english": "interview"
+  },
+  {
+    "slovak": "vydanie",
+    "english": "issue"
+  },
+  {
+    "slovak": "novinár",
+    "english": "journalist"
+  },
+  {
+    "slovak": "list vydavateľovi",
+    "english": "letter to the editor"
+  },
+  {
+    "slovak": "list od čitateľa",
+    "english": "letter to the editor"
+  },
+  {
+    "slovak": "živé vysielanie",
+    "english": "live broadcast"
+  },
+  {
+    "slovak": "lokálna tlač",
+    "english": "local press"
+  },
+  {
+    "slovak": "časopis",
+    "english": "magazine"
+  },
+  {
+    "slovak": "mesačník",
+    "english": "monthly magazine"
+  },
+  {
+    "slovak": "celoštátna tlač",
+    "english": "national press"
+  },
+  {
+    "slovak": "trafika",
+    "english": "newsagent's"
+  },
+  {
+    "slovak": "novinový stánok",
+    "english": "newsagent's"
+  },
+  {
+    "slovak": "noviny",
+    "english": "newspaper",
+    "synonyms": {
+      "english": ["paper"]
+    }
+  },
+  {
+    "slovak": "nekrológ",
+    "english": "obituary"
+  },
+  {
+    "slovak": "periodikum",
+    "english": "periodical"
+  },
+  {
+    "slovak": "časopis",
+    "english": "periodical"
+  },
+  {
+    "slovak": "magazín",
+    "english": "periodical"
+  },
+  {
+    "slovak": "konferencier",
+    "english": "presenter"
+  },
+  {
+    "slovak": "moderátor",
+    "english": "presenter"
+  },
+  {
+    "slovak": "výstrižok z novín",
+    "english": "press cutting"
+  },
+  {
+    "slovak": "štvrťročník",
+    "english": "quarterly magazine"
+  },
+  {
+    "slovak": "štvrťročník",
+    "english": "quarterly periodical"
+  },
+  {
+    "slovak": "kvíz",
+    "english": "quiz"
+  },
+  {
+    "slovak": "súťaž",
+    "english": "quiz"
+  },
+  {
+    "slovak": "reality šou",
+    "english": "reality TV show"
+  },
+  {
+    "slovak": "diaľkové ovládanie",
+    "english": "remote control"
+  },
+  {
+    "slovak": "správa",
+    "english": "report"
+  },
+  {
+    "slovak": "reportáž",
+    "english": "report"
+  },
+  {
+    "slovak": "reportér",
+    "english": "reporter"
+  },
+  {
+    "slovak": "satelitná televízia",
+    "english": "satellite TV"
+  },
+  {
+    "slovak": "obrazovka",
+    "english": "screen"
+  },
+  {
+    "slovak": "seriál",
+    "english": "serial"
+  },
+  {
+    "slovak": "seriál",
+    "english": "series"
+  },
+  {
+    "slovak": "šoubiznis",
+    "english": "show business",
+    "synonyms": {
+      "english": ["showbiz"]
+    }
+  },
+  {
+    "slovak": "zábavný priemysel",
+    "english": "show business",
+    "synonyms": {
+      "english": ["showbiz"]
+    }
+  },
+  {
+    "slovak": "sitkom",
+    "english": "sitcom",
+    "synonyms": {
+      "english": ["situation comedy"]
+    }
+  },
+  {
+    "slovak": "situačná komédia",
+    "english": "sitcom",
+    "synonyms": {
+      "english": ["situation comedy"]
+    }
+  },
+  {
+    "slovak": "televízny seriál zo života",
+    "english": "soap opera"
+  },
+  {
+    "slovak": "rozhlasový seriál zo života",
+    "english": "soap opera"
+  },
+  {
+    "slovak": "predplatiť",
+    "english": "subscribe"
+  },
+  {
+    "slovak": "predplatiteľ",
+    "english": "subscriber"
+  },
+  {
+    "slovak": "bulvár",
+    "english": "tabloid"
+  },
+  {
+    "slovak": "talkshow",
+    "english": "talk show"
+  },
+  {
+    "slovak": "moderátor talkshow",
+    "english": "talk show host"
+  },
+  {
+    "slovak": "televízor",
+    "english": "television"
+  },
+  {
+    "slovak": "telka",
+    "english": "telly"
+  },
+  {
+    "slovak": "televízia",
+    "english": "TV"
+  },
+  {
+    "slovak": "televízna stanica",
+    "english": "TV channel"
+  },
+  {
+    "slovak": "televízne štúdio",
+    "english": "TV studio"
+  },
+  {
+    "slovak": "divák",
+    "english": "viewer"
+  },
+  {
+    "slovak": "týždenník",
+    "english": "weekly magazine"
+  }
+]

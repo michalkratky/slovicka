@@ -1,0 +1,66 @@
+[
+  {
+    "slovak": "prísady",
+    "english": "additives"
+  },
+  {
+    "slovak": "kalórie",
+    "english": "calories"
+  },
+  {
+    "slovak": "uhľohydráty",
+    "english": "carbohydrates"
+  },
+  {
+    "slovak": "tuk",
+    "english": "fat"
+  },
+  {
+    "slovak": "tučná strava",
+    "english": "fatty food"
+  },
+  {
+    "slovak": "mastná strava",
+    "english": "fatty food"
+  },
+  {
+    "slovak": "vláknina",
+    "english": "fibre"
+  },
+  {
+    "slovak": "diétna strava",
+    "english": "health food"
+  },
+  {
+    "slovak": "zdravá výživa",
+    "english": "healthy food"
+  },
+  {
+    "slovak": "bufetová strava",
+    "english": "junk food"
+  },
+  {
+    "slovak": "organická strava",
+    "english": "organic food"
+  },
+  {
+    "slovak": "konzervačné prostriedky",
+    "english": "preservatives"
+  },
+  {
+    "slovak": "konzervačné látky",
+    "english": "preservatives"
+  },
+  {
+    "slovak": "konzervačné prísady",
+    "english": "preservatives"
+  },
+  {
+    "slovak": "proteín",
+    "english": "protein"
+  },
+  {
+    "slovak": "bielkovina",
+    "english": "protein"
+  }
+]

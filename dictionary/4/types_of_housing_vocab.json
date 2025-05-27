@@ -1,0 +1,71 @@
+[
+  {
+    "slovak": "obývacia spálňa",
+    "english": "bedsitter",
+    "synonyms": {
+      "english": ["bedsit"]
+    }
+  },
+  {
+    "slovak": "bytový dom",
+    "english": "block of flats",
+    "synonyms": {
+      "english": ["apartment block"]
+    }
+  },
+  {
+    "slovak": "prízemný rodinný domček",
+    "english": "bungalow"
+  },
+  {
+    "slovak": "rodinný domček",
+    "english": "cottage",
+    "synonyms": {
+      "slovak": ["chata", "chalupa"]
+    }
+  },
+  {
+    "slovak": "samostatne stojaci dom",
+    "english": "detached house"
+  },
+  {
+    "slovak": "farma",
+    "english": "farmhouse"
+  },
+  {
+    "slovak": "byt",
+    "english": "flat",
+    "synonyms": {
+      "english": ["apartment"]
+    }
+  },
+  {
+    "slovak": "strešný byt",
+    "english": "penthouse",
+    "synonyms": {
+      "slovak": ["podkrovný byt"]
+    }
+  },
+  {
+    "slovak": "polovica dvojdomu",
+    "english": "semi-detached house",
+    "synonyms": {
+      "english": ["duplex"]
+    }
+  },
+  {
+    "slovak": "mrakodrap",
+    "english": "skyscraper"
+  },
+  {
+    "slovak": "radový dom",
+    "english": "terraced house",
+    "synonyms": {
+      "english": ["town house"]
+    }
+  },
+  {
+    "slovak": "výšková budova",
+    "english": "tower block"
+  }
+]

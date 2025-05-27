@@ -1,0 +1,56 @@
+[
+  {
+    "slovak": "príťažlivý",
+    "english": "attractive",
+    "synonyms": {
+      "slovak": ["atraktívny"]
+    }
+  },
+  {
+    "slovak": "krásny",
+    "english": "beautiful"
+  },
+  {
+    "slovak": "pekný",
+    "english": "good-looking",
+    "synonyms": {
+      "slovak": ["o mužovi"]
+    }
+  },
+  {
+    "slovak": "elegantný",
+    "english": "elegant"
+  },
+  {
+    "slovak": "pekný",
+    "english": "handsome",
+    "synonyms": {
+      "slovak": ["o mužovi"]
+    }
+  },
+  {
+    "slovak": "pekná",
+    "english": "pretty",
+    "synonyms": {
+      "slovak": ["hlavne o dievčati, žene"]
+    }
+  },
+  {
+    "slovak": "otrhaný",
+    "english": "scruffy",
+    "synonyms": {
+      "slovak": ["zanedbaný"]
+    }
+  },
+  {
+    "slovak": "škaredý",
+    "english": "ugly"
+  },
+  {
+    "slovak": "nepríťažlivý",
+    "english": "unattractive",
+    "synonyms": {
+      "slovak": ["nepekný"]
+    }
+  }
+]

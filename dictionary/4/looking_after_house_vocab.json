@@ -1,0 +1,102 @@
+[
+  {
+    "slovak": "zmeták",
+    "english": "broom",
+    "synonyms": {
+      "slovak": ["metla"]
+    }
+  },
+  {
+    "slovak": "vymeniť žiarovku",
+    "english": "change a lightbulb"
+  },
+  {
+    "slovak": "vyzdobiť",
+    "english": "decorate"
+  },
+  {
+    "slovak": "urob si sám",
+    "english": "DIY",
+    "synonyms": {
+      "english": ["do it yourself"]
+    }
+  },
+  {
+    "slovak": "robiť domáce práce",
+    "english": "do housework"
+  },
+  {
+    "slovak": "upratovať dom",
+    "english": "do up a house",
+    "synonyms": {
+      "slovak": ["upratovať izbu"]
+    }
+  },
+  {
+    "slovak": "lopatka na smeti",
+    "english": "dustpan"
+  },
+  {
+    "slovak": "opraviť",
+    "english": "fix"
+  },
+  {
+    "slovak": "inštalovať",
+    "english": "install",
+    "synonyms": {
+      "slovak": ["zaviesť"]
+    }
+  },
+  {
+    "slovak": "trhlina",
+    "english": "leak",
+    "synonyms": {
+      "slovak": ["presakovať", "tiecť"]
+    }
+  },
+  {
+    "slovak": "údržba",
+    "english": "maintenance"
+  },
+  {
+    "slovak": "opraviť",
+    "english": "mend"
+  },
+  {
+    "slovak": "utrieť podlahu",
+    "english": "mop the floor"
+  },
+  {
+    "slovak": "náter",
+    "english": "paint",
+    "synonyms": {
+      "slovak": ["natierať"]
+    }
+  },
+  {
+    "slovak": "vložiť niečo dovnútra",
+    "english": "put something in"
+  },
+  {
+    "slovak": "znova vymalovať",
+    "english": "redecorate",
+    "synonyms": {
+      "slovak": ["vytapetovať"]
+    }
+  },
+  {
+    "slovak": "opraviť",
+    "english": "repair"
+  },
+  {
+    "slovak": "obložiť",
+    "english": "tile",
+    "synonyms": {
+      "slovak": ["vydláždiť"]
+    }
+  },
+  {
+    "slovak": "vysávač",
+    "english": "vacuum cleaner"
+  }
+]

@@ -1,0 +1,506 @@
+[
+  {
+    "slovak": "doplnky",
+    "english": "accessories"
+  },
+  {
+    "slovak": "šperk nosený na členku",
+    "english": "anklet"
+  },
+  {
+    "slovak": "nepremokavá bunda",
+    "english": "anorak",
+    "synonyms": {
+      "slovak": ["vetrovka"]
+    }
+  },
+  {
+    "slovak": "taška",
+    "english": "bag",
+    "synonyms": {
+      "slovak": ["batoh"]
+    }
+  },
+  {
+    "slovak": "opasok",
+    "english": "belt"
+  },
+  {
+    "slovak": "blúza",
+    "english": "blouse"
+  },
+  {
+    "slovak": "topánky",
+    "english": "boots",
+    "synonyms": {
+      "slovak": ["vysoké", "športové"]
+    }
+  },
+  {
+    "slovak": "trenírky",
+    "english": "boxer shorts"
+  },
+  {
+    "slovak": "podprsenka",
+    "english": "bra"
+  },
+  {
+    "slovak": "náramok",
+    "english": "bracelet"
+  },
+  {
+    "slovak": "aktovka",
+    "english": "briefcase"
+  },
+  {
+    "slovak": "gombík do manžety",
+    "english": "button"
+  },
+  {
+    "slovak": "čiapka",
+    "english": "cap"
+  },
+  {
+    "slovak": "pletená vesta s rukávmi",
+    "english": "cardigan",
+    "synonyms": {
+      "slovak": ["pletená zapínacia vesta", "vlnená vesta"]
+    }
+  },
+  {
+    "slovak": "neformálne šaty",
+    "english": "casual clothes"
+  },
+  {
+    "slovak": "prezliecť sa",
+    "english": "change clothes",
+    "synonyms": {
+      "slovak": ["prezliekať sa"]
+    }
+  },
+  {
+    "slovak": "károvaný",
+    "english": "checked",
+    "synonyms": {
+      "slovak": ["kockovaný"]
+    }
+  },
+  {
+    "slovak": "elegantné šaty",
+    "english": "clothes",
+    "synonyms": {
+      "slovak": ["vkusné šaty"]
+    }
+  },
+  {
+    "slovak": "kabát",
+    "english": "coat"
+  },
+  {
+    "slovak": "golier",
+    "english": "collar"
+  },
+  {
+    "slovak": "menčester",
+    "english": "corduroy"
+  },
+  {
+    "slovak": "bavlna",
+    "english": "cotton"
+  },
+  {
+    "slovak": "manžeta",
+    "english": "cuff"
+  },
+  {
+    "slovak": "denim",
+    "english": "denim"
+  },
+  {
+    "slovak": "šaty",
+    "english": "dress"
+  },
+  {
+    "slovak": "župan",
+    "english": "dressing-gown"
+  },
+  {
+    "slovak": "módny",
+    "english": "fashionable"
+  },
+  {
+    "slovak": "topánky bez podpätkov",
+    "english": "flat shoes"
+  },
+  {
+    "slovak": "formálne oblečenie",
+    "english": "formal clothes"
+  },
+  {
+    "slovak": "obliecť sa",
+    "english": "get dressed"
+  },
+  {
+    "slovak": "vyzliecť sa",
+    "english": "get undressed"
+  },
+  {
+    "slovak": "okuliare",
+    "english": "glasses"
+  },
+  {
+    "slovak": "rukavice",
+    "english": "gloves"
+  },
+  {
+    "slovak": "kabelka",
+    "english": "handbag",
+    "synonyms": {
+      "english": ["purse"]
+    }
+  },
+  {
+    "slovak": "klobúk",
+    "english": "hat"
+  },
+  {
+    "slovak": "vysoké podpätky",
+    "english": "high heels"
+  },
+  {
+    "slovak": "sako",
+    "english": "jacket",
+    "synonyms": {
+      "slovak": ["bunda", "krátky kabát"]
+    }
+  },
+  {
+    "slovak": "džínsy",
+    "english": "jeans"
+  },
+  {
+    "slovak": "šperky",
+    "english": "jewellery"
+  },
+  {
+    "slovak": "ľahký sveter",
+    "english": "jumper",
+    "synonyms": {
+      "slovak": ["teplejšie tričko"]
+    }
+  },
+  {
+    "slovak": "škótska sukňa",
+    "english": "kilt"
+  },
+  {
+    "slovak": "nohavice",
+    "english": "knickers",
+    "synonyms": {
+      "english": ["panties"]
+    }
+  },
+  {
+    "slovak": "koža",
+    "english": "leather"
+  },
+  {
+    "slovak": "ľanová tkanina",
+    "english": "linen"
+  },
+  {
+    "slovak": "nepremokavý plášť z pogumovaného textilu",
+    "english": "mackintosh",
+    "synonyms": {
+      "english": ["mack"]
+    }
+  },
+  {
+    "slovak": "náhrdelník",
+    "english": "necklace"
+  },
+  {
+    "slovak": "nočná košeľa",
+    "english": "nightdress",
+    "synonyms": {
+      "english": ["nightie"]
+    }
+  },
+  {
+    "slovak": "vyšlý z módy",
+    "english": "out of fashion"
+  },
+  {
+    "slovak": "oblečenie",
+    "english": "outfit"
+  },
+  {
+    "slovak": "zvrchník",
+    "english": "overcoat",
+    "synonyms": {
+      "slovak": ["teplý plášť"]
+    }
+  },
+  {
+    "slovak": "spodky",
+    "english": "pants",
+    "synonyms": {
+      "slovak": ["trenírky"],
+      "english": ["underpants"]
+    }
+  },
+  {
+    "slovak": "vzorovaný",
+    "english": "patterned"
+  },
+  {
+    "slovak": "bez vzorky",
+    "english": "plain",
+    "synonyms": {
+      "slovak": ["jednoduchý"]
+    }
+  },
+  {
+    "slovak": "vrecko",
+    "english": "pocket"
+  },
+  {
+    "slovak": "rolák",
+    "english": "polo-neck",
+    "synonyms": {
+      "english": ["turtleneck"]
+    }
+  },
+  {
+    "slovak": "sveter",
+    "english": "pullover",
+    "synonyms": {
+      "slovak": ["pulóver"]
+    }
+  },
+  {
+    "slovak": "peňaženka",
+    "english": "purse"
+  },
+  {
+    "slovak": "obliecť si",
+    "english": "put on"
+  },
+  {
+    "slovak": "pyžamo",
+    "english": "pyjamas"
+  },
+  {
+    "slovak": "plášť do dažďa",
+    "english": "raincoat",
+    "synonyms": {
+      "slovak": ["kabát do dažďa"]
+    }
+  },
+  {
+    "slovak": "sandále",
+    "english": "sandals"
+  },
+  {
+    "slovak": "šatka",
+    "english": "scarf",
+    "synonyms": {
+      "slovak": ["šál"]
+    }
+  },
+  {
+    "slovak": "košeľa",
+    "english": "shirt"
+  },
+  {
+    "slovak": "topánka",
+    "english": "shoe"
+  },
+  {
+    "slovak": "krátke nohavice",
+    "english": "shorts"
+  },
+  {
+    "slovak": "zraziť sa",
+    "english": "shrink"
+  },
+  {
+    "slovak": "hodváb",
+    "english": "silk"
+  },
+  {
+    "slovak": "veľkosť",
+    "english": "size"
+  },
+  {
+    "slovak": "rukáv",
+    "english": "sleeve"
+  },
+  {
+    "slovak": "bez rukávov",
+    "english": "sleeveless"
+  },
+  {
+    "slovak": "papuče",
+    "english": "slippers"
+  },
+  {
+    "slovak": "elegantné neformálne oblečenie",
+    "english": "smart casual clothes"
+  },
+  {
+    "slovak": "ponožka",
+    "english": "sock"
+  },
+  {
+    "slovak": "bodkovaný",
+    "english": "spotted",
+    "synonyms": {
+      "slovak": ["škvrnitý"]
+    }
+  },
+  {
+    "slovak": "pančochy",
+    "english": "stockings"
+  },
+  {
+    "slovak": "priečne pruhovaný",
+    "english": "striped",
+    "synonyms": {
+      "slovak": ["prúžkovaný"]
+    }
+  },
+  {
+    "slovak": "pruhy",
+    "english": "stripes",
+    "synonyms": {
+      "slovak": ["prúžky"]
+    }
+  },
+  {
+    "slovak": "semiš",
+    "english": "suede"
+  },
+  {
+    "slovak": "oblek",
+    "english": "suit"
+  },
+  {
+    "slovak": "sveter",
+    "english": "sweater"
+  },
+  {
+    "slovak": "tepláková blúza",
+    "english": "sweatshirt"
+  },
+  {
+    "slovak": "plavky",
+    "english": "swimming costume"
+  },
+  {
+    "slovak": "plavky",
+    "english": "swimming trunks"
+  },
+  {
+    "slovak": "plavky",
+    "english": "swimsuit"
+  },
+  {
+    "slovak": "vyzliecť si šaty",
+    "english": "take off clothes"
+  },
+  {
+    "slovak": "tartan",
+    "english": "tartan"
+  },
+  {
+    "slovak": "viazanka",
+    "english": "tie",
+    "synonyms": {
+      "slovak": ["kravata"]
+    }
+  },
+  {
+    "slovak": "pančuchové nohavice",
+    "english": "tights",
+    "synonyms": {
+      "slovak": ["pančuškové nohavice"]
+    }
+  },
+  {
+    "slovak": "tepláková súprava",
+    "english": "tracksuit"
+  },
+  {
+    "slovak": "tréningová obuv",
+    "english": "trainers",
+    "synonyms": {
+      "slovak": ["športové topánky", "bežecké topánky"],
+      "english": ["sneakers"]
+    }
+  },
+  {
+    "slovak": "nohavice",
+    "english": "trousers",
+    "synonyms": {
+      "english": ["pants"]
+    }
+  },
+  {
+    "slovak": "tričko",
+    "english": "T-shirt"
+  },
+  {
+    "slovak": "dáždnik",
+    "english": "umbrella"
+  },
+  {
+    "slovak": "spodné prádlo",
+    "english": "underwear"
+  },
+  {
+    "slovak": "výstrih v tvare V",
+    "english": "V-neck"
+  },
+  {
+    "slovak": "vesta",
+    "english": "vest"
+  },
+  {
+    "slovak": "vesta",
+    "english": "waistcoat",
+    "synonyms": {
+      "english": ["vest"]
+    }
+  },
+  {
+    "slovak": "nosiť",
+    "english": "wear",
+    "synonyms": {
+      "slovak": ["mať na sebe"]
+    }
+  },
+  {
+    "slovak": "vlna",
+    "english": "wool"
+  },
+  {
+    "slovak": "vlnený",
+    "english": "woollen"
+  },
+  {
+    "slovak": "zips",
+    "english": "zip",
+    "synonyms": {
+      "english": ["zipper"]
+    }
+  },
+  {
+    "slovak": "obrátene",
+    "english": "back-to-front"
+  },
+  {
+    "slovak": "naruby",
+    "english": "inside-out"
+  }
+]

@@ -1,0 +1,103 @@
+[
+  {
+    "slovak": "tabuľa",
+    "english": "blackboard"
+  },
+  {
+    "slovak": "fixka na bielu tabuľu",
+    "english": "board pen"
+  },
+  {
+    "slovak": "huba na mazanie tabule",
+    "english": "board rubber"
+  },
+  {
+    "slovak": "jedáleň",
+    "english": "canteen"
+  },
+  {
+    "slovak": "krieda",
+    "english": "chalk"
+  },
+  {
+    "slovak": "učebňa",
+    "english": "classroom"
+  },
+  {
+    "slovak": "počítačová učebňa",
+    "english": "computer lab"
+  },
+  {
+    "slovak": "lavica",
+    "english": "desk"
+  },
+  {
+    "slovak": "telocvičňa",
+    "english": "gym",
+    "synonyms": {
+      "english": ["gymnasium"]
+    }
+  },
+  {
+    "slovak": "hala",
+    "english": "hall",
+    "synonyms": {
+      "slovak": ["chodba"]
+    }
+  },
+  {
+    "slovak": "riaditeľňa",
+    "english": "headmaster's office"
+  },
+  {
+    "slovak": "počítačová učebňa",
+    "english": "IT unit",
+    "synonyms": {
+      "slovak": ["ICT jednotka"],
+      "english": ["ICT suite"]
+    }
+  },
+  {
+    "slovak": "laboratórium",
+    "english": "laboratory",
+    "synonyms": {
+      "english": ["lab"]
+    }
+  },
+  {
+    "slovak": "jazyková učebňa",
+    "english": "language lab"
+  },
+  {
+    "slovak": "knižnica",
+    "english": "library"
+  },
+  {
+    "slovak": "skrinka na osobné veci",
+    "english": "locker"
+  },
+  {
+    "slovak": "kancelária",
+    "english": "office"
+  },
+  {
+    "slovak": "ihrisko",
+    "english": "playground"
+  },
+  {
+    "slovak": "laboratórium odborných predmetov",
+    "english": "science lab"
+  },
+  {
+    "slovak": "športové ihrisko",
+    "english": "sports field"
+  },
+  {
+    "slovak": "zborovňa",
+    "english": "staff room"
+  },
+  {
+    "slovak": "biela tabuľa",
+    "english": "whiteboard"
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "slovak": "aktívny",
+    "english": "active"
+  },
+  {
+    "slovak": "ambiciózny",
+    "english": "ambitious"
+  },
+  {
+    "slovak": "pozorný",
+    "english": "attentive"
+  },
+  {
+    "slovak": "svedomitý",
+    "english": "conscientious",
+    "synonyms": {
+      "slovak": ["usilovný"]
+    }
+  },
+  {
+    "slovak": "spolupracujúci",
+    "english": "cooperative"
+  },
+  {
+    "slovak": "tvorivý",
+    "english": "creative",
+    "synonyms": {
+      "slovak": ["kreatívny"]
+    }
+  },
+  {
+    "slovak": "čestný",
+    "english": "fair",
+    "synonyms": {
+      "slovak": ["spravodlivý"]
+    }
+  },
+  {
+    "slovak": "nadaný",
+    "english": "gifted"
+  },
+  {
+    "slovak": "usilovný",
+    "english": "hard-working"
+  },
+  {
+    "slovak": "netrpezlivý",
+    "english": "impatient"
+  },
+  {
+    "slovak": "lenivý",
+    "english": "lazy"
+  },
+  {
+    "slovak": "motivovaný",
+    "english": "motivated"
+  },
+  {
+    "slovak": "motivujúci",
+    "english": "motivating"
+  },
+  {
+    "slovak": "pasívny",
+    "english": "passive"
+  },
+  {
+    "slovak": "trpezlivý",
+    "english": "patient"
+  },
+  {
+    "slovak": "profesionálny",
+    "english": "professional"
+  },
+  {
+    "slovak": "presný",
+    "english": "punctual",
+    "synonyms": {
+      "slovak": ["dochvíľny"]
+    }
+  },
+  {
+    "slovak": "nedbalý",
+    "english": "sloppy",
+    "synonyms": {
+      "slovak": ["neporiadny"]
+    }
+  },
+  {
+    "slovak": "systematický",
+    "english": "systematic"
+  },
+  {
+    "slovak": "talentovaný",
+    "english": "talented"
+  },
+  {
+    "slovak": "nečestný",
+    "english": "unfair"
+  }
+]

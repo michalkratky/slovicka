@@ -1,17 +1,24 @@
 {
   "name": "slovak-english-learning-app",
-  "version": "1.0.0",
-  "description": "A Slovak to English learning application",
+  "version": "2.0.0",
+  "description": "A Slovak to English learning application with database support and synonyms",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js"
+    "dev": "node server.js",
+    "migrate": "node database/migrate.js",
+    "setup": "npm run migrate && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6"
   },
   "devDependencies": {},
-  "keywords": ["learning", "language", "slovak", "english"],
+  "keywords": ["learning", "language", "slovak", "english", "database", "synonyms"],
   "author": "Your Name",
-  "license": "MIT"
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  }
 }

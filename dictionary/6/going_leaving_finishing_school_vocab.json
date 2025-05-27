@@ -1,0 +1,110 @@
+[
+  {
+    "slovak": "neprítomnosť",
+    "english": "absence"
+  },
+  {
+    "slovak": "chodiť do školy",
+    "english": "attend school",
+    "synonyms": {
+      "slovak": ["chodiť na hodiny", "chodiť na kurz"]
+    }
+  },
+  {
+    "slovak": "dochádzka",
+    "english": "attendance"
+  },
+  {
+    "slovak": "chýbať",
+    "english": "be absent"
+  },
+  {
+    "slovak": "byť vylúčený zo školy",
+    "english": "be excluded from school"
+  },
+  {
+    "slovak": "byť vylúčený zo školy",
+    "english": "be expelled from school"
+  },
+  {
+    "slovak": "byť prítomný",
+    "english": "be present"
+  },
+  {
+    "slovak": "nedokončiť",
+    "english": "drop out",
+    "synonyms": {
+      "slovak": ["nedokončiť kurz", "odísť zo školy"]
+    }
+  },
+  {
+    "slovak": "vylúčenie",
+    "english": "expulsion"
+  },
+  {
+    "slovak": "dostať vysvedčenie",
+    "english": "get a certificate",
+    "synonyms": {
+      "slovak": ["získať certifikát"]
+    }
+  },
+  {
+    "slovak": "dostať hodnosť",
+    "english": "get a degree",
+    "synonyms": {
+      "slovak": ["získať titul"]
+    }
+  },
+  {
+    "slovak": "dostať diplom",
+    "english": "get a diploma",
+    "synonyms": {
+      "slovak": ["získať diplom"]
+    }
+  },
+  {
+    "slovak": "dostať sa na univerzitu",
+    "english": "get into university"
+  },
+  {
+    "slovak": "chodiť do školy",
+    "english": "go to school"
+  },
+  {
+    "slovak": "absolvovať",
+    "english": "graduate",
+    "synonyms": {
+      "slovak": ["vyštudovať univerzitu"]
+    }
+  },
+  {
+    "slovak": "odísť zo školy",
+    "english": "leave school"
+  },
+  {
+    "slovak": "chodiť poza školu",
+    "english": "play truant"
+  },
+  {
+    "slovak": "kniha dochádzky",
+    "english": "register",
+    "synonyms": {
+      "slovak": ["triedna kniha"]
+    }
+  },
+  {
+    "slovak": "absolvent",
+    "english": "school leaver"
+  },
+  {
+    "slovak": "chodiť poza školu",
+    "english": "skip classes"
+  },
+  {
+    "slovak": "chodenie poza školu",
+    "english": "truancy",
+    "synonyms": {
+      "slovak": ["záškoláctvo"]
+    }
+  }
+]

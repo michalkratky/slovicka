@@ -1,0 +1,103 @@
+[
+  {
+    "slovak": "žiadateľ",
+    "english": "applicant"
+  },
+  {
+    "slovak": "žiadosť",
+    "english": "application form"
+  },
+  {
+    "slovak": "žiadať o prácu",
+    "english": "apply for a job"
+  },
+  {
+    "slovak": "životopis",
+    "english": "CV",
+    "synonyms": {
+      "english": ["curriculum vitae"]
+    }
+  },
+  {
+    "slovak": "priložiť",
+    "english": "enclose"
+  },
+  {
+    "slovak": "skúsenosť",
+    "english": "experience"
+  },
+  {
+    "slovak": "vyplniť",
+    "english": "fill in"
+  },
+  {
+    "slovak": "ľudské zdroje",
+    "english": "Human Resources",
+    "synonyms": {
+      "english": ["HR"]
+    }
+  },
+  {
+    "slovak": "pohovor",
+    "english": "interview"
+  },
+  {
+    "slovak": "pracovný inzerát",
+    "english": "job advert",
+    "synonyms": {
+      "english": ["job advertisement"]
+    }
+  },
+  {
+    "slovak": "žiadosť o prácu",
+    "english": "job application"
+  },
+  {
+    "slovak": "sprostredkovateľská agentúra",
+    "english": "job centre"
+  },
+  {
+    "slovak": "hľadať",
+    "english": "look for"
+  },
+  {
+    "slovak": "personálne oddelenie",
+    "english": "personnel"
+  },
+  {
+    "slovak": "pozícia",
+    "english": "position"
+  },
+  {
+    "slovak": "miesto",
+    "english": "post"
+  },
+  {
+    "slovak": "funkcia",
+    "english": "post"
+  },
+  {
+    "slovak": "kvalifikácia",
+    "english": "qualifications"
+  },
+  {
+    "slovak": "nábor zamestnancov",
+    "english": "recruitment"
+  },
+  {
+    "slovak": "doporučenie",
+    "english": "references"
+  },
+  {
+    "slovak": "nástupný plat",
+    "english": "starting salary"
+  },
+  {
+    "slovak": "voľné pracovné miesto",
+    "english": "vacancy"
+  },
+  {
+    "slovak": "pracovné podmienky",
+    "english": "working conditions"
+  }
+]

@@ -1,0 +1,350 @@
+[
+  {
+    "slovak": "roleta",
+    "english": "blind"
+  },
+  {
+    "slovak": "koberec",
+    "english": "carpet"
+  },
+  {
+    "slovak": "strop miestnosti",
+    "english": "ceiling"
+  },
+  {
+    "slovak": "ústredné kúrenie",
+    "english": "central heating"
+  },
+  {
+    "slovak": "záclona",
+    "english": "curtain"
+  },
+  {
+    "slovak": "podlaha",
+    "english": "floor"
+  },
+  {
+    "slovak": "lampa",
+    "english": "lamp"
+  },
+  {
+    "slovak": "žiarovka",
+    "english": "light bulb"
+  },
+  {
+    "slovak": "záclona",
+    "english": "net curtain"
+  },
+  {
+    "slovak": "radiátor",
+    "english": "radiator"
+  },
+  {
+    "slovak": "okenný parapet",
+    "english": "window sill"
+  },
+  {
+    "slovak": "vaňa",
+    "english": "bath",
+    "synonyms": {
+      "english": ["bathtub"]
+    }
+  },
+  {
+    "slovak": "kôš na prádlo",
+    "english": "laundry basket"
+  },
+  {
+    "slovak": "zrkadlo",
+    "english": "mirror"
+  },
+  {
+    "slovak": "odtokový otvor",
+    "english": "plughole"
+  },
+  {
+    "slovak": "britva",
+    "english": "razor",
+    "synonyms": {
+      "slovak": ["holiaci strojček"]
+    }
+  },
+  {
+    "slovak": "elektrický holiaci strojček",
+    "english": "electric shaver"
+  },
+  {
+    "slovak": "mydlo",
+    "english": "soap"
+  },
+  {
+    "slovak": "šampón",
+    "english": "shampoo"
+  },
+  {
+    "slovak": "zásuvka na holiaci strojček",
+    "english": "shaver point"
+  },
+  {
+    "slovak": "sprcha",
+    "english": "shower"
+  },
+  {
+    "slovak": "špongia",
+    "english": "sponge"
+  },
+  {
+    "slovak": "vodovodný kohútik",
+    "english": "tap"
+  },
+  {
+    "slovak": "dlaždice",
+    "english": "tiles"
+  },
+  {
+    "slovak": "toaleta",
+    "english": "toilet"
+  },
+  {
+    "slovak": "zubná kefka",
+    "english": "toothbrush"
+  },
+  {
+    "slovak": "vešiak na uteráky",
+    "english": "towel rail"
+  },
+  {
+    "slovak": "umývadlo",
+    "english": "washbasin"
+  },
+  {
+    "slovak": "posteľ",
+    "english": "bed"
+  },
+  {
+    "slovak": "nočný stolík",
+    "english": "bedside table"
+  },
+  {
+    "slovak": "prikrývka",
+    "english": "blanket",
+    "synonyms": {
+      "slovak": ["deka"]
+    }
+  },
+  {
+    "slovak": "polica na knihy",
+    "english": "bookshelf",
+    "synonyms": {
+      "slovak": ["knihovnička"]
+    }
+  },
+  {
+    "slovak": "kreslo",
+    "english": "chair",
+    "synonyms": {
+      "slovak": ["stolička s operadlom"]
+    }
+  },
+  {
+    "slovak": "skriňa so zásuvkami",
+    "english": "chest of drawers",
+    "synonyms": {
+      "slovak": ["komoda", "bielizník"]
+    }
+  },
+  {
+    "slovak": "toaletný stolík",
+    "english": "dressing table"
+  },
+  {
+    "slovak": "perina",
+    "english": "duvet"
+  },
+  {
+    "slovak": "lampa",
+    "english": "lamp"
+  },
+  {
+    "slovak": "vankúš",
+    "english": "pillow",
+    "synonyms": {
+      "slovak": ["poduška"]
+    }
+  },
+  {
+    "slovak": "koberček",
+    "english": "rug"
+  },
+  {
+    "slovak": "prestieradlo",
+    "english": "sheet",
+    "synonyms": {
+      "slovak": ["pokrývka"]
+    }
+  },
+  {
+    "slovak": "šatník",
+    "english": "wardrobe",
+    "synonyms": {
+      "slovak": ["skriňa na šaty"]
+    }
+  },
+  {
+    "slovak": "kreslo",
+    "english": "armchair"
+  },
+  {
+    "slovak": "knižnica",
+    "english": "bookcase"
+  },
+  {
+    "slovak": "prehrávač CD diskov",
+    "english": "CD player",
+    "synonyms": {
+      "slovak": ["prehrávač DVD diskov"]
+    }
+  },
+  {
+    "slovak": "stolička",
+    "english": "chair"
+  },
+  {
+    "slovak": "konferenčný stolík",
+    "english": "coffee table"
+  },
+  {
+    "slovak": "vankúšik",
+    "english": "cushion",
+    "synonyms": {
+      "slovak": ["poduška"]
+    }
+  },
+  {
+    "slovak": "krb",
+    "english": "fireplace"
+  },
+  {
+    "slovak": "nábytok",
+    "english": "furniture"
+  },
+  {
+    "slovak": "predložka",
+    "english": "rug"
+  },
+  {
+    "slovak": "pohovka",
+    "english": "settee",
+    "synonyms": {
+      "slovak": ["gauč"]
+    }
+  },
+  {
+    "slovak": "pohovka",
+    "english": "sofa",
+    "synonyms": {
+      "english": ["couch"]
+    }
+  },
+  {
+    "slovak": "stereosúprava",
+    "english": "stereo"
+  },
+  {
+    "slovak": "televízor",
+    "english": "television set"
+  },
+  {
+    "slovak": "videorekordér",
+    "english": "VCR",
+    "synonyms": {
+      "english": ["video cassette recorder"]
+    }
+  },
+  {
+    "slovak": "tapety",
+    "english": "wallpaper"
+  },
+  {
+    "slovak": "sporák",
+    "english": "cooker"
+  },
+  {
+    "slovak": "kredenc",
+    "english": "cupboard"
+  },
+  {
+    "slovak": "umývačka riadu",
+    "english": "dishwasher"
+  },
+  {
+    "slovak": "odkladacia plocha na kuchynskej linke",
+    "english": "draining board"
+  },
+  {
+    "slovak": "mraznička",
+    "english": "freezer"
+  },
+  {
+    "slovak": "chladnička",
+    "english": "fridge"
+  },
+  {
+    "slovak": "kuchynský stôl",
+    "english": "kitchen table"
+  },
+  {
+    "slovak": "mikrovlná rúra",
+    "english": "microwave oven"
+  },
+  {
+    "slovak": "rúra na pečenie",
+    "english": "oven"
+  },
+  {
+    "slovak": "chladnička",
+    "english": "refrigerator"
+  },
+  {
+    "slovak": "tečúca voda v miestnosti",
+    "english": "running water"
+  },
+  {
+    "slovak": "drez",
+    "english": "sink"
+  },
+  {
+    "slovak": "práčka",
+    "english": "washing machine"
+  },
+  {
+    "slovak": "hala",
+    "english": "hall",
+    "synonyms": {
+      "slovak": ["chodba"]
+    }
+  },
+  {
+    "slovak": "zadný vchod",
+    "english": "back door"
+  },
+  {
+    "slovak": "vešiak na kabáty",
+    "english": "coat hook"
+  },
+  {
+    "slovak": "domový zvonček",
+    "english": "door bell"
+  },
+  {
+    "slovak": "rohožka",
+    "english": "door mat"
+  },
+  {
+    "slovak": "hlavný vchod",
+    "english": "front door",
+    "synonyms": {
+      "slovak": ["domové dvere"]
+    }
+  }
+]

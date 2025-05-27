@@ -1,0 +1,204 @@
+[
+  {
+    "slovak": "asistovať",
+    "english": "assist",
+    "synonyms": {
+      "slovak": ["pomáhať"]
+    }
+  },
+  {
+    "slovak": "viesť",
+    "english": "be in charge of",
+    "synonyms": {
+      "slovak": ["riadiť", "byť poverený"]
+    }
+  },
+  {
+    "slovak": "dávky v sociálnom poistení",
+    "english": "benefits"
+  },
+  {
+    "slovak": "byť na telefóne",
+    "english": "be on call"
+  },
+  {
+    "slovak": "byť zodpovedný za",
+    "english": "be responsible for"
+  },
+  {
+    "slovak": "bonus",
+    "english": "bonus",
+    "synonyms": {
+      "slovak": ["odmena", "prémia"]
+    }
+  },
+  {
+    "slovak": "zaneprázdnený",
+    "english": "busy",
+    "synonyms": {
+      "slovak": ["zamestnaný"]
+    }
+  },
+  {
+    "slovak": "zaznamenanie odchodu z práce na kontrolných hodinách",
+    "english": "clock off"
+  },
+  {
+    "slovak": "zaznamenanie príchodu do práce na kontrolných hodinách",
+    "english": "clock on"
+  },
+  {
+    "slovak": "sústrediť sa na",
+    "english": "concentrate on",
+    "synonyms": {
+      "slovak": ["zamerať sa na"]
+    }
+  },
+  {
+    "slovak": "termín",
+    "english": "deadline"
+  },
+  {
+    "slovak": "vykonávať prácu",
+    "english": "do a job"
+  },
+  {
+    "slovak": "zarábať si na živobytie",
+    "english": "earn one's living"
+  },
+  {
+    "slovak": "mzda",
+    "english": "earnings",
+    "synonyms": {
+      "slovak": ["zárobok"]
+    }
+  },
+  {
+    "slovak": "poplatok",
+    "english": "fee"
+  },
+  {
+    "slovak": "zaskočiť za niekoho",
+    "english": "fill in for"
+  },
+  {
+    "slovak": "pridať k platu",
+    "english": "get a pay rise",
+    "synonyms": {
+      "english": ["get a raise"]
+    }
+  },
+  {
+    "slovak": "byť povýšený",
+    "english": "get promoted"
+  },
+  {
+    "slovak": "pomôcť niekomu",
+    "english": "give a hand"
+  },
+  {
+    "slovak": "príjem",
+    "english": "income"
+  },
+  {
+    "slovak": "prerábať",
+    "english": "make a loss",
+    "synonyms": {
+      "slovak": ["stratiť peniaze"]
+    }
+  },
+  {
+    "slovak": "zarábať",
+    "english": "make a profit"
+  },
+  {
+    "slovak": "riadiť",
+    "english": "manage"
+  },
+  {
+    "slovak": "vedenie podniku",
+    "english": "management"
+  },
+  {
+    "slovak": "záskok za pracovníčku na materskej",
+    "english": "maternity cover"
+  },
+  {
+    "slovak": "mimo službu",
+    "english": "off duty"
+  },
+  {
+    "slovak": "v službe",
+    "english": "on duty"
+  },
+  {
+    "slovak": "pracovať nadčasy",
+    "english": "work overtime",
+    "synonyms": {
+      "slovak": ["robiť nadčasy"]
+    }
+  },
+  {
+    "slovak": "prepracovaný",
+    "english": "overworked"
+  },
+  {
+    "slovak": "platiť",
+    "english": "pay"
+  },
+  {
+    "slovak": "platba",
+    "english": "payment"
+  },
+  {
+    "slovak": "platobný postup",
+    "english": "pay rise"
+  },
+  {
+    "slovak": "zamestnanecké výhody",
+    "english": "perks"
+  },
+  {
+    "slovak": "nárast",
+    "english": "raise"
+  },
+  {
+    "slovak": "viesť spoločnosť",
+    "english": "run a company",
+    "synonyms": {
+      "slovak": ["riadiť spoločnosť", "spravovať spoločnosť"]
+    }
+  },
+  {
+    "slovak": "plat",
+    "english": "salary"
+  },
+  {
+    "slovak": "spomaliť",
+    "english": "slow down"
+  },
+  {
+    "slovak": "zastupovať niekoho",
+    "english": "stand in for"
+  },
+  {
+    "slovak": "nerobiť si starosti",
+    "english": "take things easy"
+  },
+  {
+    "slovak": "prevziať po niekom",
+    "english": "take over from"
+  },
+  {
+    "slovak": "spolupráca",
+    "english": "teamwork"
+  },
+  {
+    "slovak": "mzda",
+    "english": "wages"
+  },
+  {
+    "slovak": "mať dlhú pracovnú dobu",
+    "english": "work long hours"
+  }
+]

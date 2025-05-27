@@ -1,0 +1,112 @@
+[
+  {
+    "slovak": "manzarda",
+    "english": "attic",
+    "synonyms": {
+      "slovak": ["podkrovie"]
+    }
+  },
+  {
+    "slovak": "balkón",
+    "english": "balcony"
+  },
+  {
+    "slovak": "suterén",
+    "english": "basement"
+  },
+  {
+    "slovak": "pivnica",
+    "english": "cellar"
+  },
+  {
+    "slovak": "komín",
+    "english": "chimney"
+  },
+  {
+    "slovak": "prízemie",
+    "english": "downstairs"
+  },
+  {
+    "slovak": "odpadová rúra",
+    "english": "drain pipe",
+    "synonyms": {
+      "slovak": ["odtoková rúra"]
+    }
+  },
+  {
+    "slovak": "príjazdová cesta k domu",
+    "english": "drive"
+  },
+  {
+    "slovak": "plot",
+    "english": "fence"
+  },
+  {
+    "slovak": "podlažie",
+    "english": "floor",
+    "synonyms": {
+      "slovak": ["podlaha"]
+    }
+  },
+  {
+    "slovak": "kvetinový záhon",
+    "english": "flower bed"
+  },
+  {
+    "slovak": "garáž",
+    "english": "garage"
+  },
+  {
+    "slovak": "záhrada pred domom",
+    "english": "front garden",
+    "synonyms": {
+      "slovak": ["záhrada za domom"]
+    }
+  },
+  {
+    "slovak": "brána",
+    "english": "gate"
+  },
+  {
+    "slovak": "trávnik",
+    "english": "lawn"
+  },
+  {
+    "slovak": "poštová schránka",
+    "english": "letter box"
+  },
+  {
+    "slovak": "podkrovie",
+    "english": "loft"
+  },
+  {
+    "slovak": "strecha",
+    "english": "roof"
+  },
+  {
+    "slovak": "schodisko",
+    "english": "staircase"
+  },
+  {
+    "slovak": "schody",
+    "english": "stairs"
+  },
+  {
+    "slovak": "horné poschodie",
+    "english": "upstairs"
+  },
+  {
+    "slovak": "stena",
+    "english": "wall",
+    "synonyms": {
+      "slovak": ["múr"]
+    }
+  },
+  {
+    "slovak": "záhrada pred domom",
+    "english": "front yard",
+    "synonyms": {
+      "slovak": ["záhrada za domom"]
+    }
+  }
+]
