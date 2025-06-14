@@ -497,7 +497,7 @@ class DatabaseService {
             FROM user_statistics us
                      JOIN words w ON us.word_id = w.id
             WHERE us.correct_count > 0 OR us.incorrect_count > 0
-            ORDER BY us.last_seen DESC
+            ORDER BY us.incorrect_count - us.correct_count DESC
         `;
 
         return new Promise((resolve, reject) => {
