@@ -78,17 +78,17 @@
                     <div v-else class="placeholder-text">
                         <p>Napíš Tvoju odpoveď a stlač <em>Enter</em></p>
                     </div>
-                    
+
                     <!-- Validation Modal -->
                     <div v-if="showValidationModal && lastResult && lastResult.needsValidation" class="validation-modal" tabindex="-1" @keyup.enter="validationResult ? skipValidation : validateTranslation" @keyup.esc="skipValidation">
                         <div class="validation-modal-content">
                             <!-- Hidden input to receive focus for keyboard events -->
                             <input ref="validationInput" type="text" v-model="validationInput" class="hidden-input" @keyup.enter="validationResult ? skipValidation() : validateTranslation()" @keyup.esc="skipValidation()" autofocus>
-            
+
                             <h3>Mohla by byť tvoja odpoveď správna?</h3>
                             <p>Tvoja odpoveď <strong>"{{ lastResult.answer }}"</strong> sa nezhoduje s očakávanou odpoveďou <strong>"{{ lastResult.correctAnswer }}"</strong></p>
                             <p class="keyboard-hint">Myslíš si, že tvoja odpoveď by mohla byť prijateľným prekladom? (Stlač <strong>Enter</strong> pre Áno, <strong>Esc</strong> pre Nie)</p>
-            
+
                             <div v-if="!validationResult" class="validation-buttons">
                                 <button @click="validateTranslation" :disabled="validationInProgress" class="validate-button">
                                     <span v-if="!validationInProgress">Áno, overiť</span>
@@ -96,7 +96,7 @@
                                 </button>
                                 <button @click="skipValidation" :disabled="validationInProgress" class="skip-button">Nie, pokračovať</button>
                             </div>
-                            
+
                             <div v-if="validationResult" class="validation-result">
                                 <p v-if="validationResult.valid" style="color: green;">
                                     ✓ Tvoja odpoveď je akceptovaná ako správna! Bola pridaná ako synonymum.
@@ -148,7 +148,7 @@
                     </label>
                 </div>
             </div>
-            
+
             <div class="settings-section">
                 <h2>AI Overovanie odpovedí</h2>
                 <div class="option-item">
@@ -161,7 +161,7 @@
                         <span>Povoliť overovanie alternatívnych prekladov pomocou AI</span>
                     </label>
                     <p class="setting-description">
-                        Keď je toto vypnuté, aplikácia nebude ponúkať možnosť overiť alternatívne preklady 
+                        Keď je toto vypnuté, aplikácia nebude ponúkať možnosť overiť alternatívne preklady
                         pomocou umelej inteligencie.
                     </p>
                 </div>
@@ -191,7 +191,7 @@
                 <div v-for="(stats, index) in displayStats" v-bind:key="index" class="stats-item">
                     <div v-if="stats.correct_count > 0 || stats.incorrect_count > 0">
                         <div class="stats-word">
-                            <strong>{{ stats.word }}</strong> 
+                            <span><strong>{{ stats.english }}</strong> / <strong>{{ stats.slovak }}</strong></span><br>
                             <span class="stats-direction">({{ stats.direction === 'sk-en' ? 'SK→EN' : 'EN→SK' }})</span>
                         </div>
                         <div class="stats-details">
@@ -220,287 +220,287 @@
 <link rel="stylesheet" href="src/styles.css">
 
 <style>
-.setting-description {
-    font-size: 0.9em;
-    color: #666;
-    margin-top: 5px;
-    margin-left: 24px;
-    max-width: 500px;
-}
-
-.settings-container,
-.stats-container {
-    width: 100%;
-    max-width: 800px;
-    padding: 10px;
-}
-
-.settings-section {
-    margin-bottom: 30px;
-}
-
-.option-item {
-    margin: 12px 0;
-}
-
-.option-item label {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-}
-
-.option-item input {
-    margin-right: 10px;
-}
-
-.group-list {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    margin-top: 15px;
-}
-
-.group-item {
-    padding: 8px;
-    border-radius: 4px;
-    transition: background-color 0.2s;
-}
-
-.group-item:hover {
-    background-color: rgba(0,0,0,0.03);
-}
-
-.group-item label {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    cursor: pointer;
-}
-
-.group-name {
-    margin-left: 8px;
-    font-weight: 500;
-}
-
-.word-count {
-    margin-left: 5px;
-    color: #999;
-    font-size: 0.9em;
-}
-
-.stats-list {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-    width: 100%;
-}
-
-.stats-item {
-    padding: 15px;
-    border-radius: 8px;
-    background-color: #fff;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    margin-bottom: 10px;
-}
-
-.stats-word {
-    font-size: 1.1em;
-    margin-bottom: 8px;
-}
-
-.stats-direction {
-    font-size: 0.9em;
-    color: #777;
-}
-
-.stats-details {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
-}
-
-.stats-counts {
-    display: flex;
-    gap: 12px;
-    flex-wrap: wrap;
-}
-
-.stats-correct {
-    color: green;
-}
-
-.stats-incorrect {
-    color: #d32f2f;
-}
-
-.stats-rate {
-    margin-top: 4px;
-}
-
-.no-stats {
-    padding: 20px;
-    text-align: center;
-    background-color: #f5f5f5;
-    border-radius: 8px;
-    margin-top: 20px;
-}
-
-.result-message {
-    margin: 15px 0;
-    word-break: break-word;
-}
-
-.keyboard-hint {
-    display: block;
-    margin: 15px 0;
-}
-
-.explanation-text {
-    font-size: 0.95em;
-    line-height: 1.4;
-    margin: 12px 0;
-}
-
-@media (max-width: 480px) {
-    .keyboard-hint strong {
-        display: block;
+    .setting-description {
+        font-size: 0.9em;
+        color: #666;
         margin-top: 5px;
+        margin-left: 24px;
+        max-width: 500px;
     }
-    
-    .stats-counts {
+
+    .settings-container,
+    .stats-container {
+        width: 100%;
+        max-width: 800px;
+        padding: 10px;
+    }
+
+    .settings-section {
+        margin-bottom: 30px;
+    }
+
+    .option-item {
+        margin: 12px 0;
+    }
+
+    .option-item label {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .option-item input {
+        margin-right: 10px;
+    }
+
+    .group-list {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-top: 15px;
+    }
+
+    .group-item {
+        padding: 8px;
+        border-radius: 4px;
+        transition: background-color 0.2s;
+    }
+
+    .group-item:hover {
+        background-color: rgba(0, 0, 0, 0.03);
+    }
+
+    .group-item label {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .group-name {
+        margin-left: 8px;
+        font-weight: 500;
+    }
+
+    .word-count {
+        margin-left: 5px;
+        color: #999;
+        font-size: 0.9em;
+    }
+
+    .stats-list {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        width: 100%;
+    }
+
+    .stats-item {
+        padding: 15px;
+        border-radius: 8px;
+        background-color: #fff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        margin-bottom: 10px;
+    }
+
+    .stats-word {
+        font-size: 1.1em;
+        margin-bottom: 8px;
+    }
+
+    .stats-direction {
+        font-size: 0.9em;
+        color: #777;
+    }
+
+    .stats-details {
+        display: flex;
         flex-direction: column;
         gap: 4px;
     }
-    
-    .group-item label,
-    .option-item label {
-        padding: 5px 0;
+
+    .stats-counts {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
     }
-    
-    .option-item input,
-    .group-item input {
-        min-width: 24px;
-        min-height: 24px;
+
+    .stats-correct {
+        color: green;
     }
-    
-    .stats-item {
-        padding: 12px;
+
+    .stats-incorrect {
+        color: #d32f2f;
     }
-}
 
-.validation-modal {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-    padding: 15px;
-}
+    .stats-rate {
+        margin-top: 4px;
+    }
 
-.validation-modal-content {
-    background-color: white;
-    padding: 20px;
-    border-radius: 8px;
-    max-width: 500px;
-    width: 100%;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-    position: relative;
-    overflow-y: auto;
-    max-height: 90vh;
-}
+    .no-stats {
+        padding: 20px;
+        text-align: center;
+        background-color: #f5f5f5;
+        border-radius: 8px;
+        margin-top: 20px;
+    }
 
-.hidden-input {
-    position: absolute;
-    opacity: 0;
-    height: 0;
-    width: 0;
-    top: 0;
-    left: 0;
-}
+    .result-message {
+        margin: 15px 0;
+        word-break: break-word;
+    }
 
-.validation-buttons {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
+    .keyboard-hint {
+        display: block;
+        margin: 15px 0;
+    }
 
-.validation-buttons button {
-    padding: 10px 15px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-weight: bold;
-}
+    .explanation-text {
+        font-size: 0.95em;
+        line-height: 1.4;
+        margin: 12px 0;
+    }
 
-.validate-button {
-    background-color: #4CAF50;
-    color: white;
-}
+    @media (max-width: 480px) {
+        .keyboard-hint strong {
+            display: block;
+            margin-top: 5px;
+        }
 
-.validate-button:disabled {
-    background-color: #cccccc;
-    cursor: not-allowed;
-}
+        .stats-counts {
+            flex-direction: column;
+            gap: 4px;
+        }
 
-.skip-button {
-    background-color: #f44336;
-    color: white;
-}
+        .group-item label,
+        .option-item label {
+            padding: 5px 0;
+        }
 
-.validation-result {
-    margin-top: 20px;
-    padding-top: 10px;
-    border-top: 1px solid #eee;
-}
+        .option-item input,
+        .group-item input {
+            min-width: 24px;
+            min-height: 24px;
+        }
 
-.continue-button {
-    background-color: #2196F3;
-    color: white;
-    padding: 8px 16px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    margin-top: 10px;
-    font-weight: bold;
-    width: 100%;
-}
+        .stats-item {
+            padding: 12px;
+        }
+    }
 
-.nav-text {
-    display: inline-block;
-}
-
-@media (max-width: 480px) {
-    .validation-modal-content {
+    .validation-modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
         padding: 15px;
     }
-    
-    .validation-modal-content h3 {
-        font-size: 1.2em;
-        margin-top: 0;
-    }
-    
-    .validation-buttons {
-        flex-direction: column;
-        gap: 10px;
-    }
-    
-    .validation-buttons button {
+
+    .validation-modal-content {
+        background-color: white;
+        padding: 20px;
+        border-radius: 8px;
+        max-width: 500px;
         width: 100%;
-        padding: 12px;
-        font-size: 16px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+        position: relative;
+        overflow-y: auto;
+        max-height: 90vh;
     }
-    
+
+    .hidden-input {
+        position: absolute;
+        opacity: 0;
+        height: 0;
+        width: 0;
+        top: 0;
+        left: 0;
+    }
+
+    .validation-buttons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    .validation-buttons button {
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .validate-button {
+        background-color: #4CAF50;
+        color: white;
+    }
+
+    .validate-button:disabled {
+        background-color: #cccccc;
+        cursor: not-allowed;
+    }
+
+    .skip-button {
+        background-color: #f44336;
+        color: white;
+    }
+
+    .validation-result {
+        margin-top: 20px;
+        padding-top: 10px;
+        border-top: 1px solid #eee;
+    }
+
     .continue-button {
-        padding: 12px;
-        font-size: 16px;
+        background-color: #2196F3;
+        color: white;
+        padding: 8px 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-top: 10px;
+        font-weight: bold;
+        width: 100%;
     }
-}
+
+    .nav-text {
+        display: inline-block;
+    }
+
+    @media (max-width: 480px) {
+        .validation-modal-content {
+            padding: 15px;
+        }
+
+        .validation-modal-content h3 {
+            font-size: 1.2em;
+            margin-top: 0;
+        }
+
+        .validation-buttons {
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .validation-buttons button {
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+        }
+
+        .continue-button {
+            padding: 12px;
+            font-size: 16px;
+        }
+    }
 </style>
 
 </body>
