@@ -9,7 +9,6 @@
     "migrate": "node database/migrate.js",
     "migrate-clean": "node database/migrate.js --skip-words",
     "setup": "npm run migrate && npm start",
-    "import-txt": "node scripts/import_filtered_words.js",
     "test": "vitest run",
     "test:watch": "vitest",
     "lint": "eslint .",

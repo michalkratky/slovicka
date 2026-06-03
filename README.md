@@ -43,7 +43,11 @@ cp .env.example .env
 4. Initialize the database:
 
 ```bash
+# Regular migration (imports words from JSON files)
 npm run migrate
+
+# OR clean migration (sets up schema without importing words)
+npm run migrate-clean
 ```
 
 5. Start the application:

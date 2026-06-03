@@ -8,9 +8,10 @@ package-lock.json
 
 # Database files
 *.db
+*.db-shm
+*.db-wal
 *.sqlite
 *.sqlite3
-database.db
 
 # Environment variables
 .env
@@ -63,3 +64,7 @@ bower_components/
 
 # Zip files
 *.zip
+
+# Data files
+words_filtered.txt
+words_no_empty_lines.txt
