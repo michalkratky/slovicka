@@ -1,6 +1,8 @@
+const path = require("path");
 const DatabaseService = require("../database/database");
 const DATABASE_CONFIG = require("../config");
 
+const DATA_DIR = process.env.DATA_DIR || ".";
 const dbInstances = {};
 
 function getDatabase(selectedDb = "sk-en") {
@@ -10,7 +12,7 @@ function getDatabase(selectedDb = "sk-en") {
 
   if (!dbInstances[selectedDb]) {
     const dbFile = DATABASE_CONFIG.databases[selectedDb].file;
-    dbInstances[selectedDb] = new DatabaseService(`./${dbFile}`);
+    dbInstances[selectedDb] = new DatabaseService(path.join(DATA_DIR, dbFile));
   }
 
   return dbInstances[selectedDb];

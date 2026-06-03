@@ -107,7 +107,8 @@ if (require.main === module) {
   const args = process.argv.slice(2);
   const skipWords = args.includes("--skip-words");
 
-  const migrator = new DatabaseMigrator("./database.db");
+  const dataDir = process.env.DATA_DIR || ".";
+  const migrator = new DatabaseMigrator(path.join(dataDir, "database.db"));
 
   try {
     migrator.connect();

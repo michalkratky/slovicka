@@ -1,0 +1,14 @@
+node_modules
+*.db
+*.db-shm
+*.db-wal
+.env
+.git
+.gitignore
+.idea
+.vscode
+.DS_Store
+tests
+*.md
+words_filtered.txt
+words_no_empty_lines.txt
