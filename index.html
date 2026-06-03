@@ -13,32 +13,36 @@
     <link rel="stylesheet" href="src/styles.css"/>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"/>
 </head>
-<script src="config.js"></script>
 <body>
+<script src="config.js"></script>
+<script src="src/api.js"></script>
+<script src="src/mixins/preferences.js"></script>
+<script src="src/mixins/practice.js"></script>
 <div id="app">
-    <div class="navigation">
-        <button @click="currentView = 'practice'" v-bind:class="{ active: currentView == 'practice' }">
+    <nav class="navigation" aria-label="Hlavná navigácia">
+        <button @click="currentView = 'practice'" v-bind:class="{ active: currentView == 'practice' }" :aria-current="currentView == 'practice' ? 'page' : undefined">
             <span class="nav-text">Cvičenie</span>
         </button>
-        <button @click="currentView = 'settings'" v-bind:class="{ active: currentView == 'settings' }">
+        <button @click="currentView = 'settings'" v-bind:class="{ active: currentView == 'settings' }" :aria-current="currentView == 'settings' ? 'page' : undefined">
             <span class="nav-text">Skupiny</span>
         </button>
-        <button @click="currentView = 'direction'" v-bind:class="{ active: currentView == 'direction' }">
+        <button @click="currentView = 'direction'" v-bind:class="{ active: currentView == 'direction' }" :aria-current="currentView == 'direction' ? 'page' : undefined">
             <span class="nav-text">Nastavenia</span>
         </button>
-        <button @click="currentView = 'stats'" v-bind:class="{ active: currentView == 'stats' }">
+        <button @click="currentView = 'stats'" v-bind:class="{ active: currentView == 'stats' }" :aria-current="currentView == 'stats' ? 'page' : undefined">
             <span class="nav-text">Štatistiky</span>
         </button>
         <div class="language-switcher">
-            <select @change="switchDatabase($event)" :value="currentDatabase">
+            <label for="db-select" class="sr-only">Jazyk</label>
+            <select id="db-select" @change="switchDatabase($event)" :value="currentDatabase">
                 <option v-for="(db, key) in availableDatabases" :key="key" :value="key">
                     {{ db.flag }} {{ db.name }}
                 </option>
             </select>
         </div>
-    </div>
+    </nav>
 
-    <div class="content">
+    <main class="content">
         <div v-if="loadingWords">
             <p>Prosím čakaj, kým sa načítajú slová...</p>
         </div>
@@ -70,6 +74,7 @@
                                 @click="checkAnswer"
                                 v-bind:disabled="!userInput.trim()"
                                 class="word-submit"
+                                aria-label="Odoslať odpoveď"
                         >
                             <svg
                                     id="fi_9312239"
@@ -95,15 +100,15 @@
                         </button>
                     </div>
 
-                    <div v-if="lastResult" class="result-message">
+                    <div v-if="lastResult" class="result-message" aria-live="polite">
                         <p
                                 v-if="lastResult.correct"
-                                style="color: green"
+                                style="color: var(--color-success)"
                         >
                             ✓ Správne! {{ lastResult.question }} =
                             <strong>{{ lastResult.answer }}</strong>
                         </p>
-                        <p v-else style="color: red">
+                        <p v-else style="color: var(--color-error)">
                             ✗ Nesprávne - {{ lastResult.question }} =
                             <strong
                             >{{ lastResult.correctAnswer }}</strong
@@ -117,7 +122,7 @@
                     </div>
 
                     <!-- Validation Modal -->
-                    <div v-if="showValidationModal && lastResult && lastResult.needsValidation" class="validation-modal" tabindex="-1" @keyup.enter="validationResult ? skipValidation : validateTranslation" @keyup.esc="skipValidation">
+                    <div v-if="showValidationModal && lastResult && lastResult.needsValidation" class="validation-modal" role="dialog" aria-modal="true" aria-labelledby="validation-title" tabindex="-1" @keyup.esc="skipValidation">
                         <div class="validation-modal-content">
                             <!-- Hidden input to receive focus for keyboard events -->
                             <input
@@ -130,7 +135,7 @@
                                     autofocus
                             />
 
-                            <h3>Mohla by byť tvoja odpoveď správna?</h3>
+                            <h3 id="validation-title">Mohla by byť tvoja odpoveď správna?</h3>
                             <p>
                                 Tvoja odpoveď
                                 <strong>"{{ lastResult.answer }}"</strong> sa nezhoduje s očakávanou odpoveďou <strong>"{{ lastResult.correctAnswer }}"</strong>
@@ -150,10 +155,10 @@
                             </div>
 
                             <div v-if="validationResult" class="validation-result">
-                                <p v-if="validationResult.valid" style="color: green">
+                                <p v-if="validationResult.valid" style="color: var(--color-success)">
                                     ✓ Tvoja odpoveď je akceptovaná ako správna! Bola pridaná ako synonymum.
                                 </p>
-                                <p v-else style="color: red">
+                                <p v-else style="color: var(--color-error)">
                                     ✗ Tvoja odpoveď nie je považovaná za správnu.
                                 </p>
                                 <p v-if="validationExplanation" class="explanation-text">
@@ -242,21 +247,13 @@
                     <a href="#" @click.prevent="showWordsModal = true">Zobraziť</a>
                 </div>
             </div>
-            <div v-if="showWordsModal" class="validation-modal" tabindex="-1">
+            <div v-if="showWordsModal" class="validation-modal" role="dialog" aria-modal="true" aria-label="Zoznam slov" @keyup.esc="showWordsModal = false">
                 <div class="validation-modal-content">
                     <div style="max-height: 70vh; overflow-y: auto;">
-                        test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br>
-                        test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br>
-                        test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br>
-                        test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br>
-                        test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br>
-                        test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br>
-                        test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br>
-                        test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br>
-                        test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br> test<br>
+                        <p style="color: var(--color-muted); text-align: center;">Táto funkcia bude čoskoro dostupná.</p>
                     </div>
                     <p style="text-align: center">
-                        <a href="#" @click.prevent="showWordsModal = false">Zatvoriť</a>
+                        <button @click="showWordsModal = false" class="continue-button">Zatvoriť</button>
                     </p>
                 </div>
             </div>
@@ -287,14 +284,17 @@
                     </div>
                 </div>
             </div>
-            <div v-else class="no-stats">
+            <div v-if="statsHasMore" style="text-align: center; margin-top: 15px;">
+                <button @click="loadMoreStats" class="continue-button" style="max-width: 300px;">Načítať ďalšie</button>
+            </div>
+            <div v-else-if="!displayStats || !displayStats.length" class="no-stats">
                 <p>
                     Zatiaľ nemáš žiadne štatistiky. Začni s cvičením na
                     ich zozbieranie.
                 </p>
             </div>
         </div>
-    </div>
+    </main>
 </div>
 
 <script src="src/app.js"></script>

@@ -35,7 +35,15 @@ module.exports = [
         ...globals.browser,
         Vue: "readonly",
         DATABASE_CONFIG: "readonly",
+        API: "writable",
+        PracticeMixin: "writable",
+        PreferencesMixin: "writable",
       },
+    },
+    rules: {
+      "no-unused-vars": "off",
+      "no-redeclare": "off",
+      "no-useless-assignment": "off",
     },
   },
   {
