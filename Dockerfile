@@ -17,4 +17,4 @@ ENV PORT=3000
 
 EXPOSE 3000
 
-CMD ["sh", "-c", "node database/migrate.js --skip-words 2>/dev/null; node server.js"]
+CMD ["sh", "-c", "if [ -f \"$DATA_DIR/database.db\" ]; then node database/migrate.js --skip-words; else node database/migrate.js; fi && node server.js"]
