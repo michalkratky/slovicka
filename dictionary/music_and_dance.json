@@ -1,184 +1,188 @@
 [
   {
-    "slovak": "album",
-    "english": "album"
+    "word": "album",
+    "translation": "album"
   },
   {
-    "slovak": "balet",
-    "english": "ballet"
+    "word": "balet",
+    "translation": "ballet"
   },
   {
-    "slovak": "skupina",
-    "english": "band"
+    "word": "skupina",
+    "translation": "band"
   },
   {
-    "slovak": "rytmus",
-    "english": "beat"
+    "word": "rytmus",
+    "translation": "beat"
   },
   {
-    "slovak": "takt",
-    "english": "beat"
+    "word": "takt",
+    "translation": "beat"
   },
   {
-    "slovak": "blues",
-    "english": "blues"
+    "word": "blues",
+    "translation": "blues"
   },
   {
-    "slovak": "CD",
-    "english": "CD",
+    "word": "CD",
+    "translation": "CD",
     "synonyms": {
-      "english": ["compact disc"]
+      "translation": [
+        "compact disc"
+      ]
     }
   },
   {
-    "slovak": "rebríček",
-    "english": "the charts"
+    "word": "rebríček",
+    "translation": "the charts"
   },
   {
-    "slovak": "choreografia",
-    "english": "choreography"
+    "word": "choreografia",
+    "translation": "choreography"
   },
   {
-    "slovak": "klasická hudba",
-    "english": "classical music"
+    "word": "klasická hudba",
+    "translation": "classical music"
   },
   {
-    "slovak": "klasický balet",
-    "english": "classical ballet"
+    "word": "klasický balet",
+    "translation": "classical ballet"
   },
   {
-    "slovak": "skladať",
-    "english": "compose"
+    "word": "skladať",
+    "translation": "compose"
   },
   {
-    "slovak": "komponovať",
-    "english": "compose"
+    "word": "komponovať",
+    "translation": "compose"
   },
   {
-    "slovak": "skladateľ",
-    "english": "composer"
+    "word": "skladateľ",
+    "translation": "composer"
   },
   {
-    "slovak": "koncert",
-    "english": "concert"
+    "word": "koncert",
+    "translation": "concert"
   },
   {
-    "slovak": "koncertná sieň",
-    "english": "concert hall"
+    "word": "koncertná sieň",
+    "translation": "concert hall"
   },
   {
-    "slovak": "dirigovať",
-    "english": "conduct"
+    "word": "dirigovať",
+    "translation": "conduct"
   },
   {
-    "slovak": "dirigent",
-    "english": "conductor"
+    "word": "dirigent",
+    "translation": "conductor"
   },
   {
-    "slovak": "súčasná hudba",
-    "english": "contemporary music"
+    "word": "súčasná hudba",
+    "translation": "contemporary music"
   },
   {
-    "slovak": "súčasný tanec",
-    "english": "contemporary dance"
+    "word": "súčasný tanec",
+    "translation": "contemporary dance"
   },
   {
-    "slovak": "tanec",
-    "english": "dance"
+    "word": "tanec",
+    "translation": "dance"
   },
   {
-    "slovak": "tancovať",
-    "english": "dance"
+    "word": "tancovať",
+    "translation": "dance"
   },
   {
-    "slovak": "ľudový",
-    "english": "folk"
+    "word": "ľudový",
+    "translation": "folk"
   },
   {
-    "slovak": "skupina",
-    "english": "group"
+    "word": "skupina",
+    "translation": "group"
   },
   {
-    "slovak": "hit",
-    "english": "hit"
+    "word": "hit",
+    "translation": "hit"
   },
   {
-    "slovak": "džez",
-    "english": "jazz"
+    "word": "džez",
+    "translation": "jazz"
   },
   {
-    "slovak": "text piesne",
-    "english": "lyrics"
+    "word": "text piesne",
+    "translation": "lyrics"
   },
   {
-    "slovak": "muzikál",
-    "english": "musical"
+    "word": "muzikál",
+    "translation": "musical"
   },
   {
-    "slovak": "opera",
-    "english": "opera"
+    "word": "opera",
+    "translation": "opera"
   },
   {
-    "slovak": "orchester",
-    "english": "orchestra"
+    "word": "orchester",
+    "translation": "orchestra"
   },
   {
-    "slovak": "hudobný príspevok",
-    "english": "musical piece"
+    "word": "hudobný príspevok",
+    "translation": "musical piece"
   },
   {
-    "slovak": "pop",
-    "english": "pop"
+    "word": "pop",
+    "translation": "pop"
   },
   {
-    "slovak": "rap",
-    "english": "rap"
+    "word": "rap",
+    "translation": "rap"
   },
   {
-    "slovak": "rhythm and blues",
-    "english": "R & B",
+    "word": "rhythm and blues",
+    "translation": "R & B",
     "synonyms": {
-      "english": ["rhythm and blues"]
+      "translation": [
+        "rhythm and blues"
+      ]
     }
   },
   {
-    "slovak": "reggae",
-    "english": "reggae"
+    "word": "reggae",
+    "translation": "reggae"
   },
   {
-    "slovak": "nahrávka",
-    "english": "record"
+    "word": "nahrávka",
+    "translation": "record"
   },
   {
-    "slovak": "vydať singel",
-    "english": "release a single"
+    "word": "vydať singel",
+    "translation": "release a single"
   },
   {
-    "slovak": "vydať album",
-    "english": "release an album"
+    "word": "vydať album",
+    "translation": "release an album"
   },
   {
-    "slovak": "rytmus",
-    "english": "rhythm"
+    "word": "rytmus",
+    "translation": "rhythm"
   },
   {
-    "slovak": "rock",
-    "english": "rock"
+    "word": "rock",
+    "translation": "rock"
   },
   {
-    "slovak": "spievať",
-    "english": "sing"
+    "word": "spievať",
+    "translation": "sing"
   },
   {
-    "slovak": "spevák",
-    "english": "singer"
+    "word": "spevák",
+    "translation": "singer"
   },
   {
-    "slovak": "autor textu",
-    "english": "songwriter"
+    "word": "autor textu",
+    "translation": "songwriter"
   },
   {
-    "slovak": "autor hudby",
-    "english": "songwriter"
+    "word": "autor hudby",
+    "translation": "songwriter"
   }
 ]

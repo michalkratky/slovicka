@@ -1,76 +1,89 @@
 [
   {
-    "slovak": "vrece múky",
-    "english": "bag of flour"
+    "word": "vrece múky",
+    "translation": "bag of flour"
   },
   {
-    "slovak": "fľaša džúsu",
-    "english": "bottle of juice",
+    "word": "fľaša džúsu",
+    "translation": "bottle of juice",
     "synonyms": {
-      "slovak": ["fľaša mlieka"]
+      "word": [
+        "fľaša mlieka"
+      ]
     }
   },
   {
-    "slovak": "dóza s cukríkmi",
-    "english": "box of chocolates"
+    "word": "dóza s cukríkmi",
+    "translation": "box of chocolates"
   },
   {
-    "slovak": "plechovka limonády",
-    "english": "can of lemonade",
+    "word": "plechovka limonády",
+    "translation": "can of lemonade",
     "synonyms": {
-      "slovak": ["plechovka koly"]
+      "word": [
+        "plechovka koly"
+      ]
     }
   },
   {
-    "slovak": "papierová taška",
-    "english": "carrier bag",
+    "word": "papierová taška",
+    "translation": "carrier bag",
     "synonyms": {
-      "slovak": ["vrece"]
+      "word": [
+        "vrece"
+      ]
     }
   },
   {
-    "slovak": "krabica džúsu",
-    "english": "carton of juice",
+    "word": "krabica džúsu",
+    "translation": "carton of juice",
     "synonyms": {
-      "slovak": ["krabica mlieka"]
+      "word": [
+        "krabica mlieka"
+      ]
     }
   },
   {
-    "slovak": "pohár džemu",
-    "english": "jar of jam",
+    "word": "pohár džemu",
+    "translation": "jar of jam",
     "synonyms": {
-      "slovak": ["pohár medu"]
+      "word": [
+        "pohár medu"
+      ]
     }
   },
   {
-    "slovak": "bochník chleba",
-    "english": "loaf of bread"
+    "word": "bochník chleba",
+    "translation": "loaf of bread"
   },
   {
-    "slovak": "balíček sušienok",
-    "english": "packet of biscuits",
+    "word": "balíček sušienok",
+    "translation": "packet of biscuits",
     "synonyms": {
-      "slovak": ["balíček zemiakových lupienkov", "balíček cereálnych výrobkov"]
+      "word": [
+        "balíček zemiakových lupienkov",
+        "balíček cereálnych výrobkov"
+      ]
     }
   },
   {
-    "slovak": "konzerva sardiniek",
-    "english": "tin of sardines"
+    "word": "konzerva sardiniek",
+    "translation": "tin of sardines"
   },
   {
-    "slovak": "téglik rastlinného masla",
-    "english": "tub of margarine"
+    "word": "téglik rastlinného masla",
+    "translation": "tub of margarine"
   },
   {
-    "slovak": "3 kilá pomarančov",
-    "english": "3 kilos of potatoes"
+    "word": "3 kilá pomarančov",
+    "translation": "3 kilos of potatoes"
   },
   {
-    "slovak": "200 gramov syra",
-    "english": "200 grams of cheese"
+    "word": "200 gramov syra",
+    "translation": "200 grams of cheese"
   },
   {
-    "slovak": "pol litra mlieka",
-    "english": "half a litre of milk"
+    "word": "pol litra mlieka",
+    "translation": "half a litre of milk"
   }
 ]

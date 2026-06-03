@@ -13,8 +13,8 @@ router.post("/next-word", requireBody("enabledGroups", "translationDirections"),
     }
 
     const directions = [];
-    if (translationDirections.slovakToEnglish) directions.push("sk-en");
-    if (translationDirections.englishToSlovak) directions.push("en-sk");
+    if (translationDirections.wordToTranslation) directions.push("word-translation");
+    if (translationDirections.translationToWord) directions.push("translation-word");
     if (directions.length === 0) {
       return res.json({ noWordsAvailable: true });
     }
@@ -38,8 +38,8 @@ router.post("/record-answer", requireBody("wordId", "direction", "isCorrect"), (
     if (typeof isCorrect !== "boolean") {
       return res.status(400).json({ error: "isCorrect must be a boolean" });
     }
-    if (!["sk-en", "en-sk"].includes(direction)) {
-      return res.status(400).json({ error: "Invalid direction. Must be sk-en or en-sk" });
+    if (!["word-translation", "translation-word"].includes(direction)) {
+      return res.status(400).json({ error: "Invalid direction. Must be word-translation or translation-word" });
     }
 
     req.db.updateUserWordStats(parseInt(wordId), direction, isCorrect);
@@ -63,8 +63,8 @@ router.post("/record-answer", requireBody("wordId", "direction", "isCorrect"), (
 router.get("/word-difficulty/:wordId/:direction", (req, res) => {
   try {
     const { wordId, direction } = req.params;
-    if (!["sk-en", "en-sk"].includes(direction)) {
-      return res.status(400).json({ error: "Invalid direction. Must be sk-en or en-sk" });
+    if (!["word-translation", "translation-word"].includes(direction)) {
+      return res.status(400).json({ error: "Invalid direction. Must be word-translation or translation-word" });
     }
 
     const difficulty = req.db.getWordDifficulty(parseInt(wordId), direction);

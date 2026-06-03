@@ -1,161 +1,193 @@
 [
   {
-    "slovak": "ubytovanie",
-    "english": "accommodation"
+    "word": "ubytovanie",
+    "translation": "accommodation"
   },
   {
-    "slovak": "účet za elektrinu",
-    "english": "electricity bill",
+    "word": "účet za elektrinu",
+    "translation": "electricity bill",
     "synonyms": {
-      "slovak": ["účet za plyn", "účet za telefón", "účet za verejné služby"]
+      "word": [
+        "účet za plyn",
+        "účet za telefón",
+        "účet za verejné služby"
+      ]
     }
   },
   {
-    "slovak": "poplatok na miestnu správu",
-    "english": "council tax"
+    "word": "poplatok na miestnu správu",
+    "translation": "council tax"
   },
   {
-    "slovak": "vklad",
-    "english": "deposit"
+    "word": "vklad",
+    "translation": "deposit"
   },
   {
-    "slovak": "realitný agent",
-    "english": "estate agent",
+    "word": "realitný agent",
+    "translation": "estate agent",
     "synonyms": {
-      "english": ["realtor"]
+      "translation": [
+        "realtor"
+      ]
     }
   },
   {
-    "slovak": "spolubývajúci",
-    "english": "flatmate",
+    "word": "spolubývajúci",
+    "translation": "flatmate",
     "synonyms": {
-      "english": ["roommate"]
+      "translation": [
+        "roommate"
+      ]
     }
   },
   {
-    "slovak": "na predaj",
-    "english": "for sale"
+    "word": "na predaj",
+    "translation": "for sale"
   },
   {
-    "slovak": "zariadený",
-    "english": "furnished"
+    "word": "zariadený",
+    "translation": "furnished"
   },
   {
-    "slovak": "vrátane všetkých daní a poplatkov",
-    "english": "inclusive"
+    "word": "vrátane všetkých daní a poplatkov",
+    "translation": "inclusive"
   },
   {
-    "slovak": "úroková sadzba",
-    "english": "interest rate"
+    "word": "úroková sadzba",
+    "translation": "interest rate"
   },
   {
-    "slovak": "domáca",
-    "english": "landlady",
+    "word": "domáca",
+    "translation": "landlady",
     "synonyms": {
-      "slovak": ["majiteľka"]
+      "word": [
+        "majiteľka"
+      ]
     }
   },
   {
-    "slovak": "domáci",
-    "english": "landlord",
+    "word": "domáci",
+    "translation": "landlord",
     "synonyms": {
-      "slovak": ["majiteľ"]
+      "word": [
+        "majiteľ"
+      ]
     }
   },
   {
-    "slovak": "prenajať byt",
-    "english": "let a flat",
+    "word": "prenajať byt",
+    "translation": "let a flat",
     "synonyms": {
-      "slovak": ["prenajať dom"],
-      "english": ["rent out"]
+      "word": [
+        "prenajať dom"
+      ],
+      "translation": [
+        "rent out"
+      ]
     }
   },
   {
-    "slovak": "podnájomník",
-    "english": "lodger"
+    "word": "podnájomník",
+    "translation": "lodger"
   },
   {
-    "slovak": "ubytovanie v podnájme",
-    "english": "lodgings"
+    "word": "ubytovanie v podnájme",
+    "translation": "lodgings"
   },
   {
-    "slovak": "platiť nájom",
-    "english": "pay the rent"
+    "word": "platiť nájom",
+    "translation": "pay the rent"
   },
   {
-    "slovak": "za kalendárny mesiac",
-    "english": "p.c.m.",
+    "word": "za kalendárny mesiac",
+    "translation": "p.c.m.",
     "synonyms": {
-      "english": ["per calendar month"]
+      "translation": [
+        "per calendar month"
+      ]
     }
   },
   {
-    "slovak": "za mesiac",
-    "english": "p.m.",
+    "word": "za mesiac",
+    "translation": "p.m.",
     "synonyms": {
-      "english": ["per month"]
+      "translation": [
+        "per month"
+      ]
     }
   },
   {
-    "slovak": "za týždeň",
-    "english": "p.w.",
+    "word": "za týždeň",
+    "translation": "p.w.",
     "synonyms": {
-      "english": ["per week"]
+      "translation": [
+        "per week"
+      ]
     }
   },
   {
-    "slovak": "nehnuteľnosť",
-    "english": "property",
+    "word": "nehnuteľnosť",
+    "translation": "property",
     "synonyms": {
-      "english": ["real estate"]
+      "translation": [
+        "real estate"
+      ]
     }
   },
   {
-    "slovak": "nájom",
-    "english": "rent"
+    "word": "nájom",
+    "translation": "rent"
   },
   {
-    "slovak": "bývať s niekým v izbe",
-    "english": "share a room",
+    "word": "bývať s niekým v izbe",
+    "translation": "share a room",
     "synonyms": {
-      "slovak": ["bývať s niekým v byte"]
+      "word": [
+        "bývať s niekým v byte"
+      ]
     }
   },
   {
-    "slovak": "urobiť prehliadku niekomu po dome",
-    "english": "show someone round the house"
+    "word": "urobiť prehliadku niekomu po dome",
+    "translation": "show someone round the house"
   },
   {
-    "slovak": "podpísať nájom",
-    "english": "sign a lease",
+    "word": "podpísať nájom",
+    "translation": "sign a lease",
     "synonyms": {
-      "slovak": ["podpísať zmluvu"]
+      "word": [
+        "podpísať zmluvu"
+      ]
     }
   },
   {
-    "slovak": "vziať si hypotéku",
-    "english": "take out a mortgage"
+    "word": "vziať si hypotéku",
+    "translation": "take out a mortgage"
   },
   {
-    "slovak": "nájomník",
-    "english": "tenant",
+    "word": "nájomník",
+    "translation": "tenant",
     "synonyms": {
-      "slovak": ["obyvateľ"]
+      "word": [
+        "obyvateľ"
+      ]
     }
   },
   {
-    "slovak": "prenajať",
-    "english": "to let",
+    "word": "prenajať",
+    "translation": "to let",
     "synonyms": {
-      "english": ["to rent"]
+      "translation": [
+        "to rent"
+      ]
     }
   },
   {
-    "slovak": "nezariadený",
-    "english": "unfurnished"
+    "word": "nezariadený",
+    "translation": "unfurnished"
   },
   {
-    "slovak": "prehliadka pri kúpe domu",
-    "english": "viewing"
+    "word": "prehliadka pri kúpe domu",
+    "translation": "viewing"
   }
 ]

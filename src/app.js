@@ -12,8 +12,8 @@ createApp({
       sessionStats: { correct: 0, incorrect: 0 },
       displayStats: {},
       translationDirections: {
-        slovakToEnglish: true,
-        englishToSlovak: false,
+        wordToTranslation: true,
+        translationToWord: false,
       },
       enableAIValidation: true,
       wordGroups: {},
@@ -45,8 +45,8 @@ createApp({
 
   methods: {
     async onDirectionChange() {
-      if (!this.translationDirections.slovakToEnglish && !this.translationDirections.englishToSlovak) {
-        this.translationDirections.slovakToEnglish = true;
+      if (!this.translationDirections.wordToTranslation && !this.translationDirections.translationToWord) {
+        this.translationDirections.wordToTranslation = true;
       }
       await this.saveUserPreferences();
       this.currentWord = null;
@@ -92,6 +92,12 @@ createApp({
       }
 
       this.loadingWords = false;
+    },
+  },
+
+  computed: {
+    currentDbConfig() {
+      return this.availableDatabases[this.currentDatabase] || {};
     },
   },
 

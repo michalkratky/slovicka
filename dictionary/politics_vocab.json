@@ -1,395 +1,444 @@
 [
   {
-    "slovak": "zákon",
-    "english": "act of parliament"
+    "word": "zákon",
+    "translation": "act of parliament"
   },
   {
-    "slovak": "veľvyslanec",
-    "english": "ambassador"
+    "word": "veľvyslanec",
+    "translation": "ambassador"
   },
   {
-    "slovak": "aktivista",
-    "english": "activist"
+    "word": "aktivista",
+    "translation": "activist"
   },
   {
-    "slovak": "agitátor",
-    "english": "agitator"
+    "word": "agitátor",
+    "translation": "agitator"
   },
   {
-    "slovak": "anarchista",
-    "english": "anarchist"
+    "word": "anarchista",
+    "translation": "anarchist"
   },
   {
-    "slovak": "návrh zákona",
-    "english": "bill of parliament"
+    "word": "návrh zákona",
+    "translation": "bill of parliament"
   },
   {
-    "slovak": "člen vlády",
-    "english": "cabinet minister"
+    "word": "člen vlády",
+    "translation": "cabinet minister"
   },
   {
-    "slovak": "komora parlamentu",
-    "english": "chamber of parliament"
+    "word": "komora parlamentu",
+    "translation": "chamber of parliament"
   },
   {
-    "slovak": "mestská rada",
-    "english": "city council"
+    "word": "mestská rada",
+    "translation": "city council"
   },
   {
-    "slovak": "radnica",
-    "english": "city hall"
+    "word": "radnica",
+    "translation": "city hall"
   },
   {
-    "slovak": "štátny úradník",
-    "english": "civil servant"
+    "word": "štátny úradník",
+    "translation": "civil servant"
   },
   {
-    "slovak": "komunista",
-    "english": "communist"
+    "word": "komunista",
+    "translation": "communist"
   },
   {
-    "slovak": "Kongres",
-    "english": "Congress"
+    "word": "Kongres",
+    "translation": "Congress"
   },
   {
-    "slovak": "člen parlamentu v USA",
-    "english": "Congressman",
+    "word": "člen parlamentu v USA",
+    "translation": "Congressman",
     "synonyms": {
-      "english": ["Congresswoman"]
+      "translation": [
+        "Congresswoman"
+      ]
     }
   },
   {
-    "slovak": "konzervatívny",
-    "english": "Conservative",
+    "word": "konzervatívny",
+    "translation": "Conservative",
     "synonyms": {
-      "english": ["Tory"]
+      "translation": [
+        "Tory"
+      ]
     }
   },
   {
-    "slovak": "voliči",
-    "english": "constituency",
+    "word": "voliči",
+    "translation": "constituency",
     "synonyms": {
-      "slovak": ["volebný obvod"]
+      "word": [
+        "volebný obvod"
+      ]
     }
   },
   {
-    "slovak": "ústava štátu",
-    "english": "constitution"
+    "word": "ústava štátu",
+    "translation": "constitution"
   },
   {
-    "slovak": "debata",
-    "english": "debate",
+    "word": "debata",
+    "translation": "debate",
     "synonyms": {
-      "slovak": ["diskusia"]
+      "word": [
+        "diskusia"
+      ]
     }
   },
   {
-    "slovak": "demokracia",
-    "english": "democracy"
+    "word": "demokracia",
+    "translation": "democracy"
   },
   {
-    "slovak": "demokrat",
-    "english": "democrat"
+    "word": "demokrat",
+    "translation": "democrat"
   },
   {
-    "slovak": "demokratický",
-    "english": "democratic"
+    "word": "demokratický",
+    "translation": "democratic"
   },
   {
-    "slovak": "demonštrovať",
-    "english": "demonstrate"
+    "word": "demonštrovať",
+    "translation": "demonstrate"
   },
   {
-    "slovak": "demonštrácia",
-    "english": "demonstration",
+    "word": "demonštrácia",
+    "translation": "demonstration",
     "synonyms": {
-      "english": ["demo"]
+      "translation": [
+        "demo"
+      ]
     }
   },
   {
-    "slovak": "diplomat",
-    "english": "diplomat"
+    "word": "diplomat",
+    "translation": "diplomat"
   },
   {
-    "slovak": "voľby",
-    "english": "election"
+    "word": "voľby",
+    "translation": "election"
   },
   {
-    "slovak": "veľvyslanectvo",
-    "english": "embassy"
+    "word": "veľvyslanectvo",
+    "translation": "embassy"
   },
   {
-    "slovak": "všeobecné voľby",
-    "english": "general election"
+    "word": "všeobecné voľby",
+    "translation": "general election"
   },
   {
-    "slovak": "vládnuť",
-    "english": "govern"
+    "word": "vládnuť",
+    "translation": "govern"
   },
   {
-    "slovak": "vláda",
-    "english": "government",
+    "word": "vláda",
+    "translation": "government",
     "synonyms": {
-      "english": ["administration"]
+      "translation": [
+        "administration"
+      ]
     }
   },
   {
-    "slovak": "hlava štátu",
-    "english": "head of state"
+    "word": "hlava štátu",
+    "translation": "head of state"
   },
   {
-    "slovak": "Dolná snemovňa",
-    "english": "House of Commons"
+    "word": "Dolná snemovňa",
+    "translation": "House of Commons"
   },
   {
-    "slovak": "Snemovňa lordov",
-    "english": "House of Lords"
+    "word": "Snemovňa lordov",
+    "translation": "House of Lords"
   },
   {
-    "slovak": "Snemovňa reprezentantov",
-    "english": "House of Representatives"
+    "word": "Snemovňa reprezentantov",
+    "translation": "House of Representatives"
   },
   {
-    "slovak": "uviesť zákon",
-    "english": "introduce a law",
+    "word": "uviesť zákon",
+    "translation": "introduce a law",
     "synonyms": {
-      "slovak": ["dať do obehu zákon"]
+      "word": [
+        "dať do obehu zákon"
+      ]
     }
   },
   {
-    "slovak": "kráľ",
-    "english": "king"
+    "word": "kráľ",
+    "translation": "king"
   },
   {
-    "slovak": "zákon",
-    "english": "law",
+    "word": "zákon",
+    "translation": "law",
     "synonyms": {
-      "slovak": ["právo"]
+      "word": [
+        "právo"
+      ]
     }
   },
   {
-    "slovak": "ľavicový",
-    "english": "left-wing",
+    "word": "ľavicový",
+    "translation": "left-wing",
     "synonyms": {
-      "slovak": ["ľavé krídlo"]
+      "word": [
+        "ľavé krídlo"
+      ]
     }
   },
   {
-    "slovak": "vydávať zákony",
-    "english": "legislate"
+    "word": "vydávať zákony",
+    "translation": "legislate"
   },
   {
-    "slovak": "legislatíva",
-    "english": "legislation"
+    "word": "legislatíva",
+    "translation": "legislation"
   },
   {
-    "slovak": "liberálny",
-    "english": "liberal"
+    "word": "liberálny",
+    "translation": "liberal"
   },
   {
-    "slovak": "miestne voľby",
-    "english": "local election",
+    "word": "miestne voľby",
+    "translation": "local election",
     "synonyms": {
-      "slovak": ["voľby do obecných orgánov"]
+      "word": [
+        "voľby do obecných orgánov"
+      ]
     }
   },
   {
-    "slovak": "miestna samospráva",
-    "english": "local government"
+    "word": "miestna samospráva",
+    "translation": "local government"
   },
   {
-    "slovak": "starosta",
-    "english": "Mayor"
+    "word": "starosta",
+    "translation": "Mayor"
   },
   {
-    "slovak": "minister",
-    "english": "minister"
+    "word": "minister",
+    "translation": "minister"
   },
   {
-    "slovak": "Ministerstvo obrany",
-    "english": "Ministry of Defence",
+    "word": "Ministerstvo obrany",
+    "translation": "Ministry of Defence",
     "synonyms": {
-      "slovak": ["Ministerstvo financií", "Ministerstvo zahraničných vecí", "Ministerstvo vnútra"]
+      "word": [
+        "Ministerstvo financií",
+        "Ministerstvo zahraničných vecí",
+        "Ministerstvo vnútra"
+      ]
     }
   },
   {
-    "slovak": "poslanec",
-    "english": "MP",
+    "word": "poslanec",
+    "translation": "MP",
     "synonyms": {
-      "slovak": ["člen parlamentu"]
+      "word": [
+        "člen parlamentu"
+      ]
     }
   },
   {
-    "slovak": "opozícia",
-    "english": "opposition"
+    "word": "opozícia",
+    "translation": "opposition"
   },
   {
-    "slovak": "člen strany",
-    "english": "party member"
+    "word": "člen strany",
+    "translation": "party member"
   },
   {
-    "slovak": "politika",
-    "english": "policy"
+    "word": "politika",
+    "translation": "policy"
   },
   {
-    "slovak": "politický líder",
-    "english": "political leader"
+    "word": "politický líder",
+    "translation": "political leader"
   },
   {
-    "slovak": "politická strana",
-    "english": "political party"
+    "word": "politická strana",
+    "translation": "political party"
   },
   {
-    "slovak": "politický systém",
-    "english": "political system"
+    "word": "politický systém",
+    "translation": "political system"
   },
   {
-    "slovak": "politik",
-    "english": "politician"
+    "word": "politik",
+    "translation": "politician"
   },
   {
-    "slovak": "politika",
-    "english": "politics"
+    "word": "politika",
+    "translation": "politics"
   },
   {
-    "slovak": "prezident",
-    "english": "President"
+    "word": "prezident",
+    "translation": "President"
   },
   {
-    "slovak": "predseda vlády",
-    "english": "Prime Minister"
+    "word": "predseda vlády",
+    "translation": "Prime Minister"
   },
   {
-    "slovak": "kráľovná",
-    "english": "Queen"
+    "word": "kráľovná",
+    "translation": "Queen"
   },
   {
-    "slovak": "radikálny",
-    "english": "radical",
+    "word": "radikálny",
+    "translation": "radical",
     "synonyms": {
-      "slovak": ["radikál"]
+      "word": [
+        "radikál"
+      ]
     }
   },
   {
-    "slovak": "referendum",
-    "english": "referendum"
+    "word": "referendum",
+    "translation": "referendum"
   },
   {
-    "slovak": "reforma",
-    "english": "reform"
+    "word": "reforma",
+    "translation": "reform"
   },
   {
-    "slovak": "poslanec Snemovne reprezentantov",
-    "english": "Representative"
+    "word": "poslanec Snemovne reprezentantov",
+    "translation": "Representative"
   },
   {
-    "slovak": "republikán",
-    "english": "republican"
+    "word": "republikán",
+    "translation": "republican"
   },
   {
-    "slovak": "rezignovať",
-    "english": "resign",
+    "word": "rezignovať",
+    "translation": "resign",
     "synonyms": {
-      "slovak": ["odstúpiť"]
+      "word": [
+        "odstúpiť"
+      ]
     }
   },
   {
-    "slovak": "rezignácia",
-    "english": "resignation"
+    "word": "rezignácia",
+    "translation": "resignation"
   },
   {
-    "slovak": "pravicový",
-    "english": "right-wing",
+    "word": "pravicový",
+    "translation": "right-wing",
     "synonyms": {
-      "slovak": ["pravé krídlo"]
+      "word": [
+        "pravé krídlo"
+      ]
     }
   },
   {
-    "slovak": "vládnuť",
-    "english": "rule",
+    "word": "vládnuť",
+    "translation": "rule",
     "synonyms": {
-      "slovak": ["spravovať"]
+      "word": [
+        "spravovať"
+      ]
     }
   },
   {
-    "slovak": "minister",
-    "english": "secretary of state"
+    "word": "minister",
+    "translation": "secretary of state"
   },
   {
-    "slovak": "senát",
-    "english": "Senate"
+    "word": "senát",
+    "translation": "Senate"
   },
   {
-    "slovak": "senátor",
-    "english": "Senator"
+    "word": "senátor",
+    "translation": "Senator"
   },
   {
-    "slovak": "na porade",
-    "english": "in session",
+    "word": "na porade",
+    "translation": "in session",
     "synonyms": {
-      "slovak": ["na schôdzke parlamentu"]
+      "word": [
+        "na schôdzke parlamentu"
+      ]
     }
   },
   {
-    "slovak": "tieňový kabinet",
-    "english": "Shadow Cabinet",
+    "word": "tieňový kabinet",
+    "translation": "Shadow Cabinet",
     "synonyms": {
-      "slovak": ["tieňová vláda"]
+      "word": [
+        "tieňová vláda"
+      ]
     }
   },
   {
-    "slovak": "zasadanie",
-    "english": "sitting"
+    "word": "zasadanie",
+    "translation": "sitting"
   },
   {
-    "slovak": "socialista",
-    "english": "socialist"
+    "word": "socialista",
+    "translation": "socialist"
   },
   {
-    "slovak": "predseda Snemovne reprezentantov",
-    "english": "Speaker of the Parliament"
+    "word": "predseda Snemovne reprezentantov",
+    "translation": "Speaker of the Parliament"
   },
   {
-    "slovak": "prevzatie",
-    "english": "takeover"
+    "word": "prevzatie",
+    "translation": "takeover"
   },
   {
-    "slovak": "termín",
-    "english": "term"
+    "word": "termín",
+    "translation": "term"
   },
   {
-    "slovak": "kabinet",
-    "english": "the Cabinet",
+    "word": "kabinet",
+    "translation": "the Cabinet",
     "synonyms": {
-      "slovak": ["vláda"]
+      "word": [
+        "vláda"
+      ]
     }
   },
   {
-    "slovak": "výzvedná služba",
-    "english": "the intelligence service",
+    "word": "výzvedná služba",
+    "translation": "the intelligence service",
     "synonyms": {
-      "slovak": ["spravodajská služba", "bezpečnostná informačná služba"]
+      "word": [
+        "spravodajská služba",
+        "bezpečnostná informačná služba"
+      ]
     }
   },
   {
-    "slovak": "tajná služba",
-    "english": "the secret service",
+    "word": "tajná služba",
+    "translation": "the secret service",
     "synonyms": {
-      "slovak": ["spravodajská služba"]
+      "word": [
+        "spravodajská služba"
+      ]
     }
   },
   {
-    "slovak": "člen mestskej rady",
-    "english": "town councillor",
+    "word": "člen mestskej rady",
+    "translation": "town councillor",
     "synonyms": {
-      "slovak": ["zastupiteľstva"]
+      "word": [
+        "zastupiteľstva"
+      ]
     }
   },
   {
-    "slovak": "hlasovať",
-    "english": "vote",
+    "word": "hlasovať",
+    "translation": "vote",
     "synonyms": {
-      "slovak": ["volebný hlas"]
+      "word": [
+        "volebný hlas"
+      ]
     }
   }
 ]

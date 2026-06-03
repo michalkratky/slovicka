@@ -1,116 +1,131 @@
 [
   {
-    "slovak": "bufetový voz",
-    "english": "buffet car"
+    "word": "bufetový voz",
+    "translation": "buffet car"
   },
   {
-    "slovak": "jedáleň",
-    "english": "canteen",
+    "word": "jedáleň",
+    "translation": "canteen",
     "synonyms": {
-      "slovak": ["menza", "kantína"]
+      "word": [
+        "menza",
+        "kantína"
+      ]
     }
   },
   {
-    "slovak": "kaviareň",
-    "english": "café",
+    "word": "kaviareň",
+    "translation": "café",
     "synonyms": {
-      "slovak": ["lacná reštaurácia"]
+      "word": [
+        "lacná reštaurácia"
+      ]
     }
   },
   {
-    "slovak": "kantína",
-    "english": "cafeteria",
+    "word": "kantína",
+    "translation": "cafeteria",
     "synonyms": {
-      "slovak": ["kaviareň", "reštaurácia so samoobsluhou"]
+      "word": [
+        "kaviareň",
+        "reštaurácia so samoobsluhou"
+      ]
     }
   },
   {
-    "slovak": "rýchle občerstvenie",
-    "english": "fast food restaurant"
+    "word": "rýchle občerstvenie",
+    "translation": "fast food restaurant"
   },
   {
-    "slovak": "krčma",
-    "english": "pub"
+    "word": "krčma",
+    "translation": "pub"
   },
   {
-    "slovak": "reštaurácia so samoobsluhou",
-    "english": "self-service restaurant"
+    "word": "reštaurácia so samoobsluhou",
+    "translation": "self-service restaurant"
   },
   {
-    "slovak": "malá reštaurácia s jednoduchými jedlami",
-    "english": "snack bar"
+    "word": "malá reštaurácia s jednoduchými jedlami",
+    "translation": "snack bar"
   },
   {
-    "slovak": "reštaurácia s jedlom so sebou",
-    "english": "takeaway"
+    "word": "reštaurácia s jedlom so sebou",
+    "translation": "takeaway"
   },
   {
-    "slovak": "nealkoholický nápoj",
-    "english": "beverage"
+    "word": "nealkoholický nápoj",
+    "translation": "beverage"
   },
   {
-    "slovak": "účet",
-    "english": "bill"
+    "word": "účet",
+    "translation": "bill"
   },
   {
-    "slovak": "rezervovať si stôl",
-    "english": "book a table",
+    "word": "rezervovať si stôl",
+    "translation": "book a table",
     "synonyms": {
-      "english": ["reserve a table", "make a reservation"]
+      "translation": [
+        "reserve a table",
+        "make a reservation"
+      ]
     }
   },
   {
-    "slovak": "hlavný chod",
-    "english": "main course"
+    "word": "hlavný chod",
+    "translation": "main course"
   },
   {
-    "slovak": "menu",
-    "english": "menu",
+    "word": "menu",
+    "translation": "menu",
     "synonyms": {
-      "slovak": ["jedálny lístok"]
+      "word": [
+        "jedálny lístok"
+      ]
     }
   },
   {
-    "slovak": "objednať si",
-    "english": "order"
+    "word": "objednať si",
+    "translation": "order"
   },
   {
-    "slovak": "samoobsluha",
-    "english": "self-service"
+    "word": "samoobsluha",
+    "translation": "self-service"
   },
   {
-    "slovak": "obsluha",
-    "english": "service"
+    "word": "obsluha",
+    "translation": "service"
   },
   {
-    "slovak": "reštauračný poplatok za stolovanie",
-    "english": "service charge"
+    "word": "reštauračný poplatok za stolovanie",
+    "translation": "service charge"
   },
   {
-    "slovak": "predjedlo",
-    "english": "starter"
+    "word": "predjedlo",
+    "translation": "starter"
   },
   {
-    "slovak": "reštauračný servis",
-    "english": "table service"
+    "word": "reštauračný servis",
+    "translation": "table service"
   },
   {
-    "slovak": "prepitné",
-    "english": "tip",
+    "word": "prepitné",
+    "translation": "tip",
     "synonyms": {
-      "english": ["gratuities"]
+      "translation": [
+        "gratuities"
+      ]
     }
   },
   {
-    "slovak": "čašník",
-    "english": "waiter"
+    "word": "čašník",
+    "translation": "waiter"
   },
   {
-    "slovak": "čašníčka",
-    "english": "waitress"
+    "word": "čašníčka",
+    "translation": "waitress"
   },
   {
-    "slovak": "vínny lístok",
-    "english": "wine list"
+    "word": "vínny lístok",
+    "translation": "wine list"
   }
 ]

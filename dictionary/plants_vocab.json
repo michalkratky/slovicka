@@ -1,142 +1,158 @@
 [
   {
-    "slovak": "konár",
-    "english": "branch"
+    "word": "konár",
+    "translation": "branch"
   },
   {
-    "slovak": "krík",
-    "english": "bush",
+    "word": "krík",
+    "translation": "bush",
     "synonyms": {
-      "slovak": ["krovie"]
+      "word": [
+        "krovie"
+      ]
     }
   },
   {
-    "slovak": "priemyselné hnojivo",
-    "english": "fertiliser"
+    "word": "priemyselné hnojivo",
+    "translation": "fertiliser"
   },
   {
-    "slovak": "kvet",
-    "english": "flower"
+    "word": "kvet",
+    "translation": "flower"
   },
   {
-    "slovak": "ovocie",
-    "english": "fruit"
+    "word": "ovocie",
+    "translation": "fruit"
   },
   {
-    "slovak": "huba",
-    "english": "fungus",
+    "word": "huba",
+    "translation": "fungus",
     "synonyms": {
-      "english": ["fungi"]
+      "translation": [
+        "fungi"
+      ]
     }
   },
   {
-    "slovak": "záhrada",
-    "english": "garden"
+    "word": "záhrada",
+    "translation": "garden"
   },
   {
-    "slovak": "tráva",
-    "english": "grass"
+    "word": "tráva",
+    "translation": "grass"
   },
   {
-    "slovak": "skleník",
-    "english": "greenhouse"
+    "word": "skleník",
+    "translation": "greenhouse"
   },
   {
-    "slovak": "pestovať rastliny",
-    "english": "grow plants"
+    "word": "pestovať rastliny",
+    "translation": "grow plants"
   },
   {
-    "slovak": "list",
-    "english": "leaf",
+    "word": "list",
+    "translation": "leaf",
     "synonyms": {
-      "english": ["leaves"]
+      "translation": [
+        "leaves"
+      ]
     }
   },
   {
-    "slovak": "mach",
-    "english": "moss",
+    "word": "mach",
+    "translation": "moss",
     "synonyms": {
-      "slovak": ["lišajník"]
+      "word": [
+        "lišajník"
+      ]
     }
   },
   {
-    "slovak": "pesticíd na hubenie hmyzu",
-    "english": "pesticide"
+    "word": "pesticíd na hubenie hmyzu",
+    "translation": "pesticide"
   },
   {
-    "slovak": "korunný lupienok kvetu",
-    "english": "petal"
+    "word": "korunný lupienok kvetu",
+    "translation": "petal"
   },
   {
-    "slovak": "izbový kvet",
-    "english": "pot plant"
+    "word": "izbový kvet",
+    "translation": "pot plant"
   },
   {
-    "slovak": "prerezávať",
-    "english": "prune",
+    "word": "prerezávať",
+    "translation": "prune",
     "synonyms": {
-      "slovak": ["prestrihávať stromy"]
+      "word": [
+        "prestrihávať stromy"
+      ]
     }
   },
   {
-    "slovak": "koreň",
-    "english": "root"
+    "word": "koreň",
+    "translation": "root"
   },
   {
-    "slovak": "semeno",
-    "english": "seed"
+    "word": "semeno",
+    "translation": "seed"
   },
   {
-    "slovak": "pôda",
-    "english": "soil",
+    "word": "pôda",
+    "translation": "soil",
     "synonyms": {
-      "slovak": ["zemina"]
+      "word": [
+        "zemina"
+      ]
     }
   },
   {
-    "slovak": "siať",
-    "english": "sow"
+    "word": "siať",
+    "translation": "sow"
   },
   {
-    "slovak": "stonka",
-    "english": "stem"
+    "word": "stonka",
+    "translation": "stem"
   },
   {
-    "slovak": "tŕň",
-    "english": "thorn",
+    "word": "tŕň",
+    "translation": "thorn",
     "synonyms": {
-      "slovak": ["osteň"]
+      "word": [
+        "osteň"
+      ]
     }
   },
   {
-    "slovak": "strom",
-    "english": "tree"
+    "word": "strom",
+    "translation": "tree"
   },
   {
-    "slovak": "kmeň",
-    "english": "trunk",
+    "word": "kmeň",
+    "translation": "trunk",
     "synonyms": {
-      "slovak": ["peň"]
+      "word": [
+        "peň"
+      ]
     }
   },
   {
-    "slovak": "zelenina",
-    "english": "vegetable"
+    "word": "zelenina",
+    "translation": "vegetable"
   },
   {
-    "slovak": "zalievať kvety",
-    "english": "water the plants"
+    "word": "zalievať kvety",
+    "translation": "water the plants"
   },
   {
-    "slovak": "burina",
-    "english": "weed"
+    "word": "burina",
+    "translation": "weed"
   },
   {
-    "slovak": "herbicíd",
-    "english": "weedkiller"
+    "word": "herbicíd",
+    "translation": "weedkiller"
   },
   {
-    "slovak": "divá zver",
-    "english": "wildlife"
+    "word": "divá zver",
+    "translation": "wildlife"
   }
 ]

@@ -1,139 +1,153 @@
 [
   {
-    "slovak": "manuálny pracovník",
-    "english": "blue-collar worker",
+    "word": "manuálny pracovník",
+    "translation": "blue-collar worker",
     "synonyms": {
-      "slovak": ["robotník"]
+      "word": [
+        "robotník"
+      ]
     }
   },
   {
-    "slovak": "kariéra",
-    "english": "career"
+    "word": "kariéra",
+    "translation": "career"
   },
   {
-    "slovak": "povinnosť",
-    "english": "duty"
+    "word": "povinnosť",
+    "translation": "duty"
   },
   {
-    "slovak": "zamestnať niekoho",
-    "english": "employ"
+    "word": "zamestnať niekoho",
+    "translation": "employ"
   },
   {
-    "slovak": "zamestnanec",
-    "english": "employee"
+    "word": "zamestnanec",
+    "translation": "employee"
   },
   {
-    "slovak": "zamestnávateľ",
-    "english": "employer"
+    "word": "zamestnávateľ",
+    "translation": "employer"
   },
   {
-    "slovak": "zamestnanie",
-    "english": "employment"
+    "word": "zamestnanie",
+    "translation": "employment"
   },
   {
-    "slovak": "na voľnej nohe",
-    "english": "freelancer"
+    "word": "na voľnej nohe",
+    "translation": "freelancer"
   },
   {
-    "slovak": "práca na plný úväzok",
-    "english": "full-time job"
+    "word": "práca na plný úväzok",
+    "translation": "full-time job"
   },
   {
-    "slovak": "tvrdá práca",
-    "english": "hard work"
+    "word": "tvrdá práca",
+    "translation": "hard work"
   },
   {
-    "slovak": "práca",
-    "english": "job",
+    "word": "práca",
+    "translation": "job",
     "synonyms": {
-      "slovak": ["zamestnanie"]
+      "word": [
+        "zamestnanie"
+      ]
     }
   },
   {
-    "slovak": "manuálna práca",
-    "english": "manual work",
+    "word": "manuálna práca",
+    "translation": "manual work",
     "synonyms": {
-      "slovak": ["ručná práca"]
+      "word": [
+        "ručná práca"
+      ]
     }
   },
   {
-    "slovak": "zamestnanie",
-    "english": "occupation"
+    "word": "zamestnanie",
+    "translation": "occupation"
   },
   {
-    "slovak": "drobné príležitostné práce",
-    "english": "odd jobs"
+    "word": "drobné príležitostné práce",
+    "translation": "odd jobs"
   },
   {
-    "slovak": "zamestnanie na čiastočný úväzok",
-    "english": "part-time job"
+    "word": "zamestnanie na čiastočný úväzok",
+    "translation": "part-time job"
   },
   {
-    "slovak": "trvalé zamestnanie",
-    "english": "permanent job"
+    "word": "trvalé zamestnanie",
+    "translation": "permanent job"
   },
   {
-    "slovak": "fyzická práca",
-    "english": "physical work"
+    "word": "fyzická práca",
+    "translation": "physical work"
   },
   {
-    "slovak": "zamestnanie",
-    "english": "profession",
+    "word": "zamestnanie",
+    "translation": "profession",
     "synonyms": {
-      "slovak": ["profesia"]
+      "word": [
+        "profesia"
+      ]
     }
   },
   {
-    "slovak": "profesionál",
-    "english": "professional"
+    "word": "profesionál",
+    "translation": "professional"
   },
   {
-    "slovak": "živnostník",
-    "english": "self-employed"
+    "word": "živnostník",
+    "translation": "self-employed"
   },
   {
-    "slovak": "odborná práca",
-    "english": "skilled work",
+    "word": "odborná práca",
+    "translation": "skilled work",
     "synonyms": {
-      "slovak": ["kvalifikovaná práca"]
+      "word": [
+        "kvalifikovaná práca"
+      ]
     }
   },
   {
-    "slovak": "dočasná práca",
-    "english": "temporary job"
+    "word": "dočasná práca",
+    "translation": "temporary job"
   },
   {
-    "slovak": "neodborná práca",
-    "english": "unskilled work",
+    "word": "neodborná práca",
+    "translation": "unskilled work",
     "synonyms": {
-      "slovak": ["nekvalifikovaná práca"]
+      "word": [
+        "nekvalifikovaná práca"
+      ]
     }
   },
   {
-    "slovak": "dobre platená práca",
-    "english": "well-paid job"
+    "word": "dobre platená práca",
+    "translation": "well-paid job"
   },
   {
-    "slovak": "pracujúci duševne",
-    "english": "white-collar worker"
+    "word": "pracujúci duševne",
+    "translation": "white-collar worker"
   },
   {
-    "slovak": "práca",
-    "english": "work",
+    "word": "práca",
+    "translation": "work",
     "synonyms": {
-      "slovak": ["pracovať"]
+      "word": [
+        "pracovať"
+      ]
     }
   },
   {
-    "slovak": "pracovať pre niekoho",
-    "english": "work for"
+    "word": "pracovať pre niekoho",
+    "translation": "work for"
   },
   {
-    "slovak": "pracovať na voľnej nohe",
-    "english": "work freelance"
+    "word": "pracovať na voľnej nohe",
+    "translation": "work freelance"
   },
   {
-    "slovak": "pracovať doma",
-    "english": "work from home"
+    "word": "pracovať doma",
+    "translation": "work from home"
   }
 ]

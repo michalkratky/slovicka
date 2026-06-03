@@ -32,7 +32,7 @@ class OpenAIService {
    * Validate if a user's translation is correct for a given word
    *
    * @param {string} sourceWord - The word in the source language
-   * @param {string} targetLanguage - The language of the expected translation ('slovak' or 'english')
+   * @param {string} targetLanguage - The language of the expected translation ('word' or 'translation')
    * @param {string} correctTranslation - The known correct translation
    * @param {string} userTranslation - The user's translation to validate
    * @param {Array<string>} existingSynonyms - List of existing synonyms for the word
@@ -57,14 +57,14 @@ class OpenAIService {
 
     try {
       // Determine source and target language names based on the language pair
-      // targetLanguage is always "slovak" or "english" (matching DB column names)
+      // targetLanguage is "word" or "translation"
       const languageLabels = {
-        "sk-en": { slovak: "Slovak", english: "English" },
-        "de-en": { slovak: "German", english: "English" },
+        "sk-en": { word: "Slovak", translation: "English" },
+        "de-en": { word: "German", translation: "English" },
       };
       const labels = languageLabels[languagePair] || languageLabels["sk-en"];
-      const sourceLang = targetLanguage === "english" ? labels.slovak : labels.english;
-      const targetLang = labels[targetLanguage] || labels.english;
+      const sourceLang = targetLanguage === "translation" ? labels.word : labels.translation;
+      const targetLang = labels[targetLanguage] || labels.translation;
 
       // Format the list of existing synonyms for the prompt
       const synonymsText =

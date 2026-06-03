@@ -1,103 +1,113 @@
 [
   {
-    "slovak": "tabuľa",
-    "english": "blackboard"
+    "word": "tabuľa",
+    "translation": "blackboard"
   },
   {
-    "slovak": "fixka na bielu tabuľu",
-    "english": "board pen"
+    "word": "fixka na bielu tabuľu",
+    "translation": "board pen"
   },
   {
-    "slovak": "huba na mazanie tabule",
-    "english": "board rubber"
+    "word": "huba na mazanie tabule",
+    "translation": "board rubber"
   },
   {
-    "slovak": "jedáleň",
-    "english": "canteen"
+    "word": "jedáleň",
+    "translation": "canteen"
   },
   {
-    "slovak": "krieda",
-    "english": "chalk"
+    "word": "krieda",
+    "translation": "chalk"
   },
   {
-    "slovak": "učebňa",
-    "english": "classroom"
+    "word": "učebňa",
+    "translation": "classroom"
   },
   {
-    "slovak": "počítačová učebňa",
-    "english": "computer lab"
+    "word": "počítačová učebňa",
+    "translation": "computer lab"
   },
   {
-    "slovak": "lavica",
-    "english": "desk"
+    "word": "lavica",
+    "translation": "desk"
   },
   {
-    "slovak": "telocvičňa",
-    "english": "gym",
+    "word": "telocvičňa",
+    "translation": "gym",
     "synonyms": {
-      "english": ["gymnasium"]
+      "translation": [
+        "gymnasium"
+      ]
     }
   },
   {
-    "slovak": "hala",
-    "english": "hall",
+    "word": "hala",
+    "translation": "hall",
     "synonyms": {
-      "slovak": ["chodba"]
+      "word": [
+        "chodba"
+      ]
     }
   },
   {
-    "slovak": "riaditeľňa",
-    "english": "headmaster's office"
+    "word": "riaditeľňa",
+    "translation": "headmaster's office"
   },
   {
-    "slovak": "počítačová učebňa",
-    "english": "IT unit",
+    "word": "počítačová učebňa",
+    "translation": "IT unit",
     "synonyms": {
-      "slovak": ["ICT jednotka"],
-      "english": ["ICT suite"]
+      "word": [
+        "ICT jednotka"
+      ],
+      "translation": [
+        "ICT suite"
+      ]
     }
   },
   {
-    "slovak": "laboratórium",
-    "english": "laboratory",
+    "word": "laboratórium",
+    "translation": "laboratory",
     "synonyms": {
-      "english": ["lab"]
+      "translation": [
+        "lab"
+      ]
     }
   },
   {
-    "slovak": "jazyková učebňa",
-    "english": "language lab"
+    "word": "jazyková učebňa",
+    "translation": "language lab"
   },
   {
-    "slovak": "knižnica",
-    "english": "library"
+    "word": "knižnica",
+    "translation": "library"
   },
   {
-    "slovak": "skrinka na osobné veci",
-    "english": "locker"
+    "word": "skrinka na osobné veci",
+    "translation": "locker"
   },
   {
-    "slovak": "kancelária",
-    "english": "office"
+    "word": "kancelária",
+    "translation": "office"
   },
   {
-    "slovak": "ihrisko",
-    "english": "playground"
+    "word": "ihrisko",
+    "translation": "playground"
   },
   {
-    "slovak": "laboratórium odborných predmetov",
-    "english": "science lab"
+    "word": "laboratórium odborných predmetov",
+    "translation": "science lab"
   },
   {
-    "slovak": "športové ihrisko",
-    "english": "sports field"
+    "word": "športové ihrisko",
+    "translation": "sports field"
   },
   {
-    "slovak": "zborovňa",
-    "english": "staff room"
+    "word": "zborovňa",
+    "translation": "staff room"
   },
   {
-    "slovak": "biela tabuľa",
-    "english": "whiteboard"
+    "word": "biela tabuľa",
+    "translation": "whiteboard"
   }
 ]

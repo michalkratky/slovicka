@@ -161,24 +161,24 @@ router.post("/check-answer", requireBody("wordId", "userAnswer", "targetLanguage
   }
 });
 
-router.post("/words", requireBody("slovak", "english", "category"), (req, res) => {
+router.post("/words", requireBody("word", "translation", "category"), (req, res) => {
   try {
-    const { slovak, english, category, synonyms } = req.body;
+    const { word, translation, category, synonyms } = req.body;
 
     if (synonyms) {
-      if (synonyms.slovak && !Array.isArray(synonyms.slovak)) {
-        return res.status(400).json({ error: "Slovak synonyms must be an array" });
+      if (synonyms.word && !Array.isArray(synonyms.word)) {
+        return res.status(400).json({ error: "Word synonyms must be an array" });
       }
-      if (synonyms.english && !Array.isArray(synonyms.english)) {
-        return res.status(400).json({ error: "English synonyms must be an array" });
+      if (synonyms.translation && !Array.isArray(synonyms.translation)) {
+        return res.status(400).json({ error: "Translation synonyms must be an array" });
       }
     }
 
-    const wordId = req.db.addWord(slovak, english, category, synonyms || {});
+    const wordId = req.db.addWord(word, translation, category, synonyms || {});
     res.status(201).json({
       id: wordId,
       message: "Word added successfully",
-      word: { slovak, english, category, synonyms },
+      entry: { word, translation, category, synonyms },
     });
   } catch (error) {
     console.error("Error adding word:", error.message);
@@ -200,11 +200,11 @@ router.put("/words/:id", (req, res) => {
     }
 
     if (updates.synonyms) {
-      if (updates.synonyms.slovak && !Array.isArray(updates.synonyms.slovak)) {
-        return res.status(400).json({ error: "Slovak synonyms must be an array" });
+      if (updates.synonyms.word && !Array.isArray(updates.synonyms.word)) {
+        return res.status(400).json({ error: "Word synonyms must be an array" });
       }
-      if (updates.synonyms.english && !Array.isArray(updates.synonyms.english)) {
-        return res.status(400).json({ error: "English synonyms must be an array" });
+      if (updates.synonyms.translation && !Array.isArray(updates.synonyms.translation)) {
+        return res.status(400).json({ error: "Translation synonyms must be an array" });
       }
     }
 

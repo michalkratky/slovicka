@@ -24,13 +24,13 @@ class DatabaseService {
 
     const rows = this.db
       .prepare(
-        `SELECT w.id, w.slovak, w.english, w.category,
-            GROUP_CONCAT(CASE WHEN s.language = 'slovak' THEN s.synonym END) as slovak_synonyms,
-            GROUP_CONCAT(CASE WHEN s.language = 'english' THEN s.synonym END) as english_synonyms
+        `SELECT w.id, w.word, w.translation, w.category,
+            GROUP_CONCAT(CASE WHEN s.language = 'word' THEN s.synonym END) as word_synonyms,
+            GROUP_CONCAT(CASE WHEN s.language = 'translation' THEN s.synonym END) as translation_synonyms
          FROM words w
          LEFT JOIN synonyms s ON w.id = s.word_id
-         GROUP BY w.id, w.slovak, w.english, w.category
-         ORDER BY w.category, w.slovak`,
+         GROUP BY w.id, w.word, w.translation, w.category
+         ORDER BY w.category, w.word`,
       )
       .all();
 
@@ -45,11 +45,11 @@ class DatabaseService {
       }
       groups[row.category].words.push({
         id: row.id,
-        slovak: row.slovak,
-        english: row.english,
+        word: row.word,
+        translation: row.translation,
         synonyms: {
-          slovak: row.slovak_synonyms ? row.slovak_synonyms.split(",") : [],
-          english: row.english_synonyms ? row.english_synonyms.split(",") : [],
+          word: row.word_synonyms ? row.word_synonyms.split(",") : [],
+          translation: row.translation_synonyms ? row.translation_synonyms.split(",") : [],
         },
       });
     }
@@ -68,7 +68,7 @@ class DatabaseService {
     const rows = this.db
       .prepare(
         `SELECT
-            CASE WHEN ? = 'english' THEN w.english ELSE w.slovak END as main_answer,
+            CASE WHEN ? = 'translation' THEN w.translation ELSE w.word END as main_answer,
             s.synonym
          FROM words w
          LEFT JOIN synonyms s ON w.id = s.word_id AND s.language = ?
@@ -114,19 +114,19 @@ class DatabaseService {
     return true;
   }
 
-  addWord(slovak, english, category, synonyms = {}) {
+  addWord(word, translation, category, synonyms = {}) {
     const insertWord = this.db.prepare(
-      "INSERT INTO words (slovak, english, category) VALUES (?, ?, ?)",
+      "INSERT INTO words (word, translation, category) VALUES (?, ?, ?)",
     );
     const insertSynonym = this.db.prepare(
       "INSERT INTO synonyms (word_id, synonym, language) VALUES (?, ?, ?)",
     );
 
     const tx = this.db.transaction(() => {
-      const { lastInsertRowid } = insertWord.run(slovak, english, category);
+      const { lastInsertRowid } = insertWord.run(word, translation, category);
       const wordId = Number(lastInsertRowid);
 
-      for (const lang of ["slovak", "english"]) {
+      for (const lang of ["word", "translation"]) {
         if (synonyms[lang]) {
           for (const syn of synonyms[lang]) {
             insertSynonym.run(wordId, syn, lang);
@@ -146,13 +146,13 @@ class DatabaseService {
       const updateFields = [];
       const params = [];
 
-      if (updates.slovak) {
-        updateFields.push("slovak = ?");
-        params.push(updates.slovak);
+      if (updates.word) {
+        updateFields.push("word = ?");
+        params.push(updates.word);
       }
-      if (updates.english) {
-        updateFields.push("english = ?");
-        params.push(updates.english);
+      if (updates.translation) {
+        updateFields.push("translation = ?");
+        params.push(updates.translation);
       }
       if (updates.category) {
         updateFields.push("category = ?");
@@ -172,7 +172,7 @@ class DatabaseService {
         const insertSynonym = this.db.prepare(
           "INSERT INTO synonyms (word_id, synonym, language) VALUES (?, ?, ?)",
         );
-        for (const lang of ["slovak", "english"]) {
+        for (const lang of ["word", "translation"]) {
           if (updates.synonyms[lang]) {
             for (const syn of updates.synonyms[lang]) {
               insertSynonym.run(wordId, syn, lang);
@@ -235,7 +235,7 @@ class DatabaseService {
 
   importWords(entries) {
     const insertWord = this.db.prepare(
-      "INSERT INTO words (slovak, english, category) VALUES (?, ?, ?)",
+      "INSERT INTO words (word, translation, category) VALUES (?, ?, ?)",
     );
     const insertSynonym = this.db.prepare(
       "INSERT INTO synonyms (word_id, synonym, language) VALUES (?, ?, ?)",
@@ -248,16 +248,16 @@ class DatabaseService {
     const tx = this.db.transaction(() => {
       for (const entry of entries) {
         try {
-          if (!entry.slovak || !entry.english || !entry.category) {
+          if (!entry.word || !entry.translation || !entry.category) {
             errors++;
-            errorDetails.push(`Invalid entry: missing required fields`);
+            errorDetails.push("Invalid entry: missing required fields");
             continue;
           }
-          const { lastInsertRowid } = insertWord.run(entry.slovak, entry.english, entry.category);
+          const { lastInsertRowid } = insertWord.run(entry.word, entry.translation, entry.category);
           const wordId = Number(lastInsertRowid);
 
           if (entry.synonyms) {
-            for (const lang of ["slovak", "english"]) {
+            for (const lang of ["word", "translation"]) {
               if (entry.synonyms[lang]) {
                 for (const syn of entry.synonyms[lang]) {
                   insertSynonym.run(wordId, syn, lang);
@@ -268,7 +268,7 @@ class DatabaseService {
           imported++;
         } catch (error) {
           errors++;
-          errorDetails.push(`${entry.slovak}/${entry.english}: ${error.message}`);
+          errorDetails.push(`${entry.word}/${entry.translation}: ${error.message}`);
         }
       }
     });
@@ -342,7 +342,7 @@ class DatabaseService {
   getAllUserStats(limit = 50, offset = 0) {
     return this.db
       .prepare(
-        `SELECT w.slovak, w.english, w.category, us.direction,
+        `SELECT w.word, w.translation, w.category, us.direction,
             us.correct_count, us.incorrect_count, us.last_seen,
             ROUND(CASE WHEN (us.correct_count + us.incorrect_count) = 0 THEN 0
                   ELSE (us.correct_count * 100.0) / (us.correct_count + us.incorrect_count) END, 1) as success_rate
@@ -358,8 +358,7 @@ class DatabaseService {
   getUserStatsCount() {
     const row = this.db
       .prepare(
-        `SELECT COUNT(*) as count FROM user_statistics
-         WHERE correct_count > 0 OR incorrect_count > 0`,
+        "SELECT COUNT(*) as count FROM user_statistics WHERE correct_count > 0 OR incorrect_count > 0",
       )
       .get();
     return row.count;
@@ -445,11 +444,10 @@ class DatabaseService {
     const placeholders = enabledGroupKeys.map(() => "?").join(",");
     const wordRows = [];
 
-    // Fetch words with stats in a single query per direction (fixes N+1)
     for (const direction of enabledDirections) {
       const rows = this.db
         .prepare(
-          `SELECT w.id, w.slovak, w.english, w.category,
+          `SELECT w.id, w.word, w.translation, w.category,
               ? as direction,
               COALESCE(us.correct_count, 0) as correct_count,
               COALESCE(us.incorrect_count, 0) as incorrect_count,
@@ -464,13 +462,11 @@ class DatabaseService {
 
     if (wordRows.length === 0) return null;
 
-    // Calculate difficulty weights in JS from the joined data
-    const wordProbabilities = wordRows.map((word) => ({
-      word,
-      probability: this._calculateDifficulty(word),
+    const wordProbabilities = wordRows.map((w) => ({
+      word: w,
+      probability: this._calculateDifficulty(w),
     }));
 
-    // Weighted random selection
     const totalProbability = wordProbabilities.reduce((sum, item) => sum + item.probability, 0);
     let random = Math.random() * totalProbability;
 
@@ -484,21 +480,21 @@ class DatabaseService {
     return this._formatWordForClient(wordProbabilities[0].word);
   }
 
-  _formatWordForClient(word) {
-    const isSlovakToEnglish = word.direction === "sk-en";
+  _formatWordForClient(row) {
+    const isWordToTranslation = row.direction === "word-translation";
     return {
-      id: word.id,
-      question: isSlovakToEnglish ? word.slovak : word.english,
-      answer: isSlovakToEnglish ? word.english : word.slovak,
-      direction: word.direction,
-      category: word.category,
-      targetLanguage: isSlovakToEnglish ? "english" : "slovak",
-      originalWord: { slovak: word.slovak, english: word.english },
+      id: row.id,
+      question: isWordToTranslation ? row.word : row.translation,
+      answer: isWordToTranslation ? row.translation : row.word,
+      direction: row.direction,
+      category: row.category,
+      targetLanguage: isWordToTranslation ? "translation" : "word",
+      originalWord: { word: row.word, translation: row.translation },
     };
   }
 
   getWordById(wordId) {
-    return this.db.prepare("SELECT slovak, english FROM words WHERE id = ?").get(wordId);
+    return this.db.prepare("SELECT word, translation FROM words WHERE id = ?").get(wordId);
   }
 
   cleanupDuplicateSessionStats() {

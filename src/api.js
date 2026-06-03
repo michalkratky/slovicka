@@ -41,8 +41,8 @@ const API = {
   // Word groups & words
   getWordGroups() { return this._get("word-groups"); },
   getDictionaryFiles() { return this._get("dictionary-files"); },
-  addWord(slovak, english, category, synonyms) {
-    return this._post("words", { slovak, english, category, synonyms });
+  addWord(word, translation, category, synonyms) {
+    return this._post("words", { word, translation, category, synonyms });
   },
   async deleteWord(wordId) {
     const res = await fetch(`/api/words/${wordId}`, {

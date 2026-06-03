@@ -1,514 +1,553 @@
 [
   {
-    "slovak": "známosť",
-    "english": "acquaintance",
+    "word": "známosť",
+    "translation": "acquaintance",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "adoptovaný",
-    "english": "adopted",
+    "word": "adoptovaný",
+    "translation": "adopted",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "adopcia",
-    "english": "adoption",
+    "word": "adopcia",
+    "translation": "adoption",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "teta",
-    "english": "aunt",
+    "word": "teta",
+    "translation": "aunt",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "najlepší priateľ",
-    "english": "best friend",
+    "word": "najlepší priateľ",
+    "translation": "best friend",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "priateľ",
-    "english": "boyfriend",
+    "word": "priateľ",
+    "translation": "boyfriend",
     "synonyms": {
-      "slovak": ["milý"],
-      "english": []
+      "word": [
+        "milý"
+      ],
+      "translation": []
     }
   },
   {
-    "slovak": "brat",
-    "english": "brother",
+    "word": "brat",
+    "translation": "brother",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "deti",
-    "english": "children",
+    "word": "deti",
+    "translation": "children",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "blízky priateľ",
-    "english": "close friend",
+    "word": "blízky priateľ",
+    "translation": "close friend",
     "synonyms": {
-      "slovak": ["dôverný priateľ"],
-      "english": []
+      "word": [
+        "dôverný priateľ"
+      ],
+      "translation": []
     }
   },
   {
-    "slovak": "pár",
-    "english": "couple",
+    "word": "pár",
+    "translation": "couple",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "bratranec",
-    "english": "cousin",
+    "word": "bratranec",
+    "translation": "cousin",
     "synonyms": {
-      "slovak": ["sesternica"],
-      "english": []
+      "word": [
+        "sesternica"
+      ],
+      "translation": []
     }
   },
   {
-    "slovak": "ocko",
-    "english": "dad",
+    "word": "ocko",
+    "translation": "dad",
     "synonyms": {
-      "slovak": ["tato"],
-      "english": []
+      "word": [
+        "tato"
+      ],
+      "translation": []
     }
   },
   {
-    "slovak": "ocko",
-    "english": "daddy",
+    "word": "ocko",
+    "translation": "daddy",
     "synonyms": {
-      "slovak": ["tato"],
-      "english": []
+      "word": [
+        "tato"
+      ],
+      "translation": []
     }
   },
   {
-    "slovak": "dcéra",
-    "english": "daughter",
+    "word": "dcéra",
+    "translation": "daughter",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "nevesta",
-    "english": "daughter-in-law",
+    "word": "nevesta",
+    "translation": "daughter-in-law",
     "synonyms": {
-      "slovak": ["synova manželka"],
-      "english": []
+      "word": [
+        "synova manželka"
+      ],
+      "translation": []
     }
   },
   {
-    "slovak": "rozvedený",
-    "english": "divorced",
+    "word": "rozvedený",
+    "translation": "divorced",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "bývalý manžel",
-    "english": "ex-husband",
+    "word": "bývalý manžel",
+    "translation": "ex-husband",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "bývalá manželka",
-    "english": "ex-wife",
+    "word": "bývalá manželka",
+    "translation": "ex-wife",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "člen rodiny",
-    "english": "family member",
+    "word": "člen rodiny",
+    "translation": "family member",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "otec",
-    "english": "father",
+    "word": "otec",
+    "translation": "father",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "svokor",
-    "english": "father-in-law",
+    "word": "svokor",
+    "translation": "father-in-law",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "snúbenec",
-    "english": "fiancé",
+    "word": "snúbenec",
+    "translation": "fiancé",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "snúbenica",
-    "english": "fiancée",
+    "word": "snúbenica",
+    "translation": "fiancée",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "deti zverené do pestúnskej starostlivosti",
-    "english": "foster children",
+    "word": "deti zverené do pestúnskej starostlivosti",
+    "translation": "foster children",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "pestúni",
-    "english": "foster parents",
+    "word": "pestúni",
+    "translation": "foster parents",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "priateľka",
-    "english": "girlfriend",
+    "word": "priateľka",
+    "translation": "girlfriend",
     "synonyms": {
-      "slovak": ["milá"],
-      "english": []
+      "word": [
+        "milá"
+      ],
+      "translation": []
     }
   },
   {
-    "slovak": "vnúčatá",
-    "english": "grandchildren",
+    "word": "vnúčatá",
+    "translation": "grandchildren",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "dedko",
-    "english": "granddad",
+    "word": "dedko",
+    "translation": "granddad",
     "synonyms": {
-      "slovak": ["starký"],
-      "english": []
+      "word": [
+        "starký"
+      ],
+      "translation": []
     }
   },
   {
-    "slovak": "starý otec",
-    "english": "grandfather",
+    "word": "starý otec",
+    "translation": "grandfather",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "starká",
-    "english": "grandma",
+    "word": "starká",
+    "translation": "grandma",
     "synonyms": {
-      "slovak": ["babka"],
-      "english": []
+      "word": [
+        "babka"
+      ],
+      "translation": []
     }
   },
   {
-    "slovak": "stará mama",
-    "english": "grandmother",
+    "word": "stará mama",
+    "translation": "grandmother",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "dedko",
-    "english": "grandpa",
+    "word": "dedko",
+    "translation": "grandpa",
     "synonyms": {
-      "slovak": ["starký"],
-      "english": []
+      "word": [
+        "starký"
+      ],
+      "translation": []
     }
   },
   {
-    "slovak": "starí rodičia",
-    "english": "grandparents",
+    "word": "starí rodičia",
+    "translation": "grandparents",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "starká",
-    "english": "granny",
+    "word": "starká",
+    "translation": "granny",
     "synonyms": {
-      "slovak": ["babka"],
-      "english": []
+      "word": [
+        "babka"
+      ],
+      "translation": []
     }
   },
   {
-    "slovak": "nevlastný brat",
-    "english": "half brother",
+    "word": "nevlastný brat",
+    "translation": "half brother",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "nevlastná sestra",
-    "english": "half sister",
+    "word": "nevlastná sestra",
+    "translation": "half sister",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "manžel",
-    "english": "husband",
+    "word": "manžel",
+    "translation": "husband",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "budúci manžel",
-    "english": "husband-to-be",
+    "word": "budúci manžel",
+    "translation": "husband-to-be",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "svokor a svokra",
-    "english": "in-laws",
+    "word": "svokor a svokra",
+    "translation": "in-laws",
     "synonyms": {
-      "slovak": ["starý otec a stará mať", "príbuzní z druhej strany"],
-      "english": []
+      "word": [
+        "starý otec a stará mať",
+        "príbuzní z druhej strany"
+      ],
+      "translation": []
     }
   },
   {
-    "slovak": "matka",
-    "english": "mother",
+    "word": "matka",
+    "translation": "mother",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "svokra",
-    "english": "mother-in-law",
+    "word": "svokra",
+    "translation": "mother-in-law",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "mama",
-    "english": "mum",
+    "word": "mama",
+    "translation": "mum",
     "synonyms": {
-      "slovak": ["mami"],
-      "english": ["mom"]
+      "word": [
+        "mami"
+      ],
+      "translation": [
+        "mom"
+      ]
     }
   },
   {
-    "slovak": "mamička",
-    "english": "mummy",
+    "word": "mamička",
+    "translation": "mummy",
     "synonyms": {
-      "slovak": ["maminka"],
-      "english": []
+      "word": [
+        "maminka"
+      ],
+      "translation": []
     }
   },
   {
-    "slovak": "synovec",
-    "english": "nephew",
+    "word": "synovec",
+    "translation": "nephew",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "neter",
-    "english": "niece",
+    "word": "neter",
+    "translation": "niece",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "najbližšia rodina",
-    "english": "nuclear family",
+    "word": "najbližšia rodina",
+    "translation": "nuclear family",
     "synonyms": {
-      "slovak": ["rodičia a deti"],
-      "english": []
+      "word": [
+        "rodičia a deti"
+      ],
+      "translation": []
     }
   },
   {
-    "slovak": "jedináčik",
-    "english": "only child",
+    "word": "jedináčik",
+    "translation": "only child",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "rodičia",
-    "english": "parents",
+    "word": "rodičia",
+    "translation": "parents",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "partner",
-    "english": "partner",
+    "word": "partner",
+    "translation": "partner",
     "synonyms": {
-      "slovak": ["druh", "družka"],
-      "english": []
+      "word": [
+        "druh",
+        "družka"
+      ],
+      "translation": []
     }
   },
   {
-    "slovak": "príbuzný",
-    "english": "relative",
+    "word": "príbuzný",
+    "translation": "relative",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "sestra",
-    "english": "sister",
+    "word": "sestra",
+    "translation": "sister",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "švagriná",
-    "english": "sister-in-law",
+    "word": "švagriná",
+    "translation": "sister-in-law",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "syn",
-    "english": "son",
+    "word": "syn",
+    "translation": "son",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "zať",
-    "english": "son-in-law",
+    "word": "zať",
+    "translation": "son-in-law",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "snúbenec",
-    "english": "spouse",
+    "word": "snúbenec",
+    "translation": "spouse",
     "synonyms": {
-      "slovak": ["snúbenica", "manžel/ka"],
-      "english": []
+      "word": [
+        "snúbenica",
+        "manžel/ka"
+      ],
+      "translation": []
     }
   },
   {
-    "slovak": "nevlastná dcéra",
-    "english": "stepdaughter",
+    "word": "nevlastná dcéra",
+    "translation": "stepdaughter",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "nevlastný otec",
-    "english": "stepfather",
+    "word": "nevlastný otec",
+    "translation": "stepfather",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "nevlastná matka",
-    "english": "stepmother",
+    "word": "nevlastná matka",
+    "translation": "stepmother",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "nevlastný syn",
-    "english": "stepson",
+    "word": "nevlastný syn",
+    "translation": "stepson",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "trojčatá",
-    "english": "triplets",
+    "word": "trojčatá",
+    "translation": "triplets",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "dvojčatá",
-    "english": "twins",
+    "word": "dvojčatá",
+    "translation": "twins",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "strýko",
-    "english": "uncle",
+    "word": "strýko",
+    "translation": "uncle",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "manželka",
-    "english": "wife",
+    "word": "manželka",
+    "translation": "wife",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "nastávajúca manželka",
-    "english": "wife-to-be",
+    "word": "nastávajúca manželka",
+    "translation": "wife-to-be",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   }
 ]

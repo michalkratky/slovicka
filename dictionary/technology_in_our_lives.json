@@ -1,137 +1,139 @@
 [
   {
-    "slovak": "anténa",
-    "english": "aerial"
+    "word": "anténa",
+    "translation": "aerial"
   },
   {
-    "slovak": "spotrebič",
-    "english": "appliance"
+    "word": "spotrebič",
+    "translation": "appliance"
   },
   {
-    "slovak": "batéria",
-    "english": "battery"
+    "word": "batéria",
+    "translation": "battery"
   },
   {
-    "slovak": "tlačidlo",
-    "english": "button"
+    "word": "tlačidlo",
+    "translation": "button"
   },
   {
-    "slovak": "gombík",
-    "english": "button"
+    "word": "gombík",
+    "translation": "button"
   },
   {
-    "slovak": "kábel",
-    "english": "cable"
+    "word": "kábel",
+    "translation": "cable"
   },
   {
-    "slovak": "nabíjať",
-    "english": "charge"
+    "word": "nabíjať",
+    "translation": "charge"
   },
   {
-    "slovak": "nabíjačka",
-    "english": "charger"
+    "word": "nabíjačka",
+    "translation": "charger"
   },
   {
-    "slovak": "spojenie",
-    "english": "connection"
+    "word": "spojenie",
+    "translation": "connection"
   },
   {
-    "slovak": "digitálne hodinky",
-    "english": "digital watch"
+    "word": "digitálne hodinky",
+    "translation": "digital watch"
   },
   {
-    "slovak": "elektronický",
-    "english": "electronic"
+    "word": "elektronický",
+    "translation": "electronic"
   },
   {
-    "slovak": "stroj",
-    "english": "engine"
+    "word": "stroj",
+    "translation": "engine"
   },
   {
-    "slovak": "malý šikovný prístroj",
-    "english": "gadget"
+    "word": "malý šikovný prístroj",
+    "translation": "gadget"
   },
   {
-    "slovak": "získať cenu",
-    "english": "get a prize"
+    "word": "získať cenu",
+    "translation": "get a prize"
   },
   {
-    "slovak": "slúchadlá",
-    "english": "headphones"
+    "word": "slúchadlá",
+    "translation": "headphones"
   },
   {
-    "slovak": "slúchadlá k rádiu",
-    "english": "headset"
+    "word": "slúchadlá k rádiu",
+    "translation": "headset"
   },
   {
-    "slovak": "slúchadlá k telefónu",
-    "english": "headset"
+    "word": "slúchadlá k telefónu",
+    "translation": "headset"
   },
   {
-    "slovak": "optická šošovka",
-    "english": "lens"
+    "word": "optická šošovka",
+    "translation": "lens"
   },
   {
-    "slovak": "spoj",
-    "english": "link"
+    "word": "spoj",
+    "translation": "link"
   },
   {
-    "slovak": "ručný",
-    "english": "manual"
+    "word": "ručný",
+    "translation": "manual"
   },
   {
-    "slovak": "manuál",
-    "english": "manual"
+    "word": "manuál",
+    "translation": "manual"
   },
   {
-    "slovak": "mobilný telefón",
-    "english": "mobile phone"
+    "word": "mobilný telefón",
+    "translation": "mobile phone"
   },
   {
-    "slovak": "motor",
-    "english": "motor"
+    "word": "motor",
+    "translation": "motor"
   },
   {
-    "slovak": "prípojka",
-    "english": "plug"
+    "word": "prípojka",
+    "translation": "plug"
   },
   {
-    "slovak": "elektrická zástrčka",
-    "english": "plug"
+    "word": "elektrická zástrčka",
+    "translation": "plug"
   },
   {
-    "slovak": "elektrická zásuvka",
-    "english": "socket"
+    "word": "elektrická zásuvka",
+    "translation": "socket"
   },
   {
-    "slovak": "objímka",
-    "english": "strap"
+    "word": "objímka",
+    "translation": "strap"
   },
   {
-    "slovak": "strmeň",
-    "english": "strap"
+    "word": "strmeň",
+    "translation": "strap"
   },
   {
-    "slovak": "technológia",
-    "english": "technology"
+    "word": "technológia",
+    "translation": "technology"
   },
   {
-    "slovak": "technika",
-    "english": "technology"
+    "word": "technika",
+    "translation": "technology"
   },
   {
-    "slovak": "skúmavka",
-    "english": "test tube"
+    "word": "skúmavka",
+    "translation": "test tube"
   },
   {
-    "slovak": "videomagnetofón",
-    "english": "VCR",
+    "word": "videomagnetofón",
+    "translation": "VCR",
     "synonyms": {
-      "english": ["video cassette recorder"]
+      "translation": [
+        "video cassette recorder"
+      ]
     }
   },
   {
-    "slovak": "drôt",
-    "english": "wire"
+    "word": "drôt",
+    "translation": "wire"
   }
 ]

@@ -1,98 +1,119 @@
 [
   {
-    "slovak": "internátne ubytovanie pre deti navštevujúce školu",
-    "english": "boarding"
+    "word": "internátne ubytovanie pre deti navštevujúce školu",
+    "translation": "boarding"
   },
   {
-    "slovak": "koedukovaná škola",
-    "english": "coeducational",
+    "word": "koedukovaná škola",
+    "translation": "coeducational",
     "synonyms": {
-      "slovak": ["zmiešaná škola"],
-      "english": ["coed"]
+      "word": [
+        "zmiešaná škola"
+      ],
+      "translation": [
+        "coed"
+      ]
     }
   },
   {
-    "slovak": "britská stredná škola",
-    "english": "college",
+    "word": "britská stredná škola",
+    "translation": "college",
     "synonyms": {
-      "slovak": ["vyššia stredná škola", "akadémia"]
+      "word": [
+        "vyššia stredná škola",
+        "akadémia"
+      ]
     }
   },
   {
-    "slovak": "všeobecná stredná škola",
-    "english": "comprehensive"
+    "word": "všeobecná stredná škola",
+    "translation": "comprehensive"
   },
   {
-    "slovak": "základný",
-    "english": "elementary"
+    "word": "základný",
+    "translation": "elementary"
   },
   {
-    "slovak": "osemročné gymnázium",
-    "english": "grammar school"
+    "word": "osemročné gymnázium",
+    "translation": "grammar school"
   },
   {
-    "slovak": "nezávislý",
-    "english": "independent"
+    "word": "nezávislý",
+    "translation": "independent"
   },
   {
-    "slovak": "zmiešaný",
-    "english": "mixed",
+    "word": "zmiešaný",
+    "translation": "mixed",
     "synonyms": {
-      "slovak": ["určený pre dve pohlavia"]
+      "word": [
+        "určený pre dve pohlavia"
+      ]
     }
   },
   {
-    "slovak": "základný",
-    "english": "primary"
+    "word": "základný",
+    "translation": "primary"
   },
   {
-    "slovak": "súkromný",
-    "english": "private"
+    "word": "súkromný",
+    "translation": "private"
   },
   {
-    "slovak": "súkromná stredná škola",
-    "english": "public school",
+    "word": "súkromná stredná škola",
+    "translation": "public school",
     "synonyms": {
-      "slovak": ["štátna stredná škola v USA"]
+      "word": [
+        "štátna stredná škola v USA"
+      ]
     }
   },
   {
-    "slovak": "stredná škola",
-    "english": "secondary school",
+    "word": "stredná škola",
+    "translation": "secondary school",
     "synonyms": {
-      "english": ["high school"]
+      "translation": [
+        "high school"
+      ]
     }
   },
   {
-    "slovak": "určená len pre chlapcov alebo dievčatá",
-    "english": "single-sex"
+    "word": "určená len pre chlapcov alebo dievčatá",
+    "translation": "single-sex"
   },
   {
-    "slovak": "štátna škola",
-    "english": "state school",
+    "word": "štátna škola",
+    "translation": "state school",
     "synonyms": {
-      "english": ["public school"]
+      "translation": [
+        "public school"
+      ]
     }
   },
   {
-    "slovak": "odborný",
-    "english": "technical",
+    "word": "odborný",
+    "translation": "technical",
     "synonyms": {
-      "slovak": ["technický"]
+      "word": [
+        "technický"
+      ]
     }
   },
   {
-    "slovak": "univerzita",
-    "english": "university",
+    "word": "univerzita",
+    "translation": "university",
     "synonyms": {
-      "slovak": ["vysoká škola"]
+      "word": [
+        "vysoká škola"
+      ]
     }
   },
   {
-    "slovak": "týkajúci sa zamestnania",
-    "english": "vocational",
+    "word": "týkajúci sa zamestnania",
+    "translation": "vocational",
     "synonyms": {
-      "slovak": ["týkajúci sa povolania"]
+      "word": [
+        "týkajúci sa povolania"
+      ]
     }
   }
 ]

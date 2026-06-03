@@ -1,210 +1,234 @@
 [
   {
-    "slovak": "dospievanie",
-    "english": "adolescence",
+    "word": "dospievanie",
+    "translation": "adolescence",
     "synonyms": {
-      "slovak": ["adolescencia"],
-      "english": []
+      "word": [
+        "adolescencia"
+      ],
+      "translation": []
     }
   },
   {
-    "slovak": "dospievajúci",
-    "english": "adolescent",
+    "word": "dospievajúci",
+    "translation": "adolescent",
     "synonyms": {
-      "slovak": ["mladistvý"],
-      "english": []
+      "word": [
+        "mladistvý"
+      ],
+      "translation": []
     }
   },
   {
-    "slovak": "dospelý",
-    "english": "adult",
+    "word": "dospelý",
+    "translation": "adult",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "dospelosť",
-    "english": "adulthood",
+    "word": "dospelosť",
+    "translation": "adulthood",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "veková skupina",
-    "english": "age group",
+    "word": "veková skupina",
+    "translation": "age group",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "bábätko",
-    "english": "baby",
+    "word": "bábätko",
+    "translation": "baby",
     "synonyms": {
-      "slovak": ["malé dieťa"],
-      "english": []
+      "word": [
+        "malé dieťa"
+      ],
+      "translation": []
     }
   },
   {
-    "slovak": "narodiť sa",
-    "english": "be born",
+    "word": "narodiť sa",
+    "translation": "be born",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "pôrod",
-    "english": "birth",
+    "word": "pôrod",
+    "translation": "birth",
     "synonyms": {
-      "slovak": ["narodenie"],
-      "english": []
+      "word": [
+        "narodenie"
+      ],
+      "translation": []
     }
   },
   {
-    "slovak": "dieťa",
-    "english": "child",
+    "word": "dieťa",
+    "translation": "child",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "dieťa",
-    "english": "kid",
+    "word": "dieťa",
+    "translation": "kid",
     "synonyms": {
-      "slovak": ["decko"],
-      "english": []
+      "word": [
+        "decko"
+      ],
+      "translation": []
     }
   },
   {
-    "slovak": "detstvo",
-    "english": "childhood",
+    "word": "detstvo",
+    "translation": "childhood",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "smrť",
-    "english": "death",
+    "word": "smrť",
+    "translation": "death",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "zomrieť",
-    "english": "die",
+    "word": "zomrieť",
+    "translation": "die",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "postarší",
-    "english": "elderly person",
+    "word": "postarší",
+    "translation": "elderly person",
     "synonyms": {
-      "slovak": ["pokročilého veku"],
-      "english": []
+      "word": [
+        "pokročilého veku"
+      ],
+      "translation": []
     }
   },
   {
-    "slovak": "generácia",
-    "english": "generation",
+    "word": "generácia",
+    "translation": "generation",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "vyrásť",
-    "english": "grow up",
+    "word": "vyrásť",
+    "translation": "grow up",
     "synonyms": {
-      "slovak": ["dospieť"],
-      "english": []
+      "word": [
+        "dospieť"
+      ],
+      "translation": []
     }
   },
   {
-    "slovak": "dospelý",
-    "english": "grownup",
+    "word": "dospelý",
+    "translation": "grownup",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "svadba",
-    "english": "marriage",
+    "word": "svadba",
+    "translation": "marriage",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "stredný vek",
-    "english": "middle age",
+    "word": "stredný vek",
+    "translation": "middle age",
     "synonyms": {
-      "slovak": ["zrelý vek"],
-      "english": []
+      "word": [
+        "zrelý vek"
+      ],
+      "translation": []
     }
   },
   {
-    "slovak": "osoba stredného veku",
-    "english": "middle-aged person",
+    "word": "osoba stredného veku",
+    "translation": "middle-aged person",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "starobný dôchodca",
-    "english": "OAP",
+    "word": "starobný dôchodca",
+    "translation": "OAP",
     "synonyms": {
-      "slovak": ["penzista"],
-      "english": ["Old Age Pensioner"]
+      "word": [
+        "penzista"
+      ],
+      "translation": [
+        "Old Age Pensioner"
+      ]
     }
   },
   {
-    "slovak": "staroba",
-    "english": "old age",
+    "word": "staroba",
+    "translation": "old age",
     "synonyms": {
-      "slovak": ["vysoký vek"],
-      "english": []
+      "word": [
+        "vysoký vek"
+      ],
+      "translation": []
     }
   },
   {
-    "slovak": "dôchodca",
-    "english": "pensioner",
+    "word": "dôchodca",
+    "translation": "pensioner",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "adolescent",
-    "english": "teenager",
+    "word": "adolescent",
+    "translation": "teenager",
     "synonyms": {
-      "slovak": ["chlapec/dievča od 13-19 rokov"],
-      "english": []
+      "word": [
+        "chlapec/dievča od 13-19 rokov"
+      ],
+      "translation": []
     }
   },
   {
-    "slovak": "batoľa",
-    "english": "toddler",
+    "word": "batoľa",
+    "translation": "toddler",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   },
   {
-    "slovak": "mladosť",
-    "english": "youth",
+    "word": "mladosť",
+    "translation": "youth",
     "synonyms": {
-      "slovak": [],
-      "english": []
+      "word": [],
+      "translation": []
     }
   }
 ]

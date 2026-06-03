@@ -1,11 +1,11 @@
 -- database/schema.sql
--- Complete database schema for the Slovak-English learning app
+-- Database schema for the vocabulary learning app
 
 -- Create words table
 CREATE TABLE IF NOT EXISTS words (
                                      id INTEGER PRIMARY KEY AUTOINCREMENT,
-                                     slovak TEXT NOT NULL,
-                                     english TEXT NOT NULL,
+                                     word TEXT NOT NULL,
+                                     translation TEXT NOT NULL,
                                      category TEXT NOT NULL,
                                      created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
                                      updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
@@ -16,7 +16,7 @@ CREATE TABLE IF NOT EXISTS synonyms (
                                         id INTEGER PRIMARY KEY AUTOINCREMENT,
                                         word_id INTEGER NOT NULL,
                                         synonym TEXT NOT NULL,
-                                        language TEXT NOT NULL CHECK (language IN ('slovak', 'english')),
+                                        language TEXT NOT NULL CHECK (language IN ('word', 'translation')),
     created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (word_id) REFERENCES words(id) ON DELETE CASCADE
     );
@@ -25,7 +25,7 @@ CREATE TABLE IF NOT EXISTS synonyms (
 CREATE TABLE IF NOT EXISTS user_statistics (
                                                id INTEGER PRIMARY KEY AUTOINCREMENT,
                                                word_id INTEGER NOT NULL,
-                                               direction TEXT NOT NULL CHECK (direction IN ('sk-en', 'en-sk')),
+                                               direction TEXT NOT NULL CHECK (direction IN ('word-translation', 'translation-word')),
     correct_count INTEGER DEFAULT 0,
     incorrect_count INTEGER DEFAULT 0,
     last_seen DATETIME DEFAULT CURRENT_TIMESTAMP,
@@ -61,8 +61,8 @@ CREATE TABLE IF NOT EXISTS session_statistics (
 
 -- Create indexes for better performance
 CREATE INDEX IF NOT EXISTS idx_words_category ON words(category);
-CREATE INDEX IF NOT EXISTS idx_words_slovak ON words(slovak);
-CREATE INDEX IF NOT EXISTS idx_words_english ON words(english);
+CREATE INDEX IF NOT EXISTS idx_words_word ON words(word);
+CREATE INDEX IF NOT EXISTS idx_words_translation ON words(translation);
 CREATE INDEX IF NOT EXISTS idx_synonyms_word_id ON synonyms(word_id);
 CREATE INDEX IF NOT EXISTS idx_synonyms_language ON synonyms(language);
 CREATE INDEX IF NOT EXISTS idx_user_statistics_word_direction ON user_statistics(word_id, direction);

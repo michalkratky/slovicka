@@ -17,8 +17,8 @@ const GroupsMixin = {
       renameGroupKey: "",
       renameGroupName: "",
       newGroupName: "",
-      newWord: { slovak: "", english: "", synonymsSlovak: "", synonymsEnglish: "" },
-      editWord: { slovak: "", english: "", synonymsSlovak: "", synonymsEnglish: "" },
+      newWord: { word: "", translation: "", synonymsWord: "", synonymsTranslation: "" },
+      editWord: { word: "", translation: "", synonymsWord: "", synonymsTranslation: "" },
       importPreview: null,
       importResult: null,
       importErrors: [],
@@ -108,22 +108,22 @@ const GroupsMixin = {
 
     // --- Word CRUD ---
     openAddWordForm() {
-      this.newWord = { slovak: "", english: "", synonymsSlovak: "", synonymsEnglish: "" };
+      this.newWord = { word: "", translation: "", synonymsWord: "", synonymsTranslation: "" };
       this.showAddWordForm = true;
       this.editingWordId = null;
     },
 
     async saveNewWord() {
-      if (!this.newWord.slovak.trim() || !this.newWord.english.trim()) return;
+      if (!this.newWord.word.trim() || !this.newWord.translation.trim()) return;
       const synonyms = {};
-      if (this.newWord.synonymsSlovak.trim()) {
-        synonyms.slovak = this.newWord.synonymsSlovak.split(",").map((s) => s.trim()).filter(Boolean);
+      if (this.newWord.synonymsWord.trim()) {
+        synonyms.word = this.newWord.synonymsWord.split(",").map((s) => s.trim()).filter(Boolean);
       }
-      if (this.newWord.synonymsEnglish.trim()) {
-        synonyms.english = this.newWord.synonymsEnglish.split(",").map((s) => s.trim()).filter(Boolean);
+      if (this.newWord.synonymsTranslation.trim()) {
+        synonyms.translation = this.newWord.synonymsTranslation.split(",").map((s) => s.trim()).filter(Boolean);
       }
       try {
-        await API.addWord(this.newWord.slovak.trim(), this.newWord.english.trim(), this.selectedGroup, synonyms);
+        await API.addWord(this.newWord.word.trim(), this.newWord.translation.trim(), this.selectedGroup, synonyms);
         this.showAddWordForm = false;
         await this.loadWordGroups();
       } catch (error) {
@@ -134,10 +134,10 @@ const GroupsMixin = {
     startEditWord(word) {
       this.editingWordId = word.id;
       this.editWord = {
-        slovak: word.slovak,
-        english: word.english,
-        synonymsSlovak: (word.synonyms?.slovak || []).join(", "),
-        synonymsEnglish: (word.synonyms?.english || []).join(", "),
+        slovak: word.word,
+        english: word.translation,
+        synonymsWord: (word.synonyms?.word || []).join(", "),
+        synonymsTranslation: (word.synonyms?.translation || []).join(", "),
       };
     },
 
@@ -147,16 +147,16 @@ const GroupsMixin = {
 
     async saveEditWord() {
       const synonyms = {};
-      if (this.editWord.synonymsSlovak.trim()) {
-        synonyms.slovak = this.editWord.synonymsSlovak.split(",").map((s) => s.trim()).filter(Boolean);
+      if (this.editWord.synonymsWord.trim()) {
+        synonyms.word = this.editWord.synonymsWord.split(",").map((s) => s.trim()).filter(Boolean);
       }
-      if (this.editWord.synonymsEnglish.trim()) {
-        synonyms.english = this.editWord.synonymsEnglish.split(",").map((s) => s.trim()).filter(Boolean);
+      if (this.editWord.synonymsTranslation.trim()) {
+        synonyms.translation = this.editWord.synonymsTranslation.split(",").map((s) => s.trim()).filter(Boolean);
       }
       try {
         await API.updateWord(this.editingWordId, {
-          slovak: this.editWord.slovak.trim(),
-          english: this.editWord.english.trim(),
+          slovak: this.editWord.word.trim(),
+          english: this.editWord.translation.trim(),
           synonyms,
         });
         this.editingWordId = null;

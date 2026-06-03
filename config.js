@@ -1,23 +1,31 @@
-// Database configuration for language switching
 const DATABASE_CONFIG = {
-    databases: {
-        'sk-en': {
-            name: 'Slovenčina - Angličtina',
-            file: 'database.db',
-            flag: '🇸🇰'
-        },
-        'de-en': {
-            name: 'Deutsch - English',
-            file: 'database.de.db',
-            flag: '🇩🇪'
-        }
+  databases: {
+    "sk-en": {
+      name: "Slovenčina - Angličtina",
+      file: "database.db",
+      flag: "🇸🇰",
+      labels: { word: "Slovensky", translation: "English" },
+      directions: {
+        "word-translation": { from: "Slovenčina", to: "Angličtina" },
+        "translation-word": { from: "Angličtina", to: "Slovenčina" },
+      },
     },
-    default: 'sk-en'
+    "de-en": {
+      name: "Deutsch - English",
+      file: "database.de.db",
+      flag: "🇩🇪",
+      labels: { word: "Deutsch", translation: "English" },
+      directions: {
+        "word-translation": { from: "Deutsch", to: "English" },
+        "translation-word": { from: "English", to: "Deutsch" },
+      },
+    },
+  },
+  default: "sk-en",
 };
 
-// Export for both Node.js and browser environments
-if (typeof module !== 'undefined' && module.exports) {
-    module.exports = DATABASE_CONFIG;
+if (typeof module !== "undefined" && module.exports) {
+  module.exports = DATABASE_CONFIG;
 } else {
-    window.DATABASE_CONFIG = DATABASE_CONFIG;
+  window.DATABASE_CONFIG = DATABASE_CONFIG;
 }

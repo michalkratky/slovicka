@@ -1,247 +1,272 @@
 [
   {
-    "slovak": "pekáreň",
-    "english": "baker's"
+    "word": "pekáreň",
+    "translation": "baker's"
   },
   {
-    "slovak": "kníhkupectvo",
-    "english": "bookshop"
+    "word": "kníhkupectvo",
+    "translation": "bookshop"
   },
   {
-    "slovak": "mäsiarstvo",
-    "english": "butcher's"
+    "word": "mäsiarstvo",
+    "translation": "butcher's"
   },
   {
-    "slovak": "filiálka",
-    "english": "chain store",
+    "word": "filiálka",
+    "translation": "chain store",
     "synonyms": {
-      "slovak": ["predajňa"]
+      "word": [
+        "predajňa"
+      ]
     }
   },
   {
-    "slovak": "drogéria",
-    "english": "chemist's",
+    "word": "drogéria",
+    "translation": "chemist's",
     "synonyms": {
-      "slovak": ["lekáreň"]
+      "word": [
+        "lekáreň"
+      ]
     }
   },
   {
-    "slovak": "obchod s oblečením",
-    "english": "clothes shop"
+    "word": "obchod s oblečením",
+    "translation": "clothes shop"
   },
   {
-    "slovak": "obchod s lahôdkami",
-    "english": "delicatessen",
+    "word": "obchod s lahôdkami",
+    "translation": "delicatessen",
     "synonyms": {
-      "english": ["deli"]
+      "translation": [
+        "deli"
+      ]
     }
   },
   {
-    "slovak": "obchodný dom",
-    "english": "department store"
+    "word": "obchodný dom",
+    "translation": "department store"
   },
   {
-    "slovak": "obchod so značkovým oblečením",
-    "english": "designer shop"
+    "word": "obchod so značkovým oblečením",
+    "translation": "designer shop"
   },
   {
-    "slovak": "obchod s domácimi potrebami",
-    "english": "DIY store"
+    "word": "obchod s domácimi potrebami",
+    "translation": "DIY store"
   },
   {
-    "slovak": "obchod s rybami",
-    "english": "fishmonger's"
+    "word": "obchod s rybami",
+    "translation": "fishmonger's"
   },
   {
-    "slovak": "obchod s nábytkom",
-    "english": "furniture shop"
+    "word": "obchod s nábytkom",
+    "translation": "furniture shop"
   },
   {
-    "slovak": "obchod so zeleninou",
-    "english": "greengrocer's"
+    "word": "obchod so zeleninou",
+    "translation": "greengrocer's"
   },
   {
-    "slovak": "obchod s potravinami",
-    "english": "grocer's"
+    "word": "obchod s potravinami",
+    "translation": "grocer's"
   },
   {
-    "slovak": "trh",
-    "english": "market"
+    "word": "trh",
+    "translation": "market"
   },
   {
-    "slovak": "novinový stánok",
-    "english": "newsagent's"
+    "word": "novinový stánok",
+    "translation": "newsagent's"
   },
   {
-    "slovak": "obchod s alkoholickými nápojmi",
-    "english": "off-licence"
+    "word": "obchod s alkoholickými nápojmi",
+    "translation": "off-licence"
   },
   {
-    "slovak": "obchod s obuvou",
-    "english": "shoe shop"
+    "word": "obchod s obuvou",
+    "translation": "shoe shop"
   },
   {
-    "slovak": "papiernictvo",
-    "english": "stationer's"
+    "word": "papiernictvo",
+    "translation": "stationer's"
   },
   {
-    "slovak": "supermarket",
-    "english": "supermarket"
+    "word": "supermarket",
+    "translation": "supermarket"
   },
   {
-    "slovak": "výhodný nákup",
-    "english": "bargain"
+    "word": "výhodný nákup",
+    "translation": "bargain"
   },
   {
-    "slovak": "rozbitý",
-    "english": "broken"
+    "word": "rozbitý",
+    "translation": "broken"
   },
   {
-    "slovak": "prezerať si",
-    "english": "browse",
+    "word": "prezerať si",
+    "translation": "browse",
     "synonyms": {
-      "slovak": ["vyberať"]
+      "word": [
+        "vyberať"
+      ]
     }
   },
   {
-    "slovak": "kúpiť vo výpredaji",
-    "english": "buy in the sale"
+    "word": "kúpiť vo výpredaji",
+    "translation": "buy in the sale"
   },
   {
-    "slovak": "hotovosť",
-    "english": "cash"
+    "word": "hotovosť",
+    "translation": "cash"
   },
   {
-    "slovak": "šatňa",
-    "english": "changing room",
+    "word": "šatňa",
+    "translation": "changing room",
     "synonyms": {
-      "slovak": ["prezliekáreň"]
+      "word": [
+        "prezliekáreň"
+      ]
     }
   },
   {
-    "slovak": "pokladňa",
-    "english": "checkout"
+    "word": "pokladňa",
+    "translation": "checkout"
   },
   {
-    "slovak": "zákazník",
-    "english": "customer"
+    "word": "zákazník",
+    "translation": "customer"
   },
   {
-    "slovak": "zľava",
-    "english": "discount"
+    "word": "zľava",
+    "translation": "discount"
   },
   {
-    "slovak": "vymeniť niečo za niečo",
-    "english": "exchange"
+    "word": "vymeniť niečo za niečo",
+    "translation": "exchange"
   },
   {
-    "slovak": "pasovať",
-    "english": "fit",
+    "word": "pasovať",
+    "translation": "fit",
     "synonyms": {
-      "slovak": ["sedieť", "byť akurát"]
+      "word": [
+        "sedieť",
+        "byť akurát"
+      ]
     }
   },
   {
-    "slovak": "skúšobná kabína",
-    "english": "fitting room"
+    "word": "skúšobná kabína",
+    "translation": "fitting room"
   },
   {
-    "slovak": "zadarmo",
-    "english": "free of charge"
+    "word": "zadarmo",
+    "translation": "free of charge"
   },
   {
-    "slovak": "dostať späť peniaze",
-    "english": "get money back"
+    "word": "dostať späť peniaze",
+    "translation": "get money back"
   },
   {
-    "slovak": "dostať zľavu",
-    "english": "get a refund"
+    "word": "dostať zľavu",
+    "translation": "get a refund"
   },
   {
-    "slovak": "ísť nakupovať",
-    "english": "go shopping"
+    "word": "ísť nakupovať",
+    "translation": "go shopping"
   },
   {
-    "slovak": "mať niečo na sklade",
-    "english": "have in stock"
+    "word": "mať niečo na sklade",
+    "translation": "have in stock"
   },
   {
-    "slovak": "hľadať",
-    "english": "look for"
+    "word": "hľadať",
+    "translation": "look for"
   },
   {
-    "slovak": "ladiť",
-    "english": "match",
+    "word": "ladiť",
+    "translation": "match",
     "synonyms": {
-      "slovak": ["hodiť sa k niečomu"]
+      "word": [
+        "hodiť sa k niečomu"
+      ]
     }
   },
   {
-    "slovak": "vypredané",
-    "english": "out of stock"
+    "word": "vypredané",
+    "translation": "out of stock"
   },
   {
-    "slovak": "platiť v hotovosti",
-    "english": "pay cash",
+    "word": "platiť v hotovosti",
+    "translation": "pay cash",
     "synonyms": {
-      "slovak": ["platiť kreditnou kartou", "platiť šekom"]
+      "word": [
+        "platiť kreditnou kartou",
+        "platiť šekom"
+      ]
     }
   },
   {
-    "slovak": "znížená cena",
-    "english": "reduced"
+    "word": "znížená cena",
+    "translation": "reduced"
   },
   {
-    "slovak": "vrátiť tovar do obchodu",
-    "english": "return goods to the shop"
+    "word": "vrátiť tovar do obchodu",
+    "translation": "return goods to the shop"
   },
   {
-    "slovak": "výpredaj",
-    "english": "sale"
+    "word": "výpredaj",
+    "translation": "sale"
   },
   {
-    "slovak": "predavač",
-    "english": "shop assistant"
+    "word": "predavač",
+    "translation": "shop assistant"
   },
   {
-    "slovak": "veľkosť",
-    "english": "size"
+    "word": "veľkosť",
+    "translation": "size"
   },
   {
-    "slovak": "špeciálna ponuka",
-    "english": "special offer"
+    "word": "špeciálna ponuka",
+    "translation": "special offer"
   },
   {
-    "slovak": "hodiť sa",
-    "english": "suit",
+    "word": "hodiť sa",
+    "translation": "suit",
     "synonyms": {
-      "slovak": ["pasovať"]
+      "word": [
+        "pasovať"
+      ]
     }
   },
   {
-    "slovak": "vozík",
-    "english": "supermarket trolley",
+    "word": "vozík",
+    "translation": "supermarket trolley",
     "synonyms": {
-      "slovak": ["košík"]
+      "word": [
+        "košík"
+      ]
     }
   },
   {
-    "slovak": "predajná pokladňa",
-    "english": "till"
+    "word": "predajná pokladňa",
+    "translation": "till"
   },
   {
-    "slovak": "príliš malý",
-    "english": "too small",
+    "word": "príliš malý",
+    "translation": "too small",
     "synonyms": {
-      "slovak": ["príliš tesný", "príliš voľný"]
+      "word": [
+        "príliš tesný",
+        "príliš voľný"
+      ]
     }
   },
   {
-    "slovak": "vyskúšať si",
-    "english": "try on"
+    "word": "vyskúšať si",
+    "translation": "try on"
   },
   {
-    "slovak": "pracovať",
-    "english": "work"
+    "word": "pracovať",
+    "translation": "work"
   }
 ]

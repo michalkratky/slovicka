@@ -24,10 +24,10 @@ router.post(
         return res.status(404).json({ error: "Word not found" });
       }
 
-      const sourceLang = targetLanguage === "slovak" ? "english" : "slovak";
+      const sourceLang = targetLanguage === "word" ? "translation" : "word";
       const existingSynonyms = req.db.getSynonyms(parseInt(wordId), targetLanguage);
-      const sourceWord = sourceLang === "slovak" ? word.slovak : word.english;
-      const correctTranslation = targetLanguage === "slovak" ? word.slovak : word.english;
+      const sourceWord = sourceLang === "word" ? word.word : word.translation;
+      const correctTranslation = targetLanguage === "word" ? word.word : word.translation;
 
       const validation = await openai.validateTranslation(
         sourceWord,

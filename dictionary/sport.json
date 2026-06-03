@@ -1,594 +1,602 @@
 [
   {
-    "slovak": "lukostrelec",
-    "english": "archer"
+    "word": "lukostrelec",
+    "translation": "archer"
   },
   {
-    "slovak": "lukostreľba",
-    "english": "archery"
+    "word": "lukostreľba",
+    "translation": "archery"
   },
   {
-    "slovak": "atlét",
-    "english": "athlete"
+    "word": "atlét",
+    "translation": "athlete"
   },
   {
-    "slovak": "atletika",
-    "english": "athletics"
+    "word": "atletika",
+    "translation": "athletics"
   },
   {
-    "slovak": "bejzbal",
-    "english": "baseball"
+    "word": "bejzbal",
+    "translation": "baseball"
   },
   {
-    "slovak": "basketbal",
-    "english": "basketball"
+    "word": "basketbal",
+    "translation": "basketball"
   },
   {
-    "slovak": "boxer",
-    "english": "boxer"
+    "word": "boxer",
+    "translation": "boxer"
   },
   {
-    "slovak": "box",
-    "english": "boxing"
+    "word": "box",
+    "translation": "boxing"
   },
   {
-    "slovak": "beh na lyžiach",
-    "english": "cross-country skiing"
+    "word": "beh na lyžiach",
+    "translation": "cross-country skiing"
   },
   {
-    "slovak": "disk",
-    "english": "discus"
+    "word": "disk",
+    "translation": "discus"
   },
   {
-    "slovak": "potápač",
-    "english": "diver"
+    "word": "potápač",
+    "translation": "diver"
   },
   {
-    "slovak": "potápanie",
-    "english": "diving"
+    "word": "potápanie",
+    "translation": "diving"
   },
   {
-    "slovak": "zjazdové lyžovanie",
-    "english": "downhill skiing"
+    "word": "zjazdové lyžovanie",
+    "translation": "downhill skiing"
   },
   {
-    "slovak": "šermiar",
-    "english": "fencer"
+    "word": "šermiar",
+    "translation": "fencer"
   },
   {
-    "slovak": "šerm",
-    "english": "fencing"
+    "word": "šerm",
+    "translation": "fencing"
   },
   {
-    "slovak": "futbal",
-    "english": "football",
+    "word": "futbal",
+    "translation": "football",
     "synonyms": {
-      "english": ["soccer"]
+      "translation": [
+        "soccer"
+      ]
     }
   },
   {
-    "slovak": "golf",
-    "english": "golf"
+    "word": "golf",
+    "translation": "golf"
   },
   {
-    "slovak": "hráč golfu",
-    "english": "golfer"
+    "word": "hráč golfu",
+    "translation": "golfer"
   },
   {
-    "slovak": "gymnasta",
-    "english": "gymnast"
+    "word": "gymnasta",
+    "translation": "gymnast"
   },
   {
-    "slovak": "gymnastka",
-    "english": "gymnast"
+    "word": "gymnastka",
+    "translation": "gymnast"
   },
   {
-    "slovak": "gymnastika",
-    "english": "gymnastics"
+    "word": "gymnastika",
+    "translation": "gymnastics"
   },
   {
-    "slovak": "hod kladivom",
-    "english": "hammer throw",
+    "word": "hod kladivom",
+    "translation": "hammer throw",
     "synonyms": {
-      "english": ["hammer throwing"]
+      "translation": [
+        "hammer throwing"
+      ]
     }
   },
   {
-    "slovak": "hádzaná",
-    "english": "handball"
+    "word": "hádzaná",
+    "translation": "handball"
   },
   {
-    "slovak": "hokej",
-    "english": "hockey"
+    "word": "hokej",
+    "translation": "hockey"
   },
   {
-    "slovak": "prekážka",
-    "english": "hurdle"
+    "word": "prekážka",
+    "translation": "hurdle"
   },
   {
-    "slovak": "halové športy",
-    "english": "indoor sports"
+    "word": "halové športy",
+    "translation": "indoor sports"
   },
   {
-    "slovak": "oštep",
-    "english": "javelin"
+    "word": "oštep",
+    "translation": "javelin"
   },
   {
-    "slovak": "skok",
-    "english": "jump"
+    "word": "skok",
+    "translation": "jump"
   },
   {
-    "slovak": "maratón",
-    "english": "marathon"
+    "word": "maratón",
+    "translation": "marathon"
   },
   {
-    "slovak": "maratónec",
-    "english": "marathon runner"
+    "word": "maratónec",
+    "translation": "marathon runner"
   },
   {
-    "slovak": "skok o žrdi",
-    "english": "pole vault"
+    "word": "skok o žrdi",
+    "translation": "pole vault"
   },
   {
-    "slovak": "skokan o žrdi",
-    "english": "pole vaulter"
+    "word": "skokan o žrdi",
+    "translation": "pole vaulter"
   },
   {
-    "slovak": "skokanúa o žrdi",
-    "english": "pole vaulter"
+    "word": "skokanúa o žrdi",
+    "translation": "pole vaulter"
   },
   {
-    "slovak": "súťaž",
-    "english": "race"
+    "word": "súťaž",
+    "translation": "race"
   },
   {
-    "slovak": "preteky",
-    "english": "race"
+    "word": "preteky",
+    "translation": "race"
   },
   {
-    "slovak": "jednoradové kolieskové korčule",
-    "english": "roller blades"
+    "word": "jednoradové kolieskové korčule",
+    "translation": "roller blades"
   },
   {
-    "slovak": "korčuľovanie na kolieskových korčuliach",
-    "english": "roller blading"
+    "word": "korčuľovanie na kolieskových korčuliach",
+    "translation": "roller blading"
   },
   {
-    "slovak": "korčuľovanie na kolieskových korčuliach",
-    "english": "roller skating"
+    "word": "korčuľovanie na kolieskových korčuliach",
+    "translation": "roller skating"
   },
   {
-    "slovak": "behať",
-    "english": "run"
+    "word": "behať",
+    "translation": "run"
   },
   {
-    "slovak": "beh",
-    "english": "run"
+    "word": "beh",
+    "translation": "run"
   },
   {
-    "slovak": "bežec",
-    "english": "runner"
+    "word": "bežec",
+    "translation": "runner"
   },
   {
-    "slovak": "vrhač gulí",
-    "english": "shot putter"
+    "word": "vrhač gulí",
+    "translation": "shot putter"
   },
   {
-    "slovak": "hod guľou",
-    "english": "shot put",
+    "word": "hod guľou",
+    "translation": "shot put",
     "synonyms": {
-      "english": ["shot putting"]
+      "translation": [
+        "shot putting"
+      ]
     }
   },
   {
-    "slovak": "jazdiť na skejtborde",
-    "english": "skateboard"
+    "word": "jazdiť na skejtborde",
+    "translation": "skateboard"
   },
   {
-    "slovak": "jazda na skejtborde",
-    "english": "skateboarding"
+    "word": "jazda na skejtborde",
+    "translation": "skateboarding"
   },
   {
-    "slovak": "korčuliar",
-    "english": "skater"
+    "word": "korčuliar",
+    "translation": "skater"
   },
   {
-    "slovak": "korčuliarka",
-    "english": "skater"
+    "word": "korčuliarka",
+    "translation": "skater"
   },
   {
-    "slovak": "krasokorčuľovanie",
-    "english": "skating"
+    "word": "krasokorčuľovanie",
+    "translation": "skating"
   },
   {
-    "slovak": "rýchlokorčuľovanie",
-    "english": "skating"
+    "word": "rýchlokorčuľovanie",
+    "translation": "skating"
   },
   {
-    "slovak": "skok na lyžiach",
-    "english": "ski jump"
+    "word": "skok na lyžiach",
+    "translation": "ski jump"
   },
   {
-    "slovak": "lyžiarsky mostík",
-    "english": "ski jump"
+    "word": "lyžiarsky mostík",
+    "translation": "ski jump"
   },
   {
-    "slovak": "skokan na lyžiach",
-    "english": "ski jumper"
+    "word": "skokan na lyžiach",
+    "translation": "ski jumper"
   },
   {
-    "slovak": "lyžiar",
-    "english": "skier"
+    "word": "lyžiar",
+    "translation": "skier"
   },
   {
-    "slovak": "lyžovanie",
-    "english": "skiing"
+    "word": "lyžovanie",
+    "translation": "skiing"
   },
   {
-    "slovak": "beh na krátku vzdialenosť",
-    "english": "sprint"
+    "word": "beh na krátku vzdialenosť",
+    "translation": "sprint"
   },
   {
-    "slovak": "šprint",
-    "english": "sprint"
+    "word": "šprint",
+    "translation": "sprint"
   },
   {
-    "slovak": "šprintér",
-    "english": "sprinter"
+    "word": "šprintér",
+    "translation": "sprinter"
   },
   {
-    "slovak": "šprintérka",
-    "english": "sprinter"
+    "word": "šprintérka",
+    "translation": "sprinter"
   },
   {
-    "slovak": "sumo",
-    "english": "sumo wrestling"
+    "word": "sumo",
+    "translation": "sumo wrestling"
   },
   {
-    "slovak": "plavec",
-    "english": "swimmer"
+    "word": "plavec",
+    "translation": "swimmer"
   },
   {
-    "slovak": "plávanie",
-    "english": "swimming"
+    "word": "plávanie",
+    "translation": "swimming"
   },
   {
-    "slovak": "stolný tenis",
-    "english": "table tennis"
+    "word": "stolný tenis",
+    "translation": "table tennis"
   },
   {
-    "slovak": "tenis",
-    "english": "tennis"
+    "word": "tenis",
+    "translation": "tennis"
   },
   {
-    "slovak": "volejbal",
-    "english": "volleyball"
+    "word": "volejbal",
+    "translation": "volleyball"
   },
   {
-    "slovak": "vodné pólo",
-    "english": "water polo"
+    "word": "vodné pólo",
+    "translation": "water polo"
   },
   {
-    "slovak": "vodné športy",
-    "english": "water sports"
+    "word": "vodné športy",
+    "translation": "water sports"
   },
   {
-    "slovak": "vzpierač",
-    "english": "weightlifter"
+    "word": "vzpierač",
+    "translation": "weightlifter"
   },
   {
-    "slovak": "vzpieranie",
-    "english": "weightlifting"
+    "word": "vzpieranie",
+    "translation": "weightlifting"
   },
   {
-    "slovak": "surf",
-    "english": "windsurfer"
+    "word": "surf",
+    "translation": "windsurfer"
   },
   {
-    "slovak": "surfista",
-    "english": "windsurfer"
+    "word": "surfista",
+    "translation": "windsurfer"
   },
   {
-    "slovak": "surfistka",
-    "english": "windsurfer"
+    "word": "surfistka",
+    "translation": "windsurfer"
   },
   {
-    "slovak": "windsurfing",
-    "english": "windsurfing"
+    "word": "windsurfing",
+    "translation": "windsurfing"
   },
   {
-    "slovak": "zápasiť",
-    "english": "wrestle"
+    "word": "zápasiť",
+    "translation": "wrestle"
   },
   {
-    "slovak": "zápas",
-    "english": "wrestling"
+    "word": "zápas",
+    "translation": "wrestling"
   },
   {
-    "slovak": "zápasenie",
-    "english": "wrestling"
+    "word": "zápasenie",
+    "translation": "wrestling"
   },
   {
-    "slovak": "amatér",
-    "english": "amateur"
+    "word": "amatér",
+    "translation": "amateur"
   },
   {
-    "slovak": "pálka",
-    "english": "bat"
+    "word": "pálka",
+    "translation": "bat"
   },
   {
-    "slovak": "majster",
-    "english": "champion"
+    "word": "majster",
+    "translation": "champion"
   },
   {
-    "slovak": "šampión",
-    "english": "champion"
+    "word": "šampión",
+    "translation": "champion"
   },
   {
-    "slovak": "majstrovstvá",
-    "english": "championship"
+    "word": "majstrovstvá",
+    "translation": "championship"
   },
   {
-    "slovak": "tréner",
-    "english": "coach"
+    "word": "tréner",
+    "translation": "coach"
   },
   {
-    "slovak": "súťaž",
-    "english": "competition"
+    "word": "súťaž",
+    "translation": "competition"
   },
   {
-    "slovak": "kurt",
-    "english": "court"
+    "word": "kurt",
+    "translation": "court"
   },
   {
-    "slovak": "doping",
-    "english": "doping"
+    "word": "doping",
+    "translation": "doping"
   },
   {
-    "slovak": "losovať",
-    "english": "draw"
+    "word": "losovať",
+    "translation": "draw"
   },
   {
-    "slovak": "test na drogy",
-    "english": "drug test"
+    "word": "test na drogy",
+    "translation": "drug test"
   },
   {
-    "slovak": "fanúšik",
-    "english": "fan"
+    "word": "fanúšik",
+    "translation": "fan"
   },
   {
-    "slovak": "pole",
-    "english": "field"
+    "word": "pole",
+    "translation": "field"
   },
   {
-    "slovak": "ihrisko",
-    "english": "field"
+    "word": "ihrisko",
+    "translation": "field"
   },
   {
-    "slovak": "hra",
-    "english": "game"
+    "word": "hra",
+    "translation": "game"
   },
   {
-    "slovak": "bránka",
-    "english": "goal"
+    "word": "bránka",
+    "translation": "goal"
   },
   {
-    "slovak": "brankár",
-    "english": "goalkeeper"
+    "word": "brankár",
+    "translation": "goalkeeper"
   },
   {
-    "slovak": "telocvičňa",
-    "english": "gym",
+    "word": "telocvičňa",
+    "translation": "gym",
     "synonyms": {
-      "english": ["gymnasium"]
+      "translation": [
+        "gymnasium"
+      ]
     }
   },
   {
-    "slovak": "korčule",
-    "english": "ice skates"
+    "word": "korčule",
+    "translation": "ice skates"
   },
   {
-    "slovak": "sieť",
-    "english": "net"
+    "word": "sieť",
+    "translation": "net"
   },
   {
-    "slovak": "olympijské hry",
-    "english": "Olympic games"
+    "word": "olympijské hry",
+    "translation": "Olympic games"
   },
   {
-    "slovak": "ihrisko",
-    "english": "pitch"
+    "word": "ihrisko",
+    "translation": "pitch"
   },
   {
-    "slovak": "precvičovanie",
-    "english": "practice"
+    "word": "precvičovanie",
+    "translation": "practice"
   },
   {
-    "slovak": "cvičenie",
-    "english": "practice"
+    "word": "cvičenie",
+    "translation": "practice"
   },
   {
-    "slovak": "tréning",
-    "english": "practice"
+    "word": "tréning",
+    "translation": "practice"
   },
   {
-    "slovak": "cvičiť",
-    "english": "practise"
+    "word": "cvičiť",
+    "translation": "practise"
   },
   {
-    "slovak": "precvičovať",
-    "english": "practise"
+    "word": "precvičovať",
+    "translation": "practise"
   },
   {
-    "slovak": "trénovať",
-    "english": "practise"
+    "word": "trénovať",
+    "translation": "practise"
   },
   {
-    "slovak": "profesionálny",
-    "english": "professional"
+    "word": "profesionálny",
+    "translation": "professional"
   },
   {
-    "slovak": "raketa",
-    "english": "racket"
+    "word": "raketa",
+    "translation": "racket"
   },
   {
-    "slovak": "rozhodca",
-    "english": "referee"
+    "word": "rozhodca",
+    "translation": "referee"
   },
   {
-    "slovak": "klzisko",
-    "english": "rink"
+    "word": "klzisko",
+    "translation": "rink"
   },
   {
-    "slovak": "stav",
-    "english": "score"
+    "word": "stav",
+    "translation": "score"
   },
   {
-    "slovak": "lyžiarsky svah",
-    "english": "ski slope"
+    "word": "lyžiarsky svah",
+    "translation": "ski slope"
   },
   {
-    "slovak": "divák",
-    "english": "spectator"
+    "word": "divák",
+    "translation": "spectator"
   },
   {
-    "slovak": "športová výstroj",
-    "english": "sports equipment"
+    "word": "športová výstroj",
+    "translation": "sports equipment"
   },
   {
-    "slovak": "športovisko",
-    "english": "sports facilities"
+    "word": "športovisko",
+    "translation": "sports facilities"
   },
   {
-    "slovak": "štadión",
-    "english": "stadium"
+    "word": "štadión",
+    "translation": "stadium"
   },
   {
-    "slovak": "hokejka",
-    "english": "stick"
+    "word": "hokejka",
+    "translation": "stick"
   },
   {
-    "slovak": "prívrženec",
-    "english": "supporter"
+    "word": "prívrženec",
+    "translation": "supporter"
   },
   {
-    "slovak": "priaznivec",
-    "english": "supporter"
+    "word": "priaznivec",
+    "translation": "supporter"
   },
   {
-    "slovak": "tímový šport",
-    "english": "team sport"
+    "word": "tímový šport",
+    "translation": "team sport"
   },
   {
-    "slovak": "turnaj",
-    "english": "tournament"
+    "word": "turnaj",
+    "translation": "tournament"
   },
   {
-    "slovak": "trať",
-    "english": "track"
+    "word": "trať",
+    "translation": "track"
   },
   {
-    "slovak": "tepláková súprava",
-    "english": "tracksuit"
+    "word": "tepláková súprava",
+    "translation": "tracksuit"
   },
   {
-    "slovak": "trénovať",
-    "english": "train"
+    "word": "trénovať",
+    "translation": "train"
   },
   {
-    "slovak": "stať sa profesionálom",
-    "english": "turn professional"
+    "word": "stať sa profesionálom",
+    "translation": "turn professional"
   },
   {
-    "slovak": "rozhodca",
-    "english": "umpire"
+    "word": "rozhodca",
+    "translation": "umpire"
   },
   {
-    "slovak": "rozhodovať",
-    "english": "umpire"
+    "word": "rozhodovať",
+    "translation": "umpire"
   },
   {
-    "slovak": "vyriešiť",
-    "english": "work out"
+    "word": "vyriešiť",
+    "translation": "work out"
   },
   {
-    "slovak": "robiť aerobik",
-    "english": "do aerobics"
+    "word": "robiť aerobik",
+    "translation": "do aerobics"
   },
   {
-    "slovak": "robiť skok do výšky",
-    "english": "do high jump"
+    "word": "robiť skok do výšky",
+    "translation": "do high jump"
   },
   {
-    "slovak": "robiť skok do diaľky",
-    "english": "do long jump"
+    "word": "robiť skok do diaľky",
+    "translation": "do long jump"
   },
   {
-    "slovak": "robiť džudo",
-    "english": "do judo"
+    "word": "robiť džudo",
+    "translation": "do judo"
   },
   {
-    "slovak": "chodiť jazdiť",
-    "english": "go riding"
+    "word": "chodiť jazdiť",
+    "translation": "go riding"
   },
   {
-    "slovak": "chodiť lyžovať",
-    "english": "go skiing"
+    "word": "chodiť lyžovať",
+    "translation": "go skiing"
   },
   {
-    "slovak": "chodiť plávať",
-    "english": "go swimming"
+    "word": "chodiť plávať",
+    "translation": "go swimming"
   },
   {
-    "slovak": "prehrať",
-    "english": "lose"
+    "word": "prehrať",
+    "translation": "lose"
   },
   {
-    "slovak": "hrať bridž",
-    "english": "play bridge"
+    "word": "hrať bridž",
+    "translation": "play bridge"
   },
   {
-    "slovak": "hrať futbal",
-    "english": "play football"
+    "word": "hrať futbal",
+    "translation": "play football"
   },
   {
-    "slovak": "hrať tenis",
-    "english": "play tennis"
+    "word": "hrať tenis",
+    "translation": "play tennis"
   },
   {
-    "slovak": "stanoviť rekord",
-    "english": "set a record"
+    "word": "stanoviť rekord",
+    "translation": "set a record"
   },
   {
-    "slovak": "prekonať rekord",
-    "english": "break a record"
+    "word": "prekonať rekord",
+    "translation": "break a record"
   },
   {
-    "slovak": "vyrovnať rekord",
-    "english": "equal a record"
+    "word": "vyrovnať rekord",
+    "translation": "equal a record"
   },
   {
-    "slovak": "streliť gól",
-    "english": "score a goal"
+    "word": "streliť gól",
+    "translation": "score a goal"
   },
   {
-    "slovak": "získať bod",
-    "english": "score a point"
+    "word": "získať bod",
+    "translation": "score a point"
   },
   {
-    "slovak": "hádzať diskom",
-    "english": "throw the discus"
+    "word": "hádzať diskom",
+    "translation": "throw the discus"
   },
   {
-    "slovak": "hádzať oštepom",
-    "english": "throw the javelin"
+    "word": "hádzať oštepom",
+    "translation": "throw the javelin"
   },
   {
-    "slovak": "hádzať kladivom",
-    "english": "throw the hammer"
+    "word": "hádzať kladivom",
+    "translation": "throw the hammer"
   },
   {
-    "slovak": "vyhrať",
-    "english": "win"
+    "word": "vyhrať",
+    "translation": "win"
   }
 ]

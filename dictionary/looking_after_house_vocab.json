@@ -1,102 +1,119 @@
 [
   {
-    "slovak": "zmeták",
-    "english": "broom",
+    "word": "zmeták",
+    "translation": "broom",
     "synonyms": {
-      "slovak": ["metla"]
+      "word": [
+        "metla"
+      ]
     }
   },
   {
-    "slovak": "vymeniť žiarovku",
-    "english": "change a lightbulb"
+    "word": "vymeniť žiarovku",
+    "translation": "change a lightbulb"
   },
   {
-    "slovak": "vyzdobiť",
-    "english": "decorate"
+    "word": "vyzdobiť",
+    "translation": "decorate"
   },
   {
-    "slovak": "urob si sám",
-    "english": "DIY",
+    "word": "urob si sám",
+    "translation": "DIY",
     "synonyms": {
-      "english": ["do it yourself"]
+      "translation": [
+        "do it yourself"
+      ]
     }
   },
   {
-    "slovak": "robiť domáce práce",
-    "english": "do housework"
+    "word": "robiť domáce práce",
+    "translation": "do housework"
   },
   {
-    "slovak": "upratovať dom",
-    "english": "do up a house",
+    "word": "upratovať dom",
+    "translation": "do up a house",
     "synonyms": {
-      "slovak": ["upratovať izbu"]
+      "word": [
+        "upratovať izbu"
+      ]
     }
   },
   {
-    "slovak": "lopatka na smeti",
-    "english": "dustpan"
+    "word": "lopatka na smeti",
+    "translation": "dustpan"
   },
   {
-    "slovak": "opraviť",
-    "english": "fix"
+    "word": "opraviť",
+    "translation": "fix"
   },
   {
-    "slovak": "inštalovať",
-    "english": "install",
+    "word": "inštalovať",
+    "translation": "install",
     "synonyms": {
-      "slovak": ["zaviesť"]
+      "word": [
+        "zaviesť"
+      ]
     }
   },
   {
-    "slovak": "trhlina",
-    "english": "leak",
+    "word": "trhlina",
+    "translation": "leak",
     "synonyms": {
-      "slovak": ["presakovať", "tiecť"]
+      "word": [
+        "presakovať",
+        "tiecť"
+      ]
     }
   },
   {
-    "slovak": "údržba",
-    "english": "maintenance"
+    "word": "údržba",
+    "translation": "maintenance"
   },
   {
-    "slovak": "opraviť",
-    "english": "mend"
+    "word": "opraviť",
+    "translation": "mend"
   },
   {
-    "slovak": "utrieť podlahu",
-    "english": "mop the floor"
+    "word": "utrieť podlahu",
+    "translation": "mop the floor"
   },
   {
-    "slovak": "náter",
-    "english": "paint",
+    "word": "náter",
+    "translation": "paint",
     "synonyms": {
-      "slovak": ["natierať"]
+      "word": [
+        "natierať"
+      ]
     }
   },
   {
-    "slovak": "vložiť niečo dovnútra",
-    "english": "put something in"
+    "word": "vložiť niečo dovnútra",
+    "translation": "put something in"
   },
   {
-    "slovak": "znova vymalovať",
-    "english": "redecorate",
+    "word": "znova vymalovať",
+    "translation": "redecorate",
     "synonyms": {
-      "slovak": ["vytapetovať"]
+      "word": [
+        "vytapetovať"
+      ]
     }
   },
   {
-    "slovak": "opraviť",
-    "english": "repair"
+    "word": "opraviť",
+    "translation": "repair"
   },
   {
-    "slovak": "obložiť",
-    "english": "tile",
+    "word": "obložiť",
+    "translation": "tile",
     "synonyms": {
-      "slovak": ["vydláždiť"]
+      "word": [
+        "vydláždiť"
+      ]
     }
   },
   {
-    "slovak": "vysávač",
-    "english": "vacuum cleaner"
+    "word": "vysávač",
+    "translation": "vacuum cleaner"
   }
 ]

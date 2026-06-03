@@ -1,58 +1,58 @@
 [
   {
-    "slovak": "asistent",
-    "english": "assistant"
+    "word": "asistent",
+    "translation": "assistant"
   },
   {
-    "slovak": "šéf",
-    "english": "boss"
+    "word": "šéf",
+    "translation": "boss"
   },
   {
-    "slovak": "vedúci",
-    "english": "boss"
+    "word": "vedúci",
+    "translation": "boss"
   },
   {
-    "slovak": "kolega",
-    "english": "colleague"
+    "word": "kolega",
+    "translation": "colleague"
   },
   {
-    "slovak": "zamestnanec",
-    "english": "employee"
+    "word": "zamestnanec",
+    "translation": "employee"
   },
   {
-    "slovak": "zamestnávateľ",
-    "english": "employer"
+    "word": "zamestnávateľ",
+    "translation": "employer"
   },
   {
-    "slovak": "vedúci oddelenia",
-    "english": "line manager"
+    "word": "vedúci oddelenia",
+    "translation": "line manager"
   },
   {
-    "slovak": "manažér",
-    "english": "manager"
+    "word": "manažér",
+    "translation": "manager"
   },
   {
-    "slovak": "riadiaci pracovník",
-    "english": "manager"
+    "word": "riadiaci pracovník",
+    "translation": "manager"
   },
   {
-    "slovak": "zamestnanci",
-    "english": "staff"
+    "word": "zamestnanci",
+    "translation": "staff"
   },
   {
-    "slovak": "personál",
-    "english": "staff"
+    "word": "personál",
+    "translation": "staff"
   },
   {
-    "slovak": "tím",
-    "english": "team"
+    "word": "tím",
+    "translation": "team"
   },
   {
-    "slovak": "pracovník",
-    "english": "worker"
+    "word": "pracovník",
+    "translation": "worker"
   },
   {
-    "slovak": "robotník",
-    "english": "worker"
+    "word": "robotník",
+    "translation": "worker"
   }
 ]

@@ -1,124 +1,136 @@
 [
   {
-    "slovak": "lietadlo",
-    "english": "aeroplane",
+    "word": "lietadlo",
+    "translation": "aeroplane",
     "synonyms": {
-      "english": ["airplane"]
+      "translation": [
+        "airplane"
+      ]
     }
   },
   {
-    "slovak": "lietadlo",
-    "english": "aircraft"
+    "word": "lietadlo",
+    "translation": "aircraft"
   },
   {
-    "slovak": "bicykel",
-    "english": "bicycle",
+    "word": "bicykel",
+    "translation": "bicycle",
     "synonyms": {
-      "english": ["bike"]
+      "translation": [
+        "bike"
+      ]
     }
   },
   {
-    "slovak": "loď",
-    "english": "boat"
+    "word": "loď",
+    "translation": "boat"
   },
   {
-    "slovak": "loďka",
-    "english": "boat"
+    "word": "loďka",
+    "translation": "boat"
   },
   {
-    "slovak": "autobus",
-    "english": "bus"
+    "word": "autobus",
+    "translation": "bus"
   },
   {
-    "slovak": "auto",
-    "english": "car"
+    "word": "auto",
+    "translation": "car"
   },
   {
-    "slovak": "autobus",
-    "english": "coach"
+    "word": "autobus",
+    "translation": "coach"
   },
   {
-    "slovak": "poschodový autobus",
-    "english": "double-decker bus"
+    "word": "poschodový autobus",
+    "translation": "double-decker bus"
   },
   {
-    "slovak": "prievoz",
-    "english": "ferry"
+    "word": "prievoz",
+    "translation": "ferry"
   },
   {
-    "slovak": "trajekt",
-    "english": "ferry"
+    "word": "trajekt",
+    "translation": "ferry"
   },
   {
-    "slovak": "linkové dopravné lietadlo",
-    "english": "liner"
+    "word": "linkové dopravné lietadlo",
+    "translation": "liner"
   },
   {
-    "slovak": "pravidelný zaoceánsky parník",
-    "english": "liner"
+    "word": "pravidelný zaoceánsky parník",
+    "translation": "liner"
   },
   {
-    "slovak": "nákladný automobil",
-    "english": "lorry",
+    "word": "nákladný automobil",
+    "translation": "lorry",
     "synonyms": {
-      "english": ["truck"]
+      "translation": [
+        "truck"
+      ]
     }
   },
   {
-    "slovak": "minibus",
-    "english": "minibus"
+    "word": "minibus",
+    "translation": "minibus"
   },
   {
-    "slovak": "motorka",
-    "english": "motorbike"
+    "word": "motorka",
+    "translation": "motorbike"
   },
   {
-    "slovak": "motocykel",
-    "english": "motorcycle"
+    "word": "motocykel",
+    "translation": "motorcycle"
   },
   {
-    "slovak": "pešo",
-    "english": "on foot"
+    "word": "pešo",
+    "translation": "on foot"
   },
   {
-    "slovak": "taxi",
-    "english": "taxi",
+    "word": "taxi",
+    "translation": "taxi",
     "synonyms": {
-      "english": ["cab"]
+      "translation": [
+        "cab"
+      ]
     }
   },
   {
-    "slovak": "vlak",
-    "english": "train"
+    "word": "vlak",
+    "translation": "train"
   },
   {
-    "slovak": "metro",
-    "english": "tube"
+    "word": "metro",
+    "translation": "tube"
   },
   {
-    "slovak": "podzemná dráha",
-    "english": "underground",
+    "word": "podzemná dráha",
+    "translation": "underground",
     "synonyms": {
-      "english": ["subway"]
+      "translation": [
+        "subway"
+      ]
     }
   },
   {
-    "slovak": "metro",
-    "english": "underground",
+    "word": "metro",
+    "translation": "underground",
     "synonyms": {
-      "english": ["subway"]
+      "translation": [
+        "subway"
+      ]
     }
   },
   {
-    "slovak": "dodávka",
-    "english": "van"
+    "word": "dodávka",
+    "translation": "van"
   },
   {
-    "slovak": "nákladné auto",
-    "english": "van"
+    "word": "nákladné auto",
+    "translation": "van"
   },
   {
-    "slovak": "jachta",
-    "english": "yacht"
+    "word": "jachta",
+    "translation": "yacht"
   }
 ]

@@ -1,98 +1,98 @@
 [
   {
-    "slovak": "byť v cudzine",
-    "english": "be abroad"
+    "word": "byť v cudzine",
+    "translation": "be abroad"
   },
   {
-    "slovak": "ísť do zahraničí",
-    "english": "go abroad"
+    "word": "ísť do zahraničí",
+    "translation": "go abroad"
   },
   {
-    "slovak": "cestovať do zahraničí",
-    "english": "travel abroad"
+    "word": "cestovať do zahraničí",
+    "translation": "travel abroad"
   },
   {
-    "slovak": "letiskový poplatok",
-    "english": "airport tax"
+    "word": "letiskový poplatok",
+    "translation": "airport tax"
   },
   {
-    "slovak": "prekročiť hranicu",
-    "english": "cross the border"
+    "word": "prekročiť hranicu",
+    "translation": "cross the border"
   },
   {
-    "slovak": "colnica",
-    "english": "customs"
+    "word": "colnica",
+    "translation": "customs"
   },
   {
-    "slovak": "colná prehliadka",
-    "english": "customs"
+    "word": "colná prehliadka",
+    "translation": "customs"
   },
   {
-    "slovak": "colník",
-    "english": "customs officer"
+    "word": "colník",
+    "translation": "customs officer"
   },
   {
-    "slovak": "nepodliehajúce clu",
-    "english": "duty-free"
+    "word": "nepodliehajúce clu",
+    "translation": "duty-free"
   },
   {
-    "slovak": "zmenáreň",
-    "english": "exchange office"
+    "word": "zmenáreň",
+    "translation": "exchange office"
   },
   {
-    "slovak": "po dobe platnosti",
-    "english": "expired"
+    "word": "po dobe platnosti",
+    "translation": "expired"
   },
   {
-    "slovak": "zahraničná mena",
-    "english": "foreign currency"
+    "word": "zahraničná mena",
+    "translation": "foreign currency"
   },
   {
-    "slovak": "zelená karta",
-    "english": "green card"
+    "word": "zelená karta",
+    "translation": "green card"
   },
   {
-    "slovak": "imigračný úradník",
-    "english": "immigration officer"
+    "word": "imigračný úradník",
+    "translation": "immigration officer"
   },
   {
-    "slovak": "neplatný",
-    "english": "invalid"
+    "word": "neplatný",
+    "translation": "invalid"
   },
   {
-    "slovak": "pasová kontrola",
-    "english": "passport control"
+    "word": "pasová kontrola",
+    "translation": "passport control"
   },
   {
-    "slovak": "trvalé vízum",
-    "english": "permanent visa"
+    "word": "trvalé vízum",
+    "translation": "permanent visa"
   },
   {
-    "slovak": "predĺžiť pas",
-    "english": "renew a passport"
+    "word": "predĺžiť pas",
+    "translation": "renew a passport"
   },
   {
-    "slovak": "rezident",
-    "english": "resident"
+    "word": "rezident",
+    "translation": "resident"
   },
   {
-    "slovak": "osoba s trvalým bydliskom",
-    "english": "resident"
+    "word": "osoba s trvalým bydliskom",
+    "translation": "resident"
   },
   {
-    "slovak": "bezpečnostná kontrola",
-    "english": "security check"
+    "word": "bezpečnostná kontrola",
+    "translation": "security check"
   },
   {
-    "slovak": "turistické vízum",
-    "english": "tourist visa"
+    "word": "turistické vízum",
+    "translation": "tourist visa"
   },
   {
-    "slovak": "platný",
-    "english": "valid"
+    "word": "platný",
+    "translation": "valid"
   },
   {
-    "slovak": "vízum",
-    "english": "visa"
+    "word": "vízum",
+    "translation": "visa"
   }
 ]

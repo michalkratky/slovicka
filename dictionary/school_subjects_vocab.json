@@ -1,110 +1,127 @@
 [
   {
-    "slovak": "výtvarná výchova",
-    "english": "Art"
+    "word": "výtvarná výchova",
+    "translation": "Art"
   },
   {
-    "slovak": "biológia",
-    "english": "Biology"
+    "word": "biológia",
+    "translation": "Biology"
   },
   {
-    "slovak": "obchodné podnikanie",
-    "english": "Business Studies"
+    "word": "obchodné podnikanie",
+    "translation": "Business Studies"
   },
   {
-    "slovak": "chémia",
-    "english": "Chemistry"
+    "word": "chémia",
+    "translation": "Chemistry"
   },
   {
-    "slovak": "výpočtová technika",
-    "english": "Computer Studies",
+    "word": "výpočtová technika",
+    "translation": "Computer Studies",
     "synonyms": {
-      "english": ["IT", "Information Technology"]
+      "translation": [
+        "IT",
+        "Information Technology"
+      ]
     }
   },
   {
-    "slovak": "povinný",
-    "english": "compulsory"
+    "word": "povinný",
+    "translation": "compulsory"
   },
   {
-    "slovak": "študijný plán",
-    "english": "curriculum",
+    "word": "študijný plán",
+    "translation": "curriculum",
     "synonyms": {
-      "slovak": ["osnovy"]
+      "word": [
+        "osnovy"
+      ]
     }
   },
   {
-    "slovak": "mimoškolské aktivity",
-    "english": "extracurricular activities",
+    "word": "mimoškolské aktivity",
+    "translation": "extracurricular activities",
     "synonyms": {
-      "slovak": ["nepovinné predmety"]
+      "word": [
+        "nepovinné predmety"
+      ]
     }
   },
   {
-    "slovak": "cudzie jazyky",
-    "english": "foreign languages"
+    "word": "cudzie jazyky",
+    "translation": "foreign languages"
   },
   {
-    "slovak": "zemepis",
-    "english": "Geography"
+    "word": "zemepis",
+    "translation": "Geography"
   },
   {
-    "slovak": "gramatika",
-    "english": "Grammar",
+    "word": "gramatika",
+    "translation": "Grammar",
     "synonyms": {
-      "english": ["Linguistics"]
+      "translation": [
+        "Linguistics"
+      ]
     }
   },
   {
-    "slovak": "humanitné predmety",
-    "english": "Humanities",
+    "word": "humanitné predmety",
+    "translation": "Humanities",
     "synonyms": {
-      "slovak": ["humanitné vedy"]
+      "word": [
+        "humanitné vedy"
+      ]
     }
   },
   {
-    "slovak": "dejepis",
-    "english": "History"
+    "word": "dejepis",
+    "translation": "History"
   },
   {
-    "slovak": "literatúra",
-    "english": "Literature"
+    "word": "literatúra",
+    "translation": "Literature"
   },
   {
-    "slovak": "matematika",
-    "english": "Mathematics",
+    "word": "matematika",
+    "translation": "Mathematics",
     "synonyms": {
-      "english": ["Maths"]
+      "translation": [
+        "Maths"
+      ]
     }
   },
   {
-    "slovak": "hudobná výchova",
-    "english": "Music"
+    "word": "hudobná výchova",
+    "translation": "Music"
   },
   {
-    "slovak": "voliteľný",
-    "english": "optional"
+    "word": "voliteľný",
+    "translation": "optional"
   },
   {
-    "slovak": "telesná výchova",
-    "english": "Physical Education",
+    "word": "telesná výchova",
+    "translation": "Physical Education",
     "synonyms": {
-      "english": ["PE"]
+      "translation": [
+        "PE"
+      ]
     }
   },
   {
-    "slovak": "fyzika",
-    "english": "Physics"
+    "word": "fyzika",
+    "translation": "Physics"
   },
   {
-    "slovak": "náboženská výchova",
-    "english": "Religious Education",
+    "word": "náboženská výchova",
+    "translation": "Religious Education",
     "synonyms": {
-      "slovak": ["morálna výchova"]
+      "word": [
+        "morálna výchova"
+      ]
     }
   },
   {
-    "slovak": "prírodné vedy",
-    "english": "Sciences"
+    "word": "prírodné vedy",
+    "translation": "Sciences"
   }
 ]

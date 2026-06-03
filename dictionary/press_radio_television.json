@@ -1,328 +1,341 @@
 [
   {
-    "slovak": "inzeráty v novinách v špeciálnej rubrike",
-    "english": "classified advertisement",
+    "word": "inzeráty v novinách v špeciálnej rubrike",
+    "translation": "classified advertisement",
     "synonyms": {
-      "english": ["classified advert", "classified ad"]
+      "translation": [
+        "classified advert",
+        "classified ad"
+      ]
     }
   },
   {
-    "slovak": "článok",
-    "english": "article"
+    "word": "článok",
+    "translation": "article"
   },
   {
-    "slovak": "televízia",
-    "english": "the box"
+    "word": "televízia",
+    "translation": "the box"
   },
   {
-    "slovak": "telka",
-    "english": "the box"
+    "word": "telka",
+    "translation": "the box"
   },
   {
-    "slovak": "vysielať",
-    "english": "broadcast"
+    "word": "vysielať",
+    "translation": "broadcast"
   },
   {
-    "slovak": "noviny veľkého formátu",
-    "english": "broadsheet"
+    "word": "noviny veľkého formátu",
+    "translation": "broadsheet"
   },
   {
-    "slovak": "káblová televízia",
-    "english": "cable TV"
+    "word": "káblová televízia",
+    "translation": "cable TV"
   },
   {
-    "slovak": "kreslený film",
-    "english": "animated cartoon"
+    "word": "kreslený film",
+    "translation": "animated cartoon"
   },
   {
-    "slovak": "kreslený seriál v novinách",
-    "english": "cartoon strip"
+    "word": "kreslený seriál v novinách",
+    "translation": "cartoon strip"
   },
   {
-    "slovak": "náklad",
-    "english": "circulation"
+    "word": "náklad",
+    "translation": "circulation"
   },
   {
-    "slovak": "stĺpec",
-    "english": "column"
+    "word": "stĺpec",
+    "translation": "column"
   },
   {
-    "slovak": "redaktor rubriky",
-    "english": "columnist"
+    "word": "redaktor rubriky",
+    "translation": "columnist"
   },
   {
-    "slovak": "fejtonista",
-    "english": "columnist"
+    "word": "fejtonista",
+    "translation": "columnist"
   },
   {
-    "slovak": "humoristický seriál v novinách",
-    "english": "comic strip"
+    "word": "humoristický seriál v novinách",
+    "translation": "comic strip"
   },
   {
-    "slovak": "výtlačok",
-    "english": "copy"
+    "word": "výtlačok",
+    "translation": "copy"
   },
   {
-    "slovak": "číslo",
-    "english": "copy"
+    "word": "číslo",
+    "translation": "copy"
   },
   {
-    "slovak": "denník",
-    "english": "daily paper"
+    "word": "denník",
+    "translation": "daily paper"
   },
   {
-    "slovak": "vydanie",
-    "english": "edition"
+    "word": "vydanie",
+    "translation": "edition"
   },
   {
-    "slovak": "vydavateľ",
-    "english": "editor"
+    "word": "vydavateľ",
+    "translation": "editor"
   },
   {
-    "slovak": "redaktor",
-    "english": "editor"
+    "word": "redaktor",
+    "translation": "editor"
   },
   {
-    "slovak": "úvodník",
-    "english": "editorial"
+    "word": "úvodník",
+    "translation": "editorial"
   },
   {
-    "slovak": "komentár v novinách",
-    "english": "editorial"
+    "word": "komentár v novinách",
+    "translation": "editorial"
   },
   {
-    "slovak": "epizóda",
-    "english": "episode"
+    "word": "epizóda",
+    "translation": "episode"
   },
   {
-    "slovak": "diel",
-    "english": "episode"
+    "word": "diel",
+    "translation": "episode"
   },
   {
-    "slovak": "časopis na kriedovom papieri",
-    "english": "glossy magazine"
+    "word": "časopis na kriedovom papieri",
+    "translation": "glossy magazine"
   },
   {
-    "slovak": "časopis na lesklom papieri",
-    "english": "glossy magazine"
+    "word": "časopis na lesklom papieri",
+    "translation": "glossy magazine"
   },
   {
-    "slovak": "rozhovor",
-    "english": "interview"
+    "word": "rozhovor",
+    "translation": "interview"
   },
   {
-    "slovak": "vydanie",
-    "english": "issue"
+    "word": "vydanie",
+    "translation": "issue"
   },
   {
-    "slovak": "novinár",
-    "english": "journalist"
+    "word": "novinár",
+    "translation": "journalist"
   },
   {
-    "slovak": "list vydavateľovi",
-    "english": "letter to the editor"
+    "word": "list vydavateľovi",
+    "translation": "letter to the editor"
   },
   {
-    "slovak": "list od čitateľa",
-    "english": "letter to the editor"
+    "word": "list od čitateľa",
+    "translation": "letter to the editor"
   },
   {
-    "slovak": "živé vysielanie",
-    "english": "live broadcast"
+    "word": "živé vysielanie",
+    "translation": "live broadcast"
   },
   {
-    "slovak": "lokálna tlač",
-    "english": "local press"
+    "word": "lokálna tlač",
+    "translation": "local press"
   },
   {
-    "slovak": "časopis",
-    "english": "magazine"
+    "word": "časopis",
+    "translation": "magazine"
   },
   {
-    "slovak": "mesačník",
-    "english": "monthly magazine"
+    "word": "mesačník",
+    "translation": "monthly magazine"
   },
   {
-    "slovak": "celoštátna tlač",
-    "english": "national press"
+    "word": "celoštátna tlač",
+    "translation": "national press"
   },
   {
-    "slovak": "trafika",
-    "english": "newsagent's"
+    "word": "trafika",
+    "translation": "newsagent's"
   },
   {
-    "slovak": "novinový stánok",
-    "english": "newsagent's"
+    "word": "novinový stánok",
+    "translation": "newsagent's"
   },
   {
-    "slovak": "noviny",
-    "english": "newspaper",
+    "word": "noviny",
+    "translation": "newspaper",
     "synonyms": {
-      "english": ["paper"]
+      "translation": [
+        "paper"
+      ]
     }
   },
   {
-    "slovak": "nekrológ",
-    "english": "obituary"
+    "word": "nekrológ",
+    "translation": "obituary"
   },
   {
-    "slovak": "periodikum",
-    "english": "periodical"
+    "word": "periodikum",
+    "translation": "periodical"
   },
   {
-    "slovak": "časopis",
-    "english": "periodical"
+    "word": "časopis",
+    "translation": "periodical"
   },
   {
-    "slovak": "magazín",
-    "english": "periodical"
+    "word": "magazín",
+    "translation": "periodical"
   },
   {
-    "slovak": "konferencier",
-    "english": "presenter"
+    "word": "konferencier",
+    "translation": "presenter"
   },
   {
-    "slovak": "moderátor",
-    "english": "presenter"
+    "word": "moderátor",
+    "translation": "presenter"
   },
   {
-    "slovak": "výstrižok z novín",
-    "english": "press cutting"
+    "word": "výstrižok z novín",
+    "translation": "press cutting"
   },
   {
-    "slovak": "štvrťročník",
-    "english": "quarterly magazine"
+    "word": "štvrťročník",
+    "translation": "quarterly magazine"
   },
   {
-    "slovak": "štvrťročník",
-    "english": "quarterly periodical"
+    "word": "štvrťročník",
+    "translation": "quarterly periodical"
   },
   {
-    "slovak": "kvíz",
-    "english": "quiz"
+    "word": "kvíz",
+    "translation": "quiz"
   },
   {
-    "slovak": "súťaž",
-    "english": "quiz"
+    "word": "súťaž",
+    "translation": "quiz"
   },
   {
-    "slovak": "reality šou",
-    "english": "reality TV show"
+    "word": "reality šou",
+    "translation": "reality TV show"
   },
   {
-    "slovak": "diaľkové ovládanie",
-    "english": "remote control"
+    "word": "diaľkové ovládanie",
+    "translation": "remote control"
   },
   {
-    "slovak": "správa",
-    "english": "report"
+    "word": "správa",
+    "translation": "report"
   },
   {
-    "slovak": "reportáž",
-    "english": "report"
+    "word": "reportáž",
+    "translation": "report"
   },
   {
-    "slovak": "reportér",
-    "english": "reporter"
+    "word": "reportér",
+    "translation": "reporter"
   },
   {
-    "slovak": "satelitná televízia",
-    "english": "satellite TV"
+    "word": "satelitná televízia",
+    "translation": "satellite TV"
   },
   {
-    "slovak": "obrazovka",
-    "english": "screen"
+    "word": "obrazovka",
+    "translation": "screen"
   },
   {
-    "slovak": "seriál",
-    "english": "serial"
+    "word": "seriál",
+    "translation": "serial"
   },
   {
-    "slovak": "seriál",
-    "english": "series"
+    "word": "seriál",
+    "translation": "series"
   },
   {
-    "slovak": "šoubiznis",
-    "english": "show business",
+    "word": "šoubiznis",
+    "translation": "show business",
     "synonyms": {
-      "english": ["showbiz"]
+      "translation": [
+        "showbiz"
+      ]
     }
   },
   {
-    "slovak": "zábavný priemysel",
-    "english": "show business",
+    "word": "zábavný priemysel",
+    "translation": "show business",
     "synonyms": {
-      "english": ["showbiz"]
+      "translation": [
+        "showbiz"
+      ]
     }
   },
   {
-    "slovak": "sitkom",
-    "english": "sitcom",
+    "word": "sitkom",
+    "translation": "sitcom",
     "synonyms": {
-      "english": ["situation comedy"]
+      "translation": [
+        "situation comedy"
+      ]
     }
   },
   {
-    "slovak": "situačná komédia",
-    "english": "sitcom",
+    "word": "situačná komédia",
+    "translation": "sitcom",
     "synonyms": {
-      "english": ["situation comedy"]
+      "translation": [
+        "situation comedy"
+      ]
     }
   },
   {
-    "slovak": "televízny seriál zo života",
-    "english": "soap opera"
+    "word": "televízny seriál zo života",
+    "translation": "soap opera"
   },
   {
-    "slovak": "rozhlasový seriál zo života",
-    "english": "soap opera"
+    "word": "rozhlasový seriál zo života",
+    "translation": "soap opera"
   },
   {
-    "slovak": "predplatiť",
-    "english": "subscribe"
+    "word": "predplatiť",
+    "translation": "subscribe"
   },
   {
-    "slovak": "predplatiteľ",
-    "english": "subscriber"
+    "word": "predplatiteľ",
+    "translation": "subscriber"
   },
   {
-    "slovak": "bulvár",
-    "english": "tabloid"
+    "word": "bulvár",
+    "translation": "tabloid"
   },
   {
-    "slovak": "talkshow",
-    "english": "talk show"
+    "word": "talkshow",
+    "translation": "talk show"
   },
   {
-    "slovak": "moderátor talkshow",
-    "english": "talk show host"
+    "word": "moderátor talkshow",
+    "translation": "talk show host"
   },
   {
-    "slovak": "televízor",
-    "english": "television"
+    "word": "televízor",
+    "translation": "television"
   },
   {
-    "slovak": "telka",
-    "english": "telly"
+    "word": "telka",
+    "translation": "telly"
   },
   {
-    "slovak": "televízia",
-    "english": "TV"
+    "word": "televízia",
+    "translation": "TV"
   },
   {
-    "slovak": "televízna stanica",
-    "english": "TV channel"
+    "word": "televízna stanica",
+    "translation": "TV channel"
   },
   {
-    "slovak": "televízne štúdio",
-    "english": "TV studio"
+    "word": "televízne štúdio",
+    "translation": "TV studio"
   },
   {
-    "slovak": "divák",
-    "english": "viewer"
+    "word": "divák",
+    "translation": "viewer"
   },
   {
-    "slovak": "týždenník",
-    "english": "weekly magazine"
+    "word": "týždenník",
+    "translation": "weekly magazine"
   }
 ]

@@ -1,79 +1,85 @@
 [
   {
-    "slovak": "vek",
-    "english": "age"
+    "word": "vek",
+    "translation": "age"
   },
   {
-    "slovak": "občan",
-    "english": "citizen"
+    "word": "občan",
+    "translation": "citizen"
   },
   {
-    "slovak": "občianstvo",
-    "english": "citizenship"
+    "word": "občianstvo",
+    "translation": "citizenship"
   },
   {
-    "slovak": "dátum narodenia",
-    "english": "date of birth"
+    "word": "dátum narodenia",
+    "translation": "date of birth"
   },
   {
-    "slovak": "žena",
-    "english": "female"
+    "word": "žena",
+    "translation": "female"
   },
   {
-    "slovak": "pohlavie",
-    "english": "gender"
+    "word": "pohlavie",
+    "translation": "gender"
   },
   {
-    "slovak": "zamestnanie",
-    "english": "job"
+    "word": "zamestnanie",
+    "translation": "job"
   },
   {
-    "slovak": "zamestnanie",
-    "english": "occupation"
+    "word": "zamestnanie",
+    "translation": "occupation"
   },
   {
-    "slovak": "muž",
-    "english": "male"
+    "word": "muž",
+    "translation": "male"
   },
   {
-    "slovak": "muž",
-    "english": "man",
+    "word": "muž",
+    "translation": "man",
     "synonyms": {
-      "slovak": ["muži"]
+      "word": [
+        "muži"
+      ]
     }
   },
   {
-    "slovak": "národnosť",
-    "english": "nationality"
+    "word": "národnosť",
+    "translation": "nationality"
   },
   {
-    "slovak": "ľudia",
-    "english": "people"
+    "word": "ľudia",
+    "translation": "people"
   },
   {
-    "slovak": "osoba",
-    "english": "person"
+    "word": "osoba",
+    "translation": "person"
   },
   {
-    "slovak": "miesto narodenia",
-    "english": "place of birth"
+    "word": "miesto narodenia",
+    "translation": "place of birth"
   },
   {
-    "slovak": "profesia",
-    "english": "profession",
+    "word": "profesia",
+    "translation": "profession",
     "synonyms": {
-      "slovak": ["povolanie"]
+      "word": [
+        "povolanie"
+      ]
     }
   },
   {
-    "slovak": "pohlavie",
-    "english": "sex"
+    "word": "pohlavie",
+    "translation": "sex"
   },
   {
-    "slovak": "žena",
-    "english": "woman",
+    "word": "žena",
+    "translation": "woman",
     "synonyms": {
-      "slovak": ["ženy"]
+      "word": [
+        "ženy"
+      ]
     }
   }
 ]

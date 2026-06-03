@@ -1,170 +1,191 @@
 [
   {
-    "slovak": "brechať",
-    "english": "bark"
+    "word": "brechať",
+    "translation": "bark"
   },
   {
-    "slovak": "netopier",
-    "english": "bat"
+    "word": "netopier",
+    "translation": "bat"
   },
   {
-    "slovak": "misa",
-    "english": "bowl",
+    "word": "misa",
+    "translation": "bowl",
     "synonyms": {
-      "slovak": ["miska"]
+      "word": [
+        "miska"
+      ]
     }
   },
   {
-    "slovak": "klietka",
-    "english": "cage"
+    "word": "klietka",
+    "translation": "cage"
   },
   {
-    "slovak": "kanárik",
-    "english": "canary"
+    "word": "kanárik",
+    "translation": "canary"
   },
   {
-    "slovak": "mačacia klapka",
-    "english": "cat flap"
+    "word": "mačacia klapka",
+    "translation": "cat flap"
   },
   {
-    "slovak": "pazúr",
-    "english": "claw"
+    "word": "pazúr",
+    "translation": "claw"
   },
   {
-    "slovak": "srsť",
-    "english": "coat",
+    "word": "srsť",
+    "translation": "coat",
     "synonyms": {
-      "slovak": ["kožuch"]
+      "word": [
+        "kožuch"
+      ]
     }
   },
   {
-    "slovak": "obojok",
-    "english": "collar"
+    "word": "obojok",
+    "translation": "collar"
   },
   {
-    "slovak": "potrava pre mačky",
-    "english": "cat food",
+    "word": "potrava pre mačky",
+    "translation": "cat food",
     "synonyms": {
-      "slovak": ["potrava pre psy", "potrava pre ryby"]
+      "word": [
+        "potrava pre psy",
+        "potrava pre ryby"
+      ]
     }
   },
   {
-    "slovak": "srsť",
-    "english": "fur"
+    "word": "srsť",
+    "translation": "fur"
   },
   {
-    "slovak": "zlatá rybka",
-    "english": "goldfish"
+    "word": "zlatá rybka",
+    "translation": "goldfish"
   },
   {
-    "slovak": "morča",
-    "english": "guinea pig"
+    "word": "morča",
+    "translation": "guinea pig"
   },
   {
-    "slovak": "škrečok",
-    "english": "hamster"
+    "word": "škrečok",
+    "translation": "hamster"
   },
   {
-    "slovak": "privyknutý domácemu režimu",
-    "english": "house-trained"
+    "word": "privyknutý domácemu režimu",
+    "translation": "house-trained"
   },
   {
-    "slovak": "chovať",
-    "english": "keep",
+    "word": "chovať",
+    "translation": "keep",
     "synonyms": {
-      "slovak": ["mať domáce zviera"]
+      "word": [
+        "mať domáce zviera"
+      ]
     }
   },
   {
-    "slovak": "psia búda",
-    "english": "kennel"
+    "word": "psia búda",
+    "translation": "kennel"
   },
   {
-    "slovak": "mačiatko",
-    "english": "kitten"
+    "word": "mačiatko",
+    "translation": "kitten"
   },
   {
-    "slovak": "vodidlo",
-    "english": "lead"
+    "word": "vodidlo",
+    "translation": "lead"
   },
   {
-    "slovak": "remienok na psa",
-    "english": "leash"
+    "word": "remienok na psa",
+    "translation": "leash"
   },
   {
-    "slovak": "postarať sa",
-    "english": "look after"
+    "word": "postarať sa",
+    "translation": "look after"
   },
   {
-    "slovak": "ňufák",
-    "english": "muzzle",
+    "word": "ňufák",
+    "translation": "muzzle",
     "synonyms": {
-      "slovak": ["rypák"]
+      "word": [
+        "rypák"
+      ]
     }
   },
   {
-    "slovak": "packa",
-    "english": "paw",
+    "word": "packa",
+    "translation": "paw",
     "synonyms": {
-      "slovak": ["laba"]
+      "word": [
+        "laba"
+      ]
     }
   },
   {
-    "slovak": "čistokrvný",
-    "english": "pedigree"
+    "word": "čistokrvný",
+    "translation": "pedigree"
   },
   {
-    "slovak": "obchod s domácimi zvieratami",
-    "english": "pet shop"
+    "word": "obchod s domácimi zvieratami",
+    "translation": "pet shop"
   },
   {
-    "slovak": "šteňa",
-    "english": "puppy",
+    "word": "šteňa",
+    "translation": "puppy",
     "synonyms": {
-      "slovak": ["šteniatko"]
+      "word": [
+        "šteniatko"
+      ]
     }
   },
   {
-    "slovak": "priasť",
-    "english": "purr"
+    "word": "priasť",
+    "translation": "purr"
   },
   {
-    "slovak": "králik",
-    "english": "rabbit"
+    "word": "králik",
+    "translation": "rabbit"
   },
   {
-    "slovak": "potkan",
-    "english": "rat"
+    "word": "potkan",
+    "translation": "rat"
   },
   {
-    "slovak": "had",
-    "english": "snake"
+    "word": "had",
+    "translation": "snake"
   },
   {
-    "slovak": "pohladiť",
-    "english": "stroke"
+    "word": "pohladiť",
+    "translation": "stroke"
   },
   {
-    "slovak": "morská korytnačka",
-    "english": "turtle"
+    "word": "morská korytnačka",
+    "translation": "turtle"
   },
   {
-    "slovak": "veterinár",
-    "english": "vet",
+    "word": "veterinár",
+    "translation": "vet",
     "synonyms": {
-      "slovak": ["zverolekár"],
-      "english": ["veterinary surgeon"]
+      "word": [
+        "zverolekár"
+      ],
+      "translation": [
+        "veterinary surgeon"
+      ]
     }
   },
   {
-    "slovak": "vrtieť chvostom",
-    "english": "wag a tail"
+    "word": "vrtieť chvostom",
+    "translation": "wag a tail"
   },
   {
-    "slovak": "skučať",
-    "english": "whine",
+    "word": "skučať",
+    "translation": "whine",
     "synonyms": {
-      "slovak": ["kňučať"]
+      "word": [
+        "kňučať"
+      ]
     }
   }
 ]

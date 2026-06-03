@@ -1,120 +1,134 @@
 [
   {
-    "slovak": "hlavné mesto",
-    "english": "capital city"
+    "word": "hlavné mesto",
+    "translation": "capital city"
   },
   {
-    "slovak": "veľkomesto",
-    "english": "city"
+    "word": "veľkomesto",
+    "translation": "city"
   },
   {
-    "slovak": "krajina",
-    "english": "countryside",
+    "word": "krajina",
+    "translation": "countryside",
     "synonyms": {
-      "slovak": ["okolie"]
+      "word": [
+        "okolie"
+      ]
     }
   },
   {
-    "slovak": "vidiek",
-    "english": "the country"
+    "word": "vidiek",
+    "translation": "the country"
   },
   {
-    "slovak": "grófstvo",
-    "english": "county"
+    "word": "grófstvo",
+    "translation": "county"
   },
   {
-    "slovak": "okres",
-    "english": "district"
+    "word": "okres",
+    "translation": "district"
   },
   {
-    "slovak": "poľnohospodárska pôda",
-    "english": "farmland"
+    "word": "poľnohospodárska pôda",
+    "translation": "farmland"
   },
   {
-    "slovak": "dedina",
-    "english": "hamlet",
+    "word": "dedina",
+    "translation": "hamlet",
     "synonyms": {
-      "slovak": ["osada"]
+      "word": [
+        "osada"
+      ]
     }
   },
   {
-    "slovak": "rodné mesto",
-    "english": "home town",
+    "word": "rodné mesto",
+    "translation": "home town",
     "synonyms": {
-      "slovak": ["rodisko"]
+      "word": [
+        "rodisko"
+      ]
     }
   },
   {
-    "slovak": "priemyselná zóna",
-    "english": "industrial zone"
+    "word": "priemyselná zóna",
+    "translation": "industrial zone"
   },
   {
-    "slovak": "obyvateľ",
-    "english": "inhabitant"
+    "word": "obyvateľ",
+    "translation": "inhabitant"
   },
   {
-    "slovak": "na vidieku",
-    "english": "in the country"
+    "word": "na vidieku",
+    "translation": "in the country"
   },
   {
-    "slovak": "vedľajší sused",
-    "english": "next-door neighbour"
+    "word": "vedľajší sused",
+    "translation": "next-door neighbour"
   },
   {
-    "slovak": "susedstvo",
-    "english": "neighbourhood"
+    "word": "susedstvo",
+    "translation": "neighbourhood"
   },
   {
-    "slovak": "staré mesto",
-    "english": "old town"
+    "word": "staré mesto",
+    "translation": "old town"
   },
   {
-    "slovak": "predmestie",
-    "english": "outskirts",
+    "word": "predmestie",
+    "translation": "outskirts",
     "synonyms": {
-      "slovak": ["periféria"]
+      "word": [
+        "periféria"
+      ]
     }
   },
   {
-    "slovak": "provinčný",
-    "english": "provincial"
+    "word": "provinčný",
+    "translation": "provincial"
   },
   {
-    "slovak": "vzdialený",
-    "english": "remote"
+    "word": "vzdialený",
+    "translation": "remote"
   },
   {
-    "slovak": "letovisko",
-    "english": "holiday resort"
+    "word": "letovisko",
+    "translation": "holiday resort"
   },
   {
-    "slovak": "vidiecky",
-    "english": "rural",
+    "word": "vidiecky",
+    "translation": "rural",
     "synonyms": {
-      "slovak": ["poľnohospodársky", "dedinský"]
+      "word": [
+        "poľnohospodársky",
+        "dedinský"
+      ]
     }
   },
   {
-    "slovak": "chudobná štvrť",
-    "english": "slums"
+    "word": "chudobná štvrť",
+    "translation": "slums"
   },
   {
-    "slovak": "predmestie",
-    "english": "suburbs"
+    "word": "predmestie",
+    "translation": "suburbs"
   },
   {
-    "slovak": "mesto",
-    "english": "town",
+    "word": "mesto",
+    "translation": "town",
     "synonyms": {
-      "slovak": ["centrum", "stred mesta"]
+      "word": [
+        "centrum",
+        "stred mesta"
+      ]
     }
   },
   {
-    "slovak": "mestský",
-    "english": "urban"
+    "word": "mestský",
+    "translation": "urban"
   },
   {
-    "slovak": "dedina",
-    "english": "village"
+    "word": "dedina",
+    "translation": "village"
   }
 ]

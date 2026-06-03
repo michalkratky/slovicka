@@ -54,7 +54,16 @@ const PreferencesMixin = {
       const savedAI = localStorage.getItem("englishApp_enableAIValidation");
 
       if (savedStats) this.sessionStats = JSON.parse(savedStats);
-      if (savedDirs) this.translationDirections = JSON.parse(savedDirs);
+      if (savedDirs) {
+        const dirs = JSON.parse(savedDirs);
+        if ("slovakToEnglish" in dirs) {
+          dirs.wordToTranslation = dirs.slovakToEnglish;
+          dirs.translationToWord = dirs.englishToSlovak;
+          delete dirs.slovakToEnglish;
+          delete dirs.englishToSlovak;
+        }
+        this.translationDirections = dirs;
+      }
       if (savedAI) {
         try { this.enableAIValidation = JSON.parse(savedAI) === true; }
         catch { /* ignore parse error */ }
@@ -129,9 +138,9 @@ const PreferencesMixin = {
             name: "Default Words",
             enabled: true,
             words: [
-              { slovak: "dom", english: "house" },
-              { slovak: "auto", english: "car" },
-              { slovak: "voda", english: "water" },
+              { word: "dom", translation: "house" },
+              { word: "auto", translation: "car" },
+              { word: "voda", translation: "water" },
             ],
           };
         }
@@ -144,9 +153,9 @@ const PreferencesMixin = {
             name: "Default Words",
             enabled: true,
             words: [
-              { slovak: "dom", english: "house" },
-              { slovak: "auto", english: "car" },
-              { slovak: "voda", english: "water" },
+              { word: "dom", translation: "house" },
+              { word: "auto", translation: "car" },
+              { word: "voda", translation: "water" },
             ],
           },
         };

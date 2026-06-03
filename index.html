@@ -195,20 +195,20 @@
                     <label>
                         <input
                                 type="checkbox"
-                                v-model="translationDirections.slovakToEnglish"
+                                v-model="translationDirections.wordToTranslation"
                                 @change="onDirectionChange"
                         />
-                        <span>Slovenčina → Angličtina</span>
+                        <span>{{ currentDbConfig?.directions?.['word-translation']?.from }} → {{ currentDbConfig?.directions?.['word-translation']?.to }}</span>
                     </label>
                 </div>
                 <div class="option-item">
                     <label>
                         <input
                                 type="checkbox"
-                                v-model="translationDirections.englishToSlovak"
+                                v-model="translationDirections.translationToWord"
                                 @change="onDirectionChange"
                         />
-                        <span>Angličtina → Slovenčina</span>
+                        <span>{{ currentDbConfig?.directions?.['translation-word']?.from }} → {{ currentDbConfig?.directions?.['translation-word']?.to }}</span>
                     </label>
                 </div>
             </div>
@@ -285,10 +285,10 @@
 
                     <!-- Add word form -->
                     <div v-if="showAddWordForm" class="word-form">
-                        <input v-model="newWord.slovak" placeholder="Slovensky" @keyup.enter="saveNewWord" />
-                        <input v-model="newWord.english" placeholder="English" @keyup.enter="saveNewWord" />
-                        <input v-model="newWord.synonymsSlovak" placeholder="Synonymá SK (čiarkou)" class="full-width" />
-                        <input v-model="newWord.synonymsEnglish" placeholder="Synonyms EN (comma-separated)" class="full-width" />
+                        <input v-model="newWord.word" :placeholder="currentDbConfig?.labels?.word || 'Word'" @keyup.enter="saveNewWord" />
+                        <input v-model="newWord.translation" :placeholder="currentDbConfig?.labels?.translation || 'Translation'" @keyup.enter="saveNewWord" />
+                        <input v-model="newWord.synonymsWord" :placeholder="'Synonymá ' + (currentDbConfig?.labels?.word || '') + ' (čiarkou)'" class="full-width" />
+                        <input v-model="newWord.synonymsTranslation" :placeholder="'Synonyms ' + (currentDbConfig?.labels?.translation || '') + ' (comma-separated)'" class="full-width" />
                         <div class="word-form-actions full-width">
                             <button @click="saveNewWord" class="btn btn-primary btn-sm">Uložiť</button>
                             <button @click="showAddWordForm = false" class="btn btn-secondary btn-sm">Zrušiť</button>
@@ -301,8 +301,8 @@
                             <thead>
                                 <tr>
                                     <th class="col-select"><input type="checkbox" @change="$event.target.checked ? selectAll() : deselectAll()" :checked="selectedWordIds.length === selectedGroupWords.length && selectedGroupWords.length > 0" /></th>
-                                    <th>Slovensky</th>
-                                    <th>English</th>
+                                    <th>{{ currentDbConfig?.labels?.word || 'Word' }}</th>
+                                    <th>{{ currentDbConfig?.labels?.translation || 'Translation' }}</th>
                                     <th class="col-actions"></th>
                                 </tr>
                             </thead>
@@ -318,8 +318,8 @@
                                         <td class="col-select">
                                             <input type="checkbox" :checked="isWordSelected(word.id)" @change="toggleWordSelection(word.id)" @click.stop />
                                         </td>
-                                        <td>{{ word.slovak }}</td>
-                                        <td>{{ word.english }}</td>
+                                        <td>{{ word.word }}</td>
+                                        <td>{{ word.translation }}</td>
                                         <td class="col-actions word-actions">
                                             <button @click.stop="startEditWord(word)" class="btn-icon" title="Upraviť">&#9998;</button>
                                             <button @click.stop="deleteSingleWord(word.id)" class="btn-icon btn-icon-danger" title="Odstrániť">&times;</button>
@@ -329,8 +329,8 @@
                                     <!-- Inline edit row -->
                                     <template v-else>
                                         <td class="col-select"></td>
-                                        <td><input v-model="editWord.slovak" class="inline-edit" @keyup.enter="saveEditWord" @keyup.esc="cancelEditWord" /></td>
-                                        <td><input v-model="editWord.english" class="inline-edit" @keyup.enter="saveEditWord" @keyup.esc="cancelEditWord" /></td>
+                                        <td><input v-model="editWord.word" class="inline-edit" @keyup.enter="saveEditWord" @keyup.esc="cancelEditWord" /></td>
+                                        <td><input v-model="editWord.translation" class="inline-edit" @keyup.enter="saveEditWord" @keyup.esc="cancelEditWord" /></td>
                                         <td class="col-actions word-actions">
                                             <button @click.stop="saveEditWord" class="btn-icon" title="Uložiť">&#10003;</button>
                                             <button @click.stop="cancelEditWord" class="btn-icon" title="Zrušiť">&times;</button>
@@ -448,8 +448,8 @@
                 <div v-for="(stats, index) in displayStats" v-bind:key="index" class="stats-item">
                     <div v-if="stats.correct_count > 0 || stats.incorrect_count > 0">
                         <div class="stats-word">
-                            <span><strong>{{ stats.english }}</strong> / <strong>{{ stats.slovak }}</strong></span><br/>
-                            <span class="stats-direction">({{ stats.direction === 'sk-en' ? 'SK→EN' : 'EN→SK' }})</span>
+                            <span><strong>{{ stats.translation }}</strong> / <strong>{{ stats.word }}</strong></span><br/>
+                            <span class="stats-direction">({{ stats.direction === 'word-translation' ? (currentDbConfig?.labels?.word || 'Word') + '→' + (currentDbConfig?.labels?.translation || 'Translation') : (currentDbConfig?.labels?.translation || 'Translation') + '→' + (currentDbConfig?.labels?.word || 'Word') }})</span>
                         </div>
                         <div class="stats-details">
                             <div class="stats-counts">

@@ -1,60 +1,68 @@
 [
   {
-    "slovak": "stiesnený",
-    "english": "cramped"
+    "word": "stiesnený",
+    "translation": "cramped"
   },
   {
-    "slovak": "plne vybavený",
-    "english": "fully equipped"
+    "word": "plne vybavený",
+    "translation": "fully equipped"
   },
   {
-    "slovak": "plne zariadený",
-    "english": "fully furnished"
+    "word": "plne zariadený",
+    "translation": "fully furnished"
   },
   {
-    "slovak": "v dobrom stave",
-    "english": "in good condition",
+    "word": "v dobrom stave",
+    "translation": "in good condition",
     "synonyms": {
-      "slovak": ["v zlom stave"]
+      "word": [
+        "v zlom stave"
+      ]
     }
   },
   {
-    "slovak": "čiastočne zariadený",
-    "english": "part-furnished"
+    "word": "čiastočne zariadený",
+    "translation": "part-furnished"
   },
   {
-    "slovak": "priestorný",
-    "english": "roomy"
+    "word": "priestorný",
+    "translation": "roomy"
   },
   {
-    "slovak": "schátralý",
-    "english": "run-down",
+    "word": "schátralý",
+    "translation": "run-down",
     "synonyms": {
-      "slovak": ["rozpadnutý"]
+      "word": [
+        "rozpadnutý"
+      ]
     }
   },
   {
-    "slovak": "priestorný",
-    "english": "spacious"
+    "word": "priestorný",
+    "translation": "spacious"
   },
   {
-    "slovak": "malý",
-    "english": "tiny"
+    "word": "malý",
+    "translation": "tiny"
   },
   {
-    "slovak": "nezariadený",
-    "english": "unfurnished"
+    "word": "nezariadený",
+    "translation": "unfurnished"
   },
   {
-    "slovak": "dobre udržiavaný",
-    "english": "well maintained"
+    "word": "dobre udržiavaný",
+    "translation": "well maintained"
   },
   {
-    "slovak": "s moderným príslušenstvom",
-    "english": "with all modern conveniences",
+    "word": "s moderným príslušenstvom",
+    "translation": "with all modern conveniences",
     "synonyms": {
-      "slovak": ["s plným komfortom"],
-      "english": ["mod cons"]
+      "word": [
+        "s plným komfortom"
+      ],
+      "translation": [
+        "mod cons"
+      ]
     }
   }
 ]

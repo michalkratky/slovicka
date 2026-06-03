@@ -1,368 +1,372 @@
 [
   {
-    "slovak": "akčný dobrodružný príbeh",
-    "english": "action adventure"
+    "word": "akčný dobrodružný príbeh",
+    "translation": "action adventure"
   },
   {
-    "slovak": "akčný film",
-    "english": "action film",
+    "word": "akčný film",
+    "translation": "action film",
     "synonyms": {
-      "english": ["action movie"]
+      "translation": [
+        "action movie"
+      ]
     }
   },
   {
-    "slovak": "adaptácia",
-    "english": "adaptation"
+    "word": "adaptácia",
+    "translation": "adaptation"
   },
   {
-    "slovak": "prepracovanie",
-    "english": "adaptation"
+    "word": "prepracovanie",
+    "translation": "adaptation"
   },
   {
-    "slovak": "animácia",
-    "english": "animation"
+    "word": "animácia",
+    "translation": "animation"
   },
   {
-    "slovak": "publikum",
-    "english": "audience"
+    "word": "publikum",
+    "translation": "audience"
   },
   {
-    "slovak": "bestseller",
-    "english": "bestseller"
+    "word": "bestseller",
+    "translation": "bestseller"
   },
   {
-    "slovak": "senzácia",
-    "english": "blockbuster"
+    "word": "senzácia",
+    "translation": "blockbuster"
   },
   {
-    "slovak": "trhák",
-    "english": "blockbuster"
+    "word": "trhák",
+    "translation": "blockbuster"
   },
   {
-    "slovak": "pokladňa",
-    "english": "box office"
+    "word": "pokladňa",
+    "translation": "box office"
   },
   {
-    "slovak": "animovaný film",
-    "english": "cartoon"
+    "word": "animovaný film",
+    "translation": "cartoon"
   },
   {
-    "slovak": "kreslený film",
-    "english": "cartoon"
+    "word": "kreslený film",
+    "translation": "cartoon"
   },
   {
-    "slovak": "obsadenie",
-    "english": "cast"
+    "word": "obsadenie",
+    "translation": "cast"
   },
   {
-    "slovak": "postava",
-    "english": "character"
+    "word": "postava",
+    "translation": "character"
   },
   {
-    "slovak": "kino",
-    "english": "cinema"
+    "word": "kino",
+    "translation": "cinema"
   },
   {
-    "slovak": "komédia",
-    "english": "comedy"
+    "word": "komédia",
+    "translation": "comedy"
   },
   {
-    "slovak": "konflikt",
-    "english": "conflict"
+    "word": "konflikt",
+    "translation": "conflict"
   },
   {
-    "slovak": "stret",
-    "english": "conflict"
+    "word": "stret",
+    "translation": "conflict"
   },
   {
-    "slovak": "kritik",
-    "english": "critic"
+    "word": "kritik",
+    "translation": "critic"
   },
   {
-    "slovak": "detektívny príbeh",
-    "english": "detective story"
+    "word": "detektívny príbeh",
+    "translation": "detective story"
   },
   {
-    "slovak": "režírovať",
-    "english": "direct"
+    "word": "režírovať",
+    "translation": "direct"
   },
   {
-    "slovak": "režisér",
-    "english": "director"
+    "word": "režisér",
+    "translation": "director"
   },
   {
-    "slovak": "katastrofický film",
-    "english": "disaster movie"
+    "word": "katastrofický film",
+    "translation": "disaster movie"
   },
   {
-    "slovak": "dokumentárny film",
-    "english": "documentary"
+    "word": "dokumentárny film",
+    "translation": "documentary"
   },
   {
-    "slovak": "dráma",
-    "english": "drama"
+    "word": "dráma",
+    "translation": "drama"
   },
   {
-    "slovak": "dabovať",
-    "english": "dub"
+    "word": "dabovať",
+    "translation": "dub"
   },
   {
-    "slovak": "nadabovať",
-    "english": "dub"
+    "word": "nadabovať",
+    "translation": "dub"
   },
   {
-    "slovak": "dabing",
-    "english": "dubbing"
+    "word": "dabing",
+    "translation": "dubbing"
   },
   {
-    "slovak": "celovečerný film",
-    "english": "feature film"
+    "word": "celovečerný film",
+    "translation": "feature film"
   },
   {
-    "slovak": "fikcia",
-    "english": "fiction"
+    "word": "fikcia",
+    "translation": "fiction"
   },
   {
-    "slovak": "beletria",
-    "english": "fiction"
+    "word": "beletria",
+    "translation": "fiction"
   },
   {
-    "slovak": "hrať vo filme",
-    "english": "act in a film"
+    "word": "hrať vo filme",
+    "translation": "act in a film"
   },
   {
-    "slovak": "hrať vo filme",
-    "english": "play in a film"
+    "word": "hrať vo filme",
+    "translation": "play in a film"
   },
   {
-    "slovak": "hrať vo filme",
-    "english": "star in a film"
+    "word": "hrať vo filme",
+    "translation": "star in a film"
   },
   {
-    "slovak": "hrať vo filme",
-    "english": "feature in a film"
+    "word": "hrať vo filme",
+    "translation": "feature in a film"
   },
   {
-    "slovak": "film natočený podľa",
-    "english": "film based on"
+    "word": "film natočený podľa",
+    "translation": "film based on"
   },
   {
-    "slovak": "prepadák",
-    "english": "flop"
+    "word": "prepadák",
+    "translation": "flop"
   },
   {
-    "slovak": "fiasko",
-    "english": "flop"
+    "word": "fiasko",
+    "translation": "flop"
   },
   {
-    "slovak": "horor",
-    "english": "horror"
+    "word": "horor",
+    "translation": "horror"
   },
   {
-    "slovak": "prestávka",
-    "english": "interval"
+    "word": "prestávka",
+    "translation": "interval"
   },
   {
-    "slovak": "hlavná úloha",
-    "english": "leading role"
+    "word": "hlavná úloha",
+    "translation": "leading role"
   },
   {
-    "slovak": "literárny",
-    "english": "literary"
+    "word": "literárny",
+    "translation": "literary"
   },
   {
-    "slovak": "literárna kritika",
-    "english": "literary criticism"
+    "word": "literárna kritika",
+    "translation": "literary criticism"
   },
   {
-    "slovak": "milostný príbeh",
-    "english": "love story"
+    "word": "milostný príbeh",
+    "translation": "love story"
   },
   {
-    "slovak": "muzikál",
-    "english": "musical"
+    "word": "muzikál",
+    "translation": "musical"
   },
   {
-    "slovak": "literatúra faktu",
-    "english": "non-fiction"
+    "word": "literatúra faktu",
+    "translation": "non-fiction"
   },
   {
-    "slovak": "román",
-    "english": "novel"
+    "word": "román",
+    "translation": "novel"
   },
   {
-    "slovak": "románopisec",
-    "english": "novelist"
+    "word": "románopisec",
+    "translation": "novelist"
   },
   {
-    "slovak": "účinkujúci",
-    "english": "performer"
+    "word": "účinkujúci",
+    "translation": "performer"
   },
   {
-    "slovak": "umelec",
-    "english": "performer"
+    "word": "umelec",
+    "translation": "performer"
   },
   {
-    "slovak": "predstaviteľ",
-    "english": "performer"
+    "word": "predstaviteľ",
+    "translation": "performer"
   },
   {
-    "slovak": "predstavenie",
-    "english": "performance"
+    "word": "predstavenie",
+    "translation": "performance"
   },
   {
-    "slovak": "hra",
-    "english": "play"
+    "word": "hra",
+    "translation": "play"
   },
   {
-    "slovak": "dramatik",
-    "english": "playwright"
+    "word": "dramatik",
+    "translation": "playwright"
   },
   {
-    "slovak": "dej",
-    "english": "plot"
+    "word": "dej",
+    "translation": "plot"
   },
   {
-    "slovak": "báseň",
-    "english": "poem"
+    "word": "báseň",
+    "translation": "poem"
   },
   {
-    "slovak": "básnik",
-    "english": "poet"
+    "word": "básnik",
+    "translation": "poet"
   },
   {
-    "slovak": "poézia",
-    "english": "poetry"
+    "word": "poézia",
+    "translation": "poetry"
   },
   {
-    "slovak": "protagonista",
-    "english": "protagonist"
+    "word": "protagonista",
+    "translation": "protagonist"
   },
   {
-    "slovak": "hlavný predstaviteľ",
-    "english": "protagonist"
+    "word": "hlavný predstaviteľ",
+    "translation": "protagonist"
   },
   {
-    "slovak": "hlavná postava",
-    "english": "protagonist"
+    "word": "hlavná postava",
+    "translation": "protagonist"
   },
   {
-    "slovak": "hlavný hrdina",
-    "english": "protagonist"
+    "word": "hlavný hrdina",
+    "translation": "protagonist"
   },
   {
-    "slovak": "rozriešenie",
-    "english": "resolution"
+    "word": "rozriešenie",
+    "translation": "resolution"
   },
   {
-    "slovak": "kritika",
-    "english": "review"
+    "word": "kritika",
+    "translation": "review"
   },
   {
-    "slovak": "recenzia",
-    "english": "review"
+    "word": "recenzia",
+    "translation": "review"
   },
   {
-    "slovak": "kritik",
-    "english": "reviewer"
+    "word": "kritik",
+    "translation": "reviewer"
   },
   {
-    "slovak": "recenzent",
-    "english": "reviewer"
+    "word": "recenzent",
+    "translation": "reviewer"
   },
   {
-    "slovak": "romantická komédia",
-    "english": "romantic comedy"
+    "word": "romantická komédia",
+    "translation": "romantic comedy"
   },
   {
-    "slovak": "vedeckofantastický film",
-    "english": "sci-fi film",
+    "word": "vedeckofantastický film",
+    "translation": "sci-fi film",
     "synonyms": {
-      "english": ["science fiction film"]
+      "translation": [
+        "science fiction film"
+      ]
     }
   },
   {
-    "slovak": "filmový technický scenár",
-    "english": "screenplay"
+    "word": "filmový technický scenár",
+    "translation": "screenplay"
   },
   {
-    "slovak": "voľné pokračovanie filmu",
-    "english": "sequel"
+    "word": "voľné pokračovanie filmu",
+    "translation": "sequel"
   },
   {
-    "slovak": "scéna",
-    "english": "set"
+    "word": "scéna",
+    "translation": "set"
   },
   {
-    "slovak": "výprava",
-    "english": "set"
+    "word": "výprava",
+    "translation": "set"
   },
   {
-    "slovak": "odohrávať sa",
-    "english": "be set"
+    "word": "odohrávať sa",
+    "translation": "be set"
   },
   {
-    "slovak": "poviedka",
-    "english": "short story"
+    "word": "poviedka",
+    "translation": "short story"
   },
   {
-    "slovak": "zábavné predstavenie",
-    "english": "show"
+    "word": "zábavné predstavenie",
+    "translation": "show"
   },
   {
-    "slovak": "zvukový záznam s piesňami z filmu",
-    "english": "soundtrack"
+    "word": "zvukový záznam s piesňami z filmu",
+    "translation": "soundtrack"
   },
   {
-    "slovak": "zvláštne efekty",
-    "english": "special effects"
+    "word": "zvláštne efekty",
+    "translation": "special effects"
   },
   {
-    "slovak": "divák",
-    "english": "spectator"
+    "word": "divák",
+    "translation": "spectator"
   },
   {
-    "slovak": "pódium",
-    "english": "stage"
+    "word": "pódium",
+    "translation": "stage"
   },
   {
-    "slovak": "javisko",
-    "english": "stage"
+    "word": "javisko",
+    "translation": "stage"
   },
   {
-    "slovak": "kaskadér",
-    "english": "stuntman"
+    "word": "kaskadér",
+    "translation": "stuntman"
   },
   {
-    "slovak": "titulky",
-    "english": "subtitles"
+    "word": "titulky",
+    "translation": "subtitles"
   },
   {
-    "slovak": "vedľajšia úloha",
-    "english": "supporting role"
+    "word": "vedľajšia úloha",
+    "translation": "supporting role"
   },
   {
-    "slovak": "vedľajšia postava",
-    "english": "supporting character"
+    "word": "vedľajšia postava",
+    "translation": "supporting character"
   },
   {
-    "slovak": "vedľajší herec",
-    "english": "supporting actor"
+    "word": "vedľajší herec",
+    "translation": "supporting actor"
   },
   {
-    "slovak": "téma",
-    "english": "theme"
+    "word": "téma",
+    "translation": "theme"
   },
   {
-    "slovak": "napínavé dielo",
-    "english": "thriller"
+    "word": "napínavé dielo",
+    "translation": "thriller"
   },
   {
-    "slovak": "western",
-    "english": "western"
+    "word": "western",
+    "translation": "western"
   },
   {
-    "slovak": "kovbojka",
-    "english": "western"
+    "word": "kovbojka",
+    "translation": "western"
   }
 ]

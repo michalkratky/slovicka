@@ -1,262 +1,262 @@
 [
   {
-    "slovak": "archeológ",
-    "english": "archaeologist"
+    "word": "archeológ",
+    "translation": "archaeologist"
   },
   {
-    "slovak": "archeológia",
-    "english": "archaeology"
+    "word": "archeológia",
+    "translation": "archaeology"
   },
   {
-    "slovak": "oblasť výskumu",
-    "english": "area of research"
+    "word": "oblasť výskumu",
+    "translation": "area of research"
   },
   {
-    "slovak": "biológ",
-    "english": "biologist"
+    "word": "biológ",
+    "translation": "biologist"
   },
   {
-    "slovak": "biológia",
-    "english": "biology"
+    "word": "biológia",
+    "translation": "biology"
   },
   {
-    "slovak": "chemik",
-    "english": "chemist"
+    "word": "chemik",
+    "translation": "chemist"
   },
   {
-    "slovak": "chémia",
-    "english": "chemistry"
+    "word": "chémia",
+    "translation": "chemistry"
   },
   {
-    "slovak": "informatika",
-    "english": "computer science"
+    "word": "informatika",
+    "translation": "computer science"
   },
   {
-    "slovak": "vykonávať výskum",
-    "english": "conduct research"
+    "word": "vykonávať výskum",
+    "translation": "conduct research"
   },
   {
-    "slovak": "vývoj",
-    "english": "development"
+    "word": "vývoj",
+    "translation": "development"
   },
   {
-    "slovak": "objaviť",
-    "english": "discover"
+    "word": "objaviť",
+    "translation": "discover"
   },
   {
-    "slovak": "objaviteľ",
-    "english": "discoverer"
+    "word": "objaviteľ",
+    "translation": "discoverer"
   },
   {
-    "slovak": "urobiť objav",
-    "english": "make a discovery"
+    "word": "urobiť objav",
+    "translation": "make a discovery"
   },
   {
-    "slovak": "objav",
-    "english": "discovery"
+    "word": "objav",
+    "translation": "discovery"
   },
   {
-    "slovak": "technik",
-    "english": "engineer"
+    "word": "technik",
+    "translation": "engineer"
   },
   {
-    "slovak": "inžinierstvo",
-    "english": "engineering"
+    "word": "inžinierstvo",
+    "translation": "engineering"
   },
   {
-    "slovak": "strojníctvo",
-    "english": "engineering"
+    "word": "strojníctvo",
+    "translation": "engineering"
   },
   {
-    "slovak": "vykonávať experiment",
-    "english": "carry out an experiment"
+    "word": "vykonávať experiment",
+    "translation": "carry out an experiment"
   },
   {
-    "slovak": "vykonávať experiment",
-    "english": "conduct an experiment"
+    "word": "vykonávať experiment",
+    "translation": "conduct an experiment"
   },
   {
-    "slovak": "vykonávať experiment",
-    "english": "do an experiment"
+    "word": "vykonávať experiment",
+    "translation": "do an experiment"
   },
   {
-    "slovak": "vykonávať experiment",
-    "english": "perform an experiment"
+    "word": "vykonávať experiment",
+    "translation": "perform an experiment"
   },
   {
-    "slovak": "experiment",
-    "english": "experiment"
+    "word": "experiment",
+    "translation": "experiment"
   },
   {
-    "slovak": "chemický vzorec",
-    "english": "chemical formula"
+    "word": "chemický vzorec",
+    "translation": "chemical formula"
   },
   {
-    "slovak": "matematický vzorec",
-    "english": "mathematical formula"
+    "word": "matematický vzorec",
+    "translation": "mathematical formula"
   },
   {
-    "slovak": "vedecký vzorec",
-    "english": "scientific formula"
+    "word": "vedecký vzorec",
+    "translation": "scientific formula"
   },
   {
-    "slovak": "genetik",
-    "english": "geneticist"
+    "word": "genetik",
+    "translation": "geneticist"
   },
   {
-    "slovak": "genetika",
-    "english": "genetics"
+    "word": "genetika",
+    "translation": "genetics"
   },
   {
-    "slovak": "geológ",
-    "english": "geologist"
+    "word": "geológ",
+    "translation": "geologist"
   },
   {
-    "slovak": "geológia",
-    "english": "geology"
+    "word": "geológia",
+    "translation": "geology"
   },
   {
-    "slovak": "vynájsť",
-    "english": "invent"
+    "word": "vynájsť",
+    "translation": "invent"
   },
   {
-    "slovak": "vynález",
-    "english": "invention"
+    "word": "vynález",
+    "translation": "invention"
   },
   {
-    "slovak": "vynálezca",
-    "english": "inventor"
+    "word": "vynálezca",
+    "translation": "inventor"
   },
   {
-    "slovak": "vyšetrovať",
-    "english": "investigate"
+    "word": "vyšetrovať",
+    "translation": "investigate"
   },
   {
-    "slovak": "lingvista",
-    "english": "linguist"
+    "word": "lingvista",
+    "translation": "linguist"
   },
   {
-    "slovak": "lingvistika",
-    "english": "linguistics"
+    "word": "lingvistika",
+    "translation": "linguistics"
   },
   {
-    "slovak": "matematik",
-    "english": "mathematician"
+    "word": "matematik",
+    "translation": "mathematician"
   },
   {
-    "slovak": "matematika",
-    "english": "mathematics"
+    "word": "matematika",
+    "translation": "mathematics"
   },
   {
-    "slovak": "patentovať vynález",
-    "english": "patent an invention"
+    "word": "patentovať vynález",
+    "translation": "patent an invention"
   },
   {
-    "slovak": "fyzik",
-    "english": "physicist"
+    "word": "fyzik",
+    "translation": "physicist"
   },
   {
-    "slovak": "fyzika",
-    "english": "physics"
+    "word": "fyzika",
+    "translation": "physics"
   },
   {
-    "slovak": "politológia",
-    "english": "political science"
+    "word": "politológia",
+    "translation": "political science"
   },
   {
-    "slovak": "psychológ",
-    "english": "psychologist"
+    "word": "psychológ",
+    "translation": "psychologist"
   },
   {
-    "slovak": "psychológia",
-    "english": "psychology"
+    "word": "psychológia",
+    "translation": "psychology"
   },
   {
-    "slovak": "robiť výskum",
-    "english": "carry out research"
+    "word": "robiť výskum",
+    "translation": "carry out research"
   },
   {
-    "slovak": "robiť výskum",
-    "english": "do research"
+    "word": "robiť výskum",
+    "translation": "do research"
   },
   {
-    "slovak": "robiť výskum",
-    "english": "conduct research"
+    "word": "robiť výskum",
+    "translation": "conduct research"
   },
   {
-    "slovak": "robiť výskum",
-    "english": "undertake research"
+    "word": "robiť výskum",
+    "translation": "undertake research"
   },
   {
-    "slovak": "výskum",
-    "english": "research"
+    "word": "výskum",
+    "translation": "research"
   },
   {
-    "slovak": "výskumník",
-    "english": "researcher"
+    "word": "výskumník",
+    "translation": "researcher"
   },
   {
-    "slovak": "bádateľ",
-    "english": "researcher"
+    "word": "bádateľ",
+    "translation": "researcher"
   },
   {
-    "slovak": "výskumný ústav",
-    "english": "research institute"
+    "word": "výskumný ústav",
+    "translation": "research institute"
   },
   {
-    "slovak": "výskumné laboratórium",
-    "english": "research laboratory"
+    "word": "výskumné laboratórium",
+    "translation": "research laboratory"
   },
   {
-    "slovak": "vedecký",
-    "english": "scientific"
+    "word": "vedecký",
+    "translation": "scientific"
   },
   {
-    "slovak": "vedecká teória",
-    "english": "scientific theory"
+    "word": "vedecká teória",
+    "translation": "scientific theory"
   },
   {
-    "slovak": "vedec",
-    "english": "scientist"
+    "word": "vedec",
+    "translation": "scientist"
   },
   {
-    "slovak": "sociológia",
-    "english": "social sciences"
+    "word": "sociológia",
+    "translation": "social sciences"
   },
   {
-    "slovak": "spoločenská veda",
-    "english": "social sciences"
+    "word": "spoločenská veda",
+    "translation": "social sciences"
   },
   {
-    "slovak": "sociológ",
-    "english": "sociologist"
+    "word": "sociológ",
+    "translation": "sociologist"
   },
   {
-    "slovak": "sociológia",
-    "english": "sociology"
+    "word": "sociológia",
+    "translation": "sociology"
   },
   {
-    "slovak": "špecializácia",
-    "english": "specialisation"
+    "word": "špecializácia",
+    "translation": "specialisation"
   },
   {
-    "slovak": "špecializovať sa na",
-    "english": "specialise in sth"
+    "word": "špecializovať sa na",
+    "translation": "specialise in sth"
   },
   {
-    "slovak": "štatistické údaje",
-    "english": "statistical data"
+    "word": "štatistické údaje",
+    "translation": "statistical data"
   },
   {
-    "slovak": "štatistika",
-    "english": "statistics"
+    "word": "štatistika",
+    "translation": "statistics"
   },
   {
-    "slovak": "študovať",
-    "english": "study"
+    "word": "študovať",
+    "translation": "study"
   },
   {
-    "slovak": "prieskum",
-    "english": "survey"
+    "word": "prieskum",
+    "translation": "survey"
   }
 ]

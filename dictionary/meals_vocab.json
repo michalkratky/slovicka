@@ -1,54 +1,54 @@
 [
   {
-    "slovak": "byť plný",
-    "english": "be full"
+    "word": "byť plný",
+    "translation": "be full"
   },
   {
-    "slovak": "mať hlad",
-    "english": "be hungry"
+    "word": "mať hlad",
+    "translation": "be hungry"
   },
   {
-    "slovak": "upratať zo stola",
-    "english": "clear the table"
+    "word": "upratať zo stola",
+    "translation": "clear the table"
   },
   {
-    "slovak": "chod",
-    "english": "course"
+    "word": "chod",
+    "translation": "course"
   },
   {
-    "slovak": "jesť mimo domova",
-    "english": "eat out"
+    "word": "jesť mimo domova",
+    "translation": "eat out"
   },
   {
-    "slovak": "porcia",
-    "english": "helping"
+    "word": "porcia",
+    "translation": "helping"
   },
   {
-    "slovak": "prestrieť stôl",
-    "english": "lay the table"
+    "word": "prestrieť stôl",
+    "translation": "lay the table"
   },
   {
-    "slovak": "jedlo",
-    "english": "meal"
+    "word": "jedlo",
+    "translation": "meal"
   },
   {
-    "slovak": "balíček s obedom",
-    "english": "packed lunch"
+    "word": "balíček s obedom",
+    "translation": "packed lunch"
   },
   {
-    "slovak": "piknik",
-    "english": "picnic"
+    "word": "piknik",
+    "translation": "picnic"
   },
   {
-    "slovak": "malé občerstvenie",
-    "english": "snack"
+    "word": "malé občerstvenie",
+    "translation": "snack"
   },
   {
-    "slovak": "olovrant",
-    "english": "tea"
+    "word": "olovrant",
+    "translation": "tea"
   },
   {
-    "slovak": "pracovný obed",
-    "english": "working lunch"
+    "word": "pracovný obed",
+    "translation": "working lunch"
   }
 ]

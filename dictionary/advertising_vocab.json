@@ -1,79 +1,31 @@
 [
+  {},
   {
-    "slovak": "robiť reklamu",
-    "english": "advertise"
+    "synonyms": {}
   },
   {
-    "slovak": "reklama",
-    "english": "advert",
-    "synonyms": {
-      "english": ["advertisement", "ad"]
-    }
+    "synonyms": {}
+  },
+  {},
+  {
+    "synonyms": {}
   },
   {
-    "slovak": "vývesná tabuľa",
-    "english": "billboard",
-    "synonyms": {
-      "slovak": ["plagátovacia plocha"]
-    }
+    "synonyms": {}
   },
   {
-    "slovak": "reklamná brožúra",
-    "english": "brochure"
+    "synonyms": {}
   },
   {
-    "slovak": "reklamná kampaň",
-    "english": "advertising campaign",
-    "synonyms": {
-      "slovak": ["marketingová kampaň"]
-    }
+    "synonyms": {}
   },
+  {},
   {
-    "slovak": "reklama v rádiu",
-    "english": "radio commercial",
-    "synonyms": {
-      "slovak": ["reklama v televízii"]
-    }
+    "synonyms": {}
   },
+  {},
   {
-    "slovak": "plagátovacia plocha",
-    "english": "hoarding",
-    "synonyms": {
-      "slovak": ["reklamná plocha"]
-    }
+    "synonyms": {}
   },
-  {
-    "slovak": "leták",
-    "english": "leaflet",
-    "synonyms": {
-      "slovak": ["prospekt"]
-    }
-  },
-  {
-    "slovak": "prieskum trhu",
-    "english": "market research"
-  },
-  {
-    "slovak": "dať reklamu do časopisu",
-    "english": "place an advertisement in a magazine",
-    "synonyms": {
-      "slovak": ["dať reklamu do novín"],
-      "english": ["put an advertisement in a newspaper"]
-    }
-  },
-  {
-    "slovak": "plagát",
-    "english": "poster"
-  },
-  {
-    "slovak": "propagácia",
-    "english": "publicity",
-    "synonyms": {
-      "slovak": ["inzercia"]
-    }
-  },
-  {
-    "slovak": "slogan",
-    "english": "slogan"
-  }
+  {}
 ]

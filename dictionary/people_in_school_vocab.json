@@ -1,80 +1,94 @@
 [
   {
-    "slovak": "spolužiak",
-    "english": "classmate"
+    "word": "spolužiak",
+    "translation": "classmate"
   },
   {
-    "slovak": "osobný učiteľ",
-    "english": "personal tutor",
+    "word": "osobný učiteľ",
+    "translation": "personal tutor",
     "synonyms": {
-      "slovak": ["prednášajúci na vysokej škole", "vedúci prípravy na britských univerzitách", "učiteľ v krúžku"]
+      "word": [
+        "prednášajúci na vysokej škole",
+        "vedúci prípravy na britských univerzitách",
+        "učiteľ v krúžku"
+      ]
     }
   },
   {
-    "slovak": "stredoškolský študent",
-    "english": "college student",
+    "word": "stredoškolský študent",
+    "translation": "college student",
     "synonyms": {
-      "slovak": ["vysokoškolský študent"]
+      "word": [
+        "vysokoškolský študent"
+      ]
     }
   },
   {
-    "slovak": "zástupca riaditeľa",
-    "english": "deputy head master",
+    "word": "zástupca riaditeľa",
+    "translation": "deputy head master",
     "synonyms": {
-      "english": ["assistant principal"]
+      "translation": [
+        "assistant principal"
+      ]
     }
   },
   {
-    "slovak": "skúšajúci",
-    "english": "examiner"
+    "word": "skúšajúci",
+    "translation": "examiner"
   },
   {
-    "slovak": "riaditeľ",
-    "english": "headmaster",
+    "word": "riaditeľ",
+    "translation": "headmaster",
     "synonyms": {
-      "english": ["principal"]
+      "translation": [
+        "principal"
+      ]
     }
   },
   {
-    "slovak": "prednášajúci",
-    "english": "lecturer"
+    "word": "prednášajúci",
+    "translation": "lecturer"
   },
   {
-    "slovak": "žiak",
-    "english": "pupil"
+    "word": "žiak",
+    "translation": "pupil"
   },
   {
-    "slovak": "školák",
-    "english": "schoolboy",
+    "word": "školák",
+    "translation": "schoolboy",
     "synonyms": {
-      "slovak": ["žiak"]
+      "word": [
+        "žiak"
+      ]
     }
   },
   {
-    "slovak": "školáčka",
-    "english": "schoolgirl",
+    "word": "školáčka",
+    "translation": "schoolgirl",
     "synonyms": {
-      "slovak": ["žiačka"]
+      "word": [
+        "žiačka"
+      ]
     }
   },
   {
-    "slovak": "spolužiak",
-    "english": "schoolmate"
+    "word": "spolužiak",
+    "translation": "schoolmate"
   },
   {
-    "slovak": "študent",
-    "english": "student"
+    "word": "študent",
+    "translation": "student"
   },
   {
-    "slovak": "učiteľ",
-    "english": "teacher"
+    "word": "učiteľ",
+    "translation": "teacher"
   },
   {
-    "slovak": "učiteľský zbor",
-    "english": "teaching staff"
+    "word": "učiteľský zbor",
+    "translation": "teaching staff"
   },
   {
-    "slovak": "vysokoškolský študent",
-    "english": "university student"
+    "word": "vysokoškolský študent",
+    "translation": "university student"
   }
 ]

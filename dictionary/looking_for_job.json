@@ -1,103 +1,109 @@
 [
   {
-    "slovak": "žiadateľ",
-    "english": "applicant"
+    "word": "žiadateľ",
+    "translation": "applicant"
   },
   {
-    "slovak": "žiadosť",
-    "english": "application form"
+    "word": "žiadosť",
+    "translation": "application form"
   },
   {
-    "slovak": "žiadať o prácu",
-    "english": "apply for a job"
+    "word": "žiadať o prácu",
+    "translation": "apply for a job"
   },
   {
-    "slovak": "životopis",
-    "english": "CV",
+    "word": "životopis",
+    "translation": "CV",
     "synonyms": {
-      "english": ["curriculum vitae"]
+      "translation": [
+        "curriculum vitae"
+      ]
     }
   },
   {
-    "slovak": "priložiť",
-    "english": "enclose"
+    "word": "priložiť",
+    "translation": "enclose"
   },
   {
-    "slovak": "skúsenosť",
-    "english": "experience"
+    "word": "skúsenosť",
+    "translation": "experience"
   },
   {
-    "slovak": "vyplniť",
-    "english": "fill in"
+    "word": "vyplniť",
+    "translation": "fill in"
   },
   {
-    "slovak": "ľudské zdroje",
-    "english": "Human Resources",
+    "word": "ľudské zdroje",
+    "translation": "Human Resources",
     "synonyms": {
-      "english": ["HR"]
+      "translation": [
+        "HR"
+      ]
     }
   },
   {
-    "slovak": "pohovor",
-    "english": "interview"
+    "word": "pohovor",
+    "translation": "interview"
   },
   {
-    "slovak": "pracovný inzerát",
-    "english": "job advert",
+    "word": "pracovný inzerát",
+    "translation": "job advert",
     "synonyms": {
-      "english": ["job advertisement"]
+      "translation": [
+        "job advertisement"
+      ]
     }
   },
   {
-    "slovak": "žiadosť o prácu",
-    "english": "job application"
+    "word": "žiadosť o prácu",
+    "translation": "job application"
   },
   {
-    "slovak": "sprostredkovateľská agentúra",
-    "english": "job centre"
+    "word": "sprostredkovateľská agentúra",
+    "translation": "job centre"
   },
   {
-    "slovak": "hľadať",
-    "english": "look for"
+    "word": "hľadať",
+    "translation": "look for"
   },
   {
-    "slovak": "personálne oddelenie",
-    "english": "personnel"
+    "word": "personálne oddelenie",
+    "translation": "personnel"
   },
   {
-    "slovak": "pozícia",
-    "english": "position"
+    "word": "pozícia",
+    "translation": "position"
   },
   {
-    "slovak": "miesto",
-    "english": "post"
+    "word": "miesto",
+    "translation": "post"
   },
   {
-    "slovak": "funkcia",
-    "english": "post"
+    "word": "funkcia",
+    "translation": "post"
   },
   {
-    "slovak": "kvalifikácia",
-    "english": "qualifications"
+    "word": "kvalifikácia",
+    "translation": "qualifications"
   },
   {
-    "slovak": "nábor zamestnancov",
-    "english": "recruitment"
+    "word": "nábor zamestnancov",
+    "translation": "recruitment"
   },
   {
-    "slovak": "doporučenie",
-    "english": "references"
+    "word": "doporučenie",
+    "translation": "references"
   },
   {
-    "slovak": "nástupný plat",
-    "english": "starting salary"
+    "word": "nástupný plat",
+    "translation": "starting salary"
   },
   {
-    "slovak": "voľné pracovné miesto",
-    "english": "vacancy"
+    "word": "voľné pracovné miesto",
+    "translation": "vacancy"
   },
   {
-    "slovak": "pracovné podmienky",
-    "english": "working conditions"
+    "word": "pracovné podmienky",
+    "translation": "working conditions"
   }
 ]

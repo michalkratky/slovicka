@@ -1,71 +1,86 @@
 [
   {
-    "slovak": "obývacia spálňa",
-    "english": "bedsitter",
+    "word": "obývacia spálňa",
+    "translation": "bedsitter",
     "synonyms": {
-      "english": ["bedsit"]
+      "translation": [
+        "bedsit"
+      ]
     }
   },
   {
-    "slovak": "bytový dom",
-    "english": "block of flats",
+    "word": "bytový dom",
+    "translation": "block of flats",
     "synonyms": {
-      "english": ["apartment block"]
+      "translation": [
+        "apartment block"
+      ]
     }
   },
   {
-    "slovak": "prízemný rodinný domček",
-    "english": "bungalow"
+    "word": "prízemný rodinný domček",
+    "translation": "bungalow"
   },
   {
-    "slovak": "rodinný domček",
-    "english": "cottage",
+    "word": "rodinný domček",
+    "translation": "cottage",
     "synonyms": {
-      "slovak": ["chata", "chalupa"]
+      "word": [
+        "chata",
+        "chalupa"
+      ]
     }
   },
   {
-    "slovak": "samostatne stojaci dom",
-    "english": "detached house"
+    "word": "samostatne stojaci dom",
+    "translation": "detached house"
   },
   {
-    "slovak": "farma",
-    "english": "farmhouse"
+    "word": "farma",
+    "translation": "farmhouse"
   },
   {
-    "slovak": "byt",
-    "english": "flat",
+    "word": "byt",
+    "translation": "flat",
     "synonyms": {
-      "english": ["apartment"]
+      "translation": [
+        "apartment"
+      ]
     }
   },
   {
-    "slovak": "strešný byt",
-    "english": "penthouse",
+    "word": "strešný byt",
+    "translation": "penthouse",
     "synonyms": {
-      "slovak": ["podkrovný byt"]
+      "word": [
+        "podkrovný byt"
+      ]
     }
   },
   {
-    "slovak": "polovica dvojdomu",
-    "english": "semi-detached house",
+    "word": "polovica dvojdomu",
+    "translation": "semi-detached house",
     "synonyms": {
-      "english": ["duplex"]
+      "translation": [
+        "duplex"
+      ]
     }
   },
   {
-    "slovak": "mrakodrap",
-    "english": "skyscraper"
+    "word": "mrakodrap",
+    "translation": "skyscraper"
   },
   {
-    "slovak": "radový dom",
-    "english": "terraced house",
+    "word": "radový dom",
+    "translation": "terraced house",
     "synonyms": {
-      "english": ["town house"]
+      "translation": [
+        "town house"
+      ]
     }
   },
   {
-    "slovak": "výšková budova",
-    "english": "tower block"
+    "word": "výšková budova",
+    "translation": "tower block"
   }
 ]

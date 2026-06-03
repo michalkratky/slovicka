@@ -1,75 +1,91 @@
 [
   {
-    "slovak": "prestávka",
-    "english": "break"
+    "word": "prestávka",
+    "translation": "break"
   },
   {
-    "slovak": "jarné prázdniny",
-    "english": "summer break",
+    "word": "jarné prázdniny",
+    "translation": "summer break",
     "synonyms": {
-      "slovak": ["zimné prázdniny", "vianočné prázdniny", "veľkonočné prázdniny"]
+      "word": [
+        "zimné prázdniny",
+        "vianočné prázdniny",
+        "veľkonočné prázdniny"
+      ]
     }
   },
   {
-    "slovak": "trieda",
-    "english": "class",
+    "word": "trieda",
+    "translation": "class",
     "synonyms": {
-      "slovak": ["ročník"]
+      "word": [
+        "ročník"
+      ]
     }
   },
   {
-    "slovak": "hodina samostatného štúdia",
-    "english": "free period"
+    "word": "hodina samostatného štúdia",
+    "translation": "free period"
   },
   {
-    "slovak": "prázdniny",
-    "english": "holidays",
+    "word": "prázdniny",
+    "translation": "holidays",
     "synonyms": {
-      "english": ["vacation"]
+      "translation": [
+        "vacation"
+      ]
     }
   },
   {
-    "slovak": "hodina",
-    "english": "lesson",
+    "word": "hodina",
+    "translation": "lesson",
     "synonyms": {
-      "english": ["period"]
+      "translation": [
+        "period"
+      ]
     }
   },
   {
-    "slovak": "obedňajšia prestávka",
-    "english": "lunch break"
+    "word": "obedňajšia prestávka",
+    "translation": "lunch break"
   },
   {
-    "slovak": "prestávka",
-    "english": "recess"
+    "word": "prestávka",
+    "translation": "recess"
   },
   {
-    "slovak": "semester",
-    "english": "semester",
+    "word": "semester",
+    "translation": "semester",
     "synonyms": {
-      "slovak": ["polrok"]
+      "word": [
+        "polrok"
+      ]
     }
   },
   {
-    "slovak": "semester",
-    "english": "term",
+    "word": "semester",
+    "translation": "term",
     "synonyms": {
-      "slovak": ["polrok"]
+      "word": [
+        "polrok"
+      ]
     }
   },
   {
-    "slovak": "rozvrh hodín",
-    "english": "timetable",
+    "word": "rozvrh hodín",
+    "translation": "timetable",
     "synonyms": {
-      "english": ["schedule"]
+      "translation": [
+        "schedule"
+      ]
     }
   },
   {
-    "slovak": "zvoní o 3 hodine",
-    "english": "the bell goes at 3 o'clock"
+    "word": "zvoní o 3 hodine",
+    "translation": "the bell goes at 3 o'clock"
   },
   {
-    "slovak": "škola sa končí 14. júla",
-    "english": "school breaks up on 14 July"
+    "word": "škola sa končí 14. júla",
+    "translation": "school breaks up on 14 July"
   }
 ]

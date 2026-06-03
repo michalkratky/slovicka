@@ -1,156 +1,170 @@
 [
   {
-    "slovak": "byť v triede",
-    "english": "be at a class",
+    "word": "byť v triede",
+    "translation": "be at a class",
     "synonyms": {
-      "slovak": ["byť na hodine"]
+      "word": [
+        "byť na hodine"
+      ]
     }
   },
   {
-    "slovak": "byť v triede",
-    "english": "be in class"
+    "word": "byť v triede",
+    "translation": "be in class"
   },
   {
-    "slovak": "zošit s predtlačenými vzormi na precvičovanie písma",
-    "english": "copybook"
+    "word": "zošit s predtlačenými vzormi na precvičovanie písma",
+    "translation": "copybook"
   },
   {
-    "slovak": "učebnica",
-    "english": "coursebook"
+    "word": "učebnica",
+    "translation": "coursebook"
   },
   {
-    "slovak": "zošit",
-    "english": "exercise book"
+    "word": "zošit",
+    "translation": "exercise book"
   },
   {
-    "slovak": "termín",
-    "english": "deadline"
+    "word": "termín",
+    "translation": "deadline"
   },
   {
-    "slovak": "robiť cvičenie",
-    "english": "do an exercise"
+    "word": "robiť cvičenie",
+    "translation": "do an exercise"
   },
   {
-    "slovak": "robiť úlohu",
-    "english": "do a task"
+    "word": "robiť úlohu",
+    "translation": "do a task"
   },
   {
-    "slovak": "robiť činnosť",
-    "english": "do an activity",
+    "word": "robiť činnosť",
+    "translation": "do an activity",
     "synonyms": {
-      "slovak": ["robiť cvičenie"]
+      "word": [
+        "robiť cvičenie"
+      ]
     }
   },
   {
-    "slovak": "urobiť všetko čo je v našich silách",
-    "english": "do one's best"
+    "word": "urobiť všetko čo je v našich silách",
+    "translation": "do one's best"
   },
   {
-    "slovak": "pracovať na projekte",
-    "english": "do project work"
+    "word": "pracovať na projekte",
+    "translation": "do project work"
   },
   {
-    "slovak": "robiť domácu úlohu",
-    "english": "do homework"
+    "word": "robiť domácu úlohu",
+    "translation": "do homework"
   },
   {
-    "slovak": "hodiny naviac",
-    "english": "extra lessons"
+    "word": "hodiny naviac",
+    "translation": "extra lessons"
   },
   {
-    "slovak": "šanón",
-    "english": "folder"
+    "word": "šanón",
+    "translation": "folder"
   },
   {
-    "slovak": "robiť domácu úlohu",
-    "english": "do homework",
+    "word": "robiť domácu úlohu",
+    "translation": "do homework",
     "synonyms": {
-      "slovak": ["dostať domácu úlohu", "zadať domácu úlohu", "odovzdať domácu úlohu"]
+      "word": [
+        "dostať domácu úlohu",
+        "zadať domácu úlohu",
+        "odovzdať domácu úlohu"
+      ]
     }
   },
   {
-    "slovak": "naučiť sa",
-    "english": "learn",
+    "word": "naučiť sa",
+    "translation": "learn",
     "synonyms": {
-      "slovak": ["dozvedieť sa o niečom"]
+      "word": [
+        "dozvedieť sa o niečom"
+      ]
     }
   },
   {
-    "slovak": "učiť sa naspamäť",
-    "english": "learn by heart"
+    "word": "učiť sa naspamäť",
+    "translation": "learn by heart"
   },
   {
-    "slovak": "robiť chyby",
-    "english": "make mistakes"
+    "word": "robiť chyby",
+    "translation": "make mistakes"
   },
   {
-    "slovak": "robiť si poznámky",
-    "english": "make notes"
+    "word": "robiť si poznámky",
+    "translation": "make notes"
   },
   {
-    "slovak": "urobiť prezentáciu",
-    "english": "make a presentation"
+    "word": "urobiť prezentáciu",
+    "translation": "make a presentation"
   },
   {
-    "slovak": "urobiť pokrok",
-    "english": "make progress"
+    "word": "urobiť pokrok",
+    "translation": "make progress"
   },
   {
-    "slovak": "známky",
-    "english": "marks"
+    "word": "známky",
+    "translation": "marks"
   },
   {
-    "slovak": "učiť sa naspamäť",
-    "english": "memorise"
+    "word": "učiť sa naspamäť",
+    "translation": "memorise"
   },
   {
-    "slovak": "poznámkový blok",
-    "english": "notebook"
+    "word": "poznámkový blok",
+    "translation": "notebook"
   },
   {
-    "slovak": "zúčastniť sa",
-    "english": "participate"
+    "word": "zúčastniť sa",
+    "translation": "participate"
   },
   {
-    "slovak": "posudok",
-    "english": "report",
+    "word": "posudok",
+    "translation": "report",
     "synonyms": {
-      "slovak": ["školské vysvedčenie"]
+      "word": [
+        "školské vysvedčenie"
+      ]
     }
   },
   {
-    "slovak": "školský výlet",
-    "english": "school trip"
+    "word": "školský výlet",
+    "translation": "school trip"
   },
   {
-    "slovak": "zadať knihy",
-    "english": "set books"
+    "word": "zadať knihy",
+    "translation": "set books"
   },
   {
-    "slovak": "vyriešiť problém",
-    "english": "solve a problem"
+    "word": "vyriešiť problém",
+    "translation": "solve a problem"
   },
   {
-    "slovak": "usilovne študovať",
-    "english": "study hard",
+    "word": "usilovne študovať",
+    "translation": "study hard",
     "synonyms": {
-      "slovak": ["usilovne sa učiť"]
+      "word": [
+        "usilovne sa učiť"
+      ]
     }
   },
   {
-    "slovak": "urobiť si prestávku",
-    "english": "take a break"
+    "word": "urobiť si prestávku",
+    "translation": "take a break"
   },
   {
-    "slovak": "zúčastniť sa",
-    "english": "take part"
+    "word": "zúčastniť sa",
+    "translation": "take part"
   },
   {
-    "slovak": "učebnica",
-    "english": "textbook"
+    "word": "učebnica",
+    "translation": "textbook"
   },
   {
-    "slovak": "pracovný zošit",
-    "english": "workbook"
+    "word": "pracovný zošit",
+    "translation": "workbook"
   }
 ]

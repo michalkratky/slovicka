@@ -31,7 +31,7 @@ class DatabaseMigrator {
 
     const files = fs.readdirSync(dictionaryPath).filter((file) => file.endsWith(".json"));
     const insertWord = this.db.prepare(
-      "INSERT INTO words (slovak, english, category) VALUES (?, ?, ?)",
+      "INSERT INTO words (word, translation, category) VALUES (?, ?, ?)",
     );
     const insertSynonym = this.db.prepare(
       "INSERT INTO synonyms (word_id, synonym, language) VALUES (?, ?, ?)",
@@ -46,11 +46,11 @@ class DatabaseMigrator {
 
         const tx = this.db.transaction(() => {
           for (const word of words) {
-            const { lastInsertRowid } = insertWord.run(word.slovak, word.english, category);
+            const { lastInsertRowid } = insertWord.run(word.word, word.translation, category);
             const wordId = Number(lastInsertRowid);
 
             if (word.synonyms) {
-              for (const lang of ["slovak", "english"]) {
+              for (const lang of ["word", "translation"]) {
                 if (word.synonyms[lang]) {
                   for (const syn of word.synonyms[lang]) {
                     insertSynonym.run(wordId, syn, lang);
@@ -77,7 +77,7 @@ class DatabaseMigrator {
     insert.run(
       "default",
       "translationDirections",
-      JSON.stringify({ slovakToEnglish: true, englishToSlovak: false }),
+      JSON.stringify({ wordToTranslation: true, translationToWord: false }),
     );
     insert.run("default", "enabledGroups", JSON.stringify({ basic: true }));
     console.log("Default preferences set");
