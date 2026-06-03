@@ -5,22 +5,44 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "node server.js",
+    "dev": "nodemon server.js",
     "migrate": "node database/migrate.js",
+    "migrate-clean": "node database/migrate.js --skip-words",
     "setup": "npm run migrate && npm start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "import-txt": "node scripts/import_filtered_words.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "lint": "eslint .",
+    "format": "prettier --write \"**/*.{js,json,css,html}\""
   },
   "dependencies": {
+    "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "sqlite3": "^5.1.6",
+    "express-rate-limit": "^8.5.2",
     "openai": "^4.0.0",
-    "dotenv": "^16.0.3"
+    "sqlite3": "^5.1.6"
   },
-  "devDependencies": {},
-  "keywords": ["learning", "language", "slovak", "english", "database", "synonyms"],
+  "keywords": [
+    "learning",
+    "language",
+    "slovak",
+    "english",
+    "database",
+    "synonyms"
+  ],
   "author": "Your Name",
   "license": "MIT",
   "engines": {
-    "node": ">=14.0.0"
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.4.1",
+    "eslint-config-prettier": "^10.1.8",
+    "globals": "^17.6.0",
+    "nodemon": "^3.1.14",
+    "prettier": "^3.8.3",
+    "supertest": "^7.2.2",
+    "vitest": "^4.1.8"
   }
 }

@@ -324,11 +324,50 @@ class DatabaseService {
                                 return;
                             }
 
-                            // Insert new synonyms (similar logic as in addWord)
-                            // ... (synonym insertion logic here)
+                            const insertSynonym = `
+                                INSERT INTO synonyms (word_id, synonym, language)
+                                VALUES (?, ?, ?)
+                            `;
 
-                            this.db.run('COMMIT');
-                            resolve();
+                            let pendingInserts = 0;
+                            let completed = 0;
+                            let hasError = false;
+
+                            if (updates.synonyms.slovak) pendingInserts += updates.synonyms.slovak.length;
+                            if (updates.synonyms.english) pendingInserts += updates.synonyms.english.length;
+
+                            if (pendingInserts === 0) {
+                                this.db.run('COMMIT');
+                                resolve();
+                                return;
+                            }
+
+                            const checkComplete = () => {
+                                completed++;
+                                if (completed === pendingInserts) {
+                                    if (hasError) {
+                                        this.db.run('ROLLBACK');
+                                    } else {
+                                        this.db.run('COMMIT');
+                                        resolve();
+                                    }
+                                }
+                            };
+
+                            for (const lang of ['slovak', 'english']) {
+                                if (updates.synonyms[lang]) {
+                                    updates.synonyms[lang].forEach(synonym => {
+                                        this.db.run(insertSynonym, [wordId, synonym, lang], (err) => {
+                                            if (err && !hasError) {
+                                                hasError = true;
+                                                reject(err);
+                                            } else {
+                                                checkComplete();
+                                            }
+                                        });
+                                    });
+                                }
+                            }
                         });
                     } else {
                         this.db.run('COMMIT');
@@ -542,65 +581,31 @@ class DatabaseService {
         });
     }
 
-    // Update session statistics
+    // Update session statistics (atomic upsert — no race condition)
     async updateSessionStats(isCorrect, timeDelta = 0) {
-        const today = new Date().toISOString().split('T')[0]; // Get YYYY-MM-DD format
+        const today = new Date().toISOString().split('T')[0];
+        const correctIncrement = isCorrect ? 1 : 0;
+        const incorrectIncrement = isCorrect ? 0 : 1;
+        const timeIncrement = Math.max(0, Math.round(timeDelta / 60000));
 
-        // First, check if today's record exists
-        const checkQuery = `
-            SELECT id, correct_answers, incorrect_answers, total_time_minutes, words_practiced
-            FROM session_statistics
-            WHERE session_date = ?
+        const upsertQuery = `
+            INSERT INTO session_statistics
+                (session_date, correct_answers, incorrect_answers, total_time_minutes, words_practiced)
+            VALUES (?, ?, ?, ?, 1)
+            ON CONFLICT(session_date) DO UPDATE SET
+                correct_answers = correct_answers + excluded.correct_answers,
+                incorrect_answers = incorrect_answers + excluded.incorrect_answers,
+                total_time_minutes = total_time_minutes + excluded.total_time_minutes,
+                words_practiced = words_practiced + 1,
+                updated_at = CURRENT_TIMESTAMP
         `;
 
         return new Promise((resolve, reject) => {
-            this.db.get(checkQuery, [today], (err, existingRow) => {
+            this.db.run(upsertQuery, [today, correctIncrement, incorrectIncrement, timeIncrement], function(err) {
                 if (err) {
                     reject(err);
-                    return;
-                }
-
-                const correctIncrement = isCorrect ? 1 : 0;
-                const incorrectIncrement = isCorrect ? 0 : 1;
-                const timeIncrement = Math.max(0, Math.round(timeDelta / 60000)); // Convert ms to minutes
-
-                if (existingRow) {
-                    // Update existing record
-                    const updateQuery = `
-                        UPDATE session_statistics 
-                        SET 
-                            correct_answers = correct_answers + ?,
-                            incorrect_answers = incorrect_answers + ?,
-                            total_time_minutes = total_time_minutes + ?,
-                            words_practiced = words_practiced + 1,
-                            updated_at = CURRENT_TIMESTAMP
-                        WHERE session_date = ?
-                    `;
-
-                    this.db.run(updateQuery, [correctIncrement, incorrectIncrement, timeIncrement, today], function(err) {
-                        if (err) {
-                            reject(err);
-                        } else {
-                            console.log(`Updated session stats for ${today}: +${correctIncrement} correct, +${incorrectIncrement} incorrect`);
-                            resolve(this.changes);
-                        }
-                    });
                 } else {
-                    // Insert new record for today
-                    const insertQuery = `
-                        INSERT INTO session_statistics 
-                        (session_date, correct_answers, incorrect_answers, total_time_minutes, words_practiced)
-                        VALUES (?, ?, ?, ?, 1)
-                    `;
-
-                    this.db.run(insertQuery, [today, correctIncrement, incorrectIncrement, timeIncrement], function(err) {
-                        if (err) {
-                            reject(err);
-                        } else {
-                            console.log(`Created new session stats for ${today}: ${correctIncrement} correct, ${incorrectIncrement} incorrect`);
-                            resolve(this.lastID);
-                        }
-                    });
+                    resolve(this.changes);
                 }
             });
         });
