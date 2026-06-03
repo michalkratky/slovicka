@@ -1,45 +1,36 @@
 const express = require("express");
 const path = require("path");
 const fs = require("fs");
-const { requireBody } = require("../middleware/validate");
-
 const router = express.Router();
 
-router.post("/import-words", requireBody("words", "category"), (req, res) => {
+router.post("/import-words", (req, res) => {
   try {
-    const { words, category } = req.body;
-
-    if (!Array.isArray(words)) {
-      return res.status(400).json({ error: "words must be an array" });
-    }
-
-    let imported = 0;
-    let errors = 0;
-    const errorDetails = [];
-
-    for (const word of words) {
-      try {
-        if (!word.slovak || !word.english) {
-          errors++;
-          errorDetails.push(`Invalid word: ${JSON.stringify(word)}`);
+    // Multi-group format: { groups: [{ category, words }] }
+    if (req.body.groups && Array.isArray(req.body.groups)) {
+      const results = [];
+      for (const group of req.body.groups) {
+        if (!group.category || !Array.isArray(group.words)) {
+          results.push({ category: group.category || "unknown", imported: 0, errors: 1, errorDetails: ["Invalid group format"] });
           continue;
         }
-        req.db.addWord(word.slovak, word.english, category, word.synonyms || {});
-        imported++;
-      } catch (error) {
-        errors++;
-        errorDetails.push(`Failed to import ${word.slovak}/${word.english}: ${error.message}`);
+        const entries = group.words.map((w) => ({ ...w, category: group.category }));
+        results.push({ category: group.category, ...req.db.importWords(entries) });
       }
+      const totals = results.reduce((acc, r) => ({ imported: acc.imported + r.imported, errors: acc.errors + r.errors }), { imported: 0, errors: 0 });
+      return res.json({ message: "Multi-group import completed", ...totals, groups: results });
     }
 
-    res.json({
-      message: "Bulk import completed",
-      imported,
-      errors,
-      errorDetails: errorDetails.slice(0, 10),
-    });
+    // Single-group format: { category, words }
+    const { words, category } = req.body;
+    if (!category || !Array.isArray(words)) {
+      return res.status(400).json({ error: "Expected {words: [], category} or {groups: []}" });
+    }
+
+    const entries = words.map((w) => ({ ...w, category }));
+    const result = req.db.importWords(entries);
+    res.json({ message: "Import completed", ...result });
   } catch (error) {
-    console.error("Error during bulk import:", error.message);
+    console.error("Error during import:", error.message);
     res.status(500).json({ error: "Failed to import words" });
   }
 });

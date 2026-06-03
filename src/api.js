@@ -53,6 +53,44 @@ const API = {
     return res.json();
   },
 
+  // Group management
+  getCategories() { return this._get("categories"); },
+  createGroup(name) { return this._post("groups", { name }); },
+  async renameGroup(oldName, newName) {
+    const res = await fetch(`/api/groups/${encodeURIComponent(oldName)}`, {
+      method: "PUT",
+      headers: this._headers(true),
+      body: JSON.stringify({ newName }),
+    });
+    if (!res.ok) {
+      const err = await res.json().catch(() => ({}));
+      throw new Error(err.error || "Failed to rename group");
+    }
+    return res.json();
+  },
+  async deleteGroup(name) {
+    const res = await fetch(`/api/groups/${encodeURIComponent(name)}`, {
+      method: "DELETE",
+      headers: this._headers(),
+    });
+    if (!res.ok) throw new Error("Failed to delete group");
+    return res.json();
+  },
+
+  // Word management
+  async updateWord(wordId, updates) {
+    const res = await fetch(`/api/words/${wordId}`, {
+      method: "PUT",
+      headers: this._headers(true),
+      body: JSON.stringify(updates),
+    });
+    if (!res.ok) throw new Error("Failed to update word");
+    return res.json();
+  },
+  batchDeleteWords(wordIds) { return this._post("words/batch-delete", { wordIds }); },
+  batchMoveWords(wordIds, targetCategory) { return this._post("words/batch-move", { wordIds, targetCategory }); },
+  importWords(body) { return this._post("import-words", body); },
+
   // Practice
   getNextWord(enabledGroups, translationDirections) {
     return this._post("next-word", { enabledGroups, translationDirections });

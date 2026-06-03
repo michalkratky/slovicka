@@ -7,10 +7,136 @@ const router = express.Router();
 router.get("/word-groups", (req, res) => {
   try {
     const wordGroups = req.db.getWordGroups();
+
+    // Merge empty groups stored in preferences
+    const prefs = req.db.getUserPreferences("default");
+    const emptyGroups = prefs.emptyGroups || [];
+    for (const name of emptyGroups) {
+      if (!wordGroups[name]) {
+        wordGroups[name] = {
+          name: req.db.formatGroupName(name),
+          enabled: false,
+          words: [],
+        };
+      }
+    }
+
     res.json(wordGroups);
   } catch (error) {
     console.error("Error fetching word groups:", error.message);
     res.status(500).json({ error: "Failed to fetch word groups" });
+  }
+});
+
+router.get("/categories", (req, res) => {
+  try {
+    const categories = req.db.getCategories();
+    res.json(categories);
+  } catch (error) {
+    console.error("Error fetching categories:", error.message);
+    res.status(500).json({ error: "Failed to fetch categories" });
+  }
+});
+
+router.post("/groups", requireBody("name"), (req, res) => {
+  try {
+    const name = req.body.name.toLowerCase().trim().replace(/\s+/g, "_");
+    if (!name) return res.status(400).json({ error: "Group name is required" });
+
+    // Check if group already exists (in DB or in empty groups)
+    const wordGroups = req.db.getWordGroups();
+    const prefs = req.db.getUserPreferences("default");
+    const emptyGroups = prefs.emptyGroups || [];
+
+    if (wordGroups[name] || emptyGroups.includes(name)) {
+      return res.status(409).json({ error: "Group already exists" });
+    }
+
+    emptyGroups.push(name);
+    req.db.setUserPreference("emptyGroups", emptyGroups, "default");
+    res.status(201).json({ name, message: "Group created" });
+  } catch (error) {
+    console.error("Error creating group:", error.message);
+    res.status(500).json({ error: "Failed to create group" });
+  }
+});
+
+router.put("/groups/:name", requireBody("newName"), (req, res) => {
+  try {
+    const oldName = req.params.name;
+    const newName = req.body.newName.toLowerCase().trim().replace(/\s+/g, "_");
+    if (!newName) return res.status(400).json({ error: "New name is required" });
+
+    const prefs = req.db.getUserPreferences("default");
+
+    // Rename in DB (updates words with this category)
+    req.db.renameGroup(oldName, newName);
+
+    // Migrate emptyGroups preference
+    const emptyGroups = prefs.emptyGroups || [];
+    const emptyIdx = emptyGroups.indexOf(oldName);
+    if (emptyIdx !== -1) {
+      emptyGroups[emptyIdx] = newName;
+      req.db.setUserPreference("emptyGroups", emptyGroups, "default");
+    }
+
+    // Migrate enabledGroups preference
+    const enabledGroups = prefs.enabledGroups || {};
+    if (oldName in enabledGroups) {
+      enabledGroups[newName] = enabledGroups[oldName];
+      delete enabledGroups[oldName];
+      req.db.setUserPreference("enabledGroups", enabledGroups, "default");
+    }
+
+    res.json({ message: "Group renamed", oldName, newName });
+  } catch (error) {
+    console.error("Error renaming group:", error.message);
+    res.status(500).json({ error: "Failed to rename group" });
+  }
+});
+
+router.delete("/groups/:name", (req, res) => {
+  try {
+    const name = req.params.name;
+    const deletedWords = req.db.deleteGroup(name);
+
+    // Also remove from emptyGroups preference
+    const prefs = req.db.getUserPreferences("default");
+    const emptyGroups = (prefs.emptyGroups || []).filter((g) => g !== name);
+    req.db.setUserPreference("emptyGroups", emptyGroups, "default");
+
+    res.json({ message: "Group deleted", deletedWords });
+  } catch (error) {
+    console.error("Error deleting group:", error.message);
+    res.status(500).json({ error: "Failed to delete group" });
+  }
+});
+
+router.post("/words/batch-delete", requireBody("wordIds"), (req, res) => {
+  try {
+    const { wordIds } = req.body;
+    if (!Array.isArray(wordIds) || !wordIds.length) {
+      return res.status(400).json({ error: "wordIds must be a non-empty array" });
+    }
+    const deleted = req.db.deleteWords(wordIds.map(Number));
+    res.json({ message: "Words deleted", deleted });
+  } catch (error) {
+    console.error("Error batch deleting:", error.message);
+    res.status(500).json({ error: "Failed to delete words" });
+  }
+});
+
+router.post("/words/batch-move", requireBody("wordIds", "targetCategory"), (req, res) => {
+  try {
+    const { wordIds, targetCategory } = req.body;
+    if (!Array.isArray(wordIds) || !wordIds.length) {
+      return res.status(400).json({ error: "wordIds must be a non-empty array" });
+    }
+    const moved = req.db.moveWords(wordIds.map(Number), targetCategory);
+    res.json({ message: "Words moved", moved });
+  } catch (error) {
+    console.error("Error batch moving:", error.message);
+    res.status(500).json({ error: "Failed to move words" });
   }
 });
 

@@ -18,6 +18,7 @@
 <script src="src/api.js"></script>
 <script src="src/mixins/preferences.js"></script>
 <script src="src/mixins/practice.js"></script>
+<script src="src/mixins/groups.js"></script>
 <div id="app">
     <nav class="navigation" aria-label="Hlavná navigácia">
         <button @click="currentView = 'practice'" v-bind:class="{ active: currentView == 'practice' }" :aria-current="currentView == 'practice' ? 'page' : undefined">
@@ -236,25 +237,207 @@
         </div>
 
         <div v-if="currentView == 'settings'" class="settings-container">
-            <h2>Skupiny slov</h2>
+            <div class="group-header">
+                <h2>Skupiny slov</h2>
+                <div class="group-header-actions">
+                    <button @click="openCreateGroup" class="btn btn-primary btn-sm">+ Pridať skupinu</button>
+                    <button @click="openImportModal" class="btn btn-secondary btn-sm">Importovať</button>
+                </div>
+            </div>
+
             <div class="group-list">
                 <div v-for="(group, key) in wordGroups" v-bind:key="key" class="group-item">
                     <label>
                         <input type="checkbox" v-model="group.enabled" @change="onGroupToggle"/>
                         <span class="group-name">{{ group.name }}</span>
-                        <span class="word-count">({{ group.words.length }} words)</span>
+                        <span class="word-count">({{ group.words.length }})</span>
                     </label>
-                    <a href="#" @click.prevent="showWordsModal = true">Zobraziť</a>
+                    <div class="group-actions">
+                        <button @click="openGroupModal(key)" class="btn-link">Zobraziť</button>
+                        <button @click="openRenameGroup(key)" class="btn-link">Premenovať</button>
+                        <button @click="confirmDeleteGroup(key)" class="btn-link btn-link-danger">Odstrániť</button>
+                    </div>
                 </div>
             </div>
-            <div v-if="showWordsModal" class="validation-modal" role="dialog" aria-modal="true" aria-label="Zoznam slov" @keyup.esc="showWordsModal = false">
-                <div class="validation-modal-content">
-                    <div style="max-height: 70vh; overflow-y: auto;">
-                        <p style="color: var(--color-muted); text-align: center;">Táto funkcia bude čoskoro dostupná.</p>
+
+            <!-- Word List Modal -->
+            <div v-if="showGroupModal && selectedGroupData" class="validation-modal" role="dialog" aria-modal="true" :aria-label="selectedGroupData.name" @keyup.esc="closeGroupModal" @mouseup="onWordMouseUp">
+                <div class="validation-modal-content wide">
+                    <div class="modal-header-row">
+                        <h3>{{ selectedGroupData.name }} <span class="word-count">({{ selectedGroupWords.length }})</span></h3>
+                        <div class="modal-header-actions">
+                            <button @click="openAddWordForm" class="btn btn-primary btn-sm">+ Slovo</button>
+                            <button v-if="!hasFinePointer" @click="isSelectMode = !isSelectMode" class="select-mode-toggle" :class="{active: isSelectMode}">Výber</button>
+                        </div>
                     </div>
-                    <p style="text-align: center">
-                        <button @click="showWordsModal = false" class="continue-button">Zatvoriť</button>
-                    </p>
+
+                    <!-- Batch action bar -->
+                    <div v-if="selectedWordIds.length" class="batch-bar">
+                        <span>Vybrané: {{ selectedWordIds.length }}</span>
+                        <button @click="batchDelete" class="btn btn-danger btn-sm">Odstrániť</button>
+                        <button @click="openBatchMove" class="btn btn-secondary btn-sm">Presunúť do...</button>
+                        <select v-if="allCategories.length" v-model="moveTargetCategory" @change="batchMove" class="batch-move-select">
+                            <option value="" disabled>Vybrať skupinu</option>
+                            <option v-for="cat in allCategories" :key="cat" :value="cat" :disabled="cat === selectedGroup">{{ formatGroupName(cat) }}</option>
+                        </select>
+                        <button @click="deselectAll" class="btn-link">Zrušiť výber</button>
+                    </div>
+
+                    <!-- Add word form -->
+                    <div v-if="showAddWordForm" class="word-form">
+                        <input v-model="newWord.slovak" placeholder="Slovensky" @keyup.enter="saveNewWord" />
+                        <input v-model="newWord.english" placeholder="English" @keyup.enter="saveNewWord" />
+                        <input v-model="newWord.synonymsSlovak" placeholder="Synonymá SK (čiarkou)" class="full-width" />
+                        <input v-model="newWord.synonymsEnglish" placeholder="Synonyms EN (comma-separated)" class="full-width" />
+                        <div class="word-form-actions full-width">
+                            <button @click="saveNewWord" class="btn btn-primary btn-sm">Uložiť</button>
+                            <button @click="showAddWordForm = false" class="btn btn-secondary btn-sm">Zrušiť</button>
+                        </div>
+                    </div>
+
+                    <!-- Word table -->
+                    <div class="word-table-wrapper">
+                        <table class="word-table">
+                            <thead>
+                                <tr>
+                                    <th class="col-select"><input type="checkbox" @change="$event.target.checked ? selectAll() : deselectAll()" :checked="selectedWordIds.length === selectedGroupWords.length && selectedGroupWords.length > 0" /></th>
+                                    <th>Slovensky</th>
+                                    <th>English</th>
+                                    <th class="col-actions"></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr v-for="(word, index) in selectedGroupWords"
+                                    :key="word.id"
+                                    :class="{selected: isWordSelected(word.id)}"
+                                    @mousedown="onWordMouseDown(index, $event)"
+                                    @mouseover="onWordMouseOver(index)">
+
+                                    <!-- Normal row -->
+                                    <template v-if="editingWordId !== word.id">
+                                        <td class="col-select">
+                                            <input type="checkbox" :checked="isWordSelected(word.id)" @change="toggleWordSelection(word.id)" @click.stop />
+                                        </td>
+                                        <td>{{ word.slovak }}</td>
+                                        <td>{{ word.english }}</td>
+                                        <td class="col-actions word-actions">
+                                            <button @click.stop="startEditWord(word)" class="btn-icon" title="Upraviť">&#9998;</button>
+                                            <button @click.stop="deleteSingleWord(word.id)" class="btn-icon btn-icon-danger" title="Odstrániť">&times;</button>
+                                        </td>
+                                    </template>
+
+                                    <!-- Inline edit row -->
+                                    <template v-else>
+                                        <td class="col-select"></td>
+                                        <td><input v-model="editWord.slovak" class="inline-edit" @keyup.enter="saveEditWord" @keyup.esc="cancelEditWord" /></td>
+                                        <td><input v-model="editWord.english" class="inline-edit" @keyup.enter="saveEditWord" @keyup.esc="cancelEditWord" /></td>
+                                        <td class="col-actions word-actions">
+                                            <button @click.stop="saveEditWord" class="btn-icon" title="Uložiť">&#10003;</button>
+                                            <button @click.stop="cancelEditWord" class="btn-icon" title="Zrušiť">&times;</button>
+                                        </td>
+                                    </template>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p v-if="!selectedGroupWords.length" class="empty-message">Žiadne slová v tejto skupine.</p>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button @click="closeGroupModal" class="btn btn-secondary">Zatvoriť</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Create Group Modal -->
+            <div v-if="showCreateGroupModal" class="validation-modal" role="dialog" aria-modal="true" aria-label="Nová skupina" @keyup.esc="showCreateGroupModal = false">
+                <div class="validation-modal-content">
+                    <h3>Nová skupina</h3>
+                    <input v-model="newGroupName" placeholder="Názov skupiny" class="modal-input" @keyup.enter="createGroup" autofocus />
+                    <div class="validation-buttons">
+                        <button @click="createGroup" class="validate-button" :disabled="!newGroupName.trim()">Vytvoriť</button>
+                        <button @click="showCreateGroupModal = false" class="skip-button">Zrušiť</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Rename Group Modal -->
+            <div v-if="showRenameGroupModal" class="validation-modal" role="dialog" aria-modal="true" aria-label="Premenovať skupinu" @keyup.esc="showRenameGroupModal = false">
+                <div class="validation-modal-content">
+                    <h3>Premenovať skupinu</h3>
+                    <input v-model="renameGroupName" class="modal-input" @keyup.enter="renameGroup" autofocus />
+                    <div class="validation-buttons">
+                        <button @click="renameGroup" class="validate-button" :disabled="!renameGroupName.trim()">Uložiť</button>
+                        <button @click="showRenameGroupModal = false" class="skip-button">Zrušiť</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Delete Group Confirmation -->
+            <div v-if="showDeleteGroupConfirm && deleteGroupTarget" class="validation-modal" role="dialog" aria-modal="true" aria-label="Odstrániť skupinu" @keyup.esc="showDeleteGroupConfirm = false">
+                <div class="validation-modal-content">
+                    <h3>Odstrániť skupinu</h3>
+                    <p>Skupinu <strong>{{ wordGroups[deleteGroupTarget]?.name }}</strong> s <strong>{{ wordGroups[deleteGroupTarget]?.words.length || 0 }}</strong> slovami naozaj odstrániť?</p>
+                    <p style="color: var(--color-error)">Táto akcia je nenávratná.</p>
+                    <div class="validation-buttons">
+                        <button @click="deleteGroup" class="skip-button">Odstrániť</button>
+                        <button @click="showDeleteGroupConfirm = false" class="validate-button">Zrušiť</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Import Modal -->
+            <div v-if="showImportModal" class="validation-modal" role="dialog" aria-modal="true" aria-label="Import" @keyup.esc="cancelImport">
+                <div class="validation-modal-content wide">
+                    <h3>Importovať slovíčka</h3>
+
+                    <!-- Drop zone (shown when no preview yet) -->
+                    <div v-if="!importPreview && !importResult">
+                        <div class="drop-zone" :class="{'drag-over': importDragOver}" @dragover="onImportDragOver" @dragleave="onImportDragLeave" @drop="onImportDrop" @click="$refs.importFile.click()">
+                            <p>Presuň JSON súbor sem</p>
+                            <p class="drop-zone-hint">alebo klikni pre výber súboru</p>
+                            <input ref="importFile" type="file" accept=".json" @change="onImportFileSelect" style="display:none" />
+                        </div>
+                        <div v-if="importErrors.length" class="import-errors">
+                            <p v-for="(err, i) in importErrors" :key="i" class="import-error">{{ err }}</p>
+                        </div>
+                    </div>
+
+                    <!-- Preview -->
+                    <div v-if="importPreview && !importResult" class="import-preview">
+                        <p>Formát: <strong>{{ importPreview.format === 'legacy' ? 'Zoznam slov (bez skupiny)' : importPreview.format === 'single' ? 'Jedna skupina' : 'Viaceré skupiny' }}</strong></p>
+
+                        <div v-if="importPreview.format === 'legacy'" style="margin: 10px 0">
+                            <label>Názov skupiny pre import:</label>
+                            <input v-model="importLegacyCategory" placeholder="napr. moje_slova" class="modal-input" />
+                        </div>
+
+                        <div v-for="(group, i) in importPreview.groups" :key="i" class="import-group">
+                            <strong>{{ group.category || '(bez názvu)' }}</strong> — {{ group.count }} slov
+                        </div>
+
+                        <p><strong>Celkom:</strong> {{ importPreview.totalWords }} slov</p>
+
+                        <div v-if="importErrors.length" class="import-errors">
+                            <p v-for="(err, i) in importErrors" :key="'e'+i" class="import-error">{{ err }}</p>
+                        </div>
+
+                        <div class="validation-buttons">
+                            <button @click="confirmImport" class="validate-button">Importovať</button>
+                            <button @click="importPreview = null" class="skip-button">Späť</button>
+                        </div>
+                    </div>
+
+                    <!-- Result -->
+                    <div v-if="importResult">
+                        <p style="color: var(--color-success)">Import dokončený!</p>
+                        <p>Importované: <strong>{{ importResult.imported }}</strong></p>
+                        <p v-if="importResult.errors">Chyby: <strong>{{ importResult.errors }}</strong></p>
+                        <button @click="cancelImport" class="continue-button">Zatvoriť</button>
+                    </div>
+
+                    <div v-if="!importPreview && !importResult" class="modal-footer">
+                        <button @click="cancelImport" class="btn btn-secondary">Zatvoriť</button>
+                    </div>
                 </div>
             </div>
         </div>

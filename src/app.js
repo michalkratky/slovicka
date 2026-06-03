@@ -1,7 +1,7 @@
 const { createApp } = Vue;
 
 createApp({
-  mixins: [PreferencesMixin, PracticeMixin],
+  mixins: [PreferencesMixin, PracticeMixin, GroupsMixin],
 
   data() {
     return {
@@ -26,7 +26,6 @@ createApp({
       validationInProgress: false,
       validationResult: null,
       showValidationModal: false,
-      showWordsModal: false,
       validationExplanation: "",
       validationInput: "",
       validationHasResult: false,
@@ -63,17 +62,6 @@ createApp({
       await this.saveUserPreferences();
       this.currentWord = null;
       await this.selectNextWord();
-    },
-
-    async addNewWord(slovak, english, category, synonyms = {}) {
-      const result = await API.addWord(slovak, english, category, synonyms);
-      await this.loadWordGroups();
-      return result;
-    },
-
-    async deleteWord(wordId) {
-      await API.deleteWord(wordId);
-      await this.loadWordGroups();
     },
 
     async switchDatabase(event) {

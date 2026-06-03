@@ -38,6 +38,7 @@ module.exports = [
         API: "writable",
         PracticeMixin: "writable",
         PreferencesMixin: "writable",
+        GroupsMixin: "writable",
       },
     },
     rules: {

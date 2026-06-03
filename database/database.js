@@ -192,6 +192,92 @@ class DatabaseService {
     return result.changes;
   }
 
+  deleteWords(wordIds) {
+    if (!wordIds.length) return 0;
+    const placeholders = wordIds.map(() => "?").join(",");
+    const result = this.db
+      .prepare(`DELETE FROM words WHERE id IN (${placeholders})`)
+      .run(...wordIds);
+    this._invalidateWordGroupsCache();
+    return result.changes;
+  }
+
+  renameGroup(oldCategory, newCategory) {
+    const result = this.db
+      .prepare("UPDATE words SET category = ?, updated_at = CURRENT_TIMESTAMP WHERE category = ?")
+      .run(newCategory, oldCategory);
+    this._invalidateWordGroupsCache();
+    return result.changes;
+  }
+
+  deleteGroup(category) {
+    const result = this.db.prepare("DELETE FROM words WHERE category = ?").run(category);
+    this._invalidateWordGroupsCache();
+    return result.changes;
+  }
+
+  moveWords(wordIds, targetCategory) {
+    if (!wordIds.length) return 0;
+    const placeholders = wordIds.map(() => "?").join(",");
+    const result = this.db
+      .prepare(`UPDATE words SET category = ?, updated_at = CURRENT_TIMESTAMP WHERE id IN (${placeholders})`)
+      .run(targetCategory, ...wordIds);
+    this._invalidateWordGroupsCache();
+    return result.changes;
+  }
+
+  getCategories() {
+    return this.db
+      .prepare("SELECT DISTINCT category FROM words ORDER BY category")
+      .all()
+      .map((row) => row.category);
+  }
+
+  importWords(entries) {
+    const insertWord = this.db.prepare(
+      "INSERT INTO words (slovak, english, category) VALUES (?, ?, ?)",
+    );
+    const insertSynonym = this.db.prepare(
+      "INSERT INTO synonyms (word_id, synonym, language) VALUES (?, ?, ?)",
+    );
+
+    let imported = 0;
+    let errors = 0;
+    const errorDetails = [];
+
+    const tx = this.db.transaction(() => {
+      for (const entry of entries) {
+        try {
+          if (!entry.slovak || !entry.english || !entry.category) {
+            errors++;
+            errorDetails.push(`Invalid entry: missing required fields`);
+            continue;
+          }
+          const { lastInsertRowid } = insertWord.run(entry.slovak, entry.english, entry.category);
+          const wordId = Number(lastInsertRowid);
+
+          if (entry.synonyms) {
+            for (const lang of ["slovak", "english"]) {
+              if (entry.synonyms[lang]) {
+                for (const syn of entry.synonyms[lang]) {
+                  insertSynonym.run(wordId, syn, lang);
+                }
+              }
+            }
+          }
+          imported++;
+        } catch (error) {
+          errors++;
+          errorDetails.push(`${entry.slovak}/${entry.english}: ${error.message}`);
+        }
+      }
+    });
+
+    tx();
+    this._invalidateWordGroupsCache();
+    return { imported, errors, errorDetails: errorDetails.slice(0, 20) };
+  }
+
   getWordStats() {
     return this.db
       .prepare(
